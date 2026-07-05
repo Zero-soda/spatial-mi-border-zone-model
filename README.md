@@ -35,9 +35,9 @@ This release contains only public, de-identified secondary data and generated pr
 
 ## Citation
 
-Please cite the final published article and the archived Zenodo DOI: https://doi.org/10.5281/zenodo.21203188.
+Please cite the final published article and the archived Zenodo DOI: https://doi.org/10.5281/zenodo.21204153.
 
 ## Repository
 
 GitHub: https://github.com/Zero-soda/spatial-mi-border-zone-model
-Zenodo: https://doi.org/10.5281/zenodo.21203188
+Zenodo: https://doi.org/10.5281/zenodo.21204153

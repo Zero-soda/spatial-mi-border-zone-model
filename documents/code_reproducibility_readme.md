@@ -20,4 +20,4 @@ Raw public data are from GEO accession GSE214611. Processed figure-level source-
 
 ## Recommended Pre-Submission Archiving
 
-This release is deposited at https://github.com/Zero-soda/spatial-mi-border-zone-model and archived on Zenodo at https://doi.org/10.5281/zenodo.21203188. Use these identifiers in the manuscript Code Availability section.
+This release is deposited at https://github.com/Zero-soda/spatial-mi-border-zone-model and archived on Zenodo at https://doi.org/10.5281/zenodo.21204153. Use these identifiers in the manuscript Code Availability section.

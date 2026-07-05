@@ -1,10 +1,10 @@
 # Data Availability
 
-This study re-analysed publicly available spatial transcriptomic data from GEO accession GSE214611. The mouse MI Visium samples analysed here correspond to GSM6613084, GSM6613085, GSM6613086, GSM6613087, GSM6613088 and GSM6613089, and the human STEMI Visium transfer analysis used GSM6613090. No new primary human, animal or clinical data were generated in this study. Source data underlying the main and extended-data figures are provided in `source_data/`, and processed supplementary tables are provided in `supplementary_tables/`. The public GitHub repository is https://github.com/Zero-soda/spatial-mi-border-zone-model, and the archived Zenodo release is available at https://doi.org/10.5281/zenodo.21203188.
+This study re-analysed publicly available spatial transcriptomic data from GEO accession GSE214611. The mouse MI Visium samples analysed here correspond to GSM6613084, GSM6613085, GSM6613086, GSM6613087, GSM6613088 and GSM6613089, and the human STEMI Visium transfer analysis used GSM6613090. No new primary human, animal or clinical data were generated in this study. Source data underlying the main and extended-data figures are provided in `source_data/`, and processed supplementary tables are provided in `supplementary_tables/`. The public GitHub repository is https://github.com/Zero-soda/spatial-mi-border-zone-model, and the archived Zenodo release is available at https://doi.org/10.5281/zenodo.21204153.
 
 # Code Availability
 
-The analysis scripts used to generate the processed tables and figures are available in `scripts/`. The scripts, processed source-data tables, supplementary tables and figure-generation workflow are deposited in the public GitHub repository at https://github.com/Zero-soda/spatial-mi-border-zone-model and archived on Zenodo at https://doi.org/10.5281/zenodo.21203188.
+The analysis scripts used to generate the processed tables and figures are available in `scripts/`. The scripts, processed source-data tables, supplementary tables and figure-generation workflow are deposited in the public GitHub repository at https://github.com/Zero-soda/spatial-mi-border-zone-model and archived on Zenodo at https://doi.org/10.5281/zenodo.21204153.
 
 # Ethics Statement
 
