@@ -21,7 +21,7 @@
   ],
   "keywords": ["myocardial infarction", "border zone", "spatial transcriptomics", "Visium", "fibroblast scar", "STEMI"],
   "license": "cc-by-4.0",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "related_identifiers": [
     {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE214611", "relation": "isDerivedFrom", "resource_type": "dataset"}
   ]
