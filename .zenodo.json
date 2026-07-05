@@ -1,0 +1,28 @@
+{
+  "title": "Source data and code for spatial boundary modelling of myocardial infarction border-zone states",
+  "upload_type": "dataset",
+  "description": "Processed source data, supplementary tables, analysis scripts and figure files supporting a public-data-only spatial transcriptomic model of myocardial infarction border-zone state transitions.",
+  "creators": [
+    {"name": "Zhong, Lizhe", "affiliation": "Guangdong Provincial People\u0027s Hospital", "orcid": "0009-0006-3348-092X"},
+    {"name": "Shi, Jingwen", "affiliation": "Southern Medical University"},
+    {"name": "Liao, Hongtao", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Deng, Hai", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Liang, Yuanhong", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Huang, Jun", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Huang, Yingjie", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Xue, Yumei", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Liao, Zili", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Liu, Fangzhou", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Lin, Weidong", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Wei, Huiqiang", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Wu, Shulin", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Fang, Xianhong", "affiliation": "Guangdong Provincial People\u0027s Hospital"},
+    {"name": "Wei, Wei", "affiliation": "Guangdong Provincial People\u0027s Hospital"}
+  ],
+  "keywords": ["myocardial infarction", "border zone", "spatial transcriptomics", "Visium", "fibroblast scar", "STEMI"],
+  "license": "cc-by-4.0",
+  "version": "0.1.0",
+  "related_identifiers": [
+    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE214611", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ]
+}

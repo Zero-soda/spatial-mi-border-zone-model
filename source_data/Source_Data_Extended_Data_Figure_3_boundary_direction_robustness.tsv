@@ -1,0 +1,5 @@
+stage	metric	expected_direction	n_samples	mean_value	min_value	max_value	all_samples_preserved
+day3_mi	contact_delta_signature_mechanical_border_score_domain4_minus_domain3	negative	3	-1.379	-2.14354	-0.934838	True
+day7_mi	contact_delta_signature_mechanical_border_score_domain4_minus_domain3	negative	3	-1.72037	-2.01499	-1.42789	True
+day3_mi	contact_delta_signature_fibroblast_scar_score_domain4_minus_domain3	negative	3	-0.138757	-0.199602	-0.0521524	True
+day7_mi	contact_delta_signature_fibroblast_scar_score_domain4_minus_domain3	positive	3	0.754644	0.528298	0.899004	True
