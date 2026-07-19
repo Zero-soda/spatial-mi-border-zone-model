@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000128591"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "filamin C",
+        "approvedSymbol": "FLNC",
+        "associatedDiseases": {
+          "count": 741,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0014883",
+                "name": "hypertrophic cardiomyopathy 26"
+              },
+              "score": 0.8329078199602404
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012289",
+                "name": "myofibrillar myopathy 5"
+              },
+              "score": 0.7562679184426644
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013550",
+                "name": "distal myopathy with posterior leg and anterior hand involvement"
+              },
+              "score": 0.7418614284152533
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005021",
+                "name": "dilated cardiomyopathy"
+              },
+              "score": 0.7022382856814334
+            },
+            {
+              "disease": {
+                "id": "Orphanet_171445",
+                "name": "Muscle filaminopathy"
+              },
+              "score": 0.6881587075771783
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016340",
+                "name": "familial restrictive cardiomyopathy"
+              },
+              "score": 0.6602204866137312
+            },
+            {
+              "disease": {
+                "id": "EFO_0700102",
+                "name": "familial isolated restrictive cardiomyopathy"
+              },
+              "score": 0.6384491989678223
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004994",
+                "name": "cardiomyopathy"
+              },
+              "score": 0.605958528815902
+            },
+            {
+              "disease": {
+                "id": "HP_0001626",
+                "name": "Abnormality of the cardiovascular system"
+              },
+              "score": 0.5710639453794327
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005336",
+                "name": "myopathy"
+              },
+              "score": 0.5607798764280943
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016333",
+                "name": "familial dilated cardiomyopathy"
+              },
+              "score": 0.5577255773457028
+            },
+            {
+              "disease": {
+                "id": "EFO_0009142",
+                "name": "autosomal dominant dilated cardiomyopathy"
+              },
+              "score": 0.531702495922266
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005201",
+                "name": "restrictive cardiomyopathy"
+              },
+              "score": 0.5046929784361688
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018943",
+                "name": "myofibrillar myopathy"
+              },
+              "score": 0.5043025638441535
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005559",
+                "name": "neurodegenerative disease"
+              },
+              "score": 0.5034088265088621
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016587",
+                "name": "arrhythmogenic right ventricular cardiomyopathy"
+              },
+              "score": 0.44783927660867584
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004981",
+                "name": "atrial fibrillation"
+              },
+              "score": 0.38095596400400167
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008779",
+                "name": "arthrogryposis"
+              },
+              "score": 0.36994943453938645
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000437",
+                "name": "cerebellar ataxia"
+              },
+              "score": 0.3418613655833491
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006993",
+                "name": "systolic heart failure"
+              },
+              "score": 0.34081954670634795
+            },
+            {
+              "disease": {
+                "id": "HP_0010438",
+                "name": "Abnormal ventricular septum morphology"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0031192",
+                "name": "Abnormal morphology of left ventricular trabeculae"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003847",
+                "name": "hereditary disease"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017845",
+                "name": "spastic ataxia"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007269",
+                "name": "dilated cardiomyopathy 1A"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "EFO_0004743",
+                "name": "facial morphology"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0001655",
+                "name": "Patent foramen ovale"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0031122",
+                "name": "Two-raphe bicuspid aortic valve"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0003011",
+                "name": "Abnormality of the musculature"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0001555",
+                "name": "Asymmetry of the thorax"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0002572",
+                "name": "Episodic vomiting"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0001636",
+                "name": "Tetralogy of Fallot"
+              },
+              "score": 0.3342070944676322
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005267",
+                "name": "heart disorder"
+              },
+              "score": 0.3236402758314277
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005009",
+                "name": "congestive heart failure"
+              },
+              "score": 0.32246934136767325
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005045",
+                "name": "hypertrophic cardiomyopathy"
+              },
+              "score": 0.3196269933509722
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005310",
+                "name": "atrial flutter"
+              },
+              "score": 0.31573938604743323
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024573",
+                "name": "familial hypertrophic cardiomyopathy"
+              },
+              "score": 0.3106524000766409
+            },
+            {
+              "disease": {
+                "id": "EFO_0004269",
+                "name": "cardiac arrhythmia"
+              },
+              "score": 0.2944508780337357
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005002",
+                "name": "chronic obstructive pulmonary disease"
+              },
+              "score": 0.2812747162748662
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018958",
+                "name": "nemaline myopathy"
+              },
+              "score": 0.268261077438952
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004995",
+                "name": "cardiovascular disorder"
+              },
+              "score": 0.2668899361780717
+            },
+            {
+              "disease": {
+                "id": "Orphanet_871",
+                "name": "Familial progressive cardiac conduction defect"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "HP_0001670",
+                "name": "Asymmetric septal hypertrophy"
+              },
+              "score": 0.25870589827929125
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008685",
+                "name": "Wolff-Parkinson-White syndrome"
+              },
+              "score": 0.13859244550676317
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018949",
+                "name": "distal myopathy"
+              },
+              "score": 0.13661848754454844
+            },
+            {
+              "disease": {
+                "id": "EFO_0005303",
+                "name": "sudden infant death syndrome"
+              },
+              "score": 0.12787093392236
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016971",
+                "name": "limb-girdle muscular dystrophy"
+              },
+              "score": 0.12487945847055319
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019171",
+                "name": "familial long QT syndrome"
+              },
+              "score": 0.12166173571098013
+            },
+            {
+              "disease": {
+                "id": "Orphanet_101016",
+                "name": "Romano-Ward syndrome"
+              },
+              "score": 0.11918950313581633
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000591",
+                "name": "intrinsic cardiomyopathy"
+              },
+              "score": 0.11546255185647553
+            },
+            {
+              "disease": {
+                "id": "HP_0001324",
+                "name": "Muscle weakness"
+              },
+              "score": 0.11087395640541053
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004992",
+                "name": "cancer"
+              },
+              "score": 0.09388112119838578
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005252",
+                "name": "heart failure"
+              },
+              "score": 0.08465087380891735
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.08380895285592636
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018177",
+                "name": "glioblastoma"
+              },
+              "score": 0.07906593456276419
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004976",
+                "name": "amyotrophic lateral sclerosis"
+              },
+              "score": 0.07869895022298488
+            },
+            {
+              "disease": {
+                "id": "EFO_0010674",
+                "name": "cardioverter defibrillator"
+              },
+              "score": 0.07771108885334342
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018899",
+                "name": "posterior cortical atrophy"
+              },
+              "score": 0.07752172315400002
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002714",
+                "name": "central nervous system cancer"
+              },
+              "score": 0.07673605797958277
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021042",
+                "name": "glioma"
+              },
+              "score": 0.07673605797958277
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017276",
+                "name": "frontotemporal dementia"
+              },
+              "score": 0.07592812792355706
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000507",
+                "name": "inclusion body myopathy with Paget disease of bone and frontotemporal dementia"
+              },
+              "score": 0.07483981791258136
+            },
+            {
+              "disease": {
+                "id": "Orphanet_178464",
+                "name": "Hereditary proximal myopathy with early respiratory failure"
+              },
+              "score": 0.07456709877814528
+            },
+            {
+              "disease": {
+                "id": "Orphanet_98911",
+                "name": "Distal myotilinopathy"
+              },
+              "score": 0.07451448497938808
+            },
+            {
+              "disease": {
+                "id": "Orphanet_590",
+                "name": "Congenital myasthenic syndromes"
+              },
+              "score": 0.07365518971748462
+            },
+            {
+              "disease": {
+                "id": "Orphanet_602",
+                "name": "Distal myopathy, Nonaka type"
+              },
+              "score": 0.07237451701291432
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010870",
+                "name": "tibial muscular dystrophy"
+              },
+              "score": 0.0719018120594441
+            },
+            {
+              "disease": {
+                "id": "Orphanet_34516",
+                "name": "Autosomal dominant limb-girdle muscular dystrophy type 1D"
+              },
+              "score": 0.07178205792041918
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859322",
+                "name": "myopathy with myalgia, increased serum creatine kinase, and with or without episodic rhabdomyolysis 1"
+              },
+              "score": 0.0708008234062313
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016830",
+                "name": "Emery-Dreifuss muscular dystrophy"
+              },
+              "score": 0.0706634772661234
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013440",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2P"
+              },
+              "score": 0.06975450177319062
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001056",
+                "name": "gastric cancer"
+              },
+              "score": 0.0681003435030439
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009677",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2C"
+              },
+              "score": 0.06799694424202338
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011603",
+                "name": "GNE myopathy"
+              },
+              "score": 0.06795916496798893
+            },
+            {
+              "disease": {
+                "id": "Orphanet_352479",
+                "name": "Autosomal recessive limb-girdle muscular dystrophy due to ISPD deficiency"
+              },
+              "score": 0.06746680247269231
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015735",
+                "name": "severe congenital nemaline myopathy"
+              },
+              "score": 0.06728878817601917
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012652",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2L"
+              },
+              "score": 0.06655537748661153
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014877",
+                "name": "myopathy, distal, 5"
+              },
+              "score": 0.06586836960118099
+            },
+            {
+              "disease": {
+                "id": "EFO_0009881",
+                "name": "nonischemic cardiomyopathy"
+              },
+              "score": 0.06541200545134486
+            },
+            {
+              "disease": {
+                "id": "EFO_0700079",
+                "name": "congenital myasthenic syndromes with glycosylation defect"
+              },
+              "score": 0.06484702745987415
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015738",
+                "name": "childhood-onset nemaline myopathy"
+              },
+              "score": 0.06463705271865644
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015737",
+                "name": "typical nemaline myopathy"
+              },
+              "score": 0.06428061348102722
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011466",
+                "name": "distal myopathy, Welander type"
+              },
+              "score": 0.06425515353548227
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011968",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2D"
+              },
+              "score": 0.06394039469257579
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012248",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2K"
+              },
+              "score": 0.06386709468806331
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005580",
+                "name": "esophageal squamous cell carcinoma"
+              },
+              "score": 0.0637658788539098
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010679",
+                "name": "Duchenne muscular dystrophy"
+              },
+              "score": 0.06373283082671692
+            },
+            {
+              "disease": {
+                "id": "Orphanet_85146",
+                "name": "Scapuloperoneal amyotrophy"
+              },
+              "score": 0.06362912632607468
+            },
+            {
+              "disease": {
+                "id": "MONDO_0054695",
+                "name": "myopathy, centronuclear, 6, with fiber-type disproportion"
+              },
+              "score": 0.06354186441594079
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014179",
+                "name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia 3"
+              },
+              "score": 0.06328500641693492
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009685",
+                "name": "Miyoshi myopathy"
+              },
+              "score": 0.0632831585176615
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012693",
+                "name": "glycogen storage disease due to muscle and heart glycogen synthase deficiency"
+              },
+              "score": 0.06312978287796733
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012410",
+                "name": "Finnish upper limb-onset distal myopathy"
+              },
+              "score": 0.06305032320921014
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030014",
+                "name": "muscular dystrophy, limb-girdle, autosomal recessive 26"
+              },
+              "score": 0.06302260472010877
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019943",
+                "name": "hereditary continuous muscle fiber activity"
+              },
+              "score": 0.06297455933899977
+            },
+            {
+              "disease": {
+                "id": "Orphanet_83420",
+                "name": "Proximal spinal muscular atrophy type 4"
+              },
+              "score": 0.06267704755597858
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010056",
+                "name": "spinal muscular atrophy, type IV"
+              },
+              "score": 0.06267704755597858
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009683",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2H"
+              },
+              "score": 0.06264748116760381
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011362",
+                "name": "myopathy, myofibrillar, 9, with early respiratory failure"
+              },
+              "score": 0.062630850074143
+            },
+            {
+              "disease": {
+                "id": "EFO_0010828",
+                "name": "myofibrillar myopathy 9 with early respiratory failure"
+              },
+              "score": 0.062630850074143
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000128591",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:37:00+00:00",
+  "source": "Open Targets"
+}

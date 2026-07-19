@@ -8,8 +8,10 @@ import math
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from project_paths import project_root
 
-ROOT = Path(__file__).resolve().parents[3]
+
+ROOT = project_root(__file__)
 SPATIAL_METADATA = (
     ROOT
     / "data"

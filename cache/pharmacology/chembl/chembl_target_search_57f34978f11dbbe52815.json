@@ -1,0 +1,2279 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "ACTA1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Oryctolagus cuniculus",
+        "pref_name": "Actin, alpha skeletal muscle",
+        "score": 17.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4523260",
+        "target_components": [
+          {
+            "accession": "P68135",
+            "component_description": "Actin, alpha skeletal muscle",
+            "component_id": 18763,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.6.4.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "ACTA",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "ACTA1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Actin, alpha skeletal muscle",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Actin, alpha skeletal muscle, intermediate form",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Alpha-actin-1",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "2A3Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6NBE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2PAV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6JBK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PL8",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1Y64",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2FF6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6NAS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1T44",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5UBO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1S22",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Q36",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6YP9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2FF3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2V51",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2V52",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2A42",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2A41",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2D1K",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2A40",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6GVC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7NXV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2PBD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3M1F",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3U8X",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1MA9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1WUA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2A5X",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2FXU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1EQY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1QZ6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4B1V",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6QRI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1QZ5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3BUZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4B1W",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4K41",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6FM2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4B1X",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4K42",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4B1Y",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4K43",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4B1Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1YXQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7CCC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8BO1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7C2H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4Z94",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6RSW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3TPQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7C2F",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3U9Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7C2G",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4V0U",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6JCU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3FFK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4EAH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2VYP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3M3N",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2HMP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1IJJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1LOT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5YEE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3DAW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1ESV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1RDW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3UE5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H03",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3HBT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H0T",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H0V",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H0X",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1KXP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H0Y",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SJH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Q97",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1H1V",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3CJB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3CJC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8BR0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8BR1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5ZZB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5ZZA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1P8Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3MN5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6W7V",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1ATN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1NWK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2VCP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J6Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1SQK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Q1N",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5YPU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8BJJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8BJH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Q0U",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3M6G",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8BJI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GY2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Q0R",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3TU5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1RFQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6JH9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6JH8",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PKG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PKH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PKI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7WHF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7WHG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6MGO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Q31",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1RGI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4WYB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1LCU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2YJE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2ASP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2YJF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2ASO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2ASM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2GWK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2GWJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0000287",
+                "xref_name": "magnesium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003785",
+                "xref_name": "actin monomer binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005523",
+                "xref_name": "tropomyosin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019904",
+                "xref_name": "protein domain specific binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031013",
+                "xref_name": "troponin I binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031432",
+                "xref_name": "titin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032036",
+                "xref_name": "myosin heavy chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048306",
+                "xref_name": "calcium-dependent protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030041",
+                "xref_name": "actin filament polymerization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048741",
+                "xref_name": "skeletal muscle fiber development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051017",
+                "xref_name": "actin filament bundle assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090131",
+                "xref_name": "mesenchyme migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001725",
+                "xref_name": "stress fiber",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005865",
+                "xref_name": "striated muscle thin filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005884",
+                "xref_name": "actin filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030027",
+                "xref_name": "lamellipodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030175",
+                "xref_name": "filopodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032432",
+                "xref_name": "actin filament bundle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0044297",
+                "xref_name": "cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098723",
+                "xref_name": "skeletal muscle myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031941",
+                "xref_name": "filamentous actin",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA24455",
+                "xref_name": "actin alpha 1, skeletal muscle",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P02568",
+                "xref_name": "Actin, alpha skeletal muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P99020",
+                "xref_name": "Actin, alpha skeletal muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P68135",
+                "xref_name": "Actin, alpha skeletal muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1ATN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1EQY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1ESV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1H1V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1IJJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J6Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1KXP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1LCU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1LOT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1M8Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1MA9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1MVW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1NWK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O18",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O19",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O1A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O1B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O1C",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O1D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O1E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O1F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O1G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1P8Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1QZ5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1QZ6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1RDW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1RFQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1RGI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1S22",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1SQK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1T44",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1WUA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1Y64",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1YXQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2A3Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2A40",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2A41",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2A42",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2A5X",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2ASM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2ASO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2ASP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2D1K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2FF3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2FF6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2FXU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2GWJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2GWK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2HMP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2PAV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2PBD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Q0R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Q0U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Q1N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Q31",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Q36",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Q97",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2V51",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2V52",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2VCP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2VYP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2W49",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2W4U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Y83",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2YJE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2YJF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2ZWH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3B5U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3BUZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3CJB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3CJC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3DAW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3FFK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3G37",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3HBT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3J4K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3J8A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3J8I",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3J8J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3J8K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3JBI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3JBJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3JBK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3M1F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3M3N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3M6G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3MFP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3MN5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SJH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3TPQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3TU5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3U8X",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3U9Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3UE5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4A7F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4A7H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4A7L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4A7N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4B1V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4B1W",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4B1X",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4B1Y",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4B1Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4EAH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GY2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H03",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H0T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H0V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H0X",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H0Y",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4K41",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4K42",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4K43",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PKG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PKH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PKI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PL8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4V0U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4WYB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4Z94",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5H53",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5JLF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5KG8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MVA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MVY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5ONV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5OOC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5OOD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5OOE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5OOF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5UBO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5YEE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5YPU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5ZZA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5ZZB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6AV9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6AVB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6BIH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6BNO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6BNP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6BNQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6BNU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6BNV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6BNW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6C1D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6C1G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6C1H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6FHL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6FM2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6GVC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6JBK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6JCU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6JH8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6JH9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6MGO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6NAS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6NBE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6QRI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6RSW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6T1Y",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6T20",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6T23",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6T24",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6T25",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6U96",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6UBY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6UC0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6UC4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6VAO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6VAU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6VEC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6W17",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6W7V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6WVT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6YP9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7AD9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7AHN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7AHQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7C2F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7C2G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7C2H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7CCC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7NXV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7NZM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7P1G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PLT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PLU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PLV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PLW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PLX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PLY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PLZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PM9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PME",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PMJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PML",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7T5Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7TPT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7U8K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UUW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UXF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7WHF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7WHG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z7H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z7I",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8A2R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8A2S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8A2T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8A2U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8A2Y",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8A2Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8BJH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8BJI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8BJJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8BO1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8BR0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8BR1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8DMX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8F8P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8F8Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8F8R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8F8S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8F8T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8JO3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8JO4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8OF8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PVX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8R9V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RBF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RU0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RV2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8UEE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8VIZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8VKH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8W36",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8XDL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8XDM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8YAE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8YAO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9AZ4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9AZ6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9AZP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9AZQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B03",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B0K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B27",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B3D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9CFU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9CFV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9CFW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9CFX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DFS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DFV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9FJO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9GOB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9HM9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9KBX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9NB9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P68135",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P68135",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR004000",
+                "xref_name": "Actin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR020902",
+                "xref_name": "Actin/actin-like_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004001",
+                "xref_name": "Actin_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043129",
+                "xref_name": "ATPase_NBD",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11937",
+                "xref_name": "ACTIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00022",
+                "xref_name": "Actin",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9986
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:39:28+00:00",
+  "source": "ChEMBL target search"
+}

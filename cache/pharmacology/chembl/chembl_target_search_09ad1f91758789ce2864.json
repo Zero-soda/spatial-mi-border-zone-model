@@ -1,0 +1,3715 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "APOE"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 9
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Apolipoprotein B-100",
+        "score": 9.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4549",
+        "target_components": [
+          {
+            "accession": "P04114",
+            "component_description": "Apolipoprotein B-100",
+            "component_id": 2866,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "APOB",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Apo B-100",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apo B-48",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein B-100",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein B-48",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005543",
+                "xref_name": "phospholipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008201",
+                "xref_name": "heparin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035473",
+                "xref_name": "lipase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048018",
+                "xref_name": "receptor ligand activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050750",
+                "xref_name": "low-density lipoprotein particle receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001701",
+                "xref_name": "in utero embryonic development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006629",
+                "xref_name": "lipid metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006869",
+                "xref_name": "lipid transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007283",
+                "xref_name": "spermatogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007399",
+                "xref_name": "nervous system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008203",
+                "xref_name": "cholesterol metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009566",
+                "xref_name": "fertilization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010744",
+                "xref_name": "positive regulation of macrophage derived foam cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010884",
+                "xref_name": "positive regulation of lipid storage",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010886",
+                "xref_name": "positive regulation of cholesterol storage",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016042",
+                "xref_name": "lipid catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019433",
+                "xref_name": "triglyceride catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030301",
+                "xref_name": "cholesterol transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030317",
+                "xref_name": "flagellated sperm motility",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033344",
+                "xref_name": "cholesterol efflux",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034374",
+                "xref_name": "low-density lipoprotein particle remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034379",
+                "xref_name": "very-low-density lipoprotein particle assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034383",
+                "xref_name": "low-density lipoprotein particle clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042158",
+                "xref_name": "lipoprotein biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042632",
+                "xref_name": "cholesterol homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042953",
+                "xref_name": "lipoprotein transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048844",
+                "xref_name": "artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071402",
+                "xref_name": "cellular response to lipoprotein particle stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005769",
+                "xref_name": "early endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005783",
+                "xref_name": "endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005788",
+                "xref_name": "endoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005789",
+                "xref_name": "endoplasmic reticulum membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005790",
+                "xref_name": "smooth endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005811",
+                "xref_name": "lipid droplet",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0010008",
+                "xref_name": "endosome membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030669",
+                "xref_name": "clathrin-coated endocytic vesicle membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031904",
+                "xref_name": "endosome lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043025",
+                "xref_name": "neuronal cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043202",
+                "xref_name": "lysosomal lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070971",
+                "xref_name": "endoplasmic reticulum exit site",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0071682",
+                "xref_name": "endocytic vesicle lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034359",
+                "xref_name": "mature chylomicron",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034360",
+                "xref_name": "chylomicron remnant",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034361",
+                "xref_name": "very-low-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034362",
+                "xref_name": "low-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034363",
+                "xref_name": "intermediate-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042627",
+                "xref_name": "chylomicron",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA50",
+                "xref_name": "apolipoprotein B",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "O00502",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P78479",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P78480",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P78481",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13779",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13785",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13786",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13787",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13788",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4ZG63",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q53QC8",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z600",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UMN0",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P04114",
+                "xref_name": "Apolipoprotein B-100",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "9BD1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BD8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BDE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BDT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9COO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9E9R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9EA7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9EAG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P04114",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:603",
+                "xref_name": "APOB",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-202733",
+                "xref_name": "Cell surface interactions at the vascular wall",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000471",
+                "xref_name": "Scavenging by Class B Receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000480",
+                "xref_name": "Scavenging by Class A Receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000484",
+                "xref_name": "Scavenging by Class F Receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000497",
+                "xref_name": "Scavenging by Class H Receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-381426",
+                "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-432142",
+                "xref_name": "Platelet sensitization by LDL",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5686938",
+                "xref_name": "Regulation of TLR by endogenous ligand",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8856825",
+                "xref_name": "Cargo recognition for clathrin-mediated endocytosis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8856828",
+                "xref_name": "Clathrin-mediated endocytosis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8866423",
+                "xref_name": "VLDL assembly",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8957275",
+                "xref_name": "Post-translational protein phosphorylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8963888",
+                "xref_name": "Chylomicron assembly",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8963901",
+                "xref_name": "Chylomicron remodeling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8964026",
+                "xref_name": "Chylomicron clearance",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8964038",
+                "xref_name": "LDL clearance",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8964041",
+                "xref_name": "LDL remodeling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8964046",
+                "xref_name": "VLDL clearance",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9707616",
+                "xref_name": "Heme signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-975634",
+                "xref_name": "Retinoid metabolism and transport",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P04114",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P04114",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR022176",
+                "xref_name": "ApoB100_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR052418",
+                "xref_name": "Apolipoprotein_B",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR016024",
+                "xref_name": "ARM-type_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR015819",
+                "xref_name": "Lipid_transp_b-sht_shell",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009454",
+                "xref_name": "Lipid_transpt_open_b-sht",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011030",
+                "xref_name": "Lipovitellin_superhlx_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR015816",
+                "xref_name": "Vitellinogen_b-sht_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR015255",
+                "xref_name": "Vitellinogen_open_b-sht",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR015817",
+                "xref_name": "Vitellinogen_open_b-sht_sub1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001747",
+                "xref_name": "Vitellogenin_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR13769",
+                "xref_name": "APOLIPOPROTEIN B",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR13769:SF1",
+                "xref_name": "APOLIPOPROTEIN B-100",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF12491",
+                "xref_name": "ApoB100_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF06448",
+                "xref_name": "DUF1081",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF09172",
+                "xref_name": "Vit_open_b-sht",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01347",
+                "xref_name": "Vitellogenin_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Tumor necrosis factor ligand superfamily member 10",
+        "score": 8.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5813",
+        "target_components": [
+          {
+            "accession": "P50591",
+            "component_description": "Tumor necrosis factor ligand superfamily member 10",
+            "component_id": 4258,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Apo-2L",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "APO2L",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Apo-2 ligand",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CD_antigen=CD253",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein TRAIL",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TNF-related apoptosis-inducing ligand",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TNFSF10",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TRAIL",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Tumor necrosis factor ligand superfamily member 10",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "1D4V",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1D2Q",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1DG6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1DU3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4N90",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1D0G",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5CIR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005125",
+                "xref_name": "cytokine activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005164",
+                "xref_name": "tumor necrosis factor receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008270",
+                "xref_name": "zinc ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032813",
+                "xref_name": "tumor necrosis factor receptor superfamily binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0045569",
+                "xref_name": "TRAIL binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007166",
+                "xref_name": "cell surface receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007267",
+                "xref_name": "cell-cell signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008584",
+                "xref_name": "male gonad development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036462",
+                "xref_name": "TRAIL-activated apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043123",
+                "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090200",
+                "xref_name": "positive regulation of release of cytochrome c from mitochondria",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001056",
+                "xref_name": "positive regulation of cysteine-type endopeptidase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001238",
+                "xref_name": "positive regulation of extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36618",
+                "xref_name": "TNF superfamily member 10",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "1DG6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1DU3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "A1Y9B3",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 10",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P50591",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 10",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1D0G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1D2Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1D4V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4N90",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5CIR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P50591",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P50591",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11925",
+                "xref_name": "TNFSF10",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-140534",
+                "xref_name": "Caspase activation via Death Receptors in the presence of ligand",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3371378",
+                "xref_name": "Regulation by c-FLIP",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5213460",
+                "xref_name": "RIPK1-mediated regulated necrosis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5218900",
+                "xref_name": "CASP8 activity is inhibited",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-69416",
+                "xref_name": "Dimerization of procaspase-8",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-75158",
+                "xref_name": "TRAIL signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P50591",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P50591",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR021184",
+                "xref_name": "TNF_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR006052",
+                "xref_name": "TNF_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017355",
+                "xref_name": "TNF_ligand_10/11",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008983",
+                "xref_name": "Tumour_necrosis_fac-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11471",
+                "xref_name": "TUMOR NECROSIS FACTOR FAMILY MEMBER",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11471:SF27",
+                "xref_name": "TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00229",
+                "xref_name": "TNF",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Apo-B 100 mRNA",
+        "score": 8.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2364185",
+        "target_components": [
+          {
+            "accession": "ENSG00000084674",
+            "component_description": "Apo-B 100 mRNA",
+            "component_id": 7819,
+            "component_type": "RNA",
+            "relationship": "RNA",
+            "target_component_synonyms": [],
+            "target_component_xrefs": []
+          }
+        ],
+        "target_type": "NUCLEIC-ACID",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Apolipoprotein C-III",
+        "score": 7.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4523160",
+        "target_components": [
+          {
+            "accession": "P02656",
+            "component_description": "Apolipoprotein C-III",
+            "component_id": 18658,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "APOC3",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Apo-CIII",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ApoC-III",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein C3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein C-III",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005543",
+                "xref_name": "phospholipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008289",
+                "xref_name": "lipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0015485",
+                "xref_name": "cholesterol binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030234",
+                "xref_name": "enzyme regulator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0055102",
+                "xref_name": "lipase inhibitor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070653",
+                "xref_name": "high-density lipoprotein particle receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006869",
+                "xref_name": "lipid transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010897",
+                "xref_name": "negative regulation of triglyceride catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010903",
+                "xref_name": "negative regulation of very-low-density lipoprotein particle remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010916",
+                "xref_name": "negative regulation of very-low-density lipoprotein particle clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010987",
+                "xref_name": "negative regulation of high-density lipoprotein particle clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010989",
+                "xref_name": "negative regulation of low-density lipoprotein particle clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016042",
+                "xref_name": "lipid catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019433",
+                "xref_name": "triglyceride catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032489",
+                "xref_name": "regulation of Cdc42 protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033344",
+                "xref_name": "cholesterol efflux",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033700",
+                "xref_name": "phospholipid efflux",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034375",
+                "xref_name": "high-density lipoprotein particle remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034379",
+                "xref_name": "very-low-density lipoprotein particle assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034382",
+                "xref_name": "chylomicron remnant clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042632",
+                "xref_name": "cholesterol homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043691",
+                "xref_name": "reverse cholesterol transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045717",
+                "xref_name": "negative regulation of fatty acid biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045833",
+                "xref_name": "negative regulation of lipid metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048261",
+                "xref_name": "negative regulation of receptor-mediated endocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050995",
+                "xref_name": "negative regulation of lipid catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051005",
+                "xref_name": "negative regulation of lipoprotein lipase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060621",
+                "xref_name": "negative regulation of cholesterol import",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070328",
+                "xref_name": "triglyceride homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005769",
+                "xref_name": "early endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034361",
+                "xref_name": "very-low-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034363",
+                "xref_name": "intermediate-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034366",
+                "xref_name": "spherical high-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042627",
+                "xref_name": "chylomicron",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA53",
+                "xref_name": "apolipoprotein C3",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q08E83",
+                "xref_name": "Apolipoprotein C-III",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6Q786",
+                "xref_name": "Apolipoprotein C-III",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P02656",
+                "xref_name": "Apolipoprotein C-III",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "2JQ3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P02656",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P02656",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:610",
+                "xref_name": "APOC3",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-8963888",
+                "xref_name": "Chylomicron assembly",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8963901",
+                "xref_name": "Chylomicron remodeling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8964058",
+                "xref_name": "HDL remodeling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-975634",
+                "xref_name": "Retinoid metabolism and transport",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P02656",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P02656",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR008403",
+                "xref_name": "Apo-CIII",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038195",
+                "xref_name": "Apo_CIII_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR14225",
+                "xref_name": "APOLIPOPROTEIN C-III",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR14225:SF0",
+                "xref_name": "APOLIPOPROTEIN C-III",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF05778",
+                "xref_name": "Apo-CIII",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Apolipoprotein L1",
+        "score": 7.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4680021",
+        "target_components": [
+          {
+            "accession": "O14791",
+            "component_description": "Apolipoprotein L1",
+            "component_id": 19613,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Apo-L",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ApoL",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "APOL",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "APOL1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "ApoL-I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein L",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein L1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein L-I",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "7LFD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7LFA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7LFB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7LF7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0005254",
+                "xref_name": "chloride channel activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008289",
+                "xref_name": "lipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006869",
+                "xref_name": "lipid transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008203",
+                "xref_name": "cholesterol metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051838",
+                "xref_name": "cytolysis by host of symbiont cells",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902476",
+                "xref_name": "chloride transmembrane transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005788",
+                "xref_name": "endoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072562",
+                "xref_name": "blood microparticle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034361",
+                "xref_name": "very-low-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034364",
+                "xref_name": "high-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA24904",
+                "xref_name": "apolipoprotein L1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A5PLQ4",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B4DU12",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E9PF24",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O60804",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5R3P7",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5R3P8",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96AB8",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96PM4",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BQ03",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O14791",
+                "xref_name": "Apolipoprotein L1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "7L6K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7LF7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7LFA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7LFB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7LFD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "O14791",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "O14791",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:618",
+                "xref_name": "APOL1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-2168880",
+                "xref_name": "Scavenging of heme from plasma",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-381426",
+                "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8957275",
+                "xref_name": "Post-translational protein phosphorylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "O14791",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "O14791",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR008405",
+                "xref_name": "ApoL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR14096",
+                "xref_name": "APOLIPOPROTEIN L",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR14096:SF55",
+                "xref_name": "APOLIPOPROTEIN L1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF05461",
+                "xref_name": "ApoL",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Apolipoprotein A-I",
+        "score": 6.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5984",
+        "target_components": [
+          {
+            "accession": "P02647",
+            "component_description": "Apolipoprotein A-I",
+            "component_id": 4491,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "APOA1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Apo-AI",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ApoA-I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein A1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein A-I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein A-I(1-242)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ProapoA-I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Proapolipoprotein A-I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Truncated apolipoprotein A-I",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "3R2P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1AV1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0007179",
+                "xref_name": "transforming growth factor beta receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070371",
+                "xref_name": "ERK1 and ERK2 cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030301",
+                "xref_name": "cholesterol transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001540",
+                "xref_name": "amyloid-beta binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005543",
+                "xref_name": "phospholipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008289",
+                "xref_name": "lipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0015485",
+                "xref_name": "cholesterol binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019899",
+                "xref_name": "enzyme binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031072",
+                "xref_name": "heat shock protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0034190",
+                "xref_name": "apolipoprotein receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0034191",
+                "xref_name": "apolipoprotein A-I receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0045499",
+                "xref_name": "chemorepellent activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048018",
+                "xref_name": "receptor ligand activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0060228",
+                "xref_name": "phosphatidylcholine-sterol O-acyltransferase activator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070653",
+                "xref_name": "high-density lipoprotein particle receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001935",
+                "xref_name": "endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002719",
+                "xref_name": "negative regulation of cytokine production involved in immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006695",
+                "xref_name": "cholesterol biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006869",
+                "xref_name": "lipid transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007229",
+                "xref_name": "integrin-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008203",
+                "xref_name": "cholesterol metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008211",
+                "xref_name": "glucocorticoid metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010804",
+                "xref_name": "negative regulation of tumor necrosis factor-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010875",
+                "xref_name": "positive regulation of cholesterol efflux",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010903",
+                "xref_name": "negative regulation of very-low-density lipoprotein particle remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030300",
+                "xref_name": "regulation of intestinal cholesterol absorption",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030325",
+                "xref_name": "adrenal gland development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032489",
+                "xref_name": "regulation of Cdc42 protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032691",
+                "xref_name": "negative regulation of interleukin-1 beta production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033344",
+                "xref_name": "cholesterol efflux",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033700",
+                "xref_name": "phospholipid efflux",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034115",
+                "xref_name": "negative regulation of heterotypic cell-cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034375",
+                "xref_name": "high-density lipoprotein particle remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034380",
+                "xref_name": "high-density lipoprotein particle assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034384",
+                "xref_name": "high-density lipoprotein particle clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035025",
+                "xref_name": "positive regulation of Rho protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042158",
+                "xref_name": "lipoprotein biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042632",
+                "xref_name": "cholesterol homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043534",
+                "xref_name": "blood vessel endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043691",
+                "xref_name": "reverse cholesterol transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050728",
+                "xref_name": "negative regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050766",
+                "xref_name": "positive regulation of phagocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050821",
+                "xref_name": "protein stabilization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050919",
+                "xref_name": "negative chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051180",
+                "xref_name": "vitamin transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051345",
+                "xref_name": "positive regulation of hydrolase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051496",
+                "xref_name": "positive regulation of stress fiber assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055090",
+                "xref_name": "acylglycerol homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055091",
+                "xref_name": "phospholipid homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060354",
+                "xref_name": "negative regulation of cell adhesion molecule production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060761",
+                "xref_name": "negative regulation of response to cytokine stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070328",
+                "xref_name": "triglyceride homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070508",
+                "xref_name": "cholesterol import",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071402",
+                "xref_name": "cellular response to lipoprotein particle stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090205",
+                "xref_name": "positive regulation of cholesterol metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900026",
+                "xref_name": "positive regulation of substrate adhesion-dependent cell spreading",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902995",
+                "xref_name": "positive regulation of phospholipid efflux",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905920",
+                "xref_name": "positive regulation of CoA-transferase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903561",
+                "xref_name": "extracellular vesicle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005769",
+                "xref_name": "early endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005788",
+                "xref_name": "endoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034774",
+                "xref_name": "secretory granule lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0071682",
+                "xref_name": "endocytic vesicle lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072562",
+                "xref_name": "blood microparticle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034361",
+                "xref_name": "very-low-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034362",
+                "xref_name": "low-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034364",
+                "xref_name": "high-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034366",
+                "xref_name": "spherical high-density lipoprotein particle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042627",
+                "xref_name": "chylomicron",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA49",
+                "xref_name": "apolipoprotein A1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A8K866",
+                "xref_name": "Apolipoprotein A-I",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6LDN9",
+                "xref_name": "Apolipoprotein A-I",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6Q785",
+                "xref_name": "Apolipoprotein A-I",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UCS8",
+                "xref_name": "Apolipoprotein A-I",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UCT8",
+                "xref_name": "Apolipoprotein A-I",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P02647",
+                "xref_name": "Apolipoprotein A-I",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1AV1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1GW3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1GW4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1ODP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1ODQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1ODR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MSC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MSD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MSE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2N5E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3K2S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3R2P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4V6M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6CC9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6CCH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6CCX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6CLZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6CM1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6PTS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6PTW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6W4E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6W4F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7KJR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7RSC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7RSE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8EQS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9MXZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P02647",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P02647",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:600",
+                "xref_name": "APOA1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-114608",
+                "xref_name": "Platelet degranulation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-1369062",
+                "xref_name": "ABC transporters in lipid homeostasis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-1989781",
+                "xref_name": "PPARA activates gene expression",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2168880",
+                "xref_name": "Scavenging of heme from plasma",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000471",
+                "xref_name": "Scavenging by Class B Receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000480",
+                "xref_name": "Scavenging by Class A Receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-381426",
+                "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5682113",
+                "xref_name": "Defective ABCA1 causes TGD",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8957275",
+                "xref_name": "Post-translational protein phosphorylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8963888",
+                "xref_name": "Chylomicron assembly",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8963896",
+                "xref_name": "HDL assembly",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8963901",
+                "xref_name": "Chylomicron remodeling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8964011",
+                "xref_name": "HDL clearance",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8964058",
+                "xref_name": "HDL remodeling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9707616",
+                "xref_name": "Heme signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-975634",
+                "xref_name": "Retinoid metabolism and transport",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-977225",
+                "xref_name": "Amyloid fiber formation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P02647",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P02647",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR000074",
+                "xref_name": "ApoA_E",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050163",
+                "xref_name": "Apolipoprotein_A1/A4/E",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR18976",
+                "xref_name": "APOLIPOPROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR18976:SF11",
+                "xref_name": "APOLIPOPROTEIN A-I",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF01442",
+                "xref_name": "Apolipoprotein",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Rattus norvegicus",
+        "pref_name": "Tumor necrosis factor receptor superfamily member 6",
+        "score": 6.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2417350",
+        "target_components": [
+          {
+            "accession": "Q63199",
+            "component_description": "Tumor necrosis factor receptor superfamily member 6",
+            "component_id": 8199,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Apo-1 antigen",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apoptosis-mediating surface antigen FAS",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apt1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "CD_antigen=CD95",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fas",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "FASLG receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tnfrsf6",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Tumor necrosis factor receptor superfamily member 6",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006924",
+                "xref_name": "activation-induced cell death of T cells",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006925",
+                "xref_name": "inflammatory cell apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008625",
+                "xref_name": "extrinsic apoptotic signaling pathway via death domain receptors",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009636",
+                "xref_name": "response to toxic substance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019724",
+                "xref_name": "B cell mediated immunity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043029",
+                "xref_name": "T cell homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045060",
+                "xref_name": "negative thymic T cell selection",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045577",
+                "xref_name": "regulation of B cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045580",
+                "xref_name": "regulation of T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045637",
+                "xref_name": "regulation of myeloid cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048536",
+                "xref_name": "spleen development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050869",
+                "xref_name": "negative regulation of B cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051402",
+                "xref_name": "neuron apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070227",
+                "xref_name": "lymphocyte apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071285",
+                "xref_name": "cellular response to lithium ion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097049",
+                "xref_name": "motor neuron apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097190",
+                "xref_name": "apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097191",
+                "xref_name": "extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097192",
+                "xref_name": "extrinsic apoptotic signaling pathway in absence of ligand",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097284",
+                "xref_name": "hepatocyte apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097527",
+                "xref_name": "necroptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901532",
+                "xref_name": "regulation of hematopoietic progenitor cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002020",
+                "xref_name": "protease binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004888",
+                "xref_name": "transmembrane signaling receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005031",
+                "xref_name": "tumor necrosis factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005516",
+                "xref_name": "calmodulin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019900",
+                "xref_name": "kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001552",
+                "xref_name": "ovarian follicle atresia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001666",
+                "xref_name": "response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002931",
+                "xref_name": "response to ischemia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007283",
+                "xref_name": "spermatogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007623",
+                "xref_name": "circadian rhythm",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010626",
+                "xref_name": "negative regulation of Schwann cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010883",
+                "xref_name": "regulation of lipid storage",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0021537",
+                "xref_name": "telencephalon development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031104",
+                "xref_name": "dendrite regeneration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031334",
+                "xref_name": "positive regulation of protein-containing complex assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032872",
+                "xref_name": "regulation of stress-activated MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033209",
+                "xref_name": "tumor necrosis factor-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034198",
+                "xref_name": "cellular response to amino acid starvation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036337",
+                "xref_name": "Fas signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042127",
+                "xref_name": "regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042698",
+                "xref_name": "ovulation cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043009",
+                "xref_name": "chordate embryonic development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043525",
+                "xref_name": "positive regulation of neuron apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060135",
+                "xref_name": "maternal process involved in female pregnancy",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070301",
+                "xref_name": "cellular response to hydrogen peroxide",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071234",
+                "xref_name": "cellular response to phenylalanine",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071260",
+                "xref_name": "cellular response to mechanical stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071279",
+                "xref_name": "cellular response to cobalt ion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071391",
+                "xref_name": "cellular response to estrogen stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071407",
+                "xref_name": "cellular response to organic cyclic compound",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071455",
+                "xref_name": "cellular response to hyperoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071456",
+                "xref_name": "cellular response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071464",
+                "xref_name": "cellular response to hydrostatic pressure",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097421",
+                "xref_name": "liver regeneration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900148",
+                "xref_name": "negative regulation of Schwann cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001235",
+                "xref_name": "positive regulation of apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045121",
+                "xref_name": "membrane raft",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016324",
+                "xref_name": "apical plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042383",
+                "xref_name": "sarcolemma",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043025",
+                "xref_name": "neuronal cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0097440",
+                "xref_name": "apical dendrite",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031264",
+                "xref_name": "death-inducing signaling complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031265",
+                "xref_name": "CD95 death-inducing signaling complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q63199",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q63199",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q63199",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "R-RNO-3371378",
+                "xref_name": "Regulation by c-FLIP",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-5218900",
+                "xref_name": "CASP8 activity is inhibited",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-69416",
+                "xref_name": "Dimerization of procaspase-8",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-75157",
+                "xref_name": "FasL/ CD95L signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "IPR011029",
+                "xref_name": "DEATH-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000488",
+                "xref_name": "Death_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008063",
+                "xref_name": "Fas_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001368",
+                "xref_name": "TNFR/NGFR_Cys_rich_reg",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033998",
+                "xref_name": "TNFRSF6_death",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033999",
+                "xref_name": "TNFRSF6_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR46874",
+                "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR46874:SF1",
+                "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00531",
+                "xref_name": "Death",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00020",
+                "xref_name": "TNFR_c6",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10116
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Tumor necrosis factor receptor superfamily member 6",
+        "score": 6.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4523207",
+        "target_components": [
+          {
+            "accession": "P25445",
+            "component_description": "Tumor necrosis factor receptor superfamily member 6",
+            "component_id": 18707,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Apo-1 antigen",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apoptosis-mediating surface antigen FAS",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "APT1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "CD_antigen=CD95",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FAS",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "FAS1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "FASLG receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TNFRSF6",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Tumor necrosis factor receptor superfamily member 6",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "3EZQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3TJE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3EWT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3THM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0004888",
+                "xref_name": "transmembrane signaling receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005031",
+                "xref_name": "tumor necrosis factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005516",
+                "xref_name": "calmodulin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019900",
+                "xref_name": "kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0038023",
+                "xref_name": "signaling receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001934",
+                "xref_name": "positive regulation of protein phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006924",
+                "xref_name": "activation-induced cell death of T cells",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008625",
+                "xref_name": "extrinsic apoptotic signaling pathway via death domain receptors",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032872",
+                "xref_name": "regulation of stress-activated MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033209",
+                "xref_name": "tumor necrosis factor-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034198",
+                "xref_name": "cellular response to amino acid starvation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036337",
+                "xref_name": "Fas signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0065003",
+                "xref_name": "protein-containing complex assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071260",
+                "xref_name": "cellular response to mechanical stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071455",
+                "xref_name": "cellular response to hyperoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097049",
+                "xref_name": "motor neuron apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097191",
+                "xref_name": "extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097527",
+                "xref_name": "necroptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903428",
+                "xref_name": "positive regulation of reactive oxygen species biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001056",
+                "xref_name": "positive regulation of cysteine-type endopeptidase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001235",
+                "xref_name": "positive regulation of apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045121",
+                "xref_name": "membrane raft",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016604",
+                "xref_name": "nuclear body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031264",
+                "xref_name": "death-inducing signaling complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031265",
+                "xref_name": "CD95 death-inducing signaling complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36613",
+                "xref_name": "Fas cell surface death receptor",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A9UJX4",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B6VNV4",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14292",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14293",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14294",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14295",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q16652",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5T9P1",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5T9P2",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5T9P3",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6SSE9",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P25445",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1DDF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2NA7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3EWT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3EZQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3THM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3TJE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P25445",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P25445",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11920",
+                "xref_name": "FAS",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-140534",
+                "xref_name": "Caspase activation via Death Receptors in the presence of ligand",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3371378",
+                "xref_name": "Regulation by c-FLIP",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5213460",
+                "xref_name": "RIPK1-mediated regulated necrosis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5218900",
+                "xref_name": "CASP8 activity is inhibited",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6803211",
+                "xref_name": "TP53 Regulates Transcription of Death Receptors and Ligands",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-69416",
+                "xref_name": "Dimerization of procaspase-8",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-75157",
+                "xref_name": "FasL/ CD95L signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P25445",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P25445",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR011029",
+                "xref_name": "DEATH-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000488",
+                "xref_name": "Death_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008063",
+                "xref_name": "Fas_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001368",
+                "xref_name": "TNFR/NGFR_Cys_rich_reg",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033998",
+                "xref_name": "TNFRSF6_death",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033999",
+                "xref_name": "TNFRSF6_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR46874",
+                "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR46874:SF1",
+                "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00531",
+                "xref_name": "Death",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00020",
+                "xref_name": "TNFR_c6",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Biotin--protein ligase",
+        "score": 5.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2062354",
+        "target_components": [
+          {
+            "accession": "P50747",
+            "component_description": "Biotin--protein ligase",
+            "component_id": 5964,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "6.3.4.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "6.3.4.10",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "6.3.4.11",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "6.3.4.15",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "6.3.4.9",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Biotin--[acetyl-CoA-carboxylase] ligase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Biotin apo-protein ligase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Biotin--[methylcrotonoyl-CoA-carboxylase] ligase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Biotin--[methylmalonyl-CoA-carboxytransferase] ligase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Biotin--[propionyl-CoA-carboxylase [ATP-hydrolyzing]] ligase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Biotin--protein ligase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "HCS",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "HLCS",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Holocarboxylase synthetase",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0004077",
+                "xref_name": "biotin--[biotin carboxyl-carrier protein] ligase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0009374",
+                "xref_name": "biotin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016874",
+                "xref_name": "ligase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019899",
+                "xref_name": "enzyme binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006768",
+                "xref_name": "biotin metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000785",
+                "xref_name": "chromatin",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005652",
+                "xref_name": "nuclear lamina",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005739",
+                "xref_name": "mitochondrion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016363",
+                "xref_name": "nuclear matrix",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA29310",
+                "xref_name": "holocarboxylase synthetase",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "B2RAH1",
+                "xref_name": "Biotin--protein ligase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D3DSG6",
+                "xref_name": "Biotin--protein ligase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q99451",
+                "xref_name": "Biotin--protein ligase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P50747",
+                "xref_name": "Biotin--protein ligase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P50747",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P50747",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:4976",
+                "xref_name": "HLCS",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-196780",
+                "xref_name": "Biotin transport and metabolism",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3371599",
+                "xref_name": "Defective HLCS causes multiple carboxylase deficiency",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P50747",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P50747",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR045864",
+                "xref_name": "aa-tRNA-synth_II/BPL/LPL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004408",
+                "xref_name": "Biotin_CoA_COase_ligase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003142",
+                "xref_name": "BPL_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004143",
+                "xref_name": "BPL_LPL_catalytic",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR12835",
+                "xref_name": "BIOTIN PROTEIN LIGASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR12835:SF5",
+                "xref_name": "BIOTIN--PROTEIN LIGASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF02237",
+                "xref_name": "BPL_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF03099",
+                "xref_name": "BPL_LplA_LipB",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:39:51+00:00",
+  "source": "ChEMBL target search"
+}

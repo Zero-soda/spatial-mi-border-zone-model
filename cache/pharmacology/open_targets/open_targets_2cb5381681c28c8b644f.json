@@ -1,0 +1,897 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000130203"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "apolipoprotein E",
+        "approvedSymbol": "APOE",
+        "associatedDiseases": {
+          "count": 3040,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0018473",
+                "name": "hyperlipoproteinemia type 3"
+              },
+              "score": 0.803398362916027
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005010",
+                "name": "coronary artery disorder"
+              },
+              "score": 0.7749114975458468
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012725",
+                "name": "lipoprotein glomerulopathy"
+              },
+              "score": 0.7591150623470895
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004975",
+                "name": "Alzheimer disease"
+              },
+              "score": 0.6769813809889567
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005439",
+                "name": "familial hypercholesterolemia"
+              },
+              "score": 0.6391080897325032
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001627",
+                "name": "dementia"
+              },
+              "score": 0.6251904885052055
+            },
+            {
+              "disease": {
+                "id": "EFO_1001870",
+                "name": "late-onset Alzheimers disease"
+              },
+              "score": 0.6097653692611007
+            },
+            {
+              "disease": {
+                "id": "HP_0003124",
+                "name": "Hypercholesterolemia"
+              },
+              "score": 0.607846833536569
+            },
+            {
+              "disease": {
+                "id": "EFO_0000195",
+                "name": "metabolic syndrome"
+              },
+              "score": 0.5966698613672072
+            },
+            {
+              "disease": {
+                "id": "Orphanet_158029",
+                "name": "Sea-blue histiocytosis"
+              },
+              "score": 0.5956286247280776
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005015",
+                "name": "diabetes mellitus"
+              },
+              "score": 0.5916103318052444
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005044",
+                "name": "hypertensive disorder"
+              },
+              "score": 0.5903491053131529
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005068",
+                "name": "myocardial infarction"
+              },
+              "score": 0.5879847381007081
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005148",
+                "name": "type 2 diabetes mellitus"
+              },
+              "score": 0.5871322628705564
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024644",
+                "name": "myocardial ischemia"
+              },
+              "score": 0.5848381014518786
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015140",
+                "name": "early-onset autosomal dominant Alzheimer disease"
+              },
+              "score": 0.5780046534837331
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021187",
+                "name": "hyperlipidemia"
+              },
+              "score": 0.5756929527644338
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021661",
+                "name": "coronary atherosclerosis"
+              },
+              "score": 0.573883692924682
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010017",
+                "name": "sea-blue histiocyte syndrome"
+              },
+              "score": 0.5692341625562751
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007488",
+                "name": "Lewy body dementia"
+              },
+              "score": 0.5674911094002691
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005066",
+                "name": "metabolic disease"
+              },
+              "score": 0.5666221442548924
+            },
+            {
+              "disease": {
+                "id": "EFO_0003913",
+                "name": "angina pectoris"
+              },
+              "score": 0.5634654796873352
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005559",
+                "name": "neurodegenerative disease"
+              },
+              "score": 0.5622794329354047
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005150",
+                "name": "age-related macular degeneration"
+              },
+              "score": 0.5598904568305069
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004995",
+                "name": "cardiovascular disorder"
+              },
+              "score": 0.5552106222883293
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004648",
+                "name": "vascular dementia"
+              },
+              "score": 0.5495733654989676
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005267",
+                "name": "heart disorder"
+              },
+              "score": 0.5481096415159061
+            },
+            {
+              "disease": {
+                "id": "EFO_0001072",
+                "name": "memory impairment"
+              },
+              "score": 0.5412951587752561
+            },
+            {
+              "disease": {
+                "id": "EFO_0004566",
+                "name": "body weight gain"
+              },
+              "score": 0.5412231196957142
+            },
+            {
+              "disease": {
+                "id": "GO_0036273",
+                "name": "response to statin"
+              },
+              "score": 0.5349989762255439
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004979",
+                "name": "asthma"
+              },
+              "score": 0.5329621724489982
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007186",
+                "name": "gastroesophageal reflux disease"
+              },
+              "score": 0.5326260514224935
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011122",
+                "name": "obesity disorder"
+              },
+              "score": 0.5321624054654206
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005084",
+                "name": "mental disorder"
+              },
+              "score": 0.5320212113862548
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001336",
+                "name": "familial hyperlipidemia"
+              },
+              "score": 0.5280247596218012
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005620",
+                "name": "cerebral amyloid angiopathy"
+              },
+              "score": 0.5266941361095383
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003004",
+                "name": "macular degeneration"
+              },
+              "score": 0.5251218738171191
+            },
+            {
+              "disease": {
+                "id": "HP_0003233",
+                "name": "Decreased HDL cholesterol concentration"
+              },
+              "score": 0.5238549951285311
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005154",
+                "name": "liver disorder"
+              },
+              "score": 0.5237502463065528
+            },
+            {
+              "disease": {
+                "id": "MONDO_0045057",
+                "name": "delirium"
+              },
+              "score": 0.5214550070294771
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007147",
+                "name": "obstructive sleep apnea syndrome"
+              },
+              "score": 0.5199919289099573
+            },
+            {
+              "disease": {
+                "id": "MONDO_0043510",
+                "name": "brain injury"
+              },
+              "score": 0.5130882345017483
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011057",
+                "name": "cerebrovascular disorder"
+              },
+              "score": 0.5107275386821246
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002039",
+                "name": "cognitive disorder"
+              },
+              "score": 0.5102266846545973
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100096",
+                "name": "COVID-19"
+              },
+              "score": 0.5081029016793274
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005350",
+                "name": "abdominal aortic aneurysm"
+              },
+              "score": 0.5063701285825591
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005071",
+                "name": "nervous system disorder"
+              },
+              "score": 0.5051386531753921
+            },
+            {
+              "disease": {
+                "id": "Orphanet_309005",
+                "name": "Disorder of lipid metabolism"
+              },
+              "score": 0.5035987903868487
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100081",
+                "name": "sleep disorder"
+              },
+              "score": 0.4972549327801104
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013209",
+                "name": "metabolic dysfunction-associated steatotic liver disease"
+              },
+              "score": 0.49501513872063013
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005416",
+                "name": "osteoarthritis, knee"
+              },
+              "score": 0.49354486520583984
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005180",
+                "name": "Parkinson disease"
+              },
+              "score": 0.49319079819155304
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001134",
+                "name": "essential hypertension"
+              },
+              "score": 0.4836302226132658
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012672",
+                "name": "cholelithiasis"
+              },
+              "score": 0.482633134135274
+            },
+            {
+              "disease": {
+                "id": "EFO_0022597",
+                "name": "aging"
+              },
+              "score": 0.47982667048332167
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005560",
+                "name": "brain disorder"
+              },
+              "score": 0.4774046207824764
+            },
+            {
+              "disease": {
+                "id": "EFO_0010130",
+                "name": "health study participation"
+              },
+              "score": 0.47460602871715124
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006629",
+                "name": "osteoarthritis, hip"
+              },
+              "score": 0.4684071017842001
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002175",
+                "name": "degeneration of macula and posterior pole"
+              },
+              "score": 0.4652691670708927
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005178",
+                "name": "osteoarthritis"
+              },
+              "score": 0.4638178893347199
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005002",
+                "name": "chronic obstructive pulmonary disease"
+              },
+              "score": 0.46230284444466707
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013600",
+                "name": "insomnia"
+              },
+              "score": 0.4611286754098776
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017276",
+                "name": "frontotemporal dementia"
+              },
+              "score": 0.45710749226730435
+            },
+            {
+              "disease": {
+                "id": "HP_0100543",
+                "name": "Cognitive impairment"
+              },
+              "score": 0.45566751585066867
+            },
+            {
+              "disease": {
+                "id": "HP_0003419",
+                "name": "Low back pain"
+              },
+              "score": 0.45356395633491475
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003916",
+                "name": "overnutrition"
+              },
+              "score": 0.4533794049487614
+            },
+            {
+              "disease": {
+                "id": "HP_0001626",
+                "name": "Abnormality of the cardiovascular system"
+              },
+              "score": 0.45189298686212387
+            },
+            {
+              "disease": {
+                "id": "EFO_0009659",
+                "name": "aneurysm"
+              },
+              "score": 0.4510039626049614
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005266",
+                "name": "diabetic retinopathy"
+              },
+              "score": 0.45037604906585266
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005252",
+                "name": "heart failure"
+              },
+              "score": 0.4481256647504547
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009387",
+                "name": "familial lipoprotein lipase deficiency"
+              },
+              "score": 0.44419892515987924
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005113",
+                "name": "bacterial infectious disease"
+              },
+              "score": 0.4411697638985848
+            },
+            {
+              "disease": {
+                "id": "EFO_0009486",
+                "name": "diabetic eye disease"
+              },
+              "score": 0.44111416989971614
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005283",
+                "name": "retinal disorder"
+              },
+              "score": 0.4408378678064778
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003718",
+                "name": "occlusion precerebral artery"
+              },
+              "score": 0.43943556725714783
+            },
+            {
+              "disease": {
+                "id": "EFO_0009727",
+                "name": "shortness of breath"
+              },
+              "score": 0.43943556725714783
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024355",
+                "name": "respiratory tract infectious disorder"
+              },
+              "score": 0.4376709972905694
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005417",
+                "name": "wet macular degeneration"
+              },
+              "score": 0.43707603022825076
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004359",
+                "name": "delusional disorder"
+              },
+              "score": 0.4353165407909418
+            },
+            {
+              "disease": {
+                "id": "EFO_0003765",
+                "name": "sign or symptom"
+              },
+              "score": 0.43491310211233986
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006626",
+                "name": "diabetic neuropathy"
+              },
+              "score": 0.4322635571459063
+            },
+            {
+              "disease": {
+                "id": "HP_0001268",
+                "name": "Mental deterioration"
+              },
+              "score": 0.43065332121566896
+            },
+            {
+              "disease": {
+                "id": "EFO_1001454",
+                "name": "amnesia"
+              },
+              "score": 0.4296738499164057
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003749",
+                "name": "esophageal disorder"
+              },
+              "score": 0.4277008695474447
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000270",
+                "name": "lower respiratory tract disorder"
+              },
+              "score": 0.4276650564275114
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004781",
+                "name": "acute myocardial infarction"
+              },
+              "score": 0.42750853212608375
+            },
+            {
+              "disease": {
+                "id": "HP_0012531",
+                "name": "Pain"
+              },
+              "score": 0.4206580485149785
+            },
+            {
+              "disease": {
+                "id": "EFO_0003776",
+                "name": "coronary artery bypass"
+              },
+              "score": 0.4134170850494695
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002691",
+                "name": "liver cancer"
+              },
+              "score": 0.400557893929
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006805",
+                "name": "intermediate coronary syndrome"
+              },
+              "score": 0.39283966815761334
+            },
+            {
+              "disease": {
+                "id": "EFO_0004335",
+                "name": "short-term memory"
+              },
+              "score": 0.39024036261879624
+            },
+            {
+              "disease": {
+                "id": "EFO_0004723",
+                "name": "coronary artery calcification"
+              },
+              "score": 0.3893188497942186
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001487",
+                "name": "intrahepatic bile duct cancer"
+              },
+              "score": 0.38652875651437096
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007256",
+                "name": "hepatocellular carcinoma"
+              },
+              "score": 0.3855601119721717
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019438",
+                "name": "AL amyloidosis"
+              },
+              "score": 0.3813499443505782
+            },
+            {
+              "disease": {
+                "id": "EFO_0000544",
+                "name": "infection"
+              },
+              "score": 0.37941243041885564
+            },
+            {
+              "disease": {
+                "id": "HP_0000741",
+                "name": "Apathy"
+              },
+              "score": 0.3762518550786652
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005090",
+                "name": "schizophrenia"
+              },
+              "score": 0.3762394032217312
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002009",
+                "name": "major depressive disorder"
+              },
+              "score": 0.3759085815184573
+            },
+            {
+              "disease": {
+                "id": "HP_0000739",
+                "name": "Anxiety"
+              },
+              "score": 0.37454132673153107
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000130203",
+        "isEssential": false,
+        "safetyLiabilities": [
+          {
+            "datasource": "ClinPGx",
+            "event": "elevated triglycerides"
+          },
+          {
+            "datasource": "ClinPGx",
+            "event": "hypertriglyceridemia"
+          },
+          {
+            "datasource": "ClinPGx",
+            "event": "hemorrhage"
+          },
+          {
+            "datasource": "ClinPGx",
+            "event": "elevated plasma lipids"
+          }
+        ],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:39:48+00:00",
+  "source": "Open Targets"
+}

@@ -1,0 +1,202 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL3810"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "PROTEOLYTIC ENZYME",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 938,
+        "mechanism_comment": "It's a recombinant truncated form of human plasmin with proteolytic activity against protein components of the vitreous body and the vitreoretinal interface",
+        "mechanism_of_action": "Fibronectin proteolytic enzyme",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=390682b7-72c4-11e1-b0c4-0800200c9a66",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=390682b7-72c4-11e1-b0c4-0800200c9a66"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2095222",
+        "parent_molecule_chembl_id": "CHEMBL2095222",
+        "record_id": 1679389,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3810",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "OTHER",
+        "binding_site_comment": "Targets the ED-B domain of Fibronectin.",
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 6100,
+        "mechanism_comment": "Used as radiolabelled antibody radretumab.",
+        "mechanism_of_action": "Fibronectin other",
+        "mechanism_refs": [
+          {
+            "ref_id": "17519905",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/17519905"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109412",
+        "parent_molecule_chembl_id": "CHEMBL2109412",
+        "record_id": 1706900,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3810",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "BINDING AGENT",
+        "binding_site_comment": "Directed against the extra-domain B (ED-B) of fibronectin (L19).",
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 6146,
+        "mechanism_comment": "Immunocytokine. Immunostimulant.",
+        "mechanism_of_action": "Fibronectin binding agent",
+        "mechanism_refs": [
+          {
+            "ref_id": "12810649",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/12810649"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109589",
+        "parent_molecule_chembl_id": "CHEMBL2109589",
+        "record_id": 1707131,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3810",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "BINDING AGENT",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 6148,
+        "mechanism_comment": "Immunocytokine. Immunostimulant.",
+        "mechanism_of_action": "Fibronectin binding agent",
+        "mechanism_refs": [
+          {
+            "ref_id": "23096716",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/23096716"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109608",
+        "parent_molecule_chembl_id": "CHEMBL2109608",
+        "record_id": 1707160,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3810",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "BINDING AGENT",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 7065,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Fibronectin binding agent",
+        "mechanism_refs": [
+          {
+            "ref_id": "22577235",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/22577235"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1743060",
+        "parent_molecule_chembl_id": "CHEMBL1743060",
+        "record_id": 1392944,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3810",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "BINDING AGENT",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 7066,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Fibronectin binding agent",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://www.abcam.com/fibronectin-antibody-bc-1-ab154210.html",
+            "ref_type": "Other",
+            "ref_url": "http://www.abcam.com/fibronectin-antibody-bc-1-ab154210.html"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109529",
+        "parent_molecule_chembl_id": "CHEMBL2109529",
+        "record_id": 1707050,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3810",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "BINDING AGENT",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 7067,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Fibronectin binding agent",
+        "mechanism_refs": [
+          {
+            "ref_id": "21447719",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21447719"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109413",
+        "parent_molecule_chembl_id": "CHEMBL2109413",
+        "record_id": 1706901,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3810",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 7
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:38:53+00:00",
+  "source": "ChEMBL mechanism"
+}

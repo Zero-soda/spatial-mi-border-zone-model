@@ -1,0 +1,448 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "EEF1A1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Elongation factor 1-alpha 1",
+        "score": 17.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1795120",
+        "target_components": [
+          {
+            "accession": "P68104",
+            "component_description": "Elongation factor 1-alpha 1",
+            "component_id": 5703,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.6.5.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "EEF1A",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "eEF1A-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "EEF1A1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "EF1A",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "EF-1-alpha-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "EF-Tu",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Elongation factor 1-alpha 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Elongation factor Tu",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Eukaryotic elongation factor 1 A-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "LENG7",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Leukocyte receptor cluster member 7",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P68104",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P68104",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005730",
+                "xref_name": "nucleolus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005840",
+                "xref_name": "ribosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005853",
+                "xref_name": "eukaryotic translation elongation factor 1 complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0022626",
+                "xref_name": "cytosolic ribosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030864",
+                "xref_name": "cortical actin cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032587",
+                "xref_name": "ruffle membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0034774",
+                "xref_name": "secretory granule lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098574",
+                "xref_name": "cytoplasmic side of lysosomal membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1904813",
+                "xref_name": "ficolin-1-rich granule lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000049",
+                "xref_name": "tRNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003723",
+                "xref_name": "RNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003746",
+                "xref_name": "translation elongation factor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003924",
+                "xref_name": "GTPase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005516",
+                "xref_name": "calmodulin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005525",
+                "xref_name": "GTP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019209",
+                "xref_name": "kinase activator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019900",
+                "xref_name": "kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019901",
+                "xref_name": "protein kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006412",
+                "xref_name": "translation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006414",
+                "xref_name": "translational elongation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0044829",
+                "xref_name": "positive regulation by host of viral genome replication",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:3189",
+                "xref_name": "EEF1A1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P68104",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000795",
+                "xref_name": "T_Tr_GTP-bd_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004161",
+                "xref_name": "EFTu-like_2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004539",
+                "xref_name": "Transl_elong_EF1A_euk/arc",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009000",
+                "xref_name": "Transl_B-barrel_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009001",
+                "xref_name": "Transl_elong_EF1A/Init_IF2_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027417",
+                "xref_name": "P-loop_NTPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR031157",
+                "xref_name": "G_TR_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050100",
+                "xref_name": "TRAFAC_GTPase_members",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR054696",
+                "xref_name": "GTP-eEF1A_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23115",
+                "xref_name": "TRANSLATION FACTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "3C5J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6ZMO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8G60",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8G6J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9AZC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9AZS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B0N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B0O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3C5J",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00009",
+                "xref_name": "GTP_EFTU",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF03144",
+                "xref_name": "GTP_EFTU_D2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF22594",
+                "xref_name": "GTP-eEF1A_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA27625",
+                "xref_name": "eukaryotic translation elongation factor 1 alpha 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P68104",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-156842",
+                "xref_name": "Eukaryotic Translation Elongation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-156902",
+                "xref_name": "Peptide chain elongation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3371511",
+                "xref_name": "HSF1 activation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6798695",
+                "xref_name": "Neutrophil degranulation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8876725",
+                "xref_name": "Protein methylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9613829",
+                "xref_name": "Chaperone Mediated Autophagy",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9735869",
+                "xref_name": "SARS-CoV-1 modulates host translation machinery",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P04719",
+                "xref_name": "Elongation factor 1-alpha 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P04720",
+                "xref_name": "Elongation factor 1-alpha 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P68104",
+                "xref_name": "Elongation factor 1-alpha 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6IQ15",
+                "xref_name": "Elongation factor 1-alpha 1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:49+00:00",
+  "source": "ChEMBL target search"
+}

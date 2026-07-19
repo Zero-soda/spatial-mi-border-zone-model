@@ -1,0 +1,7 @@
+stage	score	contrast	n_sample_pairs	mean_margin	ci95_low	ci95_high	cohens_d_domain3_vs_domain4	domain3_values	domain4_values
+day3_mi	mechanical_border	domain3_minus_domain4	3	2.4325903	1.72328	3.566916	3.873202	2.62921;0.962862;1.64669	-0.937706;-0.760418;-0.360885
+day3_mi	fibroblast_scar_repair	domain3_minus_domain4	3	0.811036	0.745142	0.871584	9.7349601	1.74217;1.69815;1.62834	0.997028;0.826566;0.811958
+day3_mi	immune_fibrotic_activation_proxy	domain3_minus_domain4	3	0.17475033	-0.01459	0.30635	0.13212475	3.89464;1.22995;2.63917	3.58829;0.997459;2.65376
+day7_mi	mechanical_border	domain3_minus_domain4	3	3.4509888	3.3308275	3.591249	5.4568077	2.04467;3.24174;2.89148	-1.38622;-0.0890875;-0.699769
+day7_mi	fibroblast_scar_repair	domain3_minus_domain4	3	-2.30291	-2.6093	-1.97691	-4.7048485	5.17823;4.10854;4.88193	7.50075;6.71784;6.85884
+day7_mi	immune_fibrotic_activation_proxy	domain3_minus_domain4	3	0.020856667	-0.07399	0.20419	0.05735319	2.57878;3.23979;3.27757	2.65277;3.30742;3.07338

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SSTBA boundary protocol configuration",
+  "type": "object",
+  "required": [
+    "input",
+    "sample_column",
+    "spot_column",
+    "label_column",
+    "x_column",
+    "y_column",
+    "score_columns",
+    "positive_label",
+    "negative_label"
+  ],
+  "properties": {
+    "mode": {"const": "boundary"},
+    "input": {"type": "string", "minLength": 1},
+    "sample_column": {"type": "string", "minLength": 1},
+    "spot_column": {"type": "string", "minLength": 1},
+    "label_column": {"type": "string", "minLength": 1},
+    "x_column": {"type": "string", "minLength": 1},
+    "y_column": {"type": "string", "minLength": 1},
+    "score_columns": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "summary_columns": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "positive_label": {"type": "string"},
+    "negative_label": {"type": "string"},
+    "radius": {"type": "number", "exclusiveMinimum": 0},
+    "n_neighbors": {"type": "integer", "minimum": 1},
+    "knn_algorithm": {"enum": ["exact", "kdtree"]},
+    "seed": {"type": "integer", "minimum": 0}
+  },
+  "oneOf": [
+    {"required": ["radius"], "not": {"required": ["n_neighbors"]}},
+    {"required": ["n_neighbors"], "not": {"required": ["radius"]}}
+  ],
+  "additionalProperties": true
+}

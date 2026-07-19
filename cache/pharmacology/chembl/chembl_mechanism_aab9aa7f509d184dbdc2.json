@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL3989382"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 7100,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Macrophage colony-stimulating factor 1 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "https://www.cancer.gov/publications/dictionaries/cancer-drug?cdrid=785869",
+            "ref_type": "Other",
+            "ref_url": "https://www.cancer.gov/publications/dictionaries/cancer-drug?cdrid=785869"
+          },
+          {
+            "ref_id": "26376111",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/26376111"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109513",
+        "parent_molecule_chembl_id": "CHEMBL2109513",
+        "record_id": 1707029,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3989382",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 7101,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Macrophage colony-stimulating factor 1 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://cancerres.aacrjournals.org/content/69/9_Supplement/DDT02-2",
+            "ref_type": "Other",
+            "ref_url": "http://cancerres.aacrjournals.org/content/69/9_Supplement/DDT02-2"
+          },
+          {
+            "ref_id": "https://www.cancer.gov/publications/dictionaries/cancer-drug?cdrid=617378",
+            "ref_type": "Other",
+            "ref_url": "https://www.cancer.gov/publications/dictionaries/cancer-drug?cdrid=617378"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109512",
+        "parent_molecule_chembl_id": "CHEMBL2109512",
+        "record_id": 1707028,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3989382",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:21+00:00",
+  "source": "ChEMBL mechanism"
+}

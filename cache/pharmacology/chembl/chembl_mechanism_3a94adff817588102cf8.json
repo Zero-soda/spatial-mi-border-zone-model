@@ -1,0 +1,77 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL3714029"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5937,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Lysyl oxidase homolog 2 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "27232579",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/27232579"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109667",
+        "parent_molecule_chembl_id": "CHEMBL2109667",
+        "record_id": 1707230,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3714029",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 9338,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Lysyl oxidase homolog 2 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "28471663",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/28471663/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4116649",
+        "parent_molecule_chembl_id": "CHEMBL4116649",
+        "record_id": 3489946,
+        "selectivity_comment": "Also inhibits LOXL3.",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3714029",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:41:47+00:00",
+  "source": "ChEMBL mechanism"
+}

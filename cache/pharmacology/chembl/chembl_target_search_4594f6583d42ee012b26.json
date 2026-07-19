@@ -1,0 +1,241 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "LY6E"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Lymphocyte antigen 6E",
+        "score": 16.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4523584",
+        "target_components": [
+          {
+            "accession": "Q16553",
+            "component_description": "Lymphocyte antigen 6E",
+            "component_id": 19025,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "9804",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Ly-6E",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "LY6E",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Lymphocyte antigen 6E",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Retinoic acid-induced gene E protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "RIG-E",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "RIGE",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "SCA-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SCA2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Stem cell antigen 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Synonyms=9804",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Thymic shared antigen 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TSA-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TSA1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q16553",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q16553",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045202",
+                "xref_name": "synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098552",
+                "xref_name": "side of membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0033130",
+                "xref_name": "acetylcholine receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007166",
+                "xref_name": "cell surface receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046597",
+                "xref_name": "blocking of symbiont entry into host cell",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0095500",
+                "xref_name": "acetylcholine receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:6727",
+                "xref_name": "LY6E",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q16553",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR016054",
+                "xref_name": "LY6_UPA_recep-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035076",
+                "xref_name": "Toxin/TOLIP",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR045860",
+                "xref_name": "Snake_toxin-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR051110",
+                "xref_name": "Ly-6/neurotoxin-like_GPI-ap",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR16983",
+                "xref_name": "UPAR/LY6 DOMAIN-CONTAINING PROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR16983:SF13",
+                "xref_name": "LYMPHOCYTE ANTIGEN 6E",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00087",
+                "xref_name": "Toxin_TOLIP",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA30491",
+                "xref_name": "lymphocyte antigen 6 family member E",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q16553",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-163125",
+                "xref_name": "Post-translational modification: synthesis of GPI-anchored proteins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B2R4X5",
+                "xref_name": "Lymphocyte antigen 6E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D3DWJ2",
+                "xref_name": "Lymphocyte antigen 6E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q0VDE5",
+                "xref_name": "Lymphocyte antigen 6E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q16553",
+                "xref_name": "Lymphocyte antigen 6E",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:41:49+00:00",
+  "source": "ChEMBL target search"
+}

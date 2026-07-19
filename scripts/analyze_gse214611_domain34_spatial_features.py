@@ -9,8 +9,10 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+from project_paths import project_root
 
-ROOT = Path(__file__).resolve().parents[3]
+
+ROOT = project_root(__file__)
 LOCAL_DEPS = ROOT / ".deps" / "python"
 if LOCAL_DEPS.exists():
     sys.path.insert(0, str(LOCAL_DEPS))

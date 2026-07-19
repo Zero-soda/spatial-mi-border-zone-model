@@ -1,7 +1,7 @@
 {
-  "title": "Source data and code for spatial boundary modelling of myocardial infarction border-zone states",
-  "upload_type": "dataset",
-  "description": "Processed source data, supplementary tables, analysis scripts and figure files supporting a public-data-only spatial transcriptomic model of myocardial infarction border-zone state transitions.",
+  "title": "SSTBA: source data and code for spatial-state transfer and boundary analysis",
+  "upload_type": "software",
+  "description": "A tested, configuration-driven workflow plus processed source data, supplementary tables and analysis scripts for frozen spatial-state scoring, boundary analysis and cross-study transfer in public mouse and human myocardial infarction spatial transcriptomic studies.",
   "creators": [
     {"name": "Zhong, Lizhe", "affiliation": "Guangdong Provincial People\u0027s Hospital", "orcid": "0009-0006-3348-092X"},
     {"name": "Shi, Jingwen", "affiliation": "Southern Medical University"},
@@ -21,8 +21,12 @@
   ],
   "keywords": ["myocardial infarction", "border zone", "spatial transcriptomics", "Visium", "fibroblast scar", "STEMI"],
   "license": "cc-by-4.0",
-  "version": "0.1.2",
+  "version": "0.5.0",
   "related_identifiers": [
-    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE214611", "relation": "isDerivedFrom", "resource_type": "dataset"}
+    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE214611", "relation": "isDerivedFrom", "resource_type": "dataset"},
+    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176092", "relation": "isDerivedFrom", "resource_type": "dataset"},
+    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE265828", "relation": "isDerivedFrom", "resource_type": "dataset"},
+    {"identifier": "https://cellxgene.cziscience.com/collections/8191c283-0816-424b-9b61-c3e1d6258a77", "relation": "isDerivedFrom", "resource_type": "dataset"},
+    {"identifier": "https://github.com/Zero-soda/spatial-mi-border-zone-model", "relation": "isSupplementTo", "resource_type": "software"}
   ]
 }

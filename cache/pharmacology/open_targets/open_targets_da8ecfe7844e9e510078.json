@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000131389"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "solute carrier family 6 member 6",
+        "approvedSymbol": "SLC6A6",
+        "associatedDiseases": {
+          "count": 1159,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0007777",
+                "name": "hypotaurinemic retinal degeneration and cardiomyopathy"
+              },
+              "score": 0.4447382683977087
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004994",
+                "name": "cardiomyopathy"
+              },
+              "score": 0.42032227246010245
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004580",
+                "name": "retinal degeneration"
+              },
+              "score": 0.34031592264196026
+            },
+            {
+              "disease": {
+                "id": "HP_0000556",
+                "name": "Retinal dystrophy"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "EFO_0020974",
+                "name": "revision of total joint arthroplasty"
+              },
+              "score": 0.3002637620656091
+            },
+            {
+              "disease": {
+                "id": "EFO_0010725",
+                "name": "aseptic loosening"
+              },
+              "score": 0.24119829525715675
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006486",
+                "name": "uveal melanoma"
+              },
+              "score": 0.17592725172619608
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024881",
+                "name": "secondary malignant neoplasm"
+              },
+              "score": 0.15701226260878137
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019200",
+                "name": "retinitis pigmentosa"
+              },
+              "score": 0.11059667332582358
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1871",
+                "name": "Progressive cone dystrophy"
+              },
+              "score": 0.09768182024295562
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.09193137641593115
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007254",
+                "name": "breast cancer"
+              },
+              "score": 0.08754422807843873
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004989",
+                "name": "breast carcinoma"
+              },
+              "score": 0.08754422807843873
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1872",
+                "name": "Cone rod dystrophy"
+              },
+              "score": 0.08655415288983309
+            },
+            {
+              "disease": {
+                "id": "MONDO_0700335",
+                "name": "familial isolated dilated cardiomyopathy"
+              },
+              "score": 0.08308348411872257
+            },
+            {
+              "disease": {
+                "id": "Orphanet_99739",
+                "name": "Rare familial disorder with hypertrophic cardiomyopathy"
+              },
+              "score": 0.07962576867432505
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005045",
+                "name": "hypertrophic cardiomyopathy"
+              },
+              "score": 0.07936854649129245
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018998",
+                "name": "Leber congenital amaurosis"
+              },
+              "score": 0.07915935650641938
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019152",
+                "name": "Oguchi disease"
+              },
+              "score": 0.07879575961269814
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018901",
+                "name": "left ventricular noncompaction"
+              },
+              "score": 0.07747692295684683
+            },
+            {
+              "disease": {
+                "id": "Orphanet_891",
+                "name": "Familial exudative vitreoretinopathy"
+              },
+              "score": 0.0761170128086314
+            },
+            {
+              "disease": {
+                "id": "Orphanet_75376",
+                "name": "Familial drusen"
+              },
+              "score": 0.07558529127780163
+            },
+            {
+              "disease": {
+                "id": "Orphanet_247",
+                "name": "Arrhythmogenic right ventricular dysplasia"
+              },
+              "score": 0.07524938467334634
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016830",
+                "name": "Emery-Dreifuss muscular dystrophy"
+              },
+              "score": 0.0750828064009295
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016293",
+                "name": "congenital stationary night blindness"
+              },
+              "score": 0.07331930068732323
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018852",
+                "name": "achromatopsia"
+              },
+              "score": 0.07241067304082663
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011979",
+                "name": "adult-onset foveomacular vitelliform dystrophy"
+              },
+              "score": 0.07192742599659517
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004975",
+                "name": "Alzheimer disease"
+              },
+              "score": 0.07096814838080352
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004976",
+                "name": "amyotrophic lateral sclerosis"
+              },
+              "score": 0.07085071668661375
+            },
+            {
+              "disease": {
+                "id": "Orphanet_99001",
+                "name": "Butterfly-shaped pigment dystrophy"
+              },
+              "score": 0.07064970631009355
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019353",
+                "name": "Stargardt disease"
+              },
+              "score": 0.07025026955715512
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1344",
+                "name": "Atrial stand still"
+              },
+              "score": 0.06949903791152548
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008982",
+                "name": "central areolar choroidal dystrophy"
+              },
+              "score": 0.06896118834900282
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005150",
+                "name": "age-related macular degeneration"
+              },
+              "score": 0.06804652543275073
+            },
+            {
+              "disease": {
+                "id": "Orphanet_300751",
+                "name": "Familial dilated cardiomyopathy with conduction defect due to LMNA mutation"
+              },
+              "score": 0.06776246635644008
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012693",
+                "name": "glycogen storage disease due to muscle and heart glycogen synthase deficiency"
+              },
+              "score": 0.0665945940156364
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011060",
+                "name": "early-onset non-syndromic cataract"
+              },
+              "score": 0.06617226690280256
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010725",
+                "name": "X-linked retinoschisis"
+              },
+              "score": 0.06499025813255721
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005021",
+                "name": "dilated cardiomyopathy"
+              },
+              "score": 0.06453731748842696
+            },
+            {
+              "disease": {
+                "id": "Orphanet_16",
+                "name": "Blue cone monochromatism"
+              },
+              "score": 0.06444913162865636
+            },
+            {
+              "disease": {
+                "id": "Orphanet_59181",
+                "name": "Sorsby's fundus dystrophy"
+              },
+              "score": 0.06437177651184943
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020364",
+                "name": "posterior polymorphous corneal dystrophy"
+              },
+              "score": 0.06407693391666765
+            },
+            {
+              "disease": {
+                "id": "EFO_0700102",
+                "name": "familial isolated restrictive cardiomyopathy"
+              },
+              "score": 0.06241053941632262
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007152",
+                "name": "arrhythmogenic right ventricular dysplasia 1"
+              },
+              "score": 0.06236475257877001
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021129",
+                "name": "microphthalmia"
+              },
+              "score": 0.06226938044404721
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013049",
+                "name": "DPM3-congenital disorder of glycosylation"
+              },
+              "score": 0.061614505473760066
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005015",
+                "name": "diabetes mellitus"
+              },
+              "score": 0.061404117555487386
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030440",
+                "name": "cone-rod dystrophy 22"
+              },
+              "score": 0.06133362478419968
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010870",
+                "name": "tibial muscular dystrophy"
+              },
+              "score": 0.06092708694404653
+            },
+            {
+              "disease": {
+                "id": "Orphanet_171445",
+                "name": "Muscle filaminopathy"
+              },
+              "score": 0.060924161103530265
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005016",
+                "name": "diabetic kidney disease"
+              },
+              "score": 0.06084721663100632
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1243",
+                "name": "Best vitelliform macular dystrophy"
+              },
+              "score": 0.060737369285308374
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019588",
+                "name": "hearing loss, autosomal recessive"
+              },
+              "score": 0.05996433142259288
+            },
+            {
+              "disease": {
+                "id": "EFO_0001063",
+                "name": "deafness"
+              },
+              "score": 0.05996433142259288
+            },
+            {
+              "disease": {
+                "id": "Orphanet_41751",
+                "name": "Bietti crystalline dystrophy"
+              },
+              "score": 0.05991751797433281
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010588",
+                "name": "exudative vitreoretinopathy 2, X-linked"
+              },
+              "score": 0.05991628604148386
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008102",
+                "name": "sick sinus syndrome 2, autosomal dominant"
+              },
+              "score": 0.05990889444439016
+            },
+            {
+              "disease": {
+                "id": "Orphanet_602",
+                "name": "Distal myopathy, Nonaka type"
+              },
+              "score": 0.059827586876359536
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005514",
+                "name": "nanophthalmia"
+              },
+              "score": 0.05971938210779351
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008210",
+                "name": "patterned macular dystrophy 1"
+              },
+              "score": 0.059502356604237
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006952",
+                "name": "retinopathy of prematurity"
+              },
+              "score": 0.059413452116971174
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009677",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2C"
+              },
+              "score": 0.05919006162702841
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010946",
+                "name": "hypertrophic cardiomyopathy 6"
+              },
+              "score": 0.05907733977134958
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007740",
+                "name": "Wagner disease"
+              },
+              "score": 0.0590754405415408
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.05903992947191182
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019783",
+                "name": "neovascular glaucoma"
+              },
+              "score": 0.05903853388660769
+            },
+            {
+              "disease": {
+                "id": "Orphanet_590",
+                "name": "Congenital myasthenic syndromes"
+              },
+              "score": 0.05890059973487667
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016979",
+                "name": "MRCS syndrome"
+              },
+              "score": 0.05860715206733406
+            },
+            {
+              "disease": {
+                "id": "Orphanet_263297",
+                "name": "Glycogen storage disease due to glycogenin deficiency"
+              },
+              "score": 0.05825317669540269
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013291",
+                "name": "glycogen storage disease XV"
+              },
+              "score": 0.05825317669540269
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013175",
+                "name": "retinitis pigmentosa 50"
+              },
+              "score": 0.058212522911387385
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014929",
+                "name": "retinitis pigmentosa 76"
+              },
+              "score": 0.058166325429551795
+            },
+            {
+              "disease": {
+                "id": "Orphanet_98974",
+                "name": "Fuchs endothelial corneal dystrophy"
+              },
+              "score": 0.05810965651850013
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011423",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2E"
+              },
+              "score": 0.05808316996224773
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010722",
+                "name": "X-linked retinal dysplasia"
+              },
+              "score": 0.05798707920002971
+            },
+            {
+              "disease": {
+                "id": "Orphanet_98911",
+                "name": "Distal myotilinopathy"
+              },
+              "score": 0.05796860020729547
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000507",
+                "name": "inclusion body myopathy with Paget disease of bone and frontotemporal dementia"
+              },
+              "score": 0.05793492737609087
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007640",
+                "name": "Sorsby fundus dystrophy"
+              },
+              "score": 0.05780598507123422
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014345",
+                "name": "retinitis pigmentosa 69"
+              },
+              "score": 0.057750548093031505
+            },
+            {
+              "disease": {
+                "id": "Orphanet_98993",
+                "name": "Posterior polar cataract"
+              },
+              "score": 0.0577191338053833
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011838",
+                "name": "Bothnia retinal dystrophy"
+              },
+              "score": 0.057691415316281955
+            },
+            {
+              "disease": {
+                "id": "Orphanet_88632",
+                "name": "Familial ocular anterior segment mesenchymal dysgenesis"
+              },
+              "score": 0.05767848002136799
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009003",
+                "name": "achromatopsia 2"
+              },
+              "score": 0.05764521783444637
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019631",
+                "name": "persistent hyperplastic primary vitreous"
+              },
+              "score": 0.05759162875551708
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011414",
+                "name": "Peters anomaly"
+              },
+              "score": 0.05754173547513465
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011395",
+                "name": "cone-rod dystrophy 3"
+              },
+              "score": 0.05753803967658779
+            },
+            {
+              "disease": {
+                "id": "MONDO_0975805",
+                "name": "foveal hypoplasia 3"
+              },
+              "score": 0.057162916124082835
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010932",
+                "name": "progressive bifocal chorioretinal atrophy"
+              },
+              "score": 0.05710932704515355
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009676",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2B"
+              },
+              "score": 0.056930080815631466
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014515",
+                "name": "macular dystrophy with central cone involvement"
+              },
+              "score": 0.05691529762144407
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011787",
+                "name": "autosomal recessive limb-girdle muscular dystrophy type 2I"
+              },
+              "score": 0.05689681862870986
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100288",
+                "name": "enhanced S-cone syndrome"
+              },
+              "score": 0.05664735222679766
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010818",
+                "name": "retinitis pigmentosa 12"
+              },
+              "score": 0.05664550432752425
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009775",
+                "name": "Oguchi disease-1"
+              },
+              "score": 0.05662702533479001
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013259",
+                "name": "Oguchi disease-2"
+              },
+              "score": 0.05662702533479001
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009549",
+                "name": "severe early-childhood-onset retinal dystrophy"
+              },
+              "score": 0.05652292700905382
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020379",
+                "name": "early-onset zonular cataract"
+              },
+              "score": 0.05649767238565038
+            },
+            {
+              "disease": {
+                "id": "Orphanet_98992",
+                "name": "Partial congenital cataract"
+              },
+              "score": 0.05649767238565038
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013611",
+                "name": "retinitis pigmentosa 62"
+              },
+              "score": 0.056266684976472414
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014500",
+                "name": "atrial conduction disease"
+              },
+              "score": 0.05625374968155846
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000131389",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:42:51+00:00",
+  "source": "Open Targets"
+}

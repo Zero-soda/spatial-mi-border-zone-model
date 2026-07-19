@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000197102"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "dynein cytoplasmic 1 heavy chain 1",
+        "approvedSymbol": "DYNC1H1",
+        "associatedDiseases": {
+          "count": 1414,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0008026",
+                "name": "autosomal dominant childhood-onset proximal spinal muscular atrophy without contractures"
+              },
+              "score": 0.8156935247819399
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013805",
+                "name": "intellectual disability, autosomal dominant 13"
+              },
+              "score": 0.8146166282183143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013644",
+                "name": "Charcot-Marie-Tooth disease axonal type 2O"
+              },
+              "score": 0.7842934166259484
+            },
+            {
+              "disease": {
+                "id": "Orphanet_284232",
+                "name": "Autosomal dominant Charcot-Marie-Tooth disease type 2O"
+              },
+              "score": 0.7177835929298951
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015802",
+                "name": "autosomal dominant non-syndromic intellectual disability"
+              },
+              "score": 0.6338169033200614
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003847",
+                "name": "hereditary disease"
+              },
+              "score": 0.544524781968379
+            },
+            {
+              "disease": {
+                "id": "HP_0001249",
+                "name": "Intellectual disability"
+              },
+              "score": 0.5174397174720728
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018190",
+                "name": "autosomal dominant childhood-onset proximal spinal muscular atrophy"
+              },
+              "score": 0.5037262288743403
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005559",
+                "name": "neurodegenerative disease"
+              },
+              "score": 0.5026797980727782
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005108",
+                "name": "viral infectious disease"
+              },
+              "score": 0.46308355791993133
+            },
+            {
+              "disease": {
+                "id": "HP_0001250",
+                "name": "Seizure"
+              },
+              "score": 0.4558870168606542
+            },
+            {
+              "disease": {
+                "id": "HP_0002269",
+                "name": "Abnormality of neuronal migration"
+              },
+              "score": 0.4528995797019528
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005258",
+                "name": "autism spectrum disorder"
+              },
+              "score": 0.425514571745058
+            },
+            {
+              "disease": {
+                "id": "HP_0001339",
+                "name": "Lissencephaly"
+              },
+              "score": 0.4113563656905863
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015626",
+                "name": "Charcot-Marie-Tooth disease"
+              },
+              "score": 0.39264743604228364
+            },
+            {
+              "disease": {
+                "id": "MONDO_0957599",
+                "name": "epilepsy, early-onset"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008779",
+                "name": "arthrogryposis"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0001263",
+                "name": "Global developmental delay"
+              },
+              "score": 0.3521318381686432
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001516",
+                "name": "spinal muscular atrophy"
+              },
+              "score": 0.344532830834195
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015358",
+                "name": "hereditary motor and sensory neuropathy"
+              },
+              "score": 0.34167657565600684
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005244",
+                "name": "peripheral neuropathy"
+              },
+              "score": 0.340975913848167
+            },
+            {
+              "disease": {
+                "id": "HP_0012758",
+                "name": "Neurodevelopmental delay"
+              },
+              "score": 0.34026033580577275
+            },
+            {
+              "disease": {
+                "id": "HP_0002060",
+                "name": "Abnormal cerebral morphology"
+              },
+              "score": 0.3326218692162316
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013127",
+                "name": "asphyxiating thoracic dystrophy 3"
+              },
+              "score": 0.32421187430073967
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001149",
+                "name": "microcephaly"
+              },
+              "score": 0.29878361651530766
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005336",
+                "name": "myopathy"
+              },
+              "score": 0.2941855643290226
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010877",
+                "name": "Charcot-Marie-Tooth disease type 5"
+              },
+              "score": 0.2938159844743379
+            },
+            {
+              "disease": {
+                "id": "MONDO_1040031",
+                "name": "dyneinopathy"
+              },
+              "score": 0.26850702455650527
+            },
+            {
+              "disease": {
+                "id": "HP_0000707",
+                "name": "Abnormality of the nervous system"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "EFO_1001336",
+                "name": "Hammer Toe Syndrome"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "HP_0009053",
+                "name": "Distal lower limb muscle weakness"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "HP_0001761",
+                "name": "Pes cavus"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "HP_0000750",
+                "name": "Delayed speech and language development"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "HP_0003323",
+                "name": "Progressive muscle weakness"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "EFO_0009912",
+                "name": "distal lower limb amyotrophy"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "HP_0002194",
+                "name": "Delayed gross motor development"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "HP_0007340",
+                "name": "Lower limb muscle weakness"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000087",
+                "name": "polymicrogyria"
+              },
+              "score": 0.26172608431956046
+            },
+            {
+              "disease": {
+                "id": "HP_0001252",
+                "name": "Hypotonia"
+              },
+              "score": 0.25870589827929125
+            },
+            {
+              "disease": {
+                "id": "HP_0001270",
+                "name": "Motor delay"
+              },
+              "score": 0.25870589827929125
+            },
+            {
+              "disease": {
+                "id": "MONDO_0029000",
+                "name": "poisoning"
+              },
+              "score": 0.23192660177726393
+            },
+            {
+              "disease": {
+                "id": "GO_0009410",
+                "name": "response to xenobiotic stimulus"
+              },
+              "score": 0.23192660177726393
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020380",
+                "name": "autosomal dominant cerebellar ataxia"
+              },
+              "score": 0.1931539488873612
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015362",
+                "name": "neuronopathy, distal hereditary motor, autosomal dominant"
+              },
+              "score": 0.17274519355317197
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018894",
+                "name": "distal hereditary motor neuropathy"
+              },
+              "score": 0.16115501017463382
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019011",
+                "name": "Charcot-Marie-Tooth disease type 1"
+              },
+              "score": 0.15784139627159138
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015168",
+                "name": "arthrogryposis multiplex congenita"
+              },
+              "score": 0.15186138890065143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100101",
+                "name": "fetal akinesia deformation sequence 1"
+              },
+              "score": 0.1478319418738807
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018949",
+                "name": "distal myopathy"
+              },
+              "score": 0.1478319418738807
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004976",
+                "name": "amyotrophic lateral sclerosis"
+              },
+              "score": 0.13432231181195423
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018097",
+                "name": "infantile spasms"
+              },
+              "score": 0.13265483715804122
+            },
+            {
+              "disease": {
+                "id": "Orphanet_73229",
+                "name": "Autosomal dominant familial hematuria - retinal arteriolar tortuosity - contractures"
+              },
+              "score": 0.13181503777440903
+            },
+            {
+              "disease": {
+                "id": "MONDO_0700092",
+                "name": "neurodevelopmental disorder"
+              },
+              "score": 0.12210877115625676
+            },
+            {
+              "disease": {
+                "id": "HP_0001302",
+                "name": "Pachygyria"
+              },
+              "score": 0.11978128246070864
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000437",
+                "name": "cerebellar ataxia"
+              },
+              "score": 0.11932296252778582
+            },
+            {
+              "disease": {
+                "id": "HP_0001274",
+                "name": "Agenesis of corpus callosum"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0002315",
+                "name": "Headache"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0002079",
+                "name": "Hypoplasia of the corpus callosum"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "Orphanet_163209",
+                "name": "Non-syndromic cerebral malformation due to abnormal neuronal migration"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019042",
+                "name": "multiple congenital anomalies/dysmorphic syndrome"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0002321",
+                "name": "Vertigo"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0007359",
+                "name": "Focal-onset seizure"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014743",
+                "name": "rhizomelic chondrodysplasia punctata type 5"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0003394",
+                "name": "Muscle spasm"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0001272",
+                "name": "Cerebellar atrophy"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005754",
+                "name": "epilepsy with generalized tonic-clonic seizures"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0002066",
+                "name": "Gait ataxia"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0002166",
+                "name": "Impaired vibration sensation in the lower limbs"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0000924",
+                "name": "Abnormality of the skeletal system"
+              },
+              "score": 0.11395026129340674
+            },
+            {
+              "disease": {
+                "id": "HP_0001324",
+                "name": "Muscle weakness"
+              },
+              "score": 0.11087395640541053
+            },
+            {
+              "disease": {
+                "id": "Orphanet_98505",
+                "name": "Genetic motor neuron disease"
+              },
+              "score": 0.11087395640541053
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001824",
+                "name": "polyneuropathy"
+              },
+              "score": 0.11087395640541053
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018995",
+                "name": "Charcot-Marie-Tooth disease type 4"
+              },
+              "score": 0.11087395640541053
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024257",
+                "name": "hereditary motor neuron disease"
+              },
+              "score": 0.11087395640541053
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009710",
+                "name": "Thomsen and Becker disease"
+              },
+              "score": 0.09739358341627345
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100062",
+                "name": "genetic developmental and epileptic encephalopathy"
+              },
+              "score": 0.08530293693193823
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010591",
+                "name": "fingerprint body myopathy"
+              },
+              "score": 0.08419953039354218
+            },
+            {
+              "disease": {
+                "id": "EFO_0700046",
+                "name": "congenital myotonia"
+              },
+              "score": 0.08419953039354218
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018614",
+                "name": "undetermined early-onset epileptic encephalopathy"
+              },
+              "score": 0.08279268557207262
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009501",
+                "name": "metabolic myopathy due to lactate transporter defect"
+              },
+              "score": 0.08202070315856975
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011506",
+                "name": "familial infantile myoclonic epilepsy"
+              },
+              "score": 0.07978611287544339
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013028",
+                "name": "adenosine monophosphate deaminase deficiency"
+              },
+              "score": 0.07970092227346341
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016103",
+                "name": "isolated asymptomatic elevation of creatine phosphokinase"
+              },
+              "score": 0.07824565026510702
+            },
+            {
+              "disease": {
+                "id": "HP_0003236",
+                "name": "Elevated circulating creatine kinase concentration"
+              },
+              "score": 0.07824565026510702
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019056",
+                "name": "neuromuscular disease"
+              },
+              "score": 0.07682989019824439
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014546",
+                "name": "myopathy due to calsequestrin and SERCA1 protein overload"
+              },
+              "score": 0.07510478613617615
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012449",
+                "name": "spinocerebellar ataxia type 23"
+              },
+              "score": 0.07462315851562971
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009704",
+                "name": "carnitine palmitoyl transferase II deficiency, myopathic form"
+              },
+              "score": 0.07388486170980656
+            },
+            {
+              "disease": {
+                "id": "Orphanet_228169",
+                "name": "Autosomal dominant striatal neurodegeneration"
+              },
+              "score": 0.0726017371297705
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014311",
+                "name": "autosomal recessive spinocerebellar ataxia 15"
+              },
+              "score": 0.07257064953246298
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010847",
+                "name": "spinocerebellar ataxia type 4"
+              },
+              "score": 0.07253581251424052
+            },
+            {
+              "disease": {
+                "id": "Orphanet_265",
+                "name": "Autosomal dominant limb-girdle muscular dystrophy type 1C"
+              },
+              "score": 0.0722273503147789
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019947",
+                "name": "rippling muscle disease 2"
+              },
+              "score": 0.0722273503147789
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011464",
+                "name": "spinocerebellar ataxia type 11"
+              },
+              "score": 0.07191779073132473
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011540",
+                "name": "spinocerebellar ataxia type 14"
+              },
+              "score": 0.07169177195036096
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015140",
+                "name": "early-onset autosomal dominant Alzheimer disease"
+              },
+              "score": 0.07095573681481172
+            },
+            {
+              "disease": {
+                "id": "MONDO_0033115",
+                "name": "spinocerebellar ataxia, autosomal recessive 25"
+              },
+              "score": 0.07094039113191015
+            },
+            {
+              "disease": {
+                "id": "EFO_0009057",
+                "name": "Spinocerebellar ataxia type 40"
+              },
+              "score": 0.07064555833725236
+            },
+            {
+              "disease": {
+                "id": "Orphanet_284289",
+                "name": "Adult-onset autosomal recessive cerebellar ataxia"
+              },
+              "score": 0.07050848857690706
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014717",
+                "name": "early-onset Lafora body disease"
+              },
+              "score": 0.07012121848859738
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000197102",
+        "isEssential": true,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:41+00:00",
+  "source": "Open Targets"
+}

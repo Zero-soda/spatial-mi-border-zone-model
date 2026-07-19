@@ -1,0 +1,392 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "SNX3"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Sorting nexin-3",
+        "score": 21.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5465275",
+        "target_components": [
+          {
+            "accession": "O60493",
+            "component_description": "Sorting nexin-3",
+            "component_id": 22811,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Protein SDP3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SNX3",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Sorting nexin-3",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "O60493",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005768",
+                "xref_name": "endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005769",
+                "xref_name": "early endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0010008",
+                "xref_name": "endosome membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030904",
+                "xref_name": "retromer complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031901",
+                "xref_name": "early endosome membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008289",
+                "xref_name": "lipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0010314",
+                "xref_name": "phosphatidylinositol-5-phosphate binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019903",
+                "xref_name": "protein phosphatase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032266",
+                "xref_name": "phosphatidylinositol-3-phosphate binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070273",
+                "xref_name": "phosphatidylinositol-4-phosphate binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0080025",
+                "xref_name": "phosphatidylinositol-3,5-bisphosphate binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:1901981",
+                "xref_name": "phosphatidylinositol phosphate binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0010324",
+                "xref_name": "membrane invagination",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010976",
+                "xref_name": "positive regulation of neuron projection development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0022615",
+                "xref_name": "protein to membrane docking",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030111",
+                "xref_name": "regulation of Wnt signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032456",
+                "xref_name": "endocytic recycling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034499",
+                "xref_name": "late endosome to Golgi transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042177",
+                "xref_name": "negative regulation of protein catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046597",
+                "xref_name": "blocking of symbiont entry into host cell",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050765",
+                "xref_name": "negative regulation of phagocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051224",
+                "xref_name": "negative regulation of protein transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070676",
+                "xref_name": "intralumenal vesicle formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000642",
+                "xref_name": "negative regulation of early endosome to late endosome transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:11174",
+                "xref_name": "SNX3",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "O60493",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR001683",
+                "xref_name": "PX_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036871",
+                "xref_name": "PX_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR042137",
+                "xref_name": "PX_SNX3_Vert",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR051074",
+                "xref_name": "Sorting_Nexin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR45963",
+                "xref_name": "RE52028P",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR45963:SF1",
+                "xref_name": "SORTING NEXIN-3",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "2MXC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2YPS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5F0J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5F0L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5F0M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5F0P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7BLO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2YPS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5F0J",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5F0L",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5F0M",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5F0P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00787",
+                "xref_name": "PX",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA36013",
+                "xref_name": "sorting nexin 3",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "O60493",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-3238698",
+                "xref_name": "WNT ligand biogenesis and trafficking",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5689880",
+                "xref_name": "Ub-specific processing proteases",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A8K0B1",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E1P5E4",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E1P5E5",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O60493",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O60718",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4TT29",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4TT31",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5JXJ7",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5JXJ8",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96AP9",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9C0J5",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NU45",
+                "xref_name": "Sorting nexin-3",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:00+00:00",
+  "source": "ChEMBL target search"
+}

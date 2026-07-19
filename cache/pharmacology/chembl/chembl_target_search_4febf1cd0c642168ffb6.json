@@ -1,0 +1,679 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "CXCL12"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Stromal cell-derived factor 1",
+        "score": 11.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3286074",
+        "target_components": [
+          {
+            "accession": "P48061",
+            "component_description": "Stromal cell-derived factor 1",
+            "component_id": 8619,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CXCL12",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "C-X-C motif chemokine 12",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "hIRH",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "hSDF-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Intercrine reduced in hepatomas",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "IRH",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PBSF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Pre-B cell growth-stimulating factor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SDF-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SDF1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "SDF1A",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "SDF-1-alpha(3-67)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SDF1B",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "SDF-1-beta(3-72)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Stromal cell-derived factor 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Synonyms=SDF1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P48061",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005125",
+                "xref_name": "cytokine activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005178",
+                "xref_name": "integrin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008009",
+                "xref_name": "chemokine activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008083",
+                "xref_name": "growth factor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042379",
+                "xref_name": "chemokine receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0045236",
+                "xref_name": "CXCR chemokine receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001666",
+                "xref_name": "response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001764",
+                "xref_name": "neuron migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001938",
+                "xref_name": "positive regulation of endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006874",
+                "xref_name": "intracellular calcium ion homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006935",
+                "xref_name": "chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007155",
+                "xref_name": "cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008015",
+                "xref_name": "blood circulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008064",
+                "xref_name": "regulation of actin polymerization or depolymerization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008344",
+                "xref_name": "adult locomotory behavior",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010818",
+                "xref_name": "T cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0022029",
+                "xref_name": "telencephalon cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030335",
+                "xref_name": "positive regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031100",
+                "xref_name": "animal organ regeneration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033603",
+                "xref_name": "positive regulation of dopamine secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033622",
+                "xref_name": "integrin activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038146",
+                "xref_name": "chemokine (C-X-C motif) ligand 12 signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038160",
+                "xref_name": "CXCL12-activated CXCR4 signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045666",
+                "xref_name": "positive regulation of neuron differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045785",
+                "xref_name": "positive regulation of cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048842",
+                "xref_name": "positive regulation of axon extension involved in axon guidance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050930",
+                "xref_name": "induction of positive chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051924",
+                "xref_name": "regulation of calcium ion transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060326",
+                "xref_name": "cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070098",
+                "xref_name": "chemokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090026",
+                "xref_name": "positive regulation of monocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090280",
+                "xref_name": "positive regulation of calcium ion import",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902230",
+                "xref_name": "negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903237",
+                "xref_name": "negative regulation of leukocyte tethering or rolling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904018",
+                "xref_name": "positive regulation of vasculature development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000406",
+                "xref_name": "positive regulation of T cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000669",
+                "xref_name": "negative regulation of dendritic cell apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:10672",
+                "xref_name": "CXCL12",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P48061",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR001811",
+                "xref_name": "Chemokine_IL8-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033899",
+                "xref_name": "CXC_Chemokine_domain",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036048",
+                "xref_name": "Interleukin_8-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR039809",
+                "xref_name": "Chemokine_b/g/d",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR12015",
+                "xref_name": "SMALL INDUCIBLE CYTOKINE A",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR12015:SF193",
+                "xref_name": "STROMAL CELL-DERIVED FACTOR 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1A15",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1QG7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1SDF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1VMC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2J7Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2K01",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2K03",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2K04",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2K05",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KEC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KED",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KEE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KOL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2N55",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2NWG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2SDF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3GV3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3HP3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4LMQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4UAI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6SHR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SK3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SK4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SK5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SK6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SK7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SK8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8K3Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8U4O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9E82",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1A15",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1QG7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2J7Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2NWG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3GV3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3HP3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4LMQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4UAI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6SHR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00048",
+                "xref_name": "IL8",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA35602",
+                "xref_name": "C-X-C motif chemokine ligand 12",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P48061",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-1251985",
+                "xref_name": "Nuclear signaling by ERBB4",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-376176",
+                "xref_name": "Signaling by ROBO receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-380108",
+                "xref_name": "Chemokine receptors bind chemokines",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-418594",
+                "xref_name": "G alpha (i) signalling events",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9018519",
+                "xref_name": "Estrogen-dependent gene expression",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B2R4G0",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E7EVL0",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "H7BYN8",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P48061",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2L985",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2L986",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2L988",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5IT36",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6ICW0",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9H554",
+                "xref_name": "Stromal cell-derived factor 1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:26+00:00",
+  "source": "ChEMBL target search"
+}

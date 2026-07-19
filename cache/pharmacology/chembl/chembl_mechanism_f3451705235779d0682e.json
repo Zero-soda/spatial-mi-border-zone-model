@@ -1,0 +1,57 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL3712854"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "OTHER",
+        "binding_site_comment": "Reactive epitope is located in the c2 (coil 2 of the central rod) domain of vimentin.",
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5963,
+        "mechanism_comment": "Antibody dependent cell-mediated cytotoxicity, Complement Dependent Cytotoxicity, Natural Killer Cell-induction.",
+        "mechanism_of_action": "Vimentin other",
+        "mechanism_refs": [
+          {
+            "ref_id": "11673662",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/11673662"
+          },
+          {
+            "ref_id": "19996527",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/19996527"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2108045",
+        "parent_molecule_chembl_id": "CHEMBL2108045",
+        "record_id": 1707154,
+        "selectivity_comment": "Affinity of pritumumab for its antigen (expressed on U-251MG cell-line) is 4.5\u00d710\u22127 M",
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3712854",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:56+00:00",
+  "source": "ChEMBL mechanism"
+}

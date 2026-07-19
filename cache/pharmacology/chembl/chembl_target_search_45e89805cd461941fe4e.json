@@ -1,0 +1,1487 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "DYNC1H1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Rattus norvegicus",
+        "pref_name": "Cytoplasmic dynein 1 heavy chain 1",
+        "score": 14.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3694",
+        "target_components": [
+          {
+            "accession": "P38650",
+            "component_description": "Cytoplasmic dynein 1 heavy chain 1",
+            "component_id": 2009,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Cytoplasmic dynein 1 heavy chain 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Cytoplasmic dynein heavy chain 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Dhc1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Dnch1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Dnchc1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Dnec1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Dyhc",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Dync1h1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Dynein heavy chain, cytosolic",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Map1c",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "MAP 1C",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0002177",
+                "xref_name": "manchette",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005635",
+                "xref_name": "nuclear envelope",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005813",
+                "xref_name": "centrosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005868",
+                "xref_name": "cytoplasmic dynein complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005874",
+                "xref_name": "microtubule",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005881",
+                "xref_name": "cytoplasmic microtubule",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005938",
+                "xref_name": "cell cortex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030175",
+                "xref_name": "filopodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030286",
+                "xref_name": "dynein complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030424",
+                "xref_name": "axon",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043025",
+                "xref_name": "neuronal cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1904115",
+                "xref_name": "axon cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016887",
+                "xref_name": "ATP hydrolysis activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0045505",
+                "xref_name": "dynein intermediate chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051959",
+                "xref_name": "dynein light intermediate chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007018",
+                "xref_name": "microtubule-based movement",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007052",
+                "xref_name": "mitotic spindle organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007097",
+                "xref_name": "nuclear migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007286",
+                "xref_name": "spermatid development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008090",
+                "xref_name": "retrograde axonal transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031122",
+                "xref_name": "cytoplasmic microtubule organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032388",
+                "xref_name": "positive regulation of intracellular transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033962",
+                "xref_name": "P-body assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034063",
+                "xref_name": "stress granule assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051293",
+                "xref_name": "establishment of spindle localization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051301",
+                "xref_name": "cell division",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060236",
+                "xref_name": "regulation of mitotic spindle organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090235",
+                "xref_name": "regulation of metaphase plate congression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0120162",
+                "xref_name": "positive regulation of cold-induced thermogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905243",
+                "xref_name": "cellular response to 3,3',5-triiodo-L-thyronine",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905832",
+                "xref_name": "positive regulation of spindle assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "P38650",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR003593",
+                "xref_name": "AAA+_ATPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004273",
+                "xref_name": "Dynein_heavy_D6_P-loop",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013594",
+                "xref_name": "Dynein_heavy_tail",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013602",
+                "xref_name": "Dynein_heavy_linker",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR024317",
+                "xref_name": "Dynein_heavy_chain_D4_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR024743",
+                "xref_name": "Dynein_HC_stalk",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR026983",
+                "xref_name": "DHC",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027417",
+                "xref_name": "P-loop_NTPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035699",
+                "xref_name": "AAA_6",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035706",
+                "xref_name": "AAA_9",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR041228",
+                "xref_name": "Dynein_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR041466",
+                "xref_name": "Dynein_AAA5_ext",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR041658",
+                "xref_name": "AAA_lid_11",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR042219",
+                "xref_name": "AAA_lid_11_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR042222",
+                "xref_name": "Dynein_2_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR042228",
+                "xref_name": "Dynein_linker_3",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043157",
+                "xref_name": "Dynein_AAA1S",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043160",
+                "xref_name": "Dynein_C_barrel",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR054354",
+                "xref_name": "DYNC2H1-like_lid",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR46532",
+                "xref_name": "MALE FERTILITY FACTOR KL5",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR46532:SF13",
+                "xref_name": "CYTOPLASMIC DYNEIN 1 HEAVY CHAIN 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF03028",
+                "xref_name": "Dynein_heavy",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF08385",
+                "xref_name": "DHC_N1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF08393",
+                "xref_name": "DHC_N2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12774",
+                "xref_name": "AAA_6",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12775",
+                "xref_name": "AAA_7",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12777",
+                "xref_name": "MT",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12780",
+                "xref_name": "AAA_8",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12781",
+                "xref_name": "AAA_9",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF17852",
+                "xref_name": "Dynein_AAA_lid",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF18198",
+                "xref_name": "AAA_lid_11",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF18199",
+                "xref_name": "Dynein_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF22597",
+                "xref_name": "DYN_lid",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "R-RNO-141444",
+                "xref_name": "Amplification of signal from unattached kinetochores via a MAD2 inhibitory signal",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-2132295",
+                "xref_name": "MHC class II antigen presentation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-2467813",
+                "xref_name": "Separation of Sister Chromatids",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-2500257",
+                "xref_name": "Resolution of Sister Chromatid Cohesion",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-2565942",
+                "xref_name": "Regulation of PLK1 Activity at G2/M Transition",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-3371497",
+                "xref_name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-380259",
+                "xref_name": "Loss of Nlp from mitotic centrosomes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-380270",
+                "xref_name": "Recruitment of mitotic centrosome proteins and complexes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-380284",
+                "xref_name": "Loss of proteins required for interphase microtubule organization from the centrosome",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-380320",
+                "xref_name": "Recruitment of NuMA to mitotic centrosomes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-5620912",
+                "xref_name": "Anchoring of the basal body to the plasma membrane",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-5663220",
+                "xref_name": "RHO GTPases Activate Formins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-6798695",
+                "xref_name": "Neutrophil degranulation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-6807878",
+                "xref_name": "COPI-mediated anterograde transport",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-6811436",
+                "xref_name": "COPI-independent Golgi-to-ER retrograde traffic",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-68877",
+                "xref_name": "Mitotic Prometaphase",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-8854518",
+                "xref_name": "AURKA Activation by TPX2",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-9646399",
+                "xref_name": "Aggrephagy",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-9648025",
+                "xref_name": "EML4 and NUDC in mitotic spindle formation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P38650",
+                "xref_name": "Cytoplasmic dynein 1 heavy chain 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q63178",
+                "xref_name": "Cytoplasmic dynein 1 heavy chain 1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10116
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Cytoplasmic dynein 1 heavy chain 1",
+        "score": 14.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5724913",
+        "target_components": [
+          {
+            "accession": "Q14204",
+            "component_description": "Cytoplasmic dynein 1 heavy chain 1",
+            "component_id": 23157,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Cytoplasmic dynein 1 heavy chain 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Cytoplasmic dynein heavy chain 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "DNCH1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "DNCL",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "DNECL",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "DYHC",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "DYNC1H1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Dynein heavy chain, cytosolic",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "KIAA0325",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Synonyms=DHC1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q14204",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005813",
+                "xref_name": "centrosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005868",
+                "xref_name": "cytoplasmic dynein complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005874",
+                "xref_name": "microtubule",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005881",
+                "xref_name": "cytoplasmic microtubule",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005938",
+                "xref_name": "cell cortex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030175",
+                "xref_name": "filopodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030286",
+                "xref_name": "dynein complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0035578",
+                "xref_name": "azurophil granule lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1904115",
+                "xref_name": "axon cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000166",
+                "xref_name": "nucleotide binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003723",
+                "xref_name": "RNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008569",
+                "xref_name": "minus-end-directed microtubule motor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0045505",
+                "xref_name": "dynein intermediate chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051959",
+                "xref_name": "dynein light intermediate chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007018",
+                "xref_name": "microtubule-based movement",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007052",
+                "xref_name": "mitotic spindle organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007097",
+                "xref_name": "nuclear migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008090",
+                "xref_name": "retrograde axonal transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031122",
+                "xref_name": "cytoplasmic microtubule organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032388",
+                "xref_name": "positive regulation of intracellular transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033962",
+                "xref_name": "P-body assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034063",
+                "xref_name": "stress granule assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051293",
+                "xref_name": "establishment of spindle localization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051301",
+                "xref_name": "cell division",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060236",
+                "xref_name": "regulation of mitotic spindle organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090235",
+                "xref_name": "regulation of metaphase plate congression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0120162",
+                "xref_name": "positive regulation of cold-induced thermogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905832",
+                "xref_name": "positive regulation of spindle assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:2961",
+                "xref_name": "DYNC1H1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q14204",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR003593",
+                "xref_name": "AAA+_ATPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004273",
+                "xref_name": "Dynein_heavy_D6_P-loop",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013594",
+                "xref_name": "Dynein_heavy_tail",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013602",
+                "xref_name": "Dynein_heavy_linker",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR024317",
+                "xref_name": "Dynein_heavy_chain_D4_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR024743",
+                "xref_name": "Dynein_HC_stalk",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR026983",
+                "xref_name": "DHC",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027417",
+                "xref_name": "P-loop_NTPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035699",
+                "xref_name": "AAA_6",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035706",
+                "xref_name": "AAA_9",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR041228",
+                "xref_name": "Dynein_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR041466",
+                "xref_name": "Dynein_AAA5_ext",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR041658",
+                "xref_name": "AAA_lid_11",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR042219",
+                "xref_name": "AAA_lid_11_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR042222",
+                "xref_name": "Dynein_2_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR042228",
+                "xref_name": "Dynein_linker_3",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043157",
+                "xref_name": "Dynein_AAA1S",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043160",
+                "xref_name": "Dynein_C_barrel",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR054354",
+                "xref_name": "DYNC2H1-like_lid",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR46532",
+                "xref_name": "MALE FERTILITY FACTOR KL5",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR46532:SF13",
+                "xref_name": "CYTOPLASMIC DYNEIN 1 HEAVY CHAIN 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "5NUG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5OWO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6F1T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6F1U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6F1V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6F1Y",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6F38",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6F3A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z8F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z8G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z8H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z8I",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z8J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z8K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z8L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8DYU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8DYV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FCY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FD6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FDT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FDU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PQV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PQW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PQY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PQZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PR0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PR1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PR2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PR3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PTK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BLY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BLZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BM8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BML",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BMZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BN0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BN1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BN3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BN4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BN5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BN6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DH5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DH6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DH7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DH8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DH9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DHA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5OWO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF03028",
+                "xref_name": "Dynein_heavy",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF08385",
+                "xref_name": "DHC_N1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF08393",
+                "xref_name": "DHC_N2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12774",
+                "xref_name": "AAA_6",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12775",
+                "xref_name": "AAA_7",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12777",
+                "xref_name": "MT",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12780",
+                "xref_name": "AAA_8",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12781",
+                "xref_name": "AAA_9",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF17852",
+                "xref_name": "Dynein_AAA_lid",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF18198",
+                "xref_name": "AAA_lid_11",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF18199",
+                "xref_name": "Dynein_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF22597",
+                "xref_name": "DYN_lid",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA27432",
+                "xref_name": "dynein cytoplasmic 1 heavy chain 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q14204",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-141444",
+                "xref_name": "Amplification of signal from unattached kinetochores via a MAD2 inhibitory signal",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2132295",
+                "xref_name": "MHC class II antigen presentation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2467813",
+                "xref_name": "Separation of Sister Chromatids",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2500257",
+                "xref_name": "Resolution of Sister Chromatid Cohesion",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2565942",
+                "xref_name": "Regulation of PLK1 Activity at G2/M Transition",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3371497",
+                "xref_name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-380259",
+                "xref_name": "Loss of Nlp from mitotic centrosomes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-380270",
+                "xref_name": "Recruitment of mitotic centrosome proteins and complexes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-380284",
+                "xref_name": "Loss of proteins required for interphase microtubule organization from the centrosome",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-380320",
+                "xref_name": "Recruitment of NuMA to mitotic centrosomes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5620912",
+                "xref_name": "Anchoring of the basal body to the plasma membrane",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5663220",
+                "xref_name": "RHO GTPases Activate Formins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6798695",
+                "xref_name": "Neutrophil degranulation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6807878",
+                "xref_name": "COPI-mediated anterograde transport",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6811436",
+                "xref_name": "COPI-independent Golgi-to-ER retrograde traffic",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-68877",
+                "xref_name": "Mitotic Prometaphase",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8854518",
+                "xref_name": "AURKA Activation by TPX2",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9609690",
+                "xref_name": "HCMV Early Events",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9646399",
+                "xref_name": "Aggrephagy",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9648025",
+                "xref_name": "EML4 and NUDC in mitotic spindle formation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B0I1R0",
+                "xref_name": "Cytoplasmic dynein 1 heavy chain 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14204",
+                "xref_name": "Cytoplasmic dynein 1 heavy chain 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6DKQ7",
+                "xref_name": "Cytoplasmic dynein 1 heavy chain 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8WU28",
+                "xref_name": "Cytoplasmic dynein 1 heavy chain 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q92814",
+                "xref_name": "Cytoplasmic dynein 1 heavy chain 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9Y4G5",
+                "xref_name": "Cytoplasmic dynein 1 heavy chain 1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:44+00:00",
+  "source": "ChEMBL target search"
+}

@@ -1,0 +1,107 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL3831286"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "ACTIVATOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5660,
+        "mechanism_comment": "Selectively activates the S1 domain of cardiac myosin.",
+        "mechanism_of_action": "Cardiac myosin activator",
+        "mechanism_refs": [
+          {
+            "ref_id": "21415352",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21415352"
+          },
+          {
+            "ref_id": "21856480",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21856480"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1800955",
+        "parent_molecule_chembl_id": "CHEMBL1800955",
+        "record_id": 1702547,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3831286",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ACTIVATOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 8732,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Cardiac myosin activator",
+        "mechanism_refs": [
+          {
+            "ref_id": "32558989",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/32558989/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4594304",
+        "parent_molecule_chembl_id": "CHEMBL4594304",
+        "record_id": 3460955,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3831286",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 9582,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Cardiac myosin inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=669c936b-3ee6-4e36-8a22-79dd11b1255b",
+            "ref_type": "DailyMed",
+            "ref_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=669c936b-3ee6-4e36-8a22-79dd11b1255b"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4297517",
+        "parent_molecule_chembl_id": "CHEMBL4297517",
+        "record_id": 3133092,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3831286",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 3
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:38:58+00:00",
+  "source": "ChEMBL mechanism"
+}

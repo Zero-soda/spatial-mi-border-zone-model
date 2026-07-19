@@ -1,0 +1,1268 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "CKB"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 5
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Gallus gallus",
+        "pref_name": "Melatonin receptor type 1C",
+        "score": 16.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3196",
+        "target_components": [
+          {
+            "accession": "P49288",
+            "component_description": "Melatonin receptor type 1C",
+            "component_id": 1519,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CKB",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Mel-1C-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Mel1c receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Melatonin receptor type 1C",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0004930",
+                "xref_name": "G protein-coupled receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008502",
+                "xref_name": "melatonin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045820",
+                "xref_name": "negative regulation of glycolytic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046325",
+                "xref_name": "negative regulation of D-glucose import",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "P49288",
+                "xref_name": "Melatonin receptor type 1C",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P49288",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR000276",
+                "xref_name": "GPCR_Rhodpsn",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017452",
+                "xref_name": "GPCR_Rhodpsn_7TM",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002279",
+                "xref_name": "Mel_rcpt_1C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000025",
+                "xref_name": "Melatonin_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24228",
+                "xref_name": "B2 BRADYKININ RECEPTOR/ANGIOTENSIN II RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24228:SF56",
+                "xref_name": "MELATONIN-RELATED RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00001",
+                "xref_name": "7tm_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9031
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Creatine kinase B-type",
+        "score": 14.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL6049",
+        "target_components": [
+          {
+            "accession": "P12277",
+            "component_description": "Creatine kinase B-type",
+            "component_id": 4583,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.3.2",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "B-CK",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Brain creatine kinase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CKB",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CKBB",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "CPK-B",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Creatine kinase B chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Creatine kinase B-type",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Creatine phosphokinase B-type",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "3B6R",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3DRB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3DRE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7BF1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7TUN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0004111",
+                "xref_name": "creatine kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016301",
+                "xref_name": "kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0021762",
+                "xref_name": "substantia nigra development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046314",
+                "xref_name": "phosphocreatine biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0140651",
+                "xref_name": "futile creatine cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005739",
+                "xref_name": "mitochondrion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA26528",
+                "xref_name": "creatine kinase B",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A8K236",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B2R5R4",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2LE07",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6FG40",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UC66",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P12277",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "3B6R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3DRB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3DRE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6V9H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7BF1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7TUN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P12277",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P12277",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:1991",
+                "xref_name": "CKB",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-71288",
+                "xref_name": "Creatine metabolism",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9696264",
+                "xref_name": "RND3 GTPase cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P12277",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P12277",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR000749",
+                "xref_name": "ATP-guanido_PTrfase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR022415",
+                "xref_name": "ATP-guanido_PTrfase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR022414",
+                "xref_name": "ATP-guanido_PTrfase_cat",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR022413",
+                "xref_name": "ATP-guanido_PTrfase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036802",
+                "xref_name": "ATP-guanido_PTrfase_N_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014746",
+                "xref_name": "Gln_synth/guanido_kin_cat_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11547",
+                "xref_name": "ARGININE OR CREATINE KINASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11547:SF23",
+                "xref_name": "CREATINE KINASE B-TYPE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00217",
+                "xref_name": "ATP-gua_Ptrans",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02807",
+                "xref_name": "ATP-gua_PtransN",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Rattus norvegicus",
+        "pref_name": "Creatine kinase B-type",
+        "score": 14.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2176812",
+        "target_components": [
+          {
+            "accession": "P07335",
+            "component_description": "Creatine kinase B-type",
+            "component_id": 7026,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.3.2",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "B-CK",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ckb",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Ckbb",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "CPK-B",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Creatine kinase B chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Creatine kinase B-type",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Creatine phosphokinase M-type",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0004111",
+                "xref_name": "creatine kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016301",
+                "xref_name": "kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0021549",
+                "xref_name": "cerebellum development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030644",
+                "xref_name": "intracellular chloride ion homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046314",
+                "xref_name": "phosphocreatine biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071391",
+                "xref_name": "cellular response to estrogen stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0140651",
+                "xref_name": "futile creatine cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904568",
+                "xref_name": "cellular response to wortmannin",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005739",
+                "xref_name": "mitochondrion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030425",
+                "xref_name": "dendrite",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043025",
+                "xref_name": "neuronal cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "A0JPK7",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q499P7",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5PPJ5",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6IRE0",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6P139",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P07335",
+                "xref_name": "Creatine kinase B-type",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P07335",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P07335",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "R-RNO-71288",
+                "xref_name": "Creatine metabolism",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-9696264",
+                "xref_name": "RND3 GTPase cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "IPR000749",
+                "xref_name": "ATP-guanido_PTrfase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR022415",
+                "xref_name": "ATP-guanido_PTrfase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR022414",
+                "xref_name": "ATP-guanido_PTrfase_cat",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR022413",
+                "xref_name": "ATP-guanido_PTrfase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036802",
+                "xref_name": "ATP-guanido_PTrfase_N_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014746",
+                "xref_name": "Gln_synth/guanido_kin_cat_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11547",
+                "xref_name": "ARGININE OR CREATINE KINASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11547:SF23",
+                "xref_name": "CREATINE KINASE B-TYPE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00217",
+                "xref_name": "ATP-gua_Ptrans",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02807",
+                "xref_name": "ATP-gua_PtransN",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10116
+      },
+      {
+        "cross_references": [],
+        "organism": "Gallus gallus",
+        "pref_name": "Melatonin receptor",
+        "score": 12.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2095154",
+        "target_components": [
+          {
+            "accession": "P49288",
+            "component_description": "Melatonin receptor type 1C",
+            "component_id": 1519,
+            "component_type": "PROTEIN",
+            "relationship": "GROUP MEMBER",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CKB",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Mel-1C-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Mel1c receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Melatonin receptor type 1C",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0004930",
+                "xref_name": "G protein-coupled receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008502",
+                "xref_name": "melatonin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045820",
+                "xref_name": "negative regulation of glycolytic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046325",
+                "xref_name": "negative regulation of D-glucose import",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "P49288",
+                "xref_name": "Melatonin receptor type 1C",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P49288",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR000276",
+                "xref_name": "GPCR_Rhodpsn",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017452",
+                "xref_name": "GPCR_Rhodpsn_7TM",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002279",
+                "xref_name": "Mel_rcpt_1C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000025",
+                "xref_name": "Melatonin_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24228",
+                "xref_name": "B2 BRADYKININ RECEPTOR/ANGIOTENSIN II RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24228:SF56",
+                "xref_name": "MELATONIN-RELATED RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00001",
+                "xref_name": "7tm_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "P51050",
+            "component_description": "Melatonin receptor type 1B",
+            "component_id": 2782,
+            "component_type": "PROTEIN",
+            "relationship": "GROUP MEMBER",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Mel-1B-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Mel1b receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Melatonin receptor type 1B",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0004930",
+                "xref_name": "G protein-coupled receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008502",
+                "xref_name": "melatonin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "P51050",
+                "xref_name": "Melatonin receptor type 1B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P51050",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR000276",
+                "xref_name": "GPCR_Rhodpsn",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017452",
+                "xref_name": "GPCR_Rhodpsn_7TM",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002278",
+                "xref_name": "Mel_1A/1B_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000025",
+                "xref_name": "Melatonin_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24228",
+                "xref_name": "B2 BRADYKININ RECEPTOR/ANGIOTENSIN II RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24228:SF54",
+                "xref_name": "MELATONIN RECEPTOR TYPE 1B",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00001",
+                "xref_name": "7tm_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "P49285",
+            "component_description": "Melatonin receptor type 1A",
+            "component_id": 2872,
+            "component_type": "PROTEIN",
+            "relationship": "GROUP MEMBER",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CKA",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Mel-1A-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Mel1a receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Melatonin receptor type 1A",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0004930",
+                "xref_name": "G protein-coupled receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008502",
+                "xref_name": "melatonin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042562",
+                "xref_name": "hormone binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007193",
+                "xref_name": "adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045820",
+                "xref_name": "negative regulation of glycolytic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046325",
+                "xref_name": "negative regulation of D-glucose import",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "P49285",
+                "xref_name": "Melatonin receptor type 1A",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P49285",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "R-GGA-373076",
+                "xref_name": "Class A/1 (Rhodopsin-like receptors)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-GGA-418594",
+                "xref_name": "G alpha (i) signalling events",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "IPR000276",
+                "xref_name": "GPCR_Rhodpsn",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017452",
+                "xref_name": "GPCR_Rhodpsn_7TM",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002278",
+                "xref_name": "Mel_1A/1B_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000025",
+                "xref_name": "Melatonin_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24228",
+                "xref_name": "B2 BRADYKININ RECEPTOR/ANGIOTENSIN II RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24228:SF53",
+                "xref_name": "MELATONIN RECEPTOR TYPE 1A",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00001",
+                "xref_name": "7tm_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "PROTEIN FAMILY",
+        "tax_id": 9031
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Choline/ethanolamine kinase",
+        "score": 12.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3112385",
+        "target_components": [
+          {
+            "accession": "Q9Y259",
+            "component_description": "Choline/ethanolamine kinase",
+            "component_id": 8319,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.1.32",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "2.7.1.82",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "CHETK",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "CHKB",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CHKL",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Choline/ethanolamine kinase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "choline/ethanolamine kinase beta",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Choline kinase beta",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Choline kinase-like protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CKB",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CKEKB",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "EKB",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ethanolamine kinase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ethanolamine kinase beta",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "2IG7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3LQ3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3FEG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0004103",
+                "xref_name": "choline kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004305",
+                "xref_name": "ethanolamine kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016301",
+                "xref_name": "kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007517",
+                "xref_name": "muscle organ development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008654",
+                "xref_name": "phospholipid biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA26469",
+                "xref_name": "choline kinase beta",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A0PJM6",
+                "xref_name": "Choline/ethanolamine kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13388",
+                "xref_name": "Choline/ethanolamine kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9Y259",
+                "xref_name": "Choline/ethanolamine kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "2IG7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3FEG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3LQ3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q9Y259",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "HGNC:1938",
+                "xref_name": "CHKB",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-1483191",
+                "xref_name": "Synthesis of PC",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-1483213",
+                "xref_name": "Synthesis of PE",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "Q9Y259",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "Q9Y259",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR011009",
+                "xref_name": "Kinase-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR22603",
+                "xref_name": "CHOLINE/ETHANOALAMINE KINASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR22603:SF35",
+                "xref_name": "CHOLINE_ETHANOLAMINE KINASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF01633",
+                "xref_name": "Choline_kinase",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:04+00:00",
+  "source": "ChEMBL target search"
+}

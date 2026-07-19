@@ -1,0 +1,3833 @@
+{
+  "endpoint": "https://dgidb.org/api/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://dgidb.org/api/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query {\n  genes(names: [\"ACTC1\", \"ANKRD1\", \"CCR2\", \"CD74\", \"COL1A1\", \"COL1A2\", \"COL3A1\", \"COL6A1\", \"COL6A2\", \"CRYAB\", \"CTHRC1\", \"FLNC\", \"FN1\", \"IGFBP7\", \"IL1B\", \"LOX\", \"MYH7\", \"NPPA\", \"POSTN\", \"SPARC\", \"TGFB1\", \"TGFBR1\", \"VCAN\", \"XIRP2\"]) {\n    nodes {\n      name\n      conceptId\n      interactions {\n        drug { name conceptId }\n        interactionScore\n        interactionTypes { type directionality }\n        sources { sourceDbName }\n      }\n    }\n  }\n}"
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "genes": {
+        "nodes": [
+          {
+            "conceptId": "hgnc:5476",
+            "interactions": [],
+            "name": "IGFBP7"
+          },
+          {
+            "conceptId": "hgnc:7577",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "ncit:C166579",
+                  "name": "OMECAMTIV MECARBIL"
+                },
+                "interactionScore": 2.205499562220113,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "activator"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C167013",
+                  "name": "DANICAMTIV"
+                },
+                "interactionScore": 2.520570928251558,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "activator"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:2600867",
+                  "name": "MAVACAMTEN"
+                },
+                "interactionScore": 1.960444055306768,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              }
+            ],
+            "name": "MYH7"
+          },
+          {
+            "conceptId": "hgnc:11772",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB03921",
+                  "name": "4-(3-PYRIDIN-2-YL-1H-PYRAZOL-4-YL)QUINOLINE"
+                },
+                "interactionScore": 1.726043135650523,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  },
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "DTC"
+                  },
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C116891",
+                  "name": "GALUNISERTIB"
+                },
+                "interactionScore": 1.380834508520419,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  },
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:13846",
+                  "name": "ONTUNISERTIB"
+                },
+                "interactionScore": 2.301390847534032,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8481",
+                  "name": "LDN-214117"
+                },
+                "interactionScore": 0.575347711883508,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:10662",
+                  "name": "BMS-986260"
+                },
+                "interactionScore": 0.767130282511344,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8107",
+                  "name": "VACTOSERTIB"
+                },
+                "interactionScore": 2.301390847534032,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  },
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C116357",
+                  "name": "VACTOSERTIB"
+                },
+                "interactionScore": 1.150695423767016,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8246",
+                  "name": "SD-208"
+                },
+                "interactionScore": 2.301390847534032,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C132013",
+                  "name": "TGFBETA INHIBITOR LY3200882"
+                },
+                "interactionScore": 2.301390847534032,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8120",
+                  "name": "COMPOUND 13D [PMID: 23639540]"
+                },
+                "interactionScore": 0.3287701210762902,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:13752",
+                  "name": "TOSPOSERTIB"
+                },
+                "interactionScore": 2.301390847534032,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB06004",
+                  "name": "TG-C"
+                },
+                "interactionScore": 0.575347711883508,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:6049",
+                  "name": "TGF-BETA RI INHIBITOR III"
+                },
+                "interactionScore": 2.301390847534032,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8354",
+                  "name": "HESPERADIN"
+                },
+                "interactionScore": 0.05753477118835079,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "DTC"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8194",
+                  "name": "COMPOUND 15B [PMID: 16539403]"
+                },
+                "interactionScore": 0.767130282511344,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8144",
+                  "name": "COMPOUND 13R [PMID: 23639540]"
+                },
+                "interactionScore": 0.383565141255672,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9713",
+                  "name": "H. POLYGYRUS TGF-&BETA; MIMIC"
+                },
+                "interactionScore": 1.150695423767016,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9380",
+                  "name": "BIX02189"
+                },
+                "interactionScore": 0.767130282511344,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8216",
+                  "name": "SB-431542"
+                },
+                "interactionScore": 0.255710094170448,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C175551",
+                  "name": "ZILURGISERTIB"
+                },
+                "interactionScore": 0.4602781695068063,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8075",
+                  "name": "LY2109761"
+                },
+                "interactionScore": 1.150695423767016,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2109585",
+                  "name": "LY-2382770"
+                },
+                "interactionScore": 1.150695423767016,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C166745",
+                  "name": "METELIMUMAB"
+                },
+                "interactionScore": 2.301390847534032,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              }
+            ],
+            "name": "TGFBR1"
+          },
+          {
+            "conceptId": "hgnc:6664",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:10486",
+                  "name": "COMPOUND 21B [PMID: 31430136]"
+                },
+                "interactionScore": 13.23299737332068,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:10485",
+                  "name": "CCT365623"
+                },
+                "interactionScore": 13.23299737332068,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              }
+            ],
+            "name": "LOX"
+          },
+          {
+            "conceptId": "hgnc:2464",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "rxcui:3008",
+                  "name": "CYCLOSPORINE"
+                },
+                "interactionScore": 1.216827344673166,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              }
+            ],
+            "name": "VCAN"
+          },
+          {
+            "conceptId": "hgnc:3778",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "rxcui:29998",
+                  "name": "OCRIPLASMIN"
+                },
+                "interactionScore": 0.2532631076233623,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C154627",
+                  "name": "DAROMUN"
+                },
+                "interactionScore": 9.623998089687769,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "CIViC"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2109412",
+                  "name": "L19SIP 131I"
+                },
+                "interactionScore": 4.811999044843884,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "other/unknown"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2109589",
+                  "name": "L19TNFA"
+                },
+                "interactionScore": 4.811999044843884,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "binder"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2109608",
+                  "name": "L19IL2"
+                },
+                "interactionScore": 19.24799617937553,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "binder"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "CIViC"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2109413",
+                  "name": "AS-1409"
+                },
+                "interactionScore": 4.811999044843884,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "binder"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB05182",
+                  "name": "AS1409"
+                },
+                "interactionScore": 1.603999681614628,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2109529",
+                  "name": "MU-BC-1"
+                },
+                "interactionScore": 4.811999044843884,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "binder"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL1743060",
+                  "name": "RADRETUMAB"
+                },
+                "interactionScore": 4.811999044843884,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "binder"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:3098",
+                  "name": "DACARBAZINE"
+                },
+                "interactionScore": 0.6415998726458512,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "CIViC"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C166939",
+                  "name": "ONFEKAFUSP ALFA"
+                },
+                "interactionScore": 4.811999044843884,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              }
+            ],
+            "name": "FN1"
+          },
+          {
+            "conceptId": "hgnc:18831",
+            "interactions": [],
+            "name": "CTHRC1"
+          },
+          {
+            "conceptId": "hgnc:15819",
+            "interactions": [],
+            "name": "ANKRD1"
+          },
+          {
+            "conceptId": "hgnc:16953",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "ncit:C571",
+                  "name": "ANTISERUM"
+                },
+                "interactionScore": 3.02468511390187,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              }
+            ],
+            "name": "POSTN"
+          },
+          {
+            "conceptId": "hgnc:11219",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "rxcui:486610",
+                  "name": "PACLITAXEL PROTEIN-BOUND"
+                },
+                "interactionScore": 0.4524101666092541,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "ClearityFoundationBiomarkers"
+                  }
+                ]
+              }
+            ],
+            "name": "SPARC"
+          },
+          {
+            "conceptId": "hgnc:2197",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "rxcui:314845",
+                  "name": "SOMATROPIN (RECOMBINANT DNA ORIGIN)"
+                },
+                "interactionScore": 1.080244683536382,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:898492",
+                  "name": "COLLAGENASE CLOSTRIDIUM HISTOLYTICUM"
+                },
+                "interactionScore": 0.8101835126522867,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TEND"
+                  },
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1356715",
+                  "name": "ETIDRONIC ACID"
+                },
+                "interactionScore": 1.008228371300623,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:11118",
+                  "name": "VALPROIC ACID"
+                },
+                "interactionScore": 0.2563292469408365,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1546014",
+                  "name": "ZOLEDRONIC ACID ANHYDROUS"
+                },
+                "interactionScore": 1.008228371300623,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:29998",
+                  "name": "OCRIPLASMIN"
+                },
+                "interactionScore": 0.1989924417040704,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:11473",
+                  "name": "PAMIDRONATE"
+                },
+                "interactionScore": 2.160489367072764,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              }
+            ],
+            "name": "COL1A1"
+          },
+          {
+            "conceptId": "hgnc:2212",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "rxcui:898492",
+                  "name": "COLLAGENASE CLOSTRIDIUM HISTOLYTICUM"
+                },
+                "interactionScore": 0.9452140980943344,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:29998",
+                  "name": "OCRIPLASMIN"
+                },
+                "interactionScore": 0.6964735459642464,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              }
+            ],
+            "name": "COL6A2"
+          },
+          {
+            "conceptId": "hgnc:2201",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "rxcui:898492",
+                  "name": "COLLAGENASE CLOSTRIDIUM HISTOLYTICUM"
+                },
+                "interactionScore": 2.835642294283003,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TEND"
+                  },
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:29998",
+                  "name": "OCRIPLASMIN"
+                },
+                "interactionScore": 0.6964735459642464,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              }
+            ],
+            "name": "COL3A1"
+          },
+          {
+            "conceptId": "hgnc:1603",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:765",
+                  "name": "[125I]CCL7 (HUMAN)"
+                },
+                "interactionScore": 0.3329055942973757,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:11598",
+                  "name": "BMS-741672"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB16240",
+                  "name": "BMS-813160"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:780",
+                  "name": "RS-136270"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1393",
+                  "name": "RECOMBINANT MONOCYTE CHEMOATTRACTANT PROTEIN-1"
+                },
+                "interactionScore": 0.1248395978615158,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9430",
+                  "name": "BMS-681"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:773",
+                  "name": "HIV-TAT"
+                },
+                "interactionScore": 0.3329055942973757,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8921",
+                  "name": "PLOZALIZUMAB"
+                },
+                "interactionScore": 1.997433565784254,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "antibody"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:30236",
+                  "name": "MORPHINE SULFATE"
+                },
+                "interactionScore": 0.1248395978615158,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9032",
+                  "name": "INCB8761"
+                },
+                "interactionScore": 1.997433565784254,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  },
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9431",
+                  "name": "CCR2-RA-[R]"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "modulator"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL41275",
+                  "name": "CHEMBL:CHEMBL41275"
+                },
+                "interactionScore": 1.997433565784254,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "DTC"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:768",
+                  "name": "VMIP-II"
+                },
+                "interactionScore": 0.1997433565784254,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:781",
+                  "name": "RS-504393"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:782",
+                  "name": "SB-282241"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:769",
+                  "name": "CCL11"
+                },
+                "interactionScore": 0.2496791957230317,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:774",
+                  "name": "VCCL4"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C175798",
+                  "name": "ILACIRNON"
+                },
+                "interactionScore": 3.994867131568508,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  },
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:81864",
+                  "name": "ALITRETINOIN"
+                },
+                "interactionScore": 0.1174960921049561,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:772",
+                  "name": "CCL8"
+                },
+                "interactionScore": 0.1997433565784254,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9979",
+                  "name": "PF-04634817"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C166464",
+                  "name": "CENICRIVIROC"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1657",
+                  "name": "OPIATE"
+                },
+                "interactionScore": 0.3329055942973757,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:733003",
+                  "name": "PLERIXAFOR"
+                },
+                "interactionScore": 0.3994867131568508,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "DTC"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB11990",
+                  "name": "MK-0812"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:779",
+                  "name": "RS-102895"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9048",
+                  "name": "MK-0812"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:10585",
+                  "name": "COMPOUND 39 [PMID: 31742400]"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "modulator"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL5095029",
+                  "name": "PF-04634817"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2204263",
+                  "name": "JNJ-41443532"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:775",
+                  "name": "CCL24"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:1272",
+                  "name": "CCL16"
+                },
+                "interactionScore": 0.3329055942973757,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:771",
+                  "name": "CCL2"
+                },
+                "interactionScore": 0.3329055942973757,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:3502",
+                  "name": "GSK COMPOUND 34"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:785",
+                  "name": "TEIJIN-LEAD_CMP_5"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:36567",
+                  "name": "SIMVASTATIN"
+                },
+                "interactionScore": 0.03994867131568508,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:776",
+                  "name": "CCL26"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:778",
+                  "name": "MC148R"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:770",
+                  "name": "CCL13"
+                },
+                "interactionScore": 0.1997433565784254,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C88308",
+                  "name": "PLOZALIZUMAB"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:10586",
+                  "name": "JNJ-27141491"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "modulator"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:7825",
+                  "name": "AZD2423"
+                },
+                "interactionScore": 1.997433565784254,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "modulator"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:759",
+                  "name": "CCL7"
+                },
+                "interactionScore": 0.1997433565784254,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:11597",
+                  "name": "BMS-753426"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL3545221",
+                  "name": "AZD2423"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL4457723",
+                  "name": "BMS-741672"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:762",
+                  "name": "[125I]CCL2 (HUMAN)"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "ACTIVATING",
+                    "type": "agonist"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB05130",
+                  "name": "INCB3284"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1311670",
+                  "name": "PIMAGEDINE"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:783",
+                  "name": "TAK-779"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL3707228",
+                  "name": "PLOZALIZUMAB"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL4594419",
+                  "name": "BMS-813160"
+                },
+                "interactionScore": 0.4993583914460635,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9045",
+                  "name": "INCB3284"
+                },
+                "interactionScore": 0.9987167828921271,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              }
+            ],
+            "name": "CCR2"
+          },
+          {
+            "conceptId": "hgnc:11766",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2109585",
+                  "name": "LY-2382770"
+                },
+                "interactionScore": 0.4485761821464638,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:4179",
+                  "name": "ETOPOSIDE"
+                },
+                "interactionScore": 0.03093628842389405,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C318",
+                  "name": "BROXURIDINE"
+                },
+                "interactionScore": 0.1495253940488212,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:5833",
+                  "name": "INOSITOL"
+                },
+                "interactionScore": 0.119620315239057,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C2832",
+                  "name": "D-ALPHA-TOCOPHEROL"
+                },
+                "interactionScore": 0.1631186116896232,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:10114",
+                  "name": "STREPTOZOCIN"
+                },
+                "interactionScore": 0.03900662453447511,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C2160",
+                  "name": "PROTEASOME INHIBITOR"
+                },
+                "interactionScore": 0.08971523642929274,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL1743022",
+                  "name": "FRESOLIMUMAB"
+                },
+                "interactionScore": 0.598101576195285,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  },
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "antibody"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TALC"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C243",
+                  "name": "THERAPEUTIC ANDROGEN"
+                },
+                "interactionScore": 0.1055473369756385,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C116891",
+                  "name": "GALUNISERTIB"
+                },
+                "interactionScore": 0.1794304728585855,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:38409",
+                  "name": "TOREMIFENE"
+                },
+                "interactionScore": 0.2242880910732319,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:10753",
+                  "name": "TRETINOIN"
+                },
+                "interactionScore": 0.02062419228259603,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL4298024",
+                  "name": "BINTRAFUSP ALFA"
+                },
+                "interactionScore": 0.2242880910732319,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "binder"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1592254",
+                  "name": "PIRFENIDONE"
+                },
+                "interactionScore": 0.3364321366098478,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:142433",
+                  "name": "DOXORUBICIN HYDROCHLORIDE"
+                },
+                "interactionScore": 0.0162135969450529,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C529",
+                  "name": "GOSSYPOL"
+                },
+                "interactionScore": 0.2242880910732319,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C466",
+                  "name": "EMODIN"
+                },
+                "interactionScore": 0.4485761821464638,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:5653",
+                  "name": "IDOXURIDINE"
+                },
+                "interactionScore": 1.794304728585855,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:103468",
+                  "name": "HYDROCORTISONE BUTYRATE"
+                },
+                "interactionScore": 0.04485761821464637,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:44157",
+                  "name": "CLADRIBINE"
+                },
+                "interactionScore": 0.119620315239057,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB06004",
+                  "name": "TG-C"
+                },
+                "interactionScore": 0.2242880910732319,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1191",
+                  "name": "ASPIRIN"
+                },
+                "interactionScore": 0.0203898264612029,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C166687",
+                  "name": "DISITERTIDE"
+                },
+                "interactionScore": 1.794304728585855,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:35296",
+                  "name": "RAMIPRIL"
+                },
+                "interactionScore": 0.2242880910732319,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1291",
+                  "name": "ANTISENSE OLIGONUCLEOTIDES"
+                },
+                "interactionScore": 0.05437287056320773,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C540",
+                  "name": "HEPARAN SULFATE"
+                },
+                "interactionScore": 0.1495253940488212,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:10759",
+                  "name": "TRIAMCINOLONE"
+                },
+                "interactionScore": 0.0815593058448116,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:24395",
+                  "name": "ESTRADIOL VALERATE"
+                },
+                "interactionScore": 0.039873438413019,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1545987",
+                  "name": "AMIFOSTINE ANHYDROUS"
+                },
+                "interactionScore": 0.358860945717171,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1139",
+                  "name": "KEYHOLE LIMPET HEMOCYANIN"
+                },
+                "interactionScore": 0.4485761821464638,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL3039545",
+                  "name": "LUSPATERCEPT"
+                },
+                "interactionScore": 0.2990507880976425,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1202",
+                  "name": "ATENOLOL"
+                },
+                "interactionScore": 0.04984179801627375,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1109",
+                  "name": "GALLIUM NITRATE"
+                },
+                "interactionScore": 0.598101576195285,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C275",
+                  "name": "ANTIOXIDANT"
+                },
+                "interactionScore": 0.08544308231361214,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1098",
+                  "name": "FENRETINIDE"
+                },
+                "interactionScore": 0.06645573068836501,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:25696",
+                  "name": "GENISTEIN"
+                },
+                "interactionScore": 0.03093628842389405,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C804",
+                  "name": "RETINOIC ACID AGENT"
+                },
+                "interactionScore": 0.0578807976963179,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:221130",
+                  "name": "OCTREOTIDE ACETATE"
+                },
+                "interactionScore": 0.119620315239057,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C632",
+                  "name": "THERAPEUTIC MELATONIN"
+                },
+                "interactionScore": 0.08544308231361214,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:9642",
+                  "name": "TCDD"
+                },
+                "interactionScore": 0.07476269702441063,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:2678930",
+                  "name": "SOTATERCEPT"
+                },
+                "interactionScore": 0.2990507880976425,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:153329",
+                  "name": "IRINOTECAN HYDROCHLORIDE"
+                },
+                "interactionScore": 0.02638683424390963,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:259319",
+                  "name": "PIOGLITAZONE HYDROCHLORIDE"
+                },
+                "interactionScore": 0.1281646234704182,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C2418",
+                  "name": "BOVINE CARTILAGE"
+                },
+                "interactionScore": 0.8971523642929276,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:11170",
+                  "name": "VERAPAMIL"
+                },
+                "interactionScore": 0.0199367192065095,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:214582",
+                  "name": "GLATIRAMER"
+                },
+                "interactionScore": 0.2563292469408364,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C132250",
+                  "name": "NISEVOKITUG"
+                },
+                "interactionScore": 0.8971523642929276,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C116357",
+                  "name": "VACTOSERTIB"
+                },
+                "interactionScore": 0.4485761821464638,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:31765",
+                  "name": "NICOTINE POLACRILEX"
+                },
+                "interactionScore": 0.04172801694385709,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:121191",
+                  "name": "RITUXIMAB"
+                },
+                "interactionScore": 0.0717721891434342,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:5880",
+                  "name": "INTERFERON ALFA-2B"
+                },
+                "interactionScore": 0.1281646234704182,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:5499",
+                  "name": "HYDROGEN PEROXIDE"
+                },
+                "interactionScore": 0.04376352996550866,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C74960",
+                  "name": "ALPHA-TOCOPHEROL"
+                },
+                "interactionScore": 0.1121440455366159,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2108431",
+                  "name": "METELIMUMAB"
+                },
+                "interactionScore": 0.8971523642929276,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C26671",
+                  "name": "SILYMARIN"
+                },
+                "interactionScore": 0.8971523642929276,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:6064",
+                  "name": "ISOTRETINOIN"
+                },
+                "interactionScore": 0.119620315239057,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C124229",
+                  "name": "BINTRAFUSP ALFA"
+                },
+                "interactionScore": 0.2990507880976425,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:40137",
+                  "name": "TAMOXIFEN CITRATE"
+                },
+                "interactionScore": 0.06645573068836501,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:10379",
+                  "name": "TESTOSTERONE"
+                },
+                "interactionScore": 0.04600781355348346,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              }
+            ],
+            "name": "TGFB1"
+          },
+          {
+            "conceptId": "hgnc:1697",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL4298138",
+                  "name": "REPOTRECTINIB"
+                },
+                "interactionScore": 1.764399649776091,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C66983",
+                  "name": "MILATUZUMAB"
+                },
+                "interactionScore": 31.75919369596963,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "antibody"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "MyCancerGenome"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1311280",
+                  "name": "PLATINUM"
+                },
+                "interactionScore": 1.411519719820872,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "iuphar.ligand:8267",
+                  "name": "MILATUZUMAB"
+                },
+                "interactionScore": 10.58639789865654,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "antibody"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "GuideToPharmacology"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL1743040",
+                  "name": "MILATUZUMAB"
+                },
+                "interactionScore": 10.58639789865654,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              }
+            ],
+            "name": "CD74"
+          },
+          {
+            "conceptId": "hgnc:2211",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "rxcui:29998",
+                  "name": "OCRIPLASMIN"
+                },
+                "interactionScore": 0.6964735459642464,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:898492",
+                  "name": "COLLAGENASE CLOSTRIDIUM HISTOLYTICUM"
+                },
+                "interactionScore": 0.9452140980943344,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              }
+            ],
+            "name": "COL6A1"
+          },
+          {
+            "conceptId": "hgnc:3756",
+            "interactions": [],
+            "name": "FLNC"
+          },
+          {
+            "conceptId": "hgnc:2198",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "ncit:C899",
+                  "name": "RECOMBINANT TRANSFORMING GROWTH FACTOR"
+                },
+                "interactionScore": 0.6014998806054855,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:29998",
+                  "name": "OCRIPLASMIN"
+                },
+                "interactionScore": 0.1741183864910616,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C584",
+                  "name": "RECOMBINANT INTERFERON"
+                },
+                "interactionScore": 0.3393076249569405,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:142433",
+                  "name": "DOXORUBICIN HYDROCHLORIDE"
+                },
+                "interactionScore": 0.07971685164651013,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL265582",
+                  "name": "TNF-ALPHA"
+                },
+                "interactionScore": 0.5513748905550284,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:898492",
+                  "name": "COLLAGENASE CLOSTRIDIUM HISTOLYTICUM"
+                },
+                "interactionScore": 0.7089105735707508,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "cleavage"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TEND"
+                  },
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:214468",
+                  "name": "DAUNORUBICIN LIPOSOMAL"
+                },
+                "interactionScore": 0.1503749701513713,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1286",
+                  "name": "RECOMBINANT TRANSFORMING GROWTH FACTOR-BETA-2"
+                },
+                "interactionScore": 2.646599474664136,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              }
+            ],
+            "name": "COL1A2"
+          },
+          {
+            "conceptId": "hgnc:5992",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "rxcui:6809",
+                  "name": "METFORMIN"
+                },
+                "interactionScore": 0.03844007951581897,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:235230",
+                  "name": "NICARDIPINE HYDROCHLORIDE"
+                },
+                "interactionScore": 0.6919214312847416,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:853491",
+                  "name": "CANAKINUMAB"
+                },
+                "interactionScore": 2.594705367317781,
+                "interactionTypes": [
+                  {
+                    "directionality": null,
+                    "type": "immunotherapy"
+                  },
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TEND"
+                  },
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "MyCancerGenome"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB12899",
+                  "name": "TT-301"
+                },
+                "interactionScore": 2.075764293854224,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1546265",
+                  "name": "LITHIUM CATION"
+                },
+                "interactionScore": 0.04827358822916801,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:10565",
+                  "name": "THYROGLOBULIN"
+                },
+                "interactionScore": 0.6919214312847416,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C166465",
+                  "name": "LUTIKIZUMAB"
+                },
+                "interactionScore": 0.5189410734635561,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1450910",
+                  "name": "CEFACLOR ANHYDROUS"
+                },
+                "interactionScore": 0.1221037819914249,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:3350",
+                  "name": "CLODRONIC ACID"
+                },
+                "interactionScore": 0.2965377562648892,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugbank:DB18736",
+                  "name": "CELASTROL"
+                },
+                "interactionScore": 0.5189410734635561,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL4594518",
+                  "name": "LUTIKIZUMAB"
+                },
+                "interactionScore": 0.5189410734635561,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:16818",
+                  "name": "ACITRETIN"
+                },
+                "interactionScore": 0.1946029025488335,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1215",
+                  "name": "RESVERATROL"
+                },
+                "interactionScore": 0.1221037819914249,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:191831",
+                  "name": "INFLIXIMAB"
+                },
+                "interactionScore": 0.08896132687946677,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:7994",
+                  "name": "PENTAMIDINE"
+                },
+                "interactionScore": 0.6919214312847416,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "drugsatfda.nda:008378",
+                  "name": "DRUGSATFDA.NDA:008378"
+                },
+                "interactionScore": 0.2306404770949138,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:763450",
+                  "name": "RILONACEPT"
+                },
+                "interactionScore": 0.6919214312847416,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  },
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:847083",
+                  "name": "USTEKINUMAB"
+                },
+                "interactionScore": 0.1037882146927112,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1348",
+                  "name": "BECLOMETHASONE DIPROPIONATE"
+                },
+                "interactionScore": 0.1221037819914249,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:22759",
+                  "name": "DIACETYLRHEIN"
+                },
+                "interactionScore": 0.2306404770949138,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:55685",
+                  "name": "RISEDRONIC ACID"
+                },
+                "interactionScore": 0.5189410734635561,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:103468",
+                  "name": "HYDROCORTISONE BUTYRATE"
+                },
+                "interactionScore": 0.05189410734635561,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C29026",
+                  "name": "ECHINACEA EXTRACT"
+                },
+                "interactionScore": 0.5189410734635561,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C2663",
+                  "name": "CHINESE HERBS"
+                },
+                "interactionScore": 0.5189410734635561,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1356715",
+                  "name": "ETIDRONIC ACID"
+                },
+                "interactionScore": 0.1383842862569483,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:7623",
+                  "name": "OFLOXACIN"
+                },
+                "interactionScore": 0.1729803578211854,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:3041",
+                  "name": "CYTARABINE"
+                },
+                "interactionScore": 0.02332319431296881,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL2109459",
+                  "name": "CDP-484"
+                },
+                "interactionScore": 1.037882146927112,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "inhibitor"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:4053",
+                  "name": "ERYTHROMYCIN"
+                },
+                "interactionScore": 0.0902506214719228,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C632",
+                  "name": "THERAPEUTIC MELATONIN"
+                },
+                "interactionScore": 0.09884591875496307,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:203144",
+                  "name": "PRAVASTATIN SODIUM"
+                },
+                "interactionScore": 0.07983708822516249,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:25544",
+                  "name": "GALLIUM NITRATE"
+                },
+                "interactionScore": 0.259470536731778,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:8013",
+                  "name": "PENTOXIFYLLINE"
+                },
+                "interactionScore": 0.06105189099571248,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C265",
+                  "name": "ANTIDEPRESSANT AGENT"
+                },
+                "interactionScore": 0.04070126066380832,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:11170",
+                  "name": "VERAPAMIL"
+                },
+                "interactionScore": 0.04612809541898276,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C866",
+                  "name": "TETRADECANOYLPHORBOL ACETATE"
+                },
+                "interactionScore": 0.03243381709147226,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:5509",
+                  "name": "HYDROQUINONE"
+                },
+                "interactionScore": 0.1221037819914249,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:166551",
+                  "name": "RALOXIFENE HYDROCHLORIDE"
+                },
+                "interactionScore": 0.06290194829861287,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C264",
+                  "name": "ANTICONVULSANT AGENT"
+                },
+                "interactionScore": 0.109250752308117,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C693",
+                  "name": "NIMUSTINE"
+                },
+                "interactionScore": 0.7784116101953341,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C2848",
+                  "name": "POLYVALENT VACCINE"
+                },
+                "interactionScore": 2.075764293854224,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C97945",
+                  "name": "GEVOKIZUMAB"
+                },
+                "interactionScore": 2.075764293854224,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TdgClinicalTrial"
+                  },
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:17128",
+                  "name": "LANSOPRAZOLE"
+                },
+                "interactionScore": 0.07983708822516249,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C65876",
+                  "name": "IBUDILAST"
+                },
+                "interactionScore": 0.0864901789105927,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "chembl:CHEMBL1743026",
+                  "name": "GEVOKIZUMAB"
+                },
+                "interactionScore": 1.037882146927112,
+                "interactionTypes": [
+                  {
+                    "directionality": "INHIBITORY",
+                    "type": "negative modulator"
+                  }
+                ],
+                "sources": [
+                  {
+                    "sourceDbName": "ChEMBL"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C2149",
+                  "name": "MITOGEN-ACTIVATED PROTEIN KINASE INHIBITOR"
+                },
+                "interactionScore": 0.2965377562648892,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "ncit:C1150",
+                  "name": "MAFOSFAMIDE"
+                },
+                "interactionScore": 0.5189410734635561,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:41126",
+                  "name": "FLUTICASONE"
+                },
+                "interactionScore": 0.109250752308117,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:4845",
+                  "name": "GLUCOSAMINE"
+                },
+                "interactionScore": 1.037882146927112,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "TTD"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:32926",
+                  "name": "PAREGORIC"
+                },
+                "interactionScore": 0.07157807909842154,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:11476",
+                  "name": "TILUDRONIC ACID"
+                },
+                "interactionScore": 0.6919214312847416,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              }
+            ],
+            "name": "IL1B"
+          },
+          {
+            "conceptId": "hgnc:2389",
+            "interactions": [],
+            "name": "CRYAB"
+          },
+          {
+            "conceptId": "hgnc:143",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "ncit:C521",
+                  "name": "THERAPEUTIC GLUCOCORTICOID"
+                },
+                "interactionScore": 1.556823220390668,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:3264",
+                  "name": "DEXAMETHASONE"
+                },
+                "interactionScore": 0.637734813172081,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              }
+            ],
+            "name": "ACTC1"
+          },
+          {
+            "conceptId": "hgnc:7939",
+            "interactions": [
+              {
+                "drug": {
+                  "conceptId": "ncit:C29107",
+                  "name": "IV FLUID"
+                },
+                "interactionScore": 26.46599474664136,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:2409",
+                  "name": "CHLORTHALIDONE"
+                },
+                "interactionScore": 2.646599474664136,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:1256",
+                  "name": "AZATHIOPRINE"
+                },
+                "interactionScore": 0.6154882499218922,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "NCI"
+                  }
+                ]
+              },
+              {
+                "drug": {
+                  "conceptId": "rxcui:104416",
+                  "name": "AMLODIPINE BESYLATE"
+                },
+                "interactionScore": 2.035845749741643,
+                "interactionTypes": [],
+                "sources": [
+                  {
+                    "sourceDbName": "PharmGKB"
+                  }
+                ]
+              }
+            ],
+            "name": "NPPA"
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:37:39+00:00",
+  "source": "DGIdb"
+}

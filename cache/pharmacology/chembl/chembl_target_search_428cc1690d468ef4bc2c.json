@@ -1,0 +1,2577 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "TGFBR1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 3
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "TGF-beta receptor type-1",
+        "score": 13.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2021750",
+        "target_components": [
+          {
+            "accession": "Q64729",
+            "component_description": "TGF-beta receptor type-1",
+            "component_id": 5829,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.11.30",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "ESK2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TbetaR-I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGF-beta receptor type-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGF-beta receptor type I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tgfbr1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TGFR-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transforming growth factor-beta receptor type I",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q64729",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q64729",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005768",
+                "xref_name": "endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005901",
+                "xref_name": "caveola",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005923",
+                "xref_name": "bicellular tight junction",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045121",
+                "xref_name": "membrane raft",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070021",
+                "xref_name": "transforming growth factor beta ligand-receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004675",
+                "xref_name": "transmembrane receptor protein serine/threonine kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005024",
+                "xref_name": "transforming growth factor beta receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005025",
+                "xref_name": "transforming growth factor beta receptor activity, type I",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005026",
+                "xref_name": "transforming growth factor beta receptor activity, type II",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005114",
+                "xref_name": "type II transforming growth factor beta receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016361",
+                "xref_name": "activin receptor activity, type I",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016362",
+                "xref_name": "activin receptor activity, type II",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019838",
+                "xref_name": "growth factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046332",
+                "xref_name": "SMAD binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050431",
+                "xref_name": "transforming growth factor beta binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070123",
+                "xref_name": "transforming growth factor beta receptor activity, type III",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070411",
+                "xref_name": "I-SMAD binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0098821",
+                "xref_name": "BMP receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001501",
+                "xref_name": "skeletal system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001701",
+                "xref_name": "in utero embryonic development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001822",
+                "xref_name": "kidney development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001824",
+                "xref_name": "blastocyst development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001837",
+                "xref_name": "epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001935",
+                "xref_name": "endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001937",
+                "xref_name": "negative regulation of endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001938",
+                "xref_name": "positive regulation of endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002088",
+                "xref_name": "lens development in camera-type eye",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003222",
+                "xref_name": "ventricular trabecula myocardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003223",
+                "xref_name": "ventricular compact myocardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003342",
+                "xref_name": "proepicardium development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007178",
+                "xref_name": "cell surface receptor protein serine/threonine kinase signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007179",
+                "xref_name": "transforming growth factor beta receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007507",
+                "xref_name": "heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008354",
+                "xref_name": "germ cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008584",
+                "xref_name": "male gonad development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009952",
+                "xref_name": "anterior/posterior pattern specification",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010717",
+                "xref_name": "regulation of epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010718",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030154",
+                "xref_name": "cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030199",
+                "xref_name": "collagen fibril organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030307",
+                "xref_name": "positive regulation of cell growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030335",
+                "xref_name": "positive regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030336",
+                "xref_name": "negative regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030509",
+                "xref_name": "BMP signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032331",
+                "xref_name": "negative regulation of chondrocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035556",
+                "xref_name": "intracellular signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036446",
+                "xref_name": "myofibroblast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042118",
+                "xref_name": "endothelial cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043542",
+                "xref_name": "endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046847",
+                "xref_name": "filopodium assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048538",
+                "xref_name": "thymus development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048663",
+                "xref_name": "neuron fate commitment",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048701",
+                "xref_name": "embryonic cranial skeleton morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048705",
+                "xref_name": "skeletal system morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048762",
+                "xref_name": "mesenchymal cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048844",
+                "xref_name": "artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048870",
+                "xref_name": "cell motility",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051491",
+                "xref_name": "positive regulation of filopodium assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051496",
+                "xref_name": "positive regulation of stress fiber assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060017",
+                "xref_name": "parathyroid gland development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060021",
+                "xref_name": "roof of mouth development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060037",
+                "xref_name": "pharyngeal system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060043",
+                "xref_name": "regulation of cardiac muscle cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060317",
+                "xref_name": "cardiac epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060391",
+                "xref_name": "positive regulation of SMAD protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060395",
+                "xref_name": "SMAD protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060412",
+                "xref_name": "ventricular septum morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060978",
+                "xref_name": "angiogenesis involved in coronary vascular morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060982",
+                "xref_name": "coronary artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901203",
+                "xref_name": "positive regulation of extracellular matrix assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902462",
+                "xref_name": "positive regulation of mesenchymal stem cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904018",
+                "xref_name": "positive regulation of vasculature development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905007",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition involved in endocardial cushion formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905075",
+                "xref_name": "positive regulation of tight junction disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905223",
+                "xref_name": "epicardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001235",
+                "xref_name": "positive regulation of apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001237",
+                "xref_name": "negative regulation of extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "Q64729",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000333",
+                "xref_name": "TGFB_receptor",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000472",
+                "xref_name": "Activin_recp",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000719",
+                "xref_name": "Prot_kinase_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003605",
+                "xref_name": "GS_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008271",
+                "xref_name": "Ser/Thr_kinase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011009",
+                "xref_name": "Kinase-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017441",
+                "xref_name": "Protein_kinase_ATP_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR045860",
+                "xref_name": "Snake_toxin-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23255",
+                "xref_name": "TRANSFORMING GROWTH FACTOR-BETA RECEPTOR TYPE I AND II",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23255:SF61",
+                "xref_name": "TGF-BETA RECEPTOR TYPE-1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00069",
+                "xref_name": "Pkinase",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01064",
+                "xref_name": "Activin_recp",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF08515",
+                "xref_name": "TGF_beta_GS",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "R-MMU-2173788",
+                "xref_name": "Downregulation of TGF-beta receptor signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-2173789",
+                "xref_name": "TGF-beta receptor signaling activates SMADs",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-2173791",
+                "xref_name": "TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-5689880",
+                "xref_name": "Ub-specific processing proteases",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-9839389",
+                "xref_name": "TGFBR3 regulates TGF-beta signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A2AJN0",
+                "xref_name": "TGF-beta receptor type-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q64729",
+                "xref_name": "TGF-beta receptor type-1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      },
+      {
+        "cross_references": [],
+        "organism": "Rattus norvegicus",
+        "pref_name": "TGF-beta receptor type-1",
+        "score": 11.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4523265",
+        "target_components": [
+          {
+            "accession": "P80204",
+            "component_description": "TGF-beta receptor type-1",
+            "component_id": 18768,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.11.30",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Serine/threonine-protein kinase receptor R4",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SKR4",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TbetaR-I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGF-beta receptor type-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGF-beta receptor type I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGF-beta type I receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tgfbr1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TGFR-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transforming growth factor-beta receptor type I",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P80204",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005768",
+                "xref_name": "endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005901",
+                "xref_name": "caveola",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005923",
+                "xref_name": "bicellular tight junction",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016323",
+                "xref_name": "basolateral plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016324",
+                "xref_name": "apical plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032991",
+                "xref_name": "protein-containing complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045121",
+                "xref_name": "membrane raft",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048179",
+                "xref_name": "activin receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070021",
+                "xref_name": "transforming growth factor beta ligand-receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004675",
+                "xref_name": "transmembrane receptor protein serine/threonine kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005024",
+                "xref_name": "transforming growth factor beta receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005025",
+                "xref_name": "transforming growth factor beta receptor activity, type I",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005026",
+                "xref_name": "transforming growth factor beta receptor activity, type II",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005114",
+                "xref_name": "type II transforming growth factor beta receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016361",
+                "xref_name": "activin receptor activity, type I",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016362",
+                "xref_name": "activin receptor activity, type II",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019838",
+                "xref_name": "growth factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046332",
+                "xref_name": "SMAD binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050431",
+                "xref_name": "transforming growth factor beta binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070123",
+                "xref_name": "transforming growth factor beta receptor activity, type III",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070411",
+                "xref_name": "I-SMAD binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0098821",
+                "xref_name": "BMP receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001501",
+                "xref_name": "skeletal system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001666",
+                "xref_name": "response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001701",
+                "xref_name": "in utero embryonic development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001822",
+                "xref_name": "kidney development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001824",
+                "xref_name": "blastocyst development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001837",
+                "xref_name": "epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001935",
+                "xref_name": "endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001937",
+                "xref_name": "negative regulation of endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001938",
+                "xref_name": "positive regulation of endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002088",
+                "xref_name": "lens development in camera-type eye",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003222",
+                "xref_name": "ventricular trabecula myocardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003223",
+                "xref_name": "ventricular compact myocardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003342",
+                "xref_name": "proepicardium development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007178",
+                "xref_name": "cell surface receptor protein serine/threonine kinase signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007179",
+                "xref_name": "transforming growth factor beta receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007399",
+                "xref_name": "nervous system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007507",
+                "xref_name": "heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007566",
+                "xref_name": "embryo implantation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008354",
+                "xref_name": "germ cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008584",
+                "xref_name": "male gonad development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009636",
+                "xref_name": "response to toxic substance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009952",
+                "xref_name": "anterior/posterior pattern specification",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010717",
+                "xref_name": "regulation of epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010718",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030154",
+                "xref_name": "cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030199",
+                "xref_name": "collagen fibril organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030307",
+                "xref_name": "positive regulation of cell growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030324",
+                "xref_name": "lung development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030335",
+                "xref_name": "positive regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030336",
+                "xref_name": "negative regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030509",
+                "xref_name": "BMP signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031100",
+                "xref_name": "animal organ regeneration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032331",
+                "xref_name": "negative regulation of chondrocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035556",
+                "xref_name": "intracellular signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036446",
+                "xref_name": "myofibroblast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042118",
+                "xref_name": "endothelial cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043542",
+                "xref_name": "endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045602",
+                "xref_name": "negative regulation of endothelial cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046847",
+                "xref_name": "filopodium assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048538",
+                "xref_name": "thymus development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048565",
+                "xref_name": "digestive tract development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048663",
+                "xref_name": "neuron fate commitment",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048701",
+                "xref_name": "embryonic cranial skeleton morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048705",
+                "xref_name": "skeletal system morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048762",
+                "xref_name": "mesenchymal cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048844",
+                "xref_name": "artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048870",
+                "xref_name": "cell motility",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051491",
+                "xref_name": "positive regulation of filopodium assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051496",
+                "xref_name": "positive regulation of stress fiber assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060017",
+                "xref_name": "parathyroid gland development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060021",
+                "xref_name": "roof of mouth development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060037",
+                "xref_name": "pharyngeal system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060043",
+                "xref_name": "regulation of cardiac muscle cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060317",
+                "xref_name": "cardiac epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060391",
+                "xref_name": "positive regulation of SMAD protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060412",
+                "xref_name": "ventricular septum morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060978",
+                "xref_name": "angiogenesis involved in coronary vascular morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060982",
+                "xref_name": "coronary artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0101023",
+                "xref_name": "vascular endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901203",
+                "xref_name": "positive regulation of extracellular matrix assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902462",
+                "xref_name": "positive regulation of mesenchymal stem cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902894",
+                "xref_name": "negative regulation of miRNA transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902895",
+                "xref_name": "positive regulation of miRNA transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904018",
+                "xref_name": "positive regulation of vasculature development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905007",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition involved in endocardial cushion formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905075",
+                "xref_name": "positive regulation of tight junction disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905223",
+                "xref_name": "epicardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001235",
+                "xref_name": "positive regulation of apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001237",
+                "xref_name": "negative regulation of extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "P80204",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000333",
+                "xref_name": "TGFB_receptor",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000472",
+                "xref_name": "Activin_recp",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000719",
+                "xref_name": "Prot_kinase_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003605",
+                "xref_name": "GS_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008271",
+                "xref_name": "Ser/Thr_kinase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011009",
+                "xref_name": "Kinase-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017441",
+                "xref_name": "Protein_kinase_ATP_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR045860",
+                "xref_name": "Snake_toxin-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23255",
+                "xref_name": "TRANSFORMING GROWTH FACTOR-BETA RECEPTOR TYPE I AND II",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23255:SF61",
+                "xref_name": "TGF-BETA RECEPTOR TYPE-1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00069",
+                "xref_name": "Pkinase",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01064",
+                "xref_name": "Activin_recp",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF08515",
+                "xref_name": "TGF_beta_GS",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "R-RNO-2173788",
+                "xref_name": "Downregulation of TGF-beta receptor signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-2173789",
+                "xref_name": "TGF-beta receptor signaling activates SMADs",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-2173791",
+                "xref_name": "TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-5689880",
+                "xref_name": "Ub-specific processing proteases",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-9839389",
+                "xref_name": "TGFBR3 regulates TGF-beta signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P80204",
+                "xref_name": "TGF-beta receptor type-1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10116
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "TGF-beta receptor type-1",
+        "score": 9.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4439",
+        "target_components": [
+          {
+            "accession": "P36897",
+            "component_description": "TGF-beta receptor type-1",
+            "component_id": 2756,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.11.30",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Activin A receptor type II-like protein kinase of 53kD",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Activin receptor-like kinase 5",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ALK-5",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ALK5",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "ALK5",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Serine/threonine-protein kinase receptor R4",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SKR4",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "SKR4",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TbetaR-I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGF-beta receptor type-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGF-beta receptor type I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGF-beta type I receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGFBR1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TGFR-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transforming growth factor-beta receptor type I",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P36897",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P36897",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005768",
+                "xref_name": "endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005923",
+                "xref_name": "bicellular tight junction",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045121",
+                "xref_name": "membrane raft",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048179",
+                "xref_name": "activin receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070021",
+                "xref_name": "transforming growth factor beta ligand-receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004675",
+                "xref_name": "transmembrane receptor protein serine/threonine kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005024",
+                "xref_name": "transforming growth factor beta receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005025",
+                "xref_name": "transforming growth factor beta receptor activity, type I",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005026",
+                "xref_name": "transforming growth factor beta receptor activity, type II",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005114",
+                "xref_name": "type II transforming growth factor beta receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016361",
+                "xref_name": "activin receptor activity, type I",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016362",
+                "xref_name": "activin receptor activity, type II",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019838",
+                "xref_name": "growth factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046332",
+                "xref_name": "SMAD binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050431",
+                "xref_name": "transforming growth factor beta binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070123",
+                "xref_name": "transforming growth factor beta receptor activity, type III",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070411",
+                "xref_name": "I-SMAD binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0098821",
+                "xref_name": "BMP receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001501",
+                "xref_name": "skeletal system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001701",
+                "xref_name": "in utero embryonic development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001822",
+                "xref_name": "kidney development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001824",
+                "xref_name": "blastocyst development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001837",
+                "xref_name": "epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001935",
+                "xref_name": "endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001937",
+                "xref_name": "negative regulation of endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001938",
+                "xref_name": "positive regulation of endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002088",
+                "xref_name": "lens development in camera-type eye",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003222",
+                "xref_name": "ventricular trabecula myocardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003223",
+                "xref_name": "ventricular compact myocardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003342",
+                "xref_name": "proepicardium development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007178",
+                "xref_name": "cell surface receptor protein serine/threonine kinase signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007179",
+                "xref_name": "transforming growth factor beta receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007399",
+                "xref_name": "nervous system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007507",
+                "xref_name": "heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008354",
+                "xref_name": "germ cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008584",
+                "xref_name": "male gonad development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009952",
+                "xref_name": "anterior/posterior pattern specification",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010717",
+                "xref_name": "regulation of epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010718",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0018105",
+                "xref_name": "peptidyl-serine phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030154",
+                "xref_name": "cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030199",
+                "xref_name": "collagen fibril organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030307",
+                "xref_name": "positive regulation of cell growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030335",
+                "xref_name": "positive regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030336",
+                "xref_name": "negative regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030509",
+                "xref_name": "BMP signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032331",
+                "xref_name": "negative regulation of chondrocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035556",
+                "xref_name": "intracellular signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036446",
+                "xref_name": "myofibroblast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042118",
+                "xref_name": "endothelial cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043542",
+                "xref_name": "endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046847",
+                "xref_name": "filopodium assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048538",
+                "xref_name": "thymus development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048663",
+                "xref_name": "neuron fate commitment",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048701",
+                "xref_name": "embryonic cranial skeleton morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048705",
+                "xref_name": "skeletal system morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048762",
+                "xref_name": "mesenchymal cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048844",
+                "xref_name": "artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048870",
+                "xref_name": "cell motility",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051239",
+                "xref_name": "regulation of multicellular organismal process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051491",
+                "xref_name": "positive regulation of filopodium assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051496",
+                "xref_name": "positive regulation of stress fiber assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051726",
+                "xref_name": "regulation of cell cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060017",
+                "xref_name": "parathyroid gland development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060021",
+                "xref_name": "roof of mouth development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060037",
+                "xref_name": "pharyngeal system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060043",
+                "xref_name": "regulation of cardiac muscle cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060317",
+                "xref_name": "cardiac epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060391",
+                "xref_name": "positive regulation of SMAD protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060412",
+                "xref_name": "ventricular septum morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060978",
+                "xref_name": "angiogenesis involved in coronary vascular morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060982",
+                "xref_name": "coronary artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0101023",
+                "xref_name": "vascular endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0141091",
+                "xref_name": "transforming growth factor beta receptor superfamily signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901203",
+                "xref_name": "positive regulation of extracellular matrix assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902462",
+                "xref_name": "positive regulation of mesenchymal stem cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904018",
+                "xref_name": "positive regulation of vasculature development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905007",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition involved in endocardial cushion formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905075",
+                "xref_name": "positive regulation of tight junction disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905223",
+                "xref_name": "epicardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001235",
+                "xref_name": "positive regulation of apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001237",
+                "xref_name": "negative regulation of extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:11772",
+                "xref_name": "TGFBR1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P36897",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000333",
+                "xref_name": "TGFB_receptor",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000472",
+                "xref_name": "Activin_recp",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000719",
+                "xref_name": "Prot_kinase_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003605",
+                "xref_name": "GS_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008271",
+                "xref_name": "Ser/Thr_kinase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011009",
+                "xref_name": "Kinase-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017441",
+                "xref_name": "Protein_kinase_ATP_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR045860",
+                "xref_name": "Snake_toxin-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23255",
+                "xref_name": "TRANSFORMING GROWTH FACTOR-BETA RECEPTOR TYPE I AND II",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23255:SF61",
+                "xref_name": "TGF-BETA RECEPTOR TYPE-1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1B6C",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1IAS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1PY5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1RW8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1VJY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2L5S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2PJY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2WOT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2WOU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2X7O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3FAA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3GXL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3HMM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3KCF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3KFD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3TZM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4X0M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4X2F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4X2G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4X2J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4X2K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4X2N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5E8S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5E8T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5E8U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5E8W",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5E8X",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5E8Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5E90",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5FRI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5QIK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5QIL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5QIM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5QTZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5QU0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5USQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6B8Y",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6MAC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8YHF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8YHL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B9F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9F6X",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9FK5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9J9D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1B6C",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1IAS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1PY5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1RW8",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1VJY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2PJY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2WOT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2WOU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2X7O",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3FAA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3GXL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3HMM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3KCF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3KFD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3TZM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4X0M",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4X2F",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4X2G",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4X2J",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4X2K",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4X2N",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5E8S",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5E8T",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5E8U",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5E8W",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5E8X",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5E8Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5E90",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5FRI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5QIK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5QIL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5QIM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5QTZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5QU0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5USQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6B8Y",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6MAC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8YHF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8YHL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9B9F",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9F6X",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9J9D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00069",
+                "xref_name": "Pkinase",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01064",
+                "xref_name": "Activin_recp",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF08515",
+                "xref_name": "TGF_beta_GS",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA36485",
+                "xref_name": "transforming growth factor beta receptor 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P36897",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-2173788",
+                "xref_name": "Downregulation of TGF-beta receptor signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2173789",
+                "xref_name": "TGF-beta receptor signaling activates SMADs",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2173791",
+                "xref_name": "TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3304356",
+                "xref_name": "SMAD2/3 Phosphorylation Motif Mutants in Cancer",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3645790",
+                "xref_name": "TGFBR2 Kinase Domain Mutants in Cancer",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3656532",
+                "xref_name": "TGFBR1 KD Mutants in Cancer",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3656535",
+                "xref_name": "TGFBR1 LBD Mutants in Cancer",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5689603",
+                "xref_name": "UCH proteinases",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5689880",
+                "xref_name": "Ub-specific processing proteases",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9839389",
+                "xref_name": "TGFBR3 regulates TGF-beta signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P36897",
+                "xref_name": "TGF-beta receptor type-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6IR47",
+                "xref_name": "TGF-beta receptor type-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q706C0",
+                "xref_name": "TGF-beta receptor type-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q706C1",
+                "xref_name": "TGF-beta receptor type-1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:37:33+00:00",
+  "source": "ChEMBL target search"
+}

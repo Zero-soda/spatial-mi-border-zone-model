@@ -1,0 +1,87 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL4439"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4754,
+        "mechanism_comment": null,
+        "mechanism_of_action": "TGF-beta receptor type I inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://www.lillyoncologypipeline.com/tgfbr1-kinase-inhibitor.aspx",
+            "ref_type": "Other",
+            "ref_url": "http://www.lillyoncologypipeline.com/tgfbr1-kinase-inhibitor.aspx"
+          },
+          {
+            "ref_id": "25529192",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25529192"
+          },
+          {
+            "ref_id": "25573078",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/25573078"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2364611",
+        "parent_molecule_chembl_id": "CHEMBL2364611",
+        "record_id": 1879132,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4439",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 8764,
+        "mechanism_comment": null,
+        "mechanism_of_action": "TGF-beta receptor type I inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "31496148",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/31496148/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3260567",
+        "parent_molecule_chembl_id": "CHEMBL3260567",
+        "record_id": 3132721,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4439",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:39:02+00:00",
+  "source": "ChEMBL mechanism"
+}

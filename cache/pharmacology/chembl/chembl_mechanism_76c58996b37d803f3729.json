@@ -1,0 +1,162 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL1909490"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 1288,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Interleukin-1 beta inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1201834",
+        "parent_molecule_chembl_id": "CHEMBL1201834",
+        "record_id": 1390838,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1909490",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 1289,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Interleukin-1 beta inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=282f4099-e848-432a-bac1-e041c192a5ba",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=282f4099-e848-432a-bac1-e041c192a5ba"
+          },
+          {
+            "ref_id": "20140476",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/20140476"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1201830",
+        "parent_molecule_chembl_id": "CHEMBL1201830",
+        "record_id": 1390858,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1909490",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "NEGATIVE ALLOSTERIC MODULATOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 5456,
+        "mechanism_comment": "Potent anti-IL-1\u00df neutralizing antibody. Binds to a unique IL-1\u00df epitope that is proximal to, but does not overlap with the receptor/ligand interface.",
+        "mechanism_of_action": "Interleukin-1 beta negative allosteric modulator",
+        "mechanism_refs": [
+          {
+            "ref_id": "21048425",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21048425"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1743026",
+        "parent_molecule_chembl_id": "CHEMBL1743026",
+        "record_id": 1392910,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1909490",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 7095,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Interleukin-1 beta inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://en.pharmacodia.com/yaodu/html/v1/chemicals/c7699afa889ee009906b44fe4c3f5749.html",
+            "ref_type": "Other",
+            "ref_url": "http://en.pharmacodia.com/yaodu/html/v1/chemicals/c7699afa889ee009906b44fe4c3f5749.html"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109459",
+        "parent_molecule_chembl_id": "CHEMBL2109459",
+        "record_id": 1706961,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1909490",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 7991,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Interleukin-1 beta inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "30552176",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/30552176"
+          },
+          {
+            "ref_id": "30653843",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/30653843"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4594518",
+        "parent_molecule_chembl_id": "CHEMBL4594518",
+        "record_id": 3461189,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1909490",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 5
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:38:55+00:00",
+  "source": "ChEMBL mechanism"
+}

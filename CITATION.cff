@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this code or processed source data, please cite the archived Zenodo release and the final article."
-title: "Spatial boundary modelling of myocardial infarction border-zone states"
-version: 0.1.2
-date-released: 2026-07-05
+title: "SSTBA: spatial-state transfer and boundary analysis"
+version: 0.5.0
+date-released: 2026-07-20
+doi: 10.5281/zenodo.21203188
 authors:
   - family-names: "Zhong"
     given-names: "Lizhe"
@@ -36,4 +37,3 @@ authors:
   - family-names: "Wei"
     given-names: "Wei"
 repository-code: "https://github.com/Zero-soda/spatial-mi-border-zone-model"
-doi: "10.5281/zenodo.21204153"

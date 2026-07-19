@@ -1,0 +1,1715 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "CCR2"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 4
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Macaca fascicularis",
+        "pref_name": "CCR2 protein",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1293205",
+        "target_components": [
+          {
+            "accession": "Q6Y3N0",
+            "component_description": "CCR2 protein",
+            "component_id": 5368,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CCR2 protein",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0004930",
+                "xref_name": "G protein-coupled receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016493",
+                "xref_name": "C-C chemokine receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019957",
+                "xref_name": "C-C chemokine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001974",
+                "xref_name": "blood vessel remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006935",
+                "xref_name": "chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007204",
+                "xref_name": "positive regulation of cytosolic calcium ion concentration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019722",
+                "xref_name": "calcium-mediated signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060326",
+                "xref_name": "cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070098",
+                "xref_name": "chemokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090026",
+                "xref_name": "positive regulation of monocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q6Y3N0",
+                "xref_name": null,
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6Y3N0",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR050119",
+                "xref_name": "CCR1-9-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002237",
+                "xref_name": "Chemokine_CCR2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000355",
+                "xref_name": "Chemokine_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000276",
+                "xref_name": "GPCR_Rhodpsn",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017452",
+                "xref_name": "GPCR_Rhodpsn_7TM",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10489:SF913",
+                "xref_name": "C-C CHEMOKINE RECEPTOR TYPE 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10489",
+                "xref_name": "CELL ADHESION MOLECULE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00001",
+                "xref_name": "7tm_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9541
+      },
+      {
+        "cross_references": [],
+        "organism": "Rattus norvegicus",
+        "pref_name": "C-C chemokine receptor type 2",
+        "score": 19.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1293204",
+        "target_components": [
+          {
+            "accession": "O55193",
+            "component_description": "C-C chemokine receptor type 2",
+            "component_id": 4886,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "C-C chemokine receptor type 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "C-C CKR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CC-CKR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ccr2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CCR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CCR2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CD_antigen=CD192",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Cmkbr2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0002548",
+                "xref_name": "monocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006959",
+                "xref_name": "humoral immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019233",
+                "xref_name": "sensory perception of pain",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030097",
+                "xref_name": "hemopoiesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048873",
+                "xref_name": "homeostasis of number of cells within a tissue",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061756",
+                "xref_name": "leukocyte adhesion to vascular endothelial cell",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070098",
+                "xref_name": "chemokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071675",
+                "xref_name": "regulation of mononuclear cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097350",
+                "xref_name": "neutrophil clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903238",
+                "xref_name": "positive regulation of leukocyte tethering or rolling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905521",
+                "xref_name": "regulation of macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000404",
+                "xref_name": "regulation of T cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0004930",
+                "xref_name": "G protein-coupled receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016493",
+                "xref_name": "C-C chemokine receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019955",
+                "xref_name": "cytokine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031727",
+                "xref_name": "CCR2 chemokine receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035715",
+                "xref_name": "chemokine (C-C motif) ligand 2 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035716",
+                "xref_name": "chemokine (C-C motif) ligand 12 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035717",
+                "xref_name": "chemokine (C-C motif) ligand 7 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0071791",
+                "xref_name": "chemokine (C-C motif) ligand 5 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001666",
+                "xref_name": "response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001974",
+                "xref_name": "blood vessel remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002437",
+                "xref_name": "inflammatory response to antigenic stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002724",
+                "xref_name": "regulation of T cell cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002827",
+                "xref_name": "positive regulation of T-helper 1 type immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002829",
+                "xref_name": "negative regulation of type 2 immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006874",
+                "xref_name": "intracellular calcium ion homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006935",
+                "xref_name": "chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007204",
+                "xref_name": "positive regulation of cytosolic calcium ion concentration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010574",
+                "xref_name": "regulation of vascular endothelial growth factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010820",
+                "xref_name": "positive regulation of T cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016525",
+                "xref_name": "negative regulation of angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019722",
+                "xref_name": "calcium-mediated signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032729",
+                "xref_name": "positive regulation of type II interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032743",
+                "xref_name": "positive regulation of interleukin-2 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032760",
+                "xref_name": "positive regulation of tumor necrosis factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035696",
+                "xref_name": "monocyte extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035705",
+                "xref_name": "T-helper 17 cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043310",
+                "xref_name": "negative regulation of eosinophil degranulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045580",
+                "xref_name": "regulation of T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046641",
+                "xref_name": "positive regulation of alpha-beta T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050727",
+                "xref_name": "regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050729",
+                "xref_name": "positive regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050870",
+                "xref_name": "positive regulation of T cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051968",
+                "xref_name": "positive regulation of synaptic transmission, glutamatergic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055093",
+                "xref_name": "response to hyperoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060326",
+                "xref_name": "cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090026",
+                "xref_name": "positive regulation of monocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090265",
+                "xref_name": "positive regulation of immune complex clearance by monocytes and macrophages",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090594",
+                "xref_name": "inflammatory response to wounding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0120162",
+                "xref_name": "positive regulation of cold-induced thermogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900745",
+                "xref_name": "positive regulation of p38MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904783",
+                "xref_name": "positive regulation of NMDA glutamate receptor activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905517",
+                "xref_name": "macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000412",
+                "xref_name": "positive regulation of thymocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000439",
+                "xref_name": "positive regulation of monocyte extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000451",
+                "xref_name": "positive regulation of CD8-positive, alpha-beta T cell extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000464",
+                "xref_name": "positive regulation of astrocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000473",
+                "xref_name": "positive regulation of hematopoietic stem cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030425",
+                "xref_name": "dendrite",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043025",
+                "xref_name": "neuronal cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043204",
+                "xref_name": "perikaryon",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0150001",
+                "xref_name": "primary dendrite",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "O55193",
+                "xref_name": "C-C chemokine receptor type 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O55193",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR050119",
+                "xref_name": "CCR1-9-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002237",
+                "xref_name": "Chemokine_CCR2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000355",
+                "xref_name": "Chemokine_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000276",
+                "xref_name": "GPCR_Rhodpsn",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017452",
+                "xref_name": "GPCR_Rhodpsn_7TM",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10489:SF928",
+                "xref_name": "C-C CHEMOKINE RECEPTOR TYPE 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10489",
+                "xref_name": "CELL ADHESION MOLECULE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00001",
+                "xref_name": "7tm_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10116
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "C-C chemokine receptor type 2",
+        "score": 18.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4015",
+        "target_components": [
+          {
+            "accession": "P41597",
+            "component_description": "C-C chemokine receptor type 2",
+            "component_id": 2334,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "C-C chemokine receptor type 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "C-C CKR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CC-CKR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CCR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CCR2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CCR2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CD_antigen=CD192",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CMKBR2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "MCP-1-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Monocyte chemoattractant protein 1 receptor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "7P8X",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5T1A",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0004930",
+                "xref_name": "G protein-coupled receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004950",
+                "xref_name": "chemokine receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016493",
+                "xref_name": "C-C chemokine receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019955",
+                "xref_name": "cytokine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019957",
+                "xref_name": "C-C chemokine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031727",
+                "xref_name": "CCR2 chemokine receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035715",
+                "xref_name": "chemokine (C-C motif) ligand 2 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035716",
+                "xref_name": "chemokine (C-C motif) ligand 12 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035717",
+                "xref_name": "chemokine (C-C motif) ligand 7 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001974",
+                "xref_name": "blood vessel remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002407",
+                "xref_name": "dendritic cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002548",
+                "xref_name": "monocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002724",
+                "xref_name": "regulation of T cell cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002827",
+                "xref_name": "positive regulation of T-helper 1 type immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002829",
+                "xref_name": "negative regulation of type 2 immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006874",
+                "xref_name": "intracellular calcium ion homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006935",
+                "xref_name": "chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006959",
+                "xref_name": "humoral immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007194",
+                "xref_name": "negative regulation of adenylate cyclase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007204",
+                "xref_name": "positive regulation of cytosolic calcium ion concentration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007259",
+                "xref_name": "cell surface receptor signaling pathway via JAK-STAT",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009611",
+                "xref_name": "response to wounding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010574",
+                "xref_name": "regulation of vascular endothelial growth factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010820",
+                "xref_name": "positive regulation of T cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016525",
+                "xref_name": "negative regulation of angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019233",
+                "xref_name": "sensory perception of pain",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019722",
+                "xref_name": "calcium-mediated signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030097",
+                "xref_name": "hemopoiesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032729",
+                "xref_name": "positive regulation of type II interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032743",
+                "xref_name": "positive regulation of interleukin-2 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032760",
+                "xref_name": "positive regulation of tumor necrosis factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035696",
+                "xref_name": "monocyte extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035705",
+                "xref_name": "T-helper 17 cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043310",
+                "xref_name": "negative regulation of eosinophil degranulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045580",
+                "xref_name": "regulation of T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046641",
+                "xref_name": "positive regulation of alpha-beta T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048873",
+                "xref_name": "homeostasis of number of cells within a tissue",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050727",
+                "xref_name": "regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050729",
+                "xref_name": "positive regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050870",
+                "xref_name": "positive regulation of T cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051968",
+                "xref_name": "positive regulation of synaptic transmission, glutamatergic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060326",
+                "xref_name": "cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061756",
+                "xref_name": "leukocyte adhesion to vascular endothelial cell",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070098",
+                "xref_name": "chemokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071675",
+                "xref_name": "regulation of mononuclear cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090026",
+                "xref_name": "positive regulation of monocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090265",
+                "xref_name": "positive regulation of immune complex clearance by monocytes and macrophages",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090594",
+                "xref_name": "inflammatory response to wounding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097350",
+                "xref_name": "neutrophil clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0120162",
+                "xref_name": "positive regulation of cold-induced thermogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903238",
+                "xref_name": "positive regulation of leukocyte tethering or rolling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904783",
+                "xref_name": "positive regulation of NMDA glutamate receptor activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905517",
+                "xref_name": "macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905521",
+                "xref_name": "regulation of macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000404",
+                "xref_name": "regulation of T cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000412",
+                "xref_name": "positive regulation of thymocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000439",
+                "xref_name": "positive regulation of monocyte extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000451",
+                "xref_name": "positive regulation of CD8-positive, alpha-beta T cell extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000464",
+                "xref_name": "positive regulation of astrocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000473",
+                "xref_name": "positive regulation of hematopoietic stem cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001650",
+                "xref_name": "fibrillar center",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030425",
+                "xref_name": "dendrite",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043025",
+                "xref_name": "neuronal cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043204",
+                "xref_name": "perikaryon",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA26167",
+                "xref_name": "C-C motif chemokine receptor 2",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A0AVQ3",
+                "xref_name": "C-C chemokine receptor type 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B2RMT0",
+                "xref_name": "C-C chemokine receptor type 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O95950",
+                "xref_name": "C-C chemokine receptor type 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4VBL2",
+                "xref_name": "C-C chemokine receptor type 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P41597",
+                "xref_name": "C-C chemokine receptor type 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "2MLO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MLQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5T1A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7P8X",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7XA3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P41597",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P41597",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:1603",
+                "xref_name": "CCR2",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-1461957",
+                "xref_name": "Beta defensins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-380108",
+                "xref_name": "Chemokine receptors bind chemokines",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-418594",
+                "xref_name": "G alpha (i) signalling events",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6783783",
+                "xref_name": "Interleukin-10 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P41597",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P41597",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR050119",
+                "xref_name": "CCR1-9-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002237",
+                "xref_name": "Chemokine_CCR2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000355",
+                "xref_name": "Chemokine_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000276",
+                "xref_name": "GPCR_Rhodpsn",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017452",
+                "xref_name": "GPCR_Rhodpsn_7TM",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10489:SF913",
+                "xref_name": "C-C CHEMOKINE RECEPTOR TYPE 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10489",
+                "xref_name": "CELL ADHESION MOLECULE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00001",
+                "xref_name": "7tm_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "C-C chemokine receptor type 2",
+        "score": 18.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5412",
+        "target_components": [
+          {
+            "accession": "P51683",
+            "component_description": "C-C chemokine receptor type 2",
+            "component_id": 3706,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "C-C chemokine receptor type 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "C-C CKR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CC-CKR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ccr2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CCR-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CCR2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CD_antigen=CD192",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Cmkbr2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "JE/FIC receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MCP-1 receptor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0002548",
+                "xref_name": "monocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006959",
+                "xref_name": "humoral immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019233",
+                "xref_name": "sensory perception of pain",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030097",
+                "xref_name": "hemopoiesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048873",
+                "xref_name": "homeostasis of number of cells within a tissue",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061756",
+                "xref_name": "leukocyte adhesion to vascular endothelial cell",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071675",
+                "xref_name": "regulation of mononuclear cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097350",
+                "xref_name": "neutrophil clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903238",
+                "xref_name": "positive regulation of leukocyte tethering or rolling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905521",
+                "xref_name": "regulation of macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000404",
+                "xref_name": "regulation of T cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0004930",
+                "xref_name": "G protein-coupled receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016493",
+                "xref_name": "C-C chemokine receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019955",
+                "xref_name": "cytokine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031727",
+                "xref_name": "CCR2 chemokine receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035715",
+                "xref_name": "chemokine (C-C motif) ligand 2 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035716",
+                "xref_name": "chemokine (C-C motif) ligand 12 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035717",
+                "xref_name": "chemokine (C-C motif) ligand 7 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001666",
+                "xref_name": "response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001974",
+                "xref_name": "blood vessel remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002437",
+                "xref_name": "inflammatory response to antigenic stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002724",
+                "xref_name": "regulation of T cell cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002827",
+                "xref_name": "positive regulation of T-helper 1 type immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002829",
+                "xref_name": "negative regulation of type 2 immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006874",
+                "xref_name": "intracellular calcium ion homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006935",
+                "xref_name": "chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010574",
+                "xref_name": "regulation of vascular endothelial growth factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010820",
+                "xref_name": "positive regulation of T cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016525",
+                "xref_name": "negative regulation of angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032729",
+                "xref_name": "positive regulation of type II interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032743",
+                "xref_name": "positive regulation of interleukin-2 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032760",
+                "xref_name": "positive regulation of tumor necrosis factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035696",
+                "xref_name": "monocyte extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035705",
+                "xref_name": "T-helper 17 cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043277",
+                "xref_name": "apoptotic cell clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043310",
+                "xref_name": "negative regulation of eosinophil degranulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045580",
+                "xref_name": "regulation of T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045627",
+                "xref_name": "positive regulation of T-helper 1 cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046641",
+                "xref_name": "positive regulation of alpha-beta T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050727",
+                "xref_name": "regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050729",
+                "xref_name": "positive regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050870",
+                "xref_name": "positive regulation of T cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051968",
+                "xref_name": "positive regulation of synaptic transmission, glutamatergic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055093",
+                "xref_name": "response to hyperoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070098",
+                "xref_name": "chemokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090026",
+                "xref_name": "positive regulation of monocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090265",
+                "xref_name": "positive regulation of immune complex clearance by monocytes and macrophages",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090594",
+                "xref_name": "inflammatory response to wounding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0120162",
+                "xref_name": "positive regulation of cold-induced thermogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900745",
+                "xref_name": "positive regulation of p38MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905517",
+                "xref_name": "macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000412",
+                "xref_name": "positive regulation of thymocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000439",
+                "xref_name": "positive regulation of monocyte extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000451",
+                "xref_name": "positive regulation of CD8-positive, alpha-beta T cell extravasation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000464",
+                "xref_name": "positive regulation of astrocyte chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000473",
+                "xref_name": "positive regulation of hematopoietic stem cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001650",
+                "xref_name": "fibrillar center",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030425",
+                "xref_name": "dendrite",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043025",
+                "xref_name": "neuronal cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043204",
+                "xref_name": "perikaryon",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0150001",
+                "xref_name": "primary dendrite",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q61172",
+                "xref_name": "C-C chemokine receptor type 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P51683",
+                "xref_name": "C-C chemokine receptor type 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P51683",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P51683",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR050119",
+                "xref_name": "CCR1-9-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002237",
+                "xref_name": "Chemokine_CCR2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000355",
+                "xref_name": "Chemokine_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000276",
+                "xref_name": "GPCR_Rhodpsn",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017452",
+                "xref_name": "GPCR_Rhodpsn_7TM",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10489:SF928",
+                "xref_name": "C-C CHEMOKINE RECEPTOR TYPE 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10489",
+                "xref_name": "CELL ADHESION MOLECULE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00001",
+                "xref_name": "7tm_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:36:31+00:00",
+  "source": "ChEMBL target search"
+}

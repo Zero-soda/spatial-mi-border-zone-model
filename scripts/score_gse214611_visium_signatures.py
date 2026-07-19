@@ -9,8 +9,10 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+from project_paths import project_root
 
-ROOT = Path(__file__).resolve().parents[3]
+
+ROOT = project_root(__file__)
 LOCAL_DEPS = ROOT / ".deps" / "python"
 if LOCAL_DEPS.exists():
     sys.path.insert(0, str(LOCAL_DEPS))
@@ -22,7 +24,7 @@ from batch_map_gse214611_mi_spatial_risk import SAMPLES, locate_visium_dir, samp
 from map_gse214611_d7_1_spatial_risk import sample_slug, safe_float  # noqa: E402
 
 
-SIGNATURES_TSV = ROOT / "docs" / "spatial_cardiac_border_zone_signatures.tsv"
+SIGNATURES_TSV = Path(__file__).resolve().parents[1] / "config" / "spatial_cardiac_border_zone_signatures.tsv"
 RAW_VISIUM_DIR = ROOT / "data" / "raw" / "gse214611" / "visium"
 OUT_TABLE_DIR = ROOT / "results" / "tables"
 

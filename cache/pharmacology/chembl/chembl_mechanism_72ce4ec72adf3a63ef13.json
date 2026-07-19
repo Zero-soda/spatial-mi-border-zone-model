@@ -1,0 +1,77 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL2364188"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "HYDROLYTIC ENZYME",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 1428,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Collagen hydrolytic enzyme",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=805cecd0-fd1f-11dd-87af-0800200c9a66#nlm34090-1",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=805cecd0-fd1f-11dd-87af-0800200c9a66#nlm34090-1"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2108709",
+        "parent_molecule_chembl_id": "CHEMBL2108709",
+        "record_id": 1696461,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2364188",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "HYDROLYTIC ENZYME",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 4,
+        "mec_id": 1429,
+        "mechanism_comment": "It's a recombinant truncated form of human plasmin with proteolytic activity against protein components of the vitreous body and the vitreoretinal interface",
+        "mechanism_of_action": "Collagen hydrolytic enzyme",
+        "mechanism_refs": [
+          {
+            "ref_id": "setid=390682b7-72c4-11e1-b0c4-0800200c9a66",
+            "ref_type": "DailyMed",
+            "ref_url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=390682b7-72c4-11e1-b0c4-0800200c9a66"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2095222",
+        "parent_molecule_chembl_id": "CHEMBL2095222",
+        "record_id": 1679389,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL2364188",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:38:49+00:00",
+  "source": "ChEMBL mechanism"
+}

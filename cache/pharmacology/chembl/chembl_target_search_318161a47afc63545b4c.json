@@ -1,0 +1,2795 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "TGM2"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 7
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+        "score": 23.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2079853",
+        "target_components": [
+          {
+            "accession": "P21981",
+            "component_description": "Protein-glutamine gamma-glutamyltransferase 2",
+            "component_id": 5887,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.1.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "2.3.2.13",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.-.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.5.1.44",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Isopeptidase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine deamidase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine dopaminyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine histaminyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine noradrenalinyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine serotonyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TG2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase II",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tgm2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tissue transglutaminase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase II",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "tTG",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0007200",
+                "xref_name": "phospholipase C-activating G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060445",
+                "xref_name": "branching involved in salivary gland morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060662",
+                "xref_name": "salivary gland cavitation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003810",
+                "xref_name": "protein-glutamine gamma-glutamyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005525",
+                "xref_name": "GTP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008233",
+                "xref_name": "peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008483",
+                "xref_name": "transaminase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016746",
+                "xref_name": "acyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050568",
+                "xref_name": "protein-glutamine glutaminase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120295",
+                "xref_name": "histone serotonyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120297",
+                "xref_name": "histone dopaminyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120298",
+                "xref_name": "peptide noradrenalinyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120299",
+                "xref_name": "peptide histaminyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007186",
+                "xref_name": "G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014046",
+                "xref_name": "dopamine secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032471",
+                "xref_name": "negative regulation of endoplasmic reticulum calcium ion concentration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043277",
+                "xref_name": "apoptotic cell clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043547",
+                "xref_name": "positive regulation of GTPase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045785",
+                "xref_name": "positive regulation of cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050769",
+                "xref_name": "positive regulation of neurogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051057",
+                "xref_name": "positive regulation of small GTPase mediated signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051260",
+                "xref_name": "protein homooligomerization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051561",
+                "xref_name": "positive regulation of mitochondrial calcium ion concentration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060348",
+                "xref_name": "bone development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071314",
+                "xref_name": "cellular response to cocaine",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903351",
+                "xref_name": "cellular response to dopamine",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903672",
+                "xref_name": "positive regulation of sprouting angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904015",
+                "xref_name": "cellular response to serotonin",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000425",
+                "xref_name": "regulation of apoptotic cell clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0000785",
+                "xref_name": "chromatin",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005694",
+                "xref_name": "chromosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005739",
+                "xref_name": "mitochondrion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005783",
+                "xref_name": "endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000786",
+                "xref_name": "nucleosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "O88901",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q3TLV2",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8C217",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q91VG9",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9R1F7",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P21981",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P21981",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P21981",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "P21981",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014756",
+                "xref_name": "Ig_E-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038765",
+                "xref_name": "Papain-like_cys_pep_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050779",
+                "xref_name": "Transglutaminase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002931",
+                "xref_name": "Transglutaminase-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036985",
+                "xref_name": "Transglutaminase-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023608",
+                "xref_name": "Transglutaminase_animal",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013808",
+                "xref_name": "Transglutaminase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008958",
+                "xref_name": "Transglutaminase_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036238",
+                "xref_name": "Transglutaminase_C_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001102",
+                "xref_name": "Transglutaminase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11590",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11590:SF6",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00927",
+                "xref_name": "Transglut_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01841",
+                "xref_name": "Transglut_core",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00868",
+                "xref_name": "Transglut_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      },
+      {
+        "cross_references": [],
+        "organism": "Cavia cutleri",
+        "pref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+        "score": 23.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3988613",
+        "target_components": [
+          {
+            "accession": "P08587",
+            "component_description": "Protein-glutamine gamma-glutamyltransferase 2",
+            "component_id": 17428,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.1.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "2.3.2.13",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.-.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.5.1.44",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Guinea pig liver transglutaminase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Isopeptidase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine deamidase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine dopaminyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine histaminyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine noradrenalinyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine serotonyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGM2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tissue transglutaminase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "tTG",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "tTgase",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0003810",
+                "xref_name": "protein-glutamine gamma-glutamyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005525",
+                "xref_name": "GTP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008233",
+                "xref_name": "peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008483",
+                "xref_name": "transaminase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016746",
+                "xref_name": "acyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050568",
+                "xref_name": "protein-glutamine glutaminase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120294",
+                "xref_name": "peptide serotonyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120295",
+                "xref_name": "histone serotonyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120296",
+                "xref_name": "peptide dopaminyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120297",
+                "xref_name": "histone dopaminyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120298",
+                "xref_name": "peptide noradrenalinyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120299",
+                "xref_name": "peptide histaminyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007200",
+                "xref_name": "phospholipase C-activating G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043547",
+                "xref_name": "positive regulation of GTPase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051057",
+                "xref_name": "positive regulation of small GTPase mediated signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051260",
+                "xref_name": "protein homooligomerization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900046",
+                "xref_name": "regulation of hemostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903351",
+                "xref_name": "cellular response to dopamine",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904015",
+                "xref_name": "cellular response to serotonin",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000425",
+                "xref_name": "regulation of apoptotic cell clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0000785",
+                "xref_name": "chromatin",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005694",
+                "xref_name": "chromosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005739",
+                "xref_name": "mitochondrion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36491",
+                "xref_name": "transglutaminase 2",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P08587",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P08587",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P08587",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014756",
+                "xref_name": "Ig_E-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038765",
+                "xref_name": "Papain-like_cys_pep_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050779",
+                "xref_name": "Transglutaminase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002931",
+                "xref_name": "Transglutaminase-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036985",
+                "xref_name": "Transglutaminase-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023608",
+                "xref_name": "Transglutaminase_animal",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013808",
+                "xref_name": "Transglutaminase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008958",
+                "xref_name": "Transglutaminase_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036238",
+                "xref_name": "Transglutaminase_C_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001102",
+                "xref_name": "Transglutaminase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11590",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11590:SF6",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00927",
+                "xref_name": "Transglut_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01841",
+                "xref_name": "Transglut_core",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00868",
+                "xref_name": "Transglut_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10144
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Protein-glutamine gamma-glutamyltransferase",
+        "score": 21.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2730",
+        "target_components": [
+          {
+            "accession": "P21980",
+            "component_description": "Protein-glutamine gamma-glutamyltransferase 2",
+            "component_id": 1066,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.1.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "2.3.2.13",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.-.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.5.1.44",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Erythrocyte transglutaminase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "G(h)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Heart G alpha(h)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "hhG alpha(h)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "hTG2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Isopeptidase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein G alpha(h)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine deamidase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine dopaminyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine histaminyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine noradrenalinyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine serotonyltransferase TGM2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TG2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase C",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase H",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase II",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TG(C)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGC",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGM2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tissue transglutaminase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase C",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase H",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase II",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "tTG",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "tTgase",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "1KV3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9BC4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Q3Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PYG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9BC2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9BC3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6KZB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3S3P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3S3S",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6A8P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3LY6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3S3J",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0014046",
+                "xref_name": "dopamine secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003810",
+                "xref_name": "protein-glutamine gamma-glutamyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005525",
+                "xref_name": "GTP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008233",
+                "xref_name": "peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016746",
+                "xref_name": "acyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050568",
+                "xref_name": "protein-glutamine glutaminase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120295",
+                "xref_name": "histone serotonyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120297",
+                "xref_name": "histone dopaminyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120298",
+                "xref_name": "peptide noradrenalinyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0120299",
+                "xref_name": "peptide histaminyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007200",
+                "xref_name": "phospholipase C-activating G protein-coupled receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032471",
+                "xref_name": "negative regulation of endoplasmic reticulum calcium ion concentration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043277",
+                "xref_name": "apoptotic cell clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043547",
+                "xref_name": "positive regulation of GTPase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045785",
+                "xref_name": "positive regulation of cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050769",
+                "xref_name": "positive regulation of neurogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051057",
+                "xref_name": "positive regulation of small GTPase mediated signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051561",
+                "xref_name": "positive regulation of mitochondrial calcium ion concentration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060348",
+                "xref_name": "bone development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060445",
+                "xref_name": "branching involved in salivary gland morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060662",
+                "xref_name": "salivary gland cavitation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071314",
+                "xref_name": "cellular response to cocaine",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903351",
+                "xref_name": "cellular response to dopamine",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903672",
+                "xref_name": "positive regulation of sprouting angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904015",
+                "xref_name": "cellular response to serotonin",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000425",
+                "xref_name": "regulation of apoptotic cell clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005739",
+                "xref_name": "mitochondrion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000785",
+                "xref_name": "chromatin",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005694",
+                "xref_name": "chromosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005783",
+                "xref_name": "endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005925",
+                "xref_name": "focal adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000786",
+                "xref_name": "nucleosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0051260",
+                "xref_name": "protein homooligomerization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "PA36491",
+                "xref_name": "transglutaminase 2",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "E1P5V9",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q16436",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6B838",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BTN7",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9H035",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UH35",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P21980",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1KV3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Q3Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3LY6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3S3J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3S3P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3S3S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PYG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6A8P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KZB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8TR9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BC2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BC3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BC4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P21980",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P21980",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11778",
+                "xref_name": "TGM2",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P21980",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P21980",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014756",
+                "xref_name": "Ig_E-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038765",
+                "xref_name": "Papain-like_cys_pep_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050779",
+                "xref_name": "Transglutaminase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002931",
+                "xref_name": "Transglutaminase-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036985",
+                "xref_name": "Transglutaminase-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023608",
+                "xref_name": "Transglutaminase_animal",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013808",
+                "xref_name": "Transglutaminase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008958",
+                "xref_name": "Transglutaminase_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036238",
+                "xref_name": "Transglutaminase_C_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001102",
+                "xref_name": "Transglutaminase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11590",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11590:SF6",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00927",
+                "xref_name": "Transglut_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01841",
+                "xref_name": "Transglut_core",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00868",
+                "xref_name": "Transglut_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Protein-glutamine gamma-glutamyltransferase E",
+        "score": 7.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3363",
+        "target_components": [
+          {
+            "accession": "Q08188",
+            "component_description": "Protein-glutamine gamma-glutamyltransferase E",
+            "component_id": 1685,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.2.13",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase E",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase E 27 kDa non-catalytic chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase E 50 kDa catalytic chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase-3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase E",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TG(E)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGE",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGM3",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Transglutaminase-3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase E",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "8OXY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1L9N",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1L9M",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1NUG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1NUF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1NUD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8OXW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8RMY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8OXX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8OXV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8RMX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0003810",
+                "xref_name": "protein-glutamine gamma-glutamyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003824",
+                "xref_name": "catalytic activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005198",
+                "xref_name": "structural molecule activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016746",
+                "xref_name": "acyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030216",
+                "xref_name": "keratinocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031069",
+                "xref_name": "hair follicle morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031424",
+                "xref_name": "keratinization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031234",
+                "xref_name": "extrinsic component of cytoplasmic side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032991",
+                "xref_name": "protein-containing complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36492",
+                "xref_name": "transglutaminase 3",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A8K5N6",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B2RCR6",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D3DVX1",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O95933",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q32ML9",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q32MM0",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q08188",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase E",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1L9M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1L9N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1NUD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1NUF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1NUG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8OXV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8OXW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8OXX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8OXY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RMX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RMY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q08188",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q08188",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11779",
+                "xref_name": "TGM3",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q08188",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014756",
+                "xref_name": "Ig_E-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038765",
+                "xref_name": "Papain-like_cys_pep_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050779",
+                "xref_name": "Transglutaminase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002931",
+                "xref_name": "Transglutaminase-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036985",
+                "xref_name": "Transglutaminase-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023608",
+                "xref_name": "Transglutaminase_animal",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013808",
+                "xref_name": "Transglutaminase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008958",
+                "xref_name": "Transglutaminase_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036238",
+                "xref_name": "Transglutaminase_C_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001102",
+                "xref_name": "Transglutaminase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11590",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11590:SF36",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE E",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00927",
+                "xref_name": "Transglut_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01841",
+                "xref_name": "Transglut_core",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00868",
+                "xref_name": "Transglut_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Protein-glutamine gamma-glutamyltransferase K",
+        "score": 7.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2810",
+        "target_components": [
+          {
+            "accession": "P22735",
+            "component_description": "Protein-glutamine gamma-glutamyltransferase K",
+            "component_id": 1140,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.2.13",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Epidermal TGase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "KTG",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase K",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase K 33 kDa chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase K 67 kDa chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase K",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TG(K)",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGK",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGM1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Transglutaminase-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase K",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "2XZZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0001533",
+                "xref_name": "cornified envelope",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0003810",
+                "xref_name": "protein-glutamine gamma-glutamyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016746",
+                "xref_name": "acyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0010838",
+                "xref_name": "positive regulation of keratinocyte proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030216",
+                "xref_name": "keratinocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031424",
+                "xref_name": "keratinization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045787",
+                "xref_name": "positive regulation of cell cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36490",
+                "xref_name": "transglutaminase 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "B4DWR7",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase K",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q197M4",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase K",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P22735",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase K",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "2XZZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P22735",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P22735",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11777",
+                "xref_name": "TGM1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-6809371",
+                "xref_name": "Formation of the cornified envelope",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P22735",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P22735",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014756",
+                "xref_name": "Ig_E-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038765",
+                "xref_name": "Papain-like_cys_pep_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050779",
+                "xref_name": "Transglutaminase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002931",
+                "xref_name": "Transglutaminase-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036985",
+                "xref_name": "Transglutaminase-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023608",
+                "xref_name": "Transglutaminase_animal",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013808",
+                "xref_name": "Transglutaminase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008958",
+                "xref_name": "Transglutaminase_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036238",
+                "xref_name": "Transglutaminase_C_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001102",
+                "xref_name": "Transglutaminase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11590",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11590:SF49",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE K",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00927",
+                "xref_name": "Transglut_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01841",
+                "xref_name": "Transglut_core",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00868",
+                "xref_name": "Transglut_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Coagulation factor XIII A chain",
+        "score": 7.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4530",
+        "target_components": [
+          {
+            "accession": "P00488",
+            "component_description": "Coagulation factor XIII A chain",
+            "component_id": 2847,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.2.13",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Coagulation factor XIIIa",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Coagulation factor XIII A chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "F13A",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "F13A1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase A chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase A chain",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "1F13",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1EVU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4KTY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5MHM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5MHL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1FIE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5MHO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5MHN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1QRK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1GGU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1GGT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1EX0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1GGY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0003810",
+                "xref_name": "protein-glutamine gamma-glutamyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016746",
+                "xref_name": "acyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007596",
+                "xref_name": "blood coagulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0072378",
+                "xref_name": "blood coagulation, fibrin clot formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031093",
+                "xref_name": "platelet alpha granule lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072562",
+                "xref_name": "blood microparticle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990234",
+                "xref_name": "transferase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA162",
+                "xref_name": "coagulation factor XIII A chain",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q59HA7",
+                "xref_name": "Coagulation factor XIII A chain",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8N6X2",
+                "xref_name": "Coagulation factor XIII A chain",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96P24",
+                "xref_name": "Coagulation factor XIII A chain",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BX29",
+                "xref_name": "Coagulation factor XIII A chain",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P00488",
+                "xref_name": "Coagulation factor XIII A chain",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1EVU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1EX0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1F13",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1FIE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1GGT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1GGU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1GGY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1QRK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4KTY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MHL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MHM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MHN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MHO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8CMT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8CMU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P00488",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P00488",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:3531",
+                "xref_name": "F13A1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-114608",
+                "xref_name": "Platelet degranulation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-140875",
+                "xref_name": "Common Pathway of Fibrin Clot Formation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6785807",
+                "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P00488",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P00488",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014756",
+                "xref_name": "Ig_E-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038765",
+                "xref_name": "Papain-like_cys_pep_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050779",
+                "xref_name": "Transglutaminase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002931",
+                "xref_name": "Transglutaminase-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036985",
+                "xref_name": "Transglutaminase-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023608",
+                "xref_name": "Transglutaminase_animal",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013808",
+                "xref_name": "Transglutaminase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008958",
+                "xref_name": "Transglutaminase_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036238",
+                "xref_name": "Transglutaminase_C_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001102",
+                "xref_name": "Transglutaminase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11590:SF42",
+                "xref_name": "COAGULATION FACTOR XIII A CHAIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11590",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00927",
+                "xref_name": "Transglut_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01841",
+                "xref_name": "Transglut_core",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00868",
+                "xref_name": "Transglut_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Protein-glutamine gamma-glutamyltransferase 6",
+        "score": 7.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2079852",
+        "target_components": [
+          {
+            "accession": "O95932",
+            "component_description": "Protein-glutamine gamma-glutamyltransferase 6",
+            "component_id": 5886,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.2.13",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Protein-glutamine gamma-glutamyltransferase 6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TG6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase-3-like",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase-6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGase Y",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TGM3L",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TGM6",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TGY",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase-3-like",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase-6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Transglutaminase Y",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0003810",
+                "xref_name": "protein-glutamine gamma-glutamyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016746",
+                "xref_name": "acyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA38098",
+                "xref_name": "transglutaminase 6",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q5JXU4",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5JXU5",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q719M2",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q719M3",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9Y4U8",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O95932",
+                "xref_name": "Protein-glutamine gamma-glutamyltransferase 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O95932",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "O95932",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:16255",
+                "xref_name": "TGM6",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "O95932",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014756",
+                "xref_name": "Ig_E-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038765",
+                "xref_name": "Papain-like_cys_pep_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050779",
+                "xref_name": "Transglutaminase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002931",
+                "xref_name": "Transglutaminase-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036985",
+                "xref_name": "Transglutaminase-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023608",
+                "xref_name": "Transglutaminase_animal",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013808",
+                "xref_name": "Transglutaminase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008958",
+                "xref_name": "Transglutaminase_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036238",
+                "xref_name": "Transglutaminase_C_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001102",
+                "xref_name": "Transglutaminase_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11590",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11590:SF50",
+                "xref_name": "PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE 6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00927",
+                "xref_name": "Transglut_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01841",
+                "xref_name": "Transglut_core",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00868",
+                "xref_name": "Transglut_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:13+00:00",
+  "source": "ChEMBL target search"
+}

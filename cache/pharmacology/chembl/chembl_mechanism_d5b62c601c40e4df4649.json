@@ -1,0 +1,102 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL1795178"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 6000,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Transforming growth factor beta-1 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "21368745",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21368745"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1743022",
+        "parent_molecule_chembl_id": "CHEMBL1743022",
+        "record_id": 1392906,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1795178",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 6044,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Transforming growth factor beta-1 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "17010369",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/17010369"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2108431",
+        "parent_molecule_chembl_id": "CHEMBL2108431",
+        "record_id": 1707120,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1795178",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 6144,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Transforming growth factor beta-1 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "23000686",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/23000686"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2109585",
+        "parent_molecule_chembl_id": "CHEMBL2109585",
+        "record_id": 1707121,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL1795178",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 3
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:39:00+00:00",
+  "source": "ChEMBL mechanism"
+}

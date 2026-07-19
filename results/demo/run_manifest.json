@@ -1,0 +1,46 @@
+{
+  "command": "sstba run",
+  "config_sha256": "f9c3d0580378dc134126556ea99262493e01a889e4769c3d7e518c68ea8986ce",
+  "created_utc": "2026-07-19T18:08:20.238778+00:00",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.0"
+  },
+  "inputs": {
+    "spot_table": {
+      "path": "../demo/mouse_master_spot_scores.tsv",
+      "sha256": "2e53780220dac8b00fecf5fbf68d69dbdccdd516f20c79ef4f900c6567a6f3b9"
+    }
+  },
+  "mode": "boundary",
+  "output_directory": ".",
+  "outputs": {
+    "boundary_spots.tsv": "d6394e4bcbd0c9b0e6f63e43e211969e67d991ce8d56e6d7141e99b8b05119c3",
+    "boundary_summary.tsv": "e95d83f1b19af10fe690eebaaf0d39cb4aca3b96631ec45e4bb01f912b6a9ef0"
+  },
+  "parameters": {
+    "knn_algorithm": "exact",
+    "label_column": "author_domain",
+    "n_neighbors": 6,
+    "negative_label": "3",
+    "positive_label": "4",
+    "sample_column": "sample",
+    "score_columns": [
+      "mechanical_border_score",
+      "immune_fibrotic_activation_score",
+      "fibroblast_scar_repair_score"
+    ],
+    "spot_column": "barcode",
+    "summary_columns": [
+      "stage"
+    ],
+    "x_column": "array_row",
+    "y_column": "array_col"
+  },
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "python_version": "3.12.13",
+  "seed": 614611,
+  "sstba_version": "0.5.0",
+  "warnings": []
+}

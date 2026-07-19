@@ -5,11 +5,12 @@ from __future__ import annotations
 
 import json
 import sys
-import textwrap
 from pathlib import Path
 
+from project_paths import project_root
 
-ROOT = Path(__file__).resolve().parents[3]
+
+ROOT = project_root(__file__)
 LOCAL_DEPS = ROOT / ".deps" / "python"
 if LOCAL_DEPS.exists():
     # Append rather than prepend so the bundled runtime keeps its binary wheels.
@@ -72,6 +73,24 @@ PAIR_LABELS = {
     frozenset(("mechanical_border_score", "fibroblast_scar_repair_score")): "Mechanical vs scar",
     frozenset(("immune_fibrotic_activation_score", "fibroblast_scar_repair_score")): "Immune vs scar",
 }
+
+
+def gene_coverage_layout() -> list[dict[str, object]]:
+    """Return pre-spaced rows so wrapped module text cannot collide."""
+    rows = []
+    positions = [(0.84, 0.73), (0.55, 0.44), (0.25, 0.14)]
+    for (output, color, modules), (heading_y, detail_y) in zip(OUTPUT_MODULES, positions, strict=True):
+        rows.append(
+            {
+                "output": output,
+                "color": color,
+                "modules": modules,
+                "heading_y": heading_y,
+                "detail_y": detail_y,
+                "detail_lines": 1 if output == "Mechanical-border" else 2,
+            }
+        )
+    return rows
 
 
 def setup_style() -> None:
@@ -153,8 +172,8 @@ def plot_transfer_design(ax: plt.Axes, n_spots: str) -> None:
     xs = [0.025, 0.375, 0.725]
     colors = ["#2F6FB5", "#6B5FB5", "#3A9B65"]
     texts = [
-        "Mouse MI spatial\nstate model\nD3/D7 Visium",
-        "Human gene-symbol\nscoring\n(no retraining)",
+        "Mouse MI spatial\nstate framework\nD3/D7 Visium",
+        "Human gene-symbol\nscoring\nfixed signatures",
         "Human STEMI\nGSM6613090\n1,551 spots",
     ]
     for x, color, text in zip(xs, colors, texts, strict=True):
@@ -205,18 +224,23 @@ def plot_gene_coverage(ax: plt.Axes, summary: dict[str, str]) -> None:
         fontweight="bold",
         color="#111827",
     )
-    y = 0.79
-    for output, color, modules in OUTPUT_MODULES:
-        ax.scatter([0.025], [y + 0.006], s=28, color=color, edgecolors="#FFFFFF", linewidths=0.4, zorder=3)
-        ax.text(0.06, y + 0.01, output, ha="left", va="center", fontsize=6.6, fontweight="bold", color="#1F2937")
-        module_text = "; ".join(
+    for row in gene_coverage_layout():
+        output = str(row["output"])
+        color = str(row["color"])
+        modules = row["modules"]
+        heading_y = float(row["heading_y"])
+        detail_y = float(row["detail_y"])
+        assert isinstance(modules, list)
+        details = [
             f"{module_label} {int(float(summary[f'detected_genes_{module_id}']))}"
             for module_label, module_id in modules
-        )
-        module_text = textwrap.fill(module_text, width=31, break_long_words=False)
+        ]
+        module_text = "; ".join(details) if len(details) == 2 else "; ".join(details[:2]) + "\n" + "; ".join(details[2:])
+        ax.scatter([0.025], [heading_y + 0.006], s=28, color=color, edgecolors="#FFFFFF", linewidths=0.4, zorder=3)
+        ax.text(0.06, heading_y + 0.01, output, ha="left", va="center", fontsize=6.6, fontweight="bold", color="#1F2937")
         ax.text(
             0.06,
-            y - 0.10,
+            detail_y,
             module_text,
             ha="left",
             va="top",
@@ -224,7 +248,6 @@ def plot_gene_coverage(ax: plt.Axes, summary: dict[str, str]) -> None:
             color="#4B5563",
             linespacing=1.16,
         )
-        y -= 0.295
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
 
@@ -404,11 +427,11 @@ def main() -> None:
     separation = pd.read_csv(SEPARATION_TABLE, sep="\t")
     n_spots = f"{int(float(summary['n_spots'])):,}"
 
-    fig = plt.figure(figsize=(7.15, 9.10), constrained_layout=False)
+    fig = plt.figure(figsize=(7.15, 9.45), constrained_layout=False)
     grid = fig.add_gridspec(
         nrows=4,
         ncols=3,
-        height_ratios=[1.48, 2.25, 1.75, 1.18],
+        height_ratios=[1.78, 2.25, 1.75, 1.18],
         width_ratios=[1, 1, 1],
         hspace=0.68,
         wspace=0.46,
@@ -432,7 +455,7 @@ def main() -> None:
     plot_hotspot_overlap(ax_f, separation)
 
     fig.suptitle(
-        "Human STEMI transfer validates separable spatial state outputs",
+        "Human STEMI feasibility transfer shows separable spatial state outputs",
         x=0.02,
         y=0.993,
         ha="left",
@@ -443,7 +466,7 @@ def main() -> None:
     fig.text(
         0.02,
         0.970,
-        "GSM6613090 Visium; fixed human signatures; no model retraining",
+        "GSM6613090 Visium; fixed human signatures; no parameter fitting",
         ha="left",
         va="top",
         fontsize=7.2,

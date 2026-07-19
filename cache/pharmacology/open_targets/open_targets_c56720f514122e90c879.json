@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000107796"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "actin alpha 2, smooth muscle",
+        "approvedSymbol": "ACTA2",
+        "associatedDiseases": {
+          "count": 652,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0012730",
+                "name": "aortic aneurysm, familial thoracic 6"
+              },
+              "score": 0.8081168652248948
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013452",
+                "name": "multisystemic smooth muscle dysfunction syndrome"
+              },
+              "score": 0.787463862541389
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013542",
+                "name": "Moyamoya disease 5"
+              },
+              "score": 0.7560086447995733
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019625",
+                "name": "familial thoracic aortic aneurysm and aortic dissection"
+              },
+              "score": 0.7419556000594385
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016820",
+                "name": "Moyamoya disease"
+              },
+              "score": 0.6399767753141613
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005396",
+                "name": "thoracic aortic aneurysm"
+              },
+              "score": 0.6048907812697382
+            },
+            {
+              "disease": {
+                "id": "Orphanet_285014",
+                "name": "Rare disease with thoracic aortic aneurysm and aortic dissection"
+              },
+              "score": 0.5794274867323483
+            },
+            {
+              "disease": {
+                "id": "Orphanet_233655",
+                "name": "Rare genetic vascular disease"
+              },
+              "score": 0.5379274381310821
+            },
+            {
+              "disease": {
+                "id": "HP_0001626",
+                "name": "Abnormality of the cardiovascular system"
+              },
+              "score": 0.49316452734609534
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005402",
+                "name": "lymphoid leukemia"
+              },
+              "score": 0.4736160509941125
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004948",
+                "name": "B-cell chronic lymphocytic leukemia"
+              },
+              "score": 0.455086724137226
+            },
+            {
+              "disease": {
+                "id": "Orphanet_540",
+                "name": "Familial hemophagocytic lymphohistiocytosis"
+              },
+              "score": 0.45504519608053917
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003900",
+                "name": "connective tissue disorder"
+              },
+              "score": 0.36514607703079893
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011158",
+                "name": "autoimmune lymphoproliferative syndrome type 1"
+              },
+              "score": 0.3620215136361807
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007947",
+                "name": "Marfan syndrome"
+              },
+              "score": 0.3430883622840423
+            },
+            {
+              "disease": {
+                "id": "HP_0012499",
+                "name": "Descending aortic dissection"
+              },
+              "score": 0.3405678360919527
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005083",
+                "name": "psoriasis"
+              },
+              "score": 0.2915308266324425
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005101",
+                "name": "ulcerative colitis"
+              },
+              "score": 0.29092074138592056
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005011",
+                "name": "Crohn disease"
+              },
+              "score": 0.29067117397411774
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018646",
+                "name": "sclerosing cholangitis"
+              },
+              "score": 0.2903459454912913
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005306",
+                "name": "ankylosing spondylitis"
+              },
+              "score": 0.2903459454912913
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005559",
+                "name": "neurodegenerative disease"
+              },
+              "score": 0.2838423693580667
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005059",
+                "name": "leukemia"
+              },
+              "score": 0.25173895061541557
+            },
+            {
+              "disease": {
+                "id": "EFO_0009472",
+                "name": "tympanic membrane perforation"
+              },
+              "score": 0.2362493108885154
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003648",
+                "name": "tympanic membrane disorder"
+              },
+              "score": 0.2362493108885154
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005157",
+                "name": "lymphoid neoplasm"
+              },
+              "score": 0.21511085778657144
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005160",
+                "name": "aortic aneurysm"
+              },
+              "score": 0.18265425182897774
+            },
+            {
+              "disease": {
+                "id": "HP_0002647",
+                "name": "Aortic dissection"
+              },
+              "score": 0.1763657958591106
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003847",
+                "name": "hereditary disease"
+              },
+              "score": 0.14899396253365188
+            },
+            {
+              "disease": {
+                "id": "HP_0005116",
+                "name": "Arterial tortuosity"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002271",
+                "name": "colon adenocarcinoma"
+              },
+              "score": 0.09026824659045553
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004989",
+                "name": "breast carcinoma"
+              },
+              "score": 0.08551586164688547
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007254",
+                "name": "breast cancer"
+              },
+              "score": 0.08369241361739099
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021042",
+                "name": "glioma"
+              },
+              "score": 0.0773018168550909
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002714",
+                "name": "central nervous system cancer"
+              },
+              "score": 0.0773018168550909
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005338",
+                "name": "open-angle glaucoma"
+              },
+              "score": 0.07684104149516366
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001056",
+                "name": "gastric cancer"
+              },
+              "score": 0.07227699378080395
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001384",
+                "name": "myopia"
+              },
+              "score": 0.07077741668210127
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018852",
+                "name": "achromatopsia"
+              },
+              "score": 0.0693859382631063
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016293",
+                "name": "congenital stationary night blindness"
+              },
+              "score": 0.0681431849373007
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1872",
+                "name": "Cone rod dystrophy"
+              },
+              "score": 0.06732277309687887
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005348",
+                "name": "keloid"
+              },
+              "score": 0.06615342401032728
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1871",
+                "name": "Progressive cone dystrophy"
+              },
+              "score": 0.0634812943842008
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018998",
+                "name": "Leber congenital amaurosis"
+              },
+              "score": 0.061827013890203765
+            },
+            {
+              "disease": {
+                "id": "Orphanet_98977",
+                "name": "Juvenile glaucoma"
+              },
+              "score": 0.060657293650126676
+            },
+            {
+              "disease": {
+                "id": "Orphanet_16",
+                "name": "Blue cone monochromatism"
+              },
+              "score": 0.05880569857815633
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.05802117904133353
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008777",
+                "name": "gelatinous drop-like corneal dystrophy"
+              },
+              "score": 0.05664550432752425
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005041",
+                "name": "glaucoma"
+              },
+              "score": 0.05488737901778205
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018874",
+                "name": "acute myeloid leukemia"
+              },
+              "score": 0.05410649072584034
+            },
+            {
+              "disease": {
+                "id": "Orphanet_860",
+                "name": "Congenitally uncorrected transposition of the great arteries"
+              },
+              "score": 0.05295894527704434
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007626",
+                "name": "familial congenital palsy of trochlear nerve"
+              },
+              "score": 0.05287948560828713
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006761",
+                "name": "fibromuscular dysplasia"
+              },
+              "score": 0.05209228051780871
+            },
+            {
+              "disease": {
+                "id": "Orphanet_98619",
+                "name": "Rare isolated myopia"
+              },
+              "score": 0.05136420820407985
+            },
+            {
+              "disease": {
+                "id": "MONDO_0049221",
+                "name": "myopia 26, X-linked, female-limited"
+              },
+              "score": 0.05136420820407985
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009392",
+                "name": "hyperopia, high"
+              },
+              "score": 0.05135681660698617
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011473",
+                "name": "Leber congenital amaurosis 5"
+              },
+              "score": 0.05128290063604921
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021129",
+                "name": "microphthalmia"
+              },
+              "score": 0.05050493504193792
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005514",
+                "name": "nanophthalmia"
+              },
+              "score": 0.05050493504193792
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007194",
+                "name": "familial bicuspid aortic valve"
+              },
+              "score": 0.05045319386228207
+            },
+            {
+              "disease": {
+                "id": "MONDO_0044881",
+                "name": "hematopoietic and lymphoid cell neoplasm"
+              },
+              "score": 0.05039747470026496
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013316",
+                "name": "occult macular dystrophy"
+              },
+              "score": 0.05004727198855337
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005061",
+                "name": "lung adenocarcinoma"
+              },
+              "score": 0.049581351198823016
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010693",
+                "name": "nystagmus 1, congenital, X-linked"
+              },
+              "score": 0.04952370052775004
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019151",
+                "name": "oligocone trichromacy"
+              },
+              "score": 0.04946456775100049
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013662",
+                "name": "Barrett esophagus"
+              },
+              "score": 0.04893237276025453
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007664",
+                "name": "glaucoma 1, open angle, A"
+              },
+              "score": 0.048725408041631085
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030976",
+                "name": "oculomotor-abducens synkinesis"
+              },
+              "score": 0.04840756936660223
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014872",
+                "name": "congenital stationary night blindness 1H"
+              },
+              "score": 0.04837800297822747
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008610",
+                "name": "blue color blindness"
+              },
+              "score": 0.04831887020147792
+            },
+            {
+              "disease": {
+                "id": "Orphanet_88629",
+                "name": "Tritanopia"
+              },
+              "score": 0.04831887020147792
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012398",
+                "name": "achromatopsia 6"
+              },
+              "score": 0.0479566819438869
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007473",
+                "name": "Duane retraction syndrome"
+              },
+              "score": 0.04774232562816978
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010241",
+                "name": "congenital stationary night blindness 2A"
+              },
+              "score": 0.04763145167176436
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010371",
+                "name": "Aland island eye disease"
+              },
+              "score": 0.04760927688048329
+            },
+            {
+              "disease": {
+                "id": "Orphanet_178333",
+                "name": "\u00c5land Islands eye disease"
+              },
+              "score": 0.04760927688048329
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008895",
+                "name": "hereditary arterial and articular multiple calcification syndrome"
+              },
+              "score": 0.0473431793851103
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018899",
+                "name": "posterior cortical atrophy"
+              },
+              "score": 0.047088184758319926
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010563",
+                "name": "blue cone monochromacy"
+              },
+              "score": 0.04708447348683101
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019180",
+                "name": "hereditary hemorrhagic telangiectasia"
+              },
+              "score": 0.046940337343503974
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100342",
+                "name": "malignant glioma"
+              },
+              "score": 0.04693664154495713
+            },
+            {
+              "disease": {
+                "id": "MONDO_0975805",
+                "name": "foveal hypoplasia 3"
+              },
+              "score": 0.04679620120017695
+            },
+            {
+              "disease": {
+                "id": "MONDO_0958190",
+                "name": "prolonged electroretinal response suppression 2"
+              },
+              "score": 0.04677402640889586
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013988",
+                "name": "congenital heart defects, multiple types, 3"
+              },
+              "score": 0.04661880286992828
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007568",
+                "name": "aortic aneurysm, familial thoracic 4"
+              },
+              "score": 0.04602747510243277
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019152",
+                "name": "Oguchi disease"
+              },
+              "score": 0.045680070039029144
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009875",
+                "name": "achromatopsia 3"
+              },
+              "score": 0.04567267844193545
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020290",
+                "name": "familial atrioventricular septal defect"
+              },
+              "score": 0.045310490184344444
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014344",
+                "name": "congenital heart defects, multiple types, 4"
+              },
+              "score": 0.045310490184344444
+            },
+            {
+              "disease": {
+                "id": "EFO_0009081",
+                "name": "Heterotaxia"
+              },
+              "score": 0.045123647035587175
+            },
+            {
+              "disease": {
+                "id": "MONDO_0032891",
+                "name": "aneurysm, intracranial berry, 12"
+              },
+              "score": 0.044504806101131784
+            },
+            {
+              "disease": {
+                "id": "EFO_0700102",
+                "name": "familial isolated restrictive cardiomyopathy"
+              },
+              "score": 0.04439393214472638
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012900",
+                "name": "cardiomyopathy, familial restrictive, 3"
+              },
+              "score": 0.04439393214472638
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012033",
+                "name": "bradyopsia"
+              },
+              "score": 0.044297841382508356
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007989",
+                "name": "congenital microcoria"
+              },
+              "score": 0.044290449785414666
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004298",
+                "name": "stomach disorder"
+              },
+              "score": 0.04415424867516221
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004933",
+                "name": "hypoplastic left heart syndrome"
+              },
+              "score": 0.04415000944063447
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012983",
+                "name": "cone-rod dystrophy 12"
+              },
+              "score": 0.043876520348167795
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019101",
+                "name": "retinal capillary malformation"
+              },
+              "score": 0.04360303125570112
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012475",
+                "name": "cone dystrophy with supernormal rod response"
+              },
+              "score": 0.04332954216323443
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000107796",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:39:29+00:00",
+  "source": "Open Targets"
+}

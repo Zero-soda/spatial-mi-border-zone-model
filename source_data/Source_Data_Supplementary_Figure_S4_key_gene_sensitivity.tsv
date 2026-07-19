@@ -1,0 +1,16 @@
+key_gene	dropped_component	output	stage	n_samples	mean_expected_direction_margin	min_expected_direction_margin	direction_preserved
+POSTN	z_FAP_POSTN_PATHO_FIBROBLAST	immune_fibrotic_activation	day7_mi	3	0.85146209	0.79400575	True
+POSTN	z_CTHRC1_REPARATIVE_CF	fibroblast_scar_repair	day7_mi	3	1.8422488	1.6023683	True
+POSTN	z_ECM_REMODELING	fibroblast_scar_repair	day7_mi	3	1.7327328	1.4564316	True
+POSTN	z_FAP_POSTN_PATHO_FIBROBLAST	fibroblast_scar_repair	day7_mi	3	1.8318271	1.5903108	True
+COL1A1	z_FAP_POSTN_PATHO_FIBROBLAST	immune_fibrotic_activation	day7_mi	3	0.85146209	0.79400575	True
+COL1A1	z_ECM_REMODELING	fibroblast_scar_repair	day7_mi	3	1.7327328	1.4564316	True
+COL1A1	z_FAP_POSTN_PATHO_FIBROBLAST	fibroblast_scar_repair	day7_mi	3	1.8318271	1.5903108	True
+COL1A1	z_MYOFIBROBLAST_CONTRACTILE	fibroblast_scar_repair	day7_mi	3	1.5019188	1.2816217	True
+COL1A2	z_ECM_REMODELING	fibroblast_scar_repair	day7_mi	3	1.7327328	1.4564316	True
+COL1A2	z_MYOFIBROBLAST_CONTRACTILE	fibroblast_scar_repair	day7_mi	3	1.5019188	1.2816217	True
+CTHRC1	z_CTHRC1_REPARATIVE_CF	fibroblast_scar_repair	day7_mi	3	1.8422488	1.6023683	True
+NPPA	z_CM_BZ1_TRANSITION	mechanical_border	day7_mi	3	1.4529169	1.3358167	True
+NPPA	z_CM_BZ2_MECHANICAL_EDGE	mechanical_border	day7_mi	3	1.9980732	1.8386225	True
+NPPB	z_CM_BZ1_TRANSITION	mechanical_border	day7_mi	3	1.4529169	1.3358167	True
+XIRP2	z_CM_BZ2_MECHANICAL_EDGE	mechanical_border	day7_mi	3	1.9980732	1.8386225	True

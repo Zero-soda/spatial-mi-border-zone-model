@@ -1,0 +1,296 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "MYL6"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Myosin light polypeptide 6",
+        "score": 15.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL6066273",
+        "target_components": [
+          {
+            "accession": "P60660",
+            "component_description": "Myosin light polypeptide 6",
+            "component_id": 23464,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "17 kDa myosin light chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "LC17",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MLC-3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MYL6",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Myosin light chain 3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin light chain A3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin light chain alkali 3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin light polypeptide 6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Smooth muscle and nonmuscle myosin light chain alkali 6",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P60660",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P60660",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005903",
+                "xref_name": "brush border",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016460",
+                "xref_name": "myosin II complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016461",
+                "xref_name": "unconventional myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031982",
+                "xref_name": "vesicle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000146",
+                "xref_name": "microfilament motor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003774",
+                "xref_name": "cytoskeletal motor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008307",
+                "xref_name": "structural constituent of muscle",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006936",
+                "xref_name": "muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007519",
+                "xref_name": "skeletal muscle tissue development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030049",
+                "xref_name": "muscle filament sliding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:7587",
+                "xref_name": "MYL6",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P60660",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR002048",
+                "xref_name": "EF_hand_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011992",
+                "xref_name": "EF-hand-dom_pair",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050230",
+                "xref_name": "CALM/Myosin/TropC-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23048",
+                "xref_name": "MYOSIN LIGHT CHAIN 1, 3",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23048:SF43",
+                "xref_name": "MYOSIN LIGHT POLYPEPTIDE 6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PA31384",
+                "xref_name": "myosin light chain 6",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P60660",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-3928663",
+                "xref_name": "EPHA-mediated growth cone collapse",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-416572",
+                "xref_name": "Sema4D induced cell migration and growth-cone collapse",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-445355",
+                "xref_name": "Smooth Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5625740",
+                "xref_name": "RHO GTPases activate PKNs",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5625900",
+                "xref_name": "RHO GTPases activate CIT",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5627117",
+                "xref_name": "RHO GTPases Activate ROCKs",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5627123",
+                "xref_name": "RHO GTPases activate PAKs",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P16475",
+                "xref_name": "Myosin light polypeptide 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P24572",
+                "xref_name": "Myosin light polypeptide 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P24573",
+                "xref_name": "Myosin light polypeptide 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P60660",
+                "xref_name": "Myosin light polypeptide 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q12790",
+                "xref_name": "Myosin light polypeptide 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q561V9",
+                "xref_name": "Myosin light polypeptide 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6IAZ0",
+                "xref_name": "Myosin light polypeptide 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6IPY5",
+                "xref_name": "Myosin light polypeptide 6",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:42:04+00:00",
+  "source": "ChEMBL target search"
+}

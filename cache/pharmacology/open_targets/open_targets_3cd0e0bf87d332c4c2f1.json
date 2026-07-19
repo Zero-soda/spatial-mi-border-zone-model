@@ -1,0 +1,885 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000184009"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "actin gamma 1",
+        "approvedSymbol": "ACTG1",
+        "associatedDiseases": {
+          "count": 703,
+          "rows": [
+            {
+              "disease": {
+                "id": "Orphanet_2995",
+                "name": "Baraitser-Winter syndrome"
+              },
+              "score": 0.8317416347957441
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019587",
+                "name": "autosomal dominant nonsyndromic hearing loss"
+              },
+              "score": 0.7385060263135074
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017579",
+                "name": "Baraitser-Winter cerebrofrontofacial syndrome"
+              },
+              "score": 0.6610585904546439
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004992",
+                "name": "cancer"
+              },
+              "score": 0.6106135923098224
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018997",
+                "name": "Noonan syndrome"
+              },
+              "score": 0.5261379875719714
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005045",
+                "name": "hypertrophic cardiomyopathy"
+              },
+              "score": 0.5047896179103925
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009026",
+                "name": "Costello syndrome"
+              },
+              "score": 0.5030392466541774
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005559",
+                "name": "neurodegenerative disease"
+              },
+              "score": 0.4963902152052203
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003847",
+                "name": "hereditary disease"
+              },
+              "score": 0.48346841935693463
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019497",
+                "name": "nonsyndromic genetic hearing loss"
+              },
+              "score": 0.4545832212621832
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005365",
+                "name": "hearing loss disorder"
+              },
+              "score": 0.44246312987702585
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002776",
+                "name": "external ear disorder"
+              },
+              "score": 0.4283966068043075
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021205",
+                "name": "disorder of ear"
+              },
+              "score": 0.4283966068043075
+            },
+            {
+              "disease": {
+                "id": "Orphanet_87884",
+                "name": "Non-syndromic genetic deafness"
+              },
+              "score": 0.3836363624828161
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000728",
+                "name": "ptosis"
+              },
+              "score": 0.37013422446672883
+            },
+            {
+              "disease": {
+                "id": "HP_0000377",
+                "name": "Abnormal pinna morphology"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0000307",
+                "name": "Pointed chin"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0000219",
+                "name": "Thin upper lip vermilion"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0002553",
+                "name": "Highly arched eyebrow"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015280",
+                "name": "cardiofaciocutaneous syndrome"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005027",
+                "name": "epilepsy"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0000408",
+                "name": "Progressive sensorineural hearing impairment"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0000343",
+                "name": "Long philtrum"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0000637",
+                "name": "Long palpebral fissure"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0000154",
+                "name": "Wide mouth"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020356",
+                "name": "coloboma of iris"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020354",
+                "name": "coloboma of choroid and retina"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005446",
+                "name": "cutaneous leishmaniasis"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "Orphanet_96210",
+                "name": "Rare genetic deafness"
+              },
+              "score": 0.3621882575910077
+            },
+            {
+              "disease": {
+                "id": "HP_0012758",
+                "name": "Neurodevelopmental delay"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0001339",
+                "name": "Lissencephaly"
+              },
+              "score": 0.33786322704047
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019719",
+                "name": "congenital anomaly of kidney and urinary tract"
+              },
+              "score": 0.3326218692162316
+            },
+            {
+              "disease": {
+                "id": "HP_0000924",
+                "name": "Abnormality of the skeletal system"
+              },
+              "score": 0.327688329152302
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020678",
+                "name": "sensorineural hearing loss disorder"
+              },
+              "score": 0.31075347238511797
+            },
+            {
+              "disease": {
+                "id": "HP_0000365",
+                "name": "Hearing impairment"
+              },
+              "score": 0.3000173804443411
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001149",
+                "name": "microcephaly"
+              },
+              "score": 0.26028482240467504
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002409",
+                "name": "auditory system disorder"
+              },
+              "score": 0.2602679923862723
+            },
+            {
+              "disease": {
+                "id": "EFO_0010282",
+                "name": "gastrointestinal disease"
+              },
+              "score": 0.19019340735328805
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005385",
+                "name": "vascular disorder"
+              },
+              "score": 0.1600825203342948
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005328",
+                "name": "eye disorder"
+              },
+              "score": 0.15386795548904647
+            },
+            {
+              "disease": {
+                "id": "EFO_0003924",
+                "name": "hair color"
+              },
+              "score": 0.14751665865214778
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.14018280490345836
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009470",
+                "name": "Baraitser-Winter syndrome 1"
+              },
+              "score": 0.11863513335378928
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004948",
+                "name": "B-cell chronic lymphocytic leukemia"
+              },
+              "score": 0.09791497627801733
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013600",
+                "name": "insomnia"
+              },
+              "score": 0.0971525408744471
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007256",
+                "name": "hepatocellular carcinoma"
+              },
+              "score": 0.08556985294825134
+            },
+            {
+              "disease": {
+                "id": "EFO_0001063",
+                "name": "deafness"
+              },
+              "score": 0.08356013457996217
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.0816435055028534
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007254",
+                "name": "breast cancer"
+              },
+              "score": 0.08037956492537715
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019588",
+                "name": "hearing loss, autosomal recessive"
+              },
+              "score": 0.07861467778826646
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004989",
+                "name": "breast carcinoma"
+              },
+              "score": 0.07757574337411263
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005010",
+                "name": "coronary artery disorder"
+              },
+              "score": 0.07624904643070829
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002715",
+                "name": "uterine cancer"
+              },
+              "score": 0.07428555079162505
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010168",
+                "name": "Usher syndrome type 1"
+              },
+              "score": 0.06877162355050391
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019501",
+                "name": "Usher syndrome"
+              },
+              "score": 0.06862507281879293
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007972",
+                "name": "Meniere disease"
+              },
+              "score": 0.06417754176599846
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010817",
+                "name": "autosomal dominant nonsyndromic hearing loss 2A"
+              },
+              "score": 0.06277313831819661
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859235",
+                "name": "auditory neuropathy, autosomal dominant 3"
+              },
+              "score": 0.06260682738358848
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859525",
+                "name": "hearing loss, autosomal dominant 87"
+              },
+              "score": 0.06207093659429567
+            },
+            {
+              "disease": {
+                "id": "MONDO_0968980",
+                "name": "otosclerosis 12"
+              },
+              "score": 0.0609566533324213
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017568",
+                "name": "Prata-Liberal-Goncalves syndrome"
+              },
+              "score": 0.06095110963460102
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012977",
+                "name": "autosomal recessive nonsyndromic hearing loss 1B"
+              },
+              "score": 0.059373003655097345
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014470",
+                "name": "autosomal dominant nonsyndromic hearing loss 65"
+              },
+              "score": 0.059332349871082025
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011120",
+                "name": "neural tube defects, folate-sensitive"
+              },
+              "score": 0.05865971453555587
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019586",
+                "name": "X-linked nonsyndromic hearing loss"
+              },
+              "score": 0.05795006988402587
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013978",
+                "name": "autosomal recessive nonsyndromic hearing loss 70"
+              },
+              "score": 0.05688018753524904
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859524",
+                "name": "hearing loss, autosomal dominant 86"
+              },
+              "score": 0.05670833290282065
+            },
+            {
+              "disease": {
+                "id": "Orphanet_52429",
+                "name": "Branchio-otic syndrome"
+              },
+              "score": 0.056409854052513045
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1048",
+                "name": "Isolated anencephaly/exencephaly"
+              },
+              "score": 0.055776991669015195
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007441",
+                "name": "dentinogenesis imperfecta type 2"
+              },
+              "score": 0.05553861266274356
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011571",
+                "name": "deafness, autosomal dominant 39, with dentinogenesis imperfecta 1"
+              },
+              "score": 0.05553861266274356
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007473",
+                "name": "Duane retraction syndrome"
+              },
+              "score": 0.055052409831691684
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014428",
+                "name": "autosomal recessive nonsyndromic hearing loss 102"
+              },
+              "score": 0.0549435890967012
+            },
+            {
+              "disease": {
+                "id": "Orphanet_168609",
+                "name": "Mitochondrial non-syndromic sensorineural deafness with susceptibility to aminoglycoside exposure"
+              },
+              "score": 0.0549435890967012
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010799",
+                "name": "deafness, aminoglycoside-induced"
+              },
+              "score": 0.0549435890967012
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011350",
+                "name": "autosomal dominant nonsyndromic hearing loss 17"
+              },
+              "score": 0.0549435890967012
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011074",
+                "name": "autosomal dominant nonsyndromic hearing loss 7"
+              },
+              "score": 0.0549435890967012
+            },
+            {
+              "disease": {
+                "id": "HP_0009900",
+                "name": "Unilateral deafness"
+              },
+              "score": 0.05490293531268588
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859527",
+                "name": "hearing loss, autosomal dominant 88"
+              },
+              "score": 0.05490108741341246
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859528",
+                "name": "hearing loss, autosomal dominant 89"
+              },
+              "score": 0.05490108741341246
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013826",
+                "name": "autosomal recessive nonsyndromic hearing loss 86"
+              },
+              "score": 0.05490108741341246
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030998",
+                "name": "hearing loss, autosomal dominant 80"
+              },
+              "score": 0.05484380253593633
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030058",
+                "name": "hearing loss, autosomal dominant 77"
+              },
+              "score": 0.0547477117737183
+            },
+            {
+              "disease": {
+                "id": "MONDO_0032911",
+                "name": "hearing loss, autosomal dominant 75"
+              },
+              "score": 0.0545740092420165
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012662",
+                "name": "Usher syndrome type 2D"
+              },
+              "score": 0.05447607058052504
+            },
+            {
+              "disease": {
+                "id": "Orphanet_306530",
+                "name": "Congenital hereditary facial paralysis with variable hearing loss"
+              },
+              "score": 0.05394757138832591
+            },
+            {
+              "disease": {
+                "id": "MONDO_0033201",
+                "name": "hearing loss, autosomal recessive 57"
+              },
+              "score": 0.05280187383880335
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018800",
+                "name": "Kallmann syndrome"
+              },
+              "score": 0.05189368267645106
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014880",
+                "name": "Duane retraction syndrome 3 with or without deafness"
+              },
+              "score": 0.051606283008898336
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000107",
+                "name": "auriculocondylar syndrome"
+              },
+              "score": 0.051149851888362734
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013013",
+                "name": "question mark ears, isolated"
+              },
+              "score": 0.051149851888362734
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009089",
+                "name": "deafness-oligodontia syndrome"
+              },
+              "score": 0.05105560902541812
+            },
+            {
+              "disease": {
+                "id": "Orphanet_3230",
+                "name": "Deafness - oligodontia"
+              },
+              "score": 0.05105560902541812
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014293",
+                "name": "autosomal dominant nonsyndromic hearing loss 58"
+              },
+              "score": 0.05078211993295144
+            },
+            {
+              "disease": {
+                "id": "Orphanet_3176",
+                "name": "Spina bifida - hypospadias"
+              },
+              "score": 0.05037373419352486
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017857",
+                "name": "spina bifida-hypospadias syndrome"
+              },
+              "score": 0.05037373419352486
+            },
+            {
+              "disease": {
+                "id": "MONDO_0957279",
+                "name": "auditory neuropathy, autosomal dominant 2"
+              },
+              "score": 0.050310905618228464
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030719",
+                "name": "hearing loss, autosomal dominant 82"
+              },
+              "score": 0.05028503502840053
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011708",
+                "name": "autosomal dominant nonsyndromic hearing loss 36"
+              },
+              "score": 0.05028503502840053
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016485",
+                "name": "Usher syndrome type 3"
+              },
+              "score": 0.05026655603566628
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000184009",
+        "isEssential": true,
+        "safetyLiabilities": [
+          {
+            "datasource": "ClinPGx",
+            "event": "grade 3-4 neurotoxicity"
+          }
+        ],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:39:36+00:00",
+  "source": "Open Targets"
+}

@@ -1,0 +1,3084 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "FN1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 6
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Coagulation factor XII",
+        "score": 25.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2821",
+        "target_components": [
+          {
+            "accession": "P00748",
+            "component_description": "Coagulation factor XII",
+            "component_id": 1151,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.4.21.38",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Beta-factor XIIa part 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Beta-factor XIIa part 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Coagulation factor XII",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Coagulation factor XIIa heavy chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Coagulation factor XIIa light chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "F12",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "HAF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Hageman factor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "6SZW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8OS5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7FBP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7PRK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6GT6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6L63",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4XE4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7PRJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6B74",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6B77",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6QF7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4BDW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4BDX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6X0S",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4XDE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6X0T",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0004252",
+                "xref_name": "serine-type endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008233",
+                "xref_name": "peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008236",
+                "xref_name": "serine-type peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051787",
+                "xref_name": "misfolded protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002353",
+                "xref_name": "plasma kallikrein-kinin cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002542",
+                "xref_name": "Factor XII activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007596",
+                "xref_name": "blood coagulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007597",
+                "xref_name": "blood coagulation, intrinsic pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010756",
+                "xref_name": "positive regulation of plasminogen activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016485",
+                "xref_name": "protein processing",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016540",
+                "xref_name": "protein autoprocessing",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030194",
+                "xref_name": "positive regulation of blood coagulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031638",
+                "xref_name": "zymogen activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042730",
+                "xref_name": "fibrinolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051788",
+                "xref_name": "response to misfolded protein",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051919",
+                "xref_name": "positive regulation of fibrinolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005791",
+                "xref_name": "rough endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA161",
+                "xref_name": "coagulation factor XII",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P78339",
+                "xref_name": "Coagulation factor XII",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P00748",
+                "xref_name": "Coagulation factor XII",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "4BDW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4BDX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4XDE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4XE4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6B74",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6B77",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6GT6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6L63",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6QF7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6SZW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6X0S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6X0T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7FBP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PRJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PRK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8OS5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8R8D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P00748",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P00748",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:3530",
+                "xref_name": "F12",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-140837",
+                "xref_name": "Intrinsic Pathway of Fibrin Clot Formation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9657688",
+                "xref_name": "Defective factor XII causes hereditary angioedema",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9657689",
+                "xref_name": "Defective SERPING1 causes hereditary angioedema",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P00748",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "IPR014394",
+                "xref_name": "Coagulation_fac_XII/HGFA",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000742",
+                "xref_name": "EGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001881",
+                "xref_name": "EGF-like_Ca-bd_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000083",
+                "xref_name": "Fibronectin_type1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000562",
+                "xref_name": "FN_type2_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036943",
+                "xref_name": "FN_type2_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000001",
+                "xref_name": "Kringle",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013806",
+                "xref_name": "Kringle-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018056",
+                "xref_name": "Kringle_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038178",
+                "xref_name": "Kringle_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009003",
+                "xref_name": "Peptidase_S1_PA",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043504",
+                "xref_name": "Peptidase_S1_PA_chymotrypsin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001314",
+                "xref_name": "Peptidase_S1A",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050127",
+                "xref_name": "Serine_Proteases_S1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001254",
+                "xref_name": "Trypsin_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018114",
+                "xref_name": "TRYPSIN_HIS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033116",
+                "xref_name": "TRYPSIN_SER",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24264:SF46",
+                "xref_name": "COAGULATION FACTOR XII",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24264",
+                "xref_name": "TRYPSIN-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00008",
+                "xref_name": "EGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00039",
+                "xref_name": "fn1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00040",
+                "xref_name": "fn2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00051",
+                "xref_name": "Kringle",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00089",
+                "xref_name": "Trypsin",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Tissue-type plasminogen activator",
+        "score": 25.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1873",
+        "target_components": [
+          {
+            "accession": "P00750",
+            "component_description": "Tissue-type plasminogen activator",
+            "component_id": 189,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.4.21.68",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "INN=Alteplase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "INN=Reteplase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PLAT",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator chain A",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator chain B",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "t-PA",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "tPA",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "t-plasminogen activator",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "1A5H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1RTF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5BRR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1BDA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1PML",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1TPK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5ZLZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0004252",
+                "xref_name": "serine-type endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008236",
+                "xref_name": "serine-type peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051219",
+                "xref_name": "phosphoprotein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001666",
+                "xref_name": "response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007596",
+                "xref_name": "blood coagulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010757",
+                "xref_name": "negative regulation of plasminogen activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014909",
+                "xref_name": "smooth muscle cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031639",
+                "xref_name": "plasminogen activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042730",
+                "xref_name": "fibrinolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045861",
+                "xref_name": "negative regulation of proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048008",
+                "xref_name": "platelet-derived growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051918",
+                "xref_name": "negative regulation of fibrinolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060468",
+                "xref_name": "prevention of polyspermy",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0099183",
+                "xref_name": "trans-synaptic signaling by BDNF, modulating synaptic transmission",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045177",
+                "xref_name": "apical part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098685",
+                "xref_name": "Schaffer collateral - CA1 synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098978",
+                "xref_name": "glutamatergic synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0097180",
+                "xref_name": "serine protease inhibitor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA33381",
+                "xref_name": "plasminogen activator, tissue type",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A8K022",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B2R8E8",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15103",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q503B0",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6PJA5",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z7N2",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q86YK8",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BU99",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BZW1",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P00750",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1A5H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1BDA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1PK2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1PML",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1RTF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TPG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TPK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TPM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TPN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5BRR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5ZLZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P00750",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P00750",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:9051",
+                "xref_name": "PLAT",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-186797",
+                "xref_name": "Signaling by PDGF",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-75205",
+                "xref_name": "Dissolution of Fibrin Clot",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P00750",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P00750",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR000742",
+                "xref_name": "EGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000083",
+                "xref_name": "Fibronectin_type1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000001",
+                "xref_name": "Kringle",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013806",
+                "xref_name": "Kringle-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018056",
+                "xref_name": "Kringle_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038178",
+                "xref_name": "Kringle_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009003",
+                "xref_name": "Peptidase_S1_PA",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043504",
+                "xref_name": "Peptidase_S1_PA_chymotrypsin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001314",
+                "xref_name": "Peptidase_S1A",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050127",
+                "xref_name": "Serine_Proteases_S1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR026280",
+                "xref_name": "Tissue_plasm_act",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001254",
+                "xref_name": "Trypsin_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018114",
+                "xref_name": "TRYPSIN_HIS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033116",
+                "xref_name": "TRYPSIN_SER",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24264:SF42",
+                "xref_name": "TISSUE-TYPE PLASMINOGEN ACTIVATOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24264",
+                "xref_name": "TRYPSIN-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00008",
+                "xref_name": "EGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00039",
+                "xref_name": "fn1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00051",
+                "xref_name": "Kringle",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00089",
+                "xref_name": "Trypsin",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Fibronectin",
+        "score": 25.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3810",
+        "target_components": [
+          {
+            "accession": "P02751",
+            "component_description": "Fibronectin",
+            "component_id": 2128,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Anastellin",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CIG",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Cold-insoluble globulin",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fibronectin",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FN",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "FN1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Ugl-Y1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ugl-Y2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ugl-Y3",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "3R8Q",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6XAX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3CAL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6XAY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6MFA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3MQL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2CK2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2RL0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2OCF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3ZRZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4LXO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2RKZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6NAJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2RKY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5DC4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GH7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MMX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5DC9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MMY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MMZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PEQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3T1W",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4JEG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2GEE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6MSV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5DFT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5N48",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5DC0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5N47",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3EJH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3M7P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PZ5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2CG7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2CG6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1FNH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5J7C",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3GXE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1FNF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4JE4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1FNA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0002020",
+                "xref_name": "protease binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005178",
+                "xref_name": "integrin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005201",
+                "xref_name": "extracellular matrix structural constituent",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008201",
+                "xref_name": "heparin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016504",
+                "xref_name": "peptidase activator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0043394",
+                "xref_name": "proteoglycan binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048018",
+                "xref_name": "receptor ligand activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007044",
+                "xref_name": "cell-substrate junction assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007155",
+                "xref_name": "cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007160",
+                "xref_name": "cell-matrix adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007161",
+                "xref_name": "calcium-independent cell-matrix adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007229",
+                "xref_name": "integrin-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007399",
+                "xref_name": "nervous system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007507",
+                "xref_name": "heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008360",
+                "xref_name": "regulation of cell shape",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009611",
+                "xref_name": "response to wounding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033622",
+                "xref_name": "integrin activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034446",
+                "xref_name": "substrate adhesion-dependent cell spreading",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035987",
+                "xref_name": "endodermal cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045773",
+                "xref_name": "positive regulation of axon extension",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048146",
+                "xref_name": "positive regulation of fibroblast proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051702",
+                "xref_name": "biological process involved in interaction with symbiont",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070372",
+                "xref_name": "regulation of ERK1 and ERK2 cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071635",
+                "xref_name": "negative regulation of transforming growth factor beta production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0150102",
+                "xref_name": "negative regulation of monocyte activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901166",
+                "xref_name": "neural crest cell migration involved in autonomic nervous system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904237",
+                "xref_name": "positive regulation of substrate-dependent cell migration, cell attachment to substrate",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005788",
+                "xref_name": "endoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016324",
+                "xref_name": "apical plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031093",
+                "xref_name": "platelet alpha granule lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072562",
+                "xref_name": "blood microparticle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005577",
+                "xref_name": "fibrinogen complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA28194",
+                "xref_name": "fibronectin 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "5DC4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "B7ZLF0",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E9PE77",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E9PG29",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O95609",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O95610",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14312",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14325",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14326",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q17RV7",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q53S27",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q564H7",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q585T2",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q59EH1",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q60FE4",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q68DP8",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q68DP9",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q68DT4",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6LDP6",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6MZS0",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6MZU5",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6N025",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6N0A6",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z391",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q86T27",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8IVI8",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96KP7",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96KP8",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96KP9",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9H1B8",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9HAP3",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UMK2",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P02751",
+                "xref_name": "Fibronectin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1E88",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1E8B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1FBR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1FNA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1FNF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1FNH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J8K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1O9A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1OWW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1Q38",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1QGB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1QO6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TTF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TTG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2CG6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2CG7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2CK2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2CKU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2EC3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2FN2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2FNB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2GEE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2H41",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2H45",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2HA1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MNU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2N1K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2OCF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2RKY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2RKZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2RL0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3CAL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3EJH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3GXE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3M7P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3MQL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3R8Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3T1W",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3ZRZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GH7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4JE4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4JEG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4LXO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MMX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MMY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MMZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PZ5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5DC0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5DC9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5DFT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5J6Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5J7C",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5M0A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5N47",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5N48",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6HNF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6MFA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6MSV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6NAJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6XAX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6XAY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7NWL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PEQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P02751",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P02751",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:3778",
+                "xref_name": "FN1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-114608",
+                "xref_name": "Platelet degranulation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-1474228",
+                "xref_name": "Degradation of the extracellular matrix",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-1566977",
+                "xref_name": "Fibronectin matrix formation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-202733",
+                "xref_name": "Cell surface interactions at the vascular wall",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2129379",
+                "xref_name": "Molecules associated with elastic fibres",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-216083",
+                "xref_name": "Integrin cell surface interactions",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000170",
+                "xref_name": "Syndecan interactions",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000171",
+                "xref_name": "Non-integrin membrane-ECM interactions",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000178",
+                "xref_name": "ECM proteoglycans",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-354192",
+                "xref_name": "Integrin signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-354194",
+                "xref_name": "GRB2:SOS provides linkage to MAPK signaling for Integrins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-372708",
+                "xref_name": "p130Cas linkage to MAPK signaling for integrins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-381426",
+                "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5674135",
+                "xref_name": "MAP2K and MAPK activation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6785807",
+                "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6802946",
+                "xref_name": "Signaling by moderate kinase activity BRAF mutants",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6802948",
+                "xref_name": "Signaling by high-kinase activity BRAF mutants",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6802952",
+                "xref_name": "Signaling by BRAF and RAF1 fusions",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6802955",
+                "xref_name": "Paradoxical activation of RAF signaling by kinase inactive BRAF",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8874081",
+                "xref_name": "MET activates PTK2 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8957275",
+                "xref_name": "Post-translational protein phosphorylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9634597",
+                "xref_name": "GPER1 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9638630",
+                "xref_name": "Attachment of bacteria to epithelial cells",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9649948",
+                "xref_name": "Signaling downstream of RAS mutants",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9656223",
+                "xref_name": "Signaling by RAF1 mutants",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9700645",
+                "xref_name": "ALK mutants bind TKIs",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9725370",
+                "xref_name": "Signaling by ALK fusions and activated point mutants",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9860927",
+                "xref_name": "Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9925563",
+                "xref_name": "Developmental Lineage of Pancreatic Ductal Cells",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P02751",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P02751",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR050991",
+                "xref_name": "ECM_Regulatory_Proteins",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000083",
+                "xref_name": "Fibronectin_type1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003961",
+                "xref_name": "FN3_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036116",
+                "xref_name": "FN3_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000562",
+                "xref_name": "FN_type2_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036943",
+                "xref_name": "FN_type2_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013806",
+                "xref_name": "Kringle-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR46708:SF8",
+                "xref_name": "FIBRONECTIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR46708",
+                "xref_name": "TENASCIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00039",
+                "xref_name": "fn1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00040",
+                "xref_name": "fn2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00041",
+                "xref_name": "fn3",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Bos taurus",
+        "pref_name": "Coagulation factor XII",
+        "score": 25.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3533",
+        "target_components": [
+          {
+            "accession": "P98140",
+            "component_description": "Coagulation factor XII",
+            "component_id": 1854,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.4.21.38",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Coagulation factor XII",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Coagulation factor XIIa heavy chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Coagulation factor XIIa light chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "F12",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "HAF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Hageman factor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0004252",
+                "xref_name": "serine-type endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008236",
+                "xref_name": "serine-type peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007596",
+                "xref_name": "blood coagulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031638",
+                "xref_name": "zymogen activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042730",
+                "xref_name": "fibrinolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005791",
+                "xref_name": "rough endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA161",
+                "xref_name": "coagulation factor XII",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q0P5I3",
+                "xref_name": "Coagulation factor XII",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P98140",
+                "xref_name": "Coagulation factor XII",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P98140",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR014394",
+                "xref_name": "Coagulation_fac_XII/HGFA",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000742",
+                "xref_name": "EGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001881",
+                "xref_name": "EGF-like_Ca-bd_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000083",
+                "xref_name": "Fibronectin_type1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000562",
+                "xref_name": "FN_type2_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036943",
+                "xref_name": "FN_type2_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000001",
+                "xref_name": "Kringle",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013806",
+                "xref_name": "Kringle-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038178",
+                "xref_name": "Kringle_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009003",
+                "xref_name": "Peptidase_S1_PA",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043504",
+                "xref_name": "Peptidase_S1_PA_chymotrypsin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001314",
+                "xref_name": "Peptidase_S1A",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050127",
+                "xref_name": "Serine_Proteases_S1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001254",
+                "xref_name": "Trypsin_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018114",
+                "xref_name": "TRYPSIN_HIS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033116",
+                "xref_name": "TRYPSIN_SER",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24264:SF46",
+                "xref_name": "COAGULATION FACTOR XII",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24264",
+                "xref_name": "TRYPSIN-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00008",
+                "xref_name": "EGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00039",
+                "xref_name": "fn1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00040",
+                "xref_name": "fn2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00051",
+                "xref_name": "Kringle",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00089",
+                "xref_name": "Trypsin",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9913
+      },
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "Tissue-type plasminogen activator",
+        "score": 25.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3259492",
+        "target_components": [
+          {
+            "accession": "P11214",
+            "component_description": "Tissue-type plasminogen activator",
+            "component_id": 8577,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.4.21.68",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Plat",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator chain A",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator chain B",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "t-PA",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "tPA",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "t-plasminogen activator",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0001666",
+                "xref_name": "response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014909",
+                "xref_name": "smooth muscle cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048008",
+                "xref_name": "platelet-derived growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0004252",
+                "xref_name": "serine-type endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008236",
+                "xref_name": "serine-type peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051219",
+                "xref_name": "phosphoprotein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0010757",
+                "xref_name": "negative regulation of plasminogen activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031639",
+                "xref_name": "plasminogen activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045861",
+                "xref_name": "negative regulation of proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051918",
+                "xref_name": "negative regulation of fibrinolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060468",
+                "xref_name": "prevention of polyspermy",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0099183",
+                "xref_name": "trans-synaptic signaling by BDNF, modulating synaptic transmission",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0098685",
+                "xref_name": "Schaffer collateral - CA1 synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098978",
+                "xref_name": "glutamatergic synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045177",
+                "xref_name": "apical part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0097180",
+                "xref_name": "serine protease inhibitor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q6P7U0",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q91VP2",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P11214",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P11214",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P11214",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "R-MMU-186797",
+                "xref_name": "Signaling by PDGF",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-75205",
+                "xref_name": "Dissolution of Fibrin Clot",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "IPR000742",
+                "xref_name": "EGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000083",
+                "xref_name": "Fibronectin_type1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000001",
+                "xref_name": "Kringle",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013806",
+                "xref_name": "Kringle-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018056",
+                "xref_name": "Kringle_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038178",
+                "xref_name": "Kringle_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009003",
+                "xref_name": "Peptidase_S1_PA",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043504",
+                "xref_name": "Peptidase_S1_PA_chymotrypsin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001314",
+                "xref_name": "Peptidase_S1A",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050127",
+                "xref_name": "Serine_Proteases_S1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR026280",
+                "xref_name": "Tissue_plasm_act",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001254",
+                "xref_name": "Trypsin_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018114",
+                "xref_name": "TRYPSIN_HIS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033116",
+                "xref_name": "TRYPSIN_SER",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24264:SF42",
+                "xref_name": "TISSUE-TYPE PLASMINOGEN ACTIVATOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24264",
+                "xref_name": "TRYPSIN-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00008",
+                "xref_name": "EGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00039",
+                "xref_name": "fn1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00051",
+                "xref_name": "Kringle",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00089",
+                "xref_name": "Trypsin",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      },
+      {
+        "cross_references": [],
+        "organism": "Rattus norvegicus",
+        "pref_name": "Tissue-type plasminogen activator",
+        "score": 25.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL6195701",
+        "target_components": [
+          {
+            "accession": "P19637",
+            "component_description": "Tissue-type plasminogen activator",
+            "component_id": 27872,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.4.21.68",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Plat",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator chain A",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tissue-type plasminogen activator chain B",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "t-PA",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "tPA",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "t-plasminogen activator",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0031012",
+                "xref_name": "extracellular matrix",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001666",
+                "xref_name": "response to hypoxia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014909",
+                "xref_name": "smooth muscle cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048008",
+                "xref_name": "platelet-derived growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0004252",
+                "xref_name": "serine-type endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051219",
+                "xref_name": "phosphoprotein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031639",
+                "xref_name": "plasminogen activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035249",
+                "xref_name": "synaptic transmission, glutamatergic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045861",
+                "xref_name": "negative regulation of proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048167",
+                "xref_name": "regulation of synaptic plasticity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051591",
+                "xref_name": "response to cAMP",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060468",
+                "xref_name": "prevention of polyspermy",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070542",
+                "xref_name": "response to fatty acid",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071372",
+                "xref_name": "cellular response to follicle-stimulating hormone stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071373",
+                "xref_name": "cellular response to luteinizing hormone stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071396",
+                "xref_name": "cellular response to lipid",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071549",
+                "xref_name": "cellular response to dexamethasone stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0099183",
+                "xref_name": "trans-synaptic signaling by BDNF, modulating synaptic transmission",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901701",
+                "xref_name": "cellular response to oxygen-containing compound",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0098685",
+                "xref_name": "Schaffer collateral - CA1 synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098794",
+                "xref_name": "postsynapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098978",
+                "xref_name": "glutamatergic synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098992",
+                "xref_name": "neuronal dense core vesicle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0099544",
+                "xref_name": "perisynaptic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030141",
+                "xref_name": "secretory granule",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045177",
+                "xref_name": "apical part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "P19637",
+                "xref_name": "Tissue-type plasminogen activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P19637",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P19637",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "R-RNO-186797",
+                "xref_name": "Signaling by PDGF",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-RNO-75205",
+                "xref_name": "Dissolution of Fibrin Clot",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "IPR000742",
+                "xref_name": "EGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000083",
+                "xref_name": "Fibronectin_type1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000001",
+                "xref_name": "Kringle",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013806",
+                "xref_name": "Kringle-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018056",
+                "xref_name": "Kringle_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038178",
+                "xref_name": "Kringle_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009003",
+                "xref_name": "Peptidase_S1_PA",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043504",
+                "xref_name": "Peptidase_S1_PA_chymotrypsin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001314",
+                "xref_name": "Peptidase_S1A",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050127",
+                "xref_name": "Serine_Proteases_S1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR026280",
+                "xref_name": "Tissue_plasm_act",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001254",
+                "xref_name": "Trypsin_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018114",
+                "xref_name": "TRYPSIN_HIS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR033116",
+                "xref_name": "TRYPSIN_SER",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24264:SF42",
+                "xref_name": "TISSUE-TYPE PLASMINOGEN ACTIVATOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24264",
+                "xref_name": "TRYPSIN-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00008",
+                "xref_name": "EGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00039",
+                "xref_name": "fn1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00051",
+                "xref_name": "Kringle",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00089",
+                "xref_name": "Trypsin",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10116
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:37:04+00:00",
+  "source": "ChEMBL target search"
+}

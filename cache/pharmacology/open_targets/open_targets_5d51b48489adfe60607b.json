@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000182492"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "biglycan",
+        "approvedSymbol": "BGN",
+        "associatedDiseases": {
+          "count": 1152,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0010248",
+                "name": "X-linked spondyloepimetaphyseal dysplasia"
+              },
+              "score": 0.7463387298921477
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010515",
+                "name": "Meester-Loeys syndrome"
+              },
+              "score": 0.6704798842919394
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019625",
+                "name": "familial thoracic aortic aneurysm and aortic dissection"
+              },
+              "score": 0.6303133091112215
+            },
+            {
+              "disease": {
+                "id": "Orphanet_285014",
+                "name": "Rare disease with thoracic aortic aneurysm and aortic dissection"
+              },
+              "score": 0.4531049018434444
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012108",
+                "name": "spondyloepimetaphyseal dysplasia, matrilin-3 type"
+              },
+              "score": 0.3830138542667779
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100510",
+                "name": "spondyloepimetaphyseal dysplasia"
+              },
+              "score": 0.3745614831426393
+            },
+            {
+              "disease": {
+                "id": "Orphanet_540",
+                "name": "Familial hemophagocytic lymphohistiocytosis"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "HP_0001626",
+                "name": "Abnormality of the cardiovascular system"
+              },
+              "score": 0.1935414800182243
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004907",
+                "name": "alopecia"
+              },
+              "score": 0.18759622645823806
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.11618453935516085
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.11196846720835141
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001056",
+                "name": "gastric cancer"
+              },
+              "score": 0.11172445553679905
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009807",
+                "name": "osteosarcoma"
+              },
+              "score": 0.10681581880170592
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004992",
+                "name": "cancer"
+              },
+              "score": 0.10553549899927714
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005401",
+                "name": "colonic neoplasm"
+              },
+              "score": 0.10506442200228992
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021063",
+                "name": "malignant colon neoplasm"
+              },
+              "score": 0.10462161603489173
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004989",
+                "name": "breast carcinoma"
+              },
+              "score": 0.10004458467607726
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007254",
+                "name": "breast cancer"
+              },
+              "score": 0.09797346387737195
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005580",
+                "name": "esophageal squamous cell carcinoma"
+              },
+              "score": 0.09211140771196943
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007763",
+                "name": "nonpapillary renal cell carcinoma"
+              },
+              "score": 0.08070186771323447
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004986",
+                "name": "urinary bladder carcinoma"
+              },
+              "score": 0.07877056518557453
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005105",
+                "name": "melanoma"
+              },
+              "score": 0.07791779415682071
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008903",
+                "name": "lung cancer"
+              },
+              "score": 0.07637647744727408
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005138",
+                "name": "lung carcinoma"
+              },
+              "score": 0.07628712041324741
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001187",
+                "name": "urinary bladder cancer"
+              },
+              "score": 0.07507476663872752
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008157",
+                "name": "Buschke-Ollendorff syndrome"
+              },
+              "score": 0.07452023399934984
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018881",
+                "name": "myelodysplastic syndrome"
+              },
+              "score": 0.0743227716836443
+            },
+            {
+              "disease": {
+                "id": "Orphanet_93160",
+                "name": "Hypocalcemic vitamin D-resistant rickets"
+              },
+              "score": 0.06749688216642084
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005178",
+                "name": "osteoarthritis"
+              },
+              "score": 0.06727601270387677
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019019",
+                "name": "osteogenesis imperfecta"
+              },
+              "score": 0.0663837039054783
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005036",
+                "name": "gastric adenocarcinoma"
+              },
+              "score": 0.06599540549335918
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006861",
+                "name": "myeloid sarcoma"
+              },
+              "score": 0.06524624351246172
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018177",
+                "name": "glioblastoma"
+              },
+              "score": 0.06465939697659175
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017178",
+                "name": "osteochondritis dissecans"
+              },
+              "score": 0.06455266531850343
+            },
+            {
+              "disease": {
+                "id": "Orphanet_251262",
+                "name": "Familial osteochondritis dissecans"
+              },
+              "score": 0.06455266531850343
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015177",
+                "name": "metaphyseal anadysplasia"
+              },
+              "score": 0.06449599640745178
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015627",
+                "name": "multiple epiphyseal dysplasia due to collagen 9 anomaly"
+              },
+              "score": 0.06406543587674411
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007319",
+                "name": "chondrocalcinosis 2"
+              },
+              "score": 0.06337883863559653
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011765",
+                "name": "multiple epiphyseal dysplasia type 5"
+              },
+              "score": 0.06227194697081583
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010150",
+                "name": "head and neck squamous cell carcinoma"
+              },
+              "score": 0.06197888546373446
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009597",
+                "name": "metaphyseal chondrodysplasia, Spahr type"
+              },
+              "score": 0.061978541630624495
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007489",
+                "name": "dysplasia epiphysealis hemimelica"
+              },
+              "score": 0.06068686003850147
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2098",
+                "name": "Acromesomelic dysplasia, Grebe type"
+              },
+              "score": 0.06009738017027936
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005159",
+                "name": "prostate carcinoma"
+              },
+              "score": 0.060088138943951395
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008315",
+                "name": "prostate cancer"
+              },
+              "score": 0.060086932152589166
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1331",
+                "name": "Familial prostate cancer"
+              },
+              "score": 0.060086932152589166
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007215",
+                "name": "brachydactyly type A1"
+              },
+              "score": 0.059694948772956016
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015466",
+                "name": "cranio-osteoarthropathy"
+              },
+              "score": 0.05938203782932296
+            },
+            {
+              "disease": {
+                "id": "Orphanet_3329",
+                "name": "Tibial aplasia - ectrodactyly"
+              },
+              "score": 0.059044282906569455
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007114",
+                "name": "Angel-shaped phalango-epiphyseal dysplasia"
+              },
+              "score": 0.05898248094198052
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013232",
+                "name": "brachydactylous dwarfism, Mseleni type"
+              },
+              "score": 0.05866525823337614
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017195",
+                "name": "Bruck syndrome"
+              },
+              "score": 0.05866217840125377
+            },
+            {
+              "disease": {
+                "id": "Orphanet_93403",
+                "name": "Syndactyly type 2"
+              },
+              "score": 0.058301427398653204
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007726",
+                "name": "hip dysplasia, Beukes type"
+              },
+              "score": 0.058033276681865295
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017194",
+                "name": "Blount disease"
+              },
+              "score": 0.057594708587639445
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019667",
+                "name": "spondyloepiphyseal dysplasia tarda"
+              },
+              "score": 0.05751032118748644
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012126",
+                "name": "familial avascular necrosis of femoral head"
+              },
+              "score": 0.057450367122170935
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018570",
+                "name": "hypophosphatasia"
+              },
+              "score": 0.057416488968824834
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007221",
+                "name": "brachydactyly type C"
+              },
+              "score": 0.05674529088828911
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018770",
+                "name": "Jeune syndrome"
+              },
+              "score": 0.05665823430029672
+            },
+            {
+              "disease": {
+                "id": "Orphanet_289157",
+                "name": "Hypocalcemic vitamin D-dependent rickets"
+              },
+              "score": 0.05659889620140567
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007561",
+                "name": "multiple epiphyseal dysplasia type 1"
+              },
+              "score": 0.056584523651501274
+            },
+            {
+              "disease": {
+                "id": "Orphanet_240",
+                "name": "L\u00e9ri-Weill dyschondrosteosis"
+              },
+              "score": 0.056207552199722864
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007481",
+                "name": "Leri-Weill dyschondrosteosis"
+              },
+              "score": 0.056207552199722864
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011976",
+                "name": "lipodystrophy-intellectual disability-deafness syndrome"
+              },
+              "score": 0.05619831270335575
+            },
+            {
+              "disease": {
+                "id": "Orphanet_50811",
+                "name": "Lipodystrophy - intellectual disability - deafness"
+              },
+              "score": 0.05619831270335575
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015776",
+                "name": "rhizomelic chondrodysplasia punctata"
+              },
+              "score": 0.05574701463635744
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011732",
+                "name": "familial digital arthropathy-brachydactyly"
+              },
+              "score": 0.05544436979979897
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012873",
+                "name": "Ehlers-Danlos syndrome, spondylocheirodysplastic type"
+              },
+              "score": 0.05541480341142419
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009189",
+                "name": "multiple epiphyseal dysplasia type 4"
+              },
+              "score": 0.054500093271079554
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008175",
+                "name": "pacman dysplasia"
+              },
+              "score": 0.05442802519941604
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015240",
+                "name": "digitotalar dysmorphism"
+              },
+              "score": 0.054222189752570815
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008828",
+                "name": "camptodactyly-arthropathy-coxa vara-pericarditis syndrome"
+              },
+              "score": 0.053918004999951155
+            },
+            {
+              "disease": {
+                "id": "Orphanet_210110",
+                "name": "Intermediate osteopetrosis"
+              },
+              "score": 0.053903221805763755
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017324",
+                "name": "autosomal recessive hypophosphatemic rickets"
+              },
+              "score": 0.05385435513608879
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011335",
+                "name": "spondyloepimetaphyseal dysplasia with multiple dislocations"
+              },
+              "score": 0.05374615036752276
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010072",
+                "name": "spondyloepiphyseal dysplasia tarda, autosomal recessive"
+              },
+              "score": 0.053579839432914646
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012019",
+                "name": "spondyloepiphyseal dysplasia, Kimberley type"
+              },
+              "score": 0.05346711757723581
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019677",
+                "name": "brachydactyly type E"
+              },
+              "score": 0.053247422885839904
+            },
+            {
+              "disease": {
+                "id": "Orphanet_53",
+                "name": "Albers-Sch\u00f6nberg osteopetrosis"
+              },
+              "score": 0.05324536966442498
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007979",
+                "name": "metachondromatosis"
+              },
+              "score": 0.05317514949203489
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007340",
+                "name": "cleidocranial dysplasia 1"
+              },
+              "score": 0.05316365145211137
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012185",
+                "name": "spondylometaphyseal dysplasia, A4 type"
+              },
+              "score": 0.052984815866872266
+            },
+            {
+              "disease": {
+                "id": "Orphanet_968",
+                "name": "Acromesomelic dysplasia, Hunter-Thomson type"
+              },
+              "score": 0.05297372847123174
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008098",
+                "name": "mesomelic dwarfism, Nievergelt type"
+              },
+              "score": 0.05289611670174794
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007216",
+                "name": "brachydactyly type A2"
+              },
+              "score": 0.052611540213640715
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009231",
+                "name": "acromesomelic dysplasia 2B"
+              },
+              "score": 0.052434141883392064
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005023",
+                "name": "ductal breast carcinoma in situ"
+              },
+              "score": 0.05205450100980808
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030747",
+                "name": "epidermolysis bullosa, junctional 2B, severe"
+              },
+              "score": 0.05201466874832494
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030748",
+                "name": "epidermolysis bullosa, junctional 3A, intermediate"
+              },
+              "score": 0.05201466874832494
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008516",
+                "name": "syndactyly type 5"
+              },
+              "score": 0.051591499814710944
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018298",
+                "name": "multicentric osteolysis-nodulosis-arthropathy spectrum"
+              },
+              "score": 0.05157240485555224
+            },
+            {
+              "disease": {
+                "id": "Orphanet_3460",
+                "name": "Torg-Winchester syndrome"
+              },
+              "score": 0.05157240485555224
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019432",
+                "name": "rheumatoid factor-negative juvenile idiopathic arthritis"
+              },
+              "score": 0.05141964518228256
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010144",
+                "name": "tibial hemimelia"
+              },
+              "score": 0.05124039895276048
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2840",
+                "name": "Pelvic dysplasia - arthrogryposis of lower limbs"
+              },
+              "score": 0.051203440967292006
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011235",
+                "name": "pelvic dysplasia-arthrogryposis of lower limbs syndrome"
+              },
+              "score": 0.051203440967292006
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015241",
+                "name": "arthrogryposis-like syndrome"
+              },
+              "score": 0.051201593068018574
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008479",
+                "name": "spondylometaphyseal dysplasia, 'corner fracture' type"
+              },
+              "score": 0.051103654406527144
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008478",
+                "name": "spondylometaphyseal dysplasia, Schmidt type"
+              },
+              "score": 0.05098908465157489
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000182492",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:39:52+00:00",
+  "source": "Open Targets"
+}

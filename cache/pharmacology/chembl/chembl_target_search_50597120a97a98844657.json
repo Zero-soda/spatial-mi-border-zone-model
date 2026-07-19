@@ -1,0 +1,380 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "DMAP1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "DNA methyltransferase 1-associated protein 1",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5724908",
+        "target_components": [
+          {
+            "accession": "Q9NPF5",
+            "component_description": "DNA methyltransferase 1-associated protein 1",
+            "component_id": 23152,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "DMAP1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "DNA methyltransferase 1-associated protein 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "DNMAP1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "DNMT1-associated protein 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "KIAA1425",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q9NPF5",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q9NPF5",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0000786",
+                "xref_name": "nucleosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000812",
+                "xref_name": "Swr1 complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005657",
+                "xref_name": "replication fork",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005694",
+                "xref_name": "chromosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0035267",
+                "xref_name": "NuA4 histone acetyltransferase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0003714",
+                "xref_name": "transcription corepressor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0061629",
+                "xref_name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0000122",
+                "xref_name": "negative regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006281",
+                "xref_name": "DNA repair",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006325",
+                "xref_name": "chromatin organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006338",
+                "xref_name": "chromatin remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006355",
+                "xref_name": "regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042307",
+                "xref_name": "positive regulation of protein import into nucleus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045471",
+                "xref_name": "response to ethanol",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045892",
+                "xref_name": "negative regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051726",
+                "xref_name": "regulation of cell cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905168",
+                "xref_name": "positive regulation of double-strand break repair via homologous recombination",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000779",
+                "xref_name": "regulation of double-strand break repair",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:18291",
+                "xref_name": "DMAP1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q9NPF5",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR008468",
+                "xref_name": "DMAP1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027109",
+                "xref_name": "Swc4/Dmap1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR032563",
+                "xref_name": "DAMP1_SANT-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR12855",
+                "xref_name": "DNA METHYLTRANSFERASE 1-ASSOCIATED PROTEIN 1 FAMILY MEMBER",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR12855:SF10",
+                "xref_name": "DNA METHYLTRANSFERASE 1-ASSOCIATED PROTEIN 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "3HM5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4IEJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8QR1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8X15",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8X19",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8X1C",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8XVG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8XVT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9C57",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9C62",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9C6N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9CAC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9CAE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3HM5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4IEJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF05499",
+                "xref_name": "DMAP1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF16282",
+                "xref_name": "SANT_DAMP1_like",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA134927315",
+                "xref_name": "DNA methyltransferase 1 associated protein 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q9NPF5",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-3214847",
+                "xref_name": "HATs acetylate histones",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A8K001",
+                "xref_name": "DNA methyltransferase 1-associated protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D3DPY8",
+                "xref_name": "DNA methyltransferase 1-associated protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q0JSM4",
+                "xref_name": "DNA methyltransferase 1-associated protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5TG41",
+                "xref_name": "DNA methyltransferase 1-associated protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z3H7",
+                "xref_name": "DNA methyltransferase 1-associated protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9H0S8",
+                "xref_name": "DNA methyltransferase 1-associated protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NPF5",
+                "xref_name": "DNA methyltransferase 1-associated protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9P2C2",
+                "xref_name": "DNA methyltransferase 1-associated protein 1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:38+00:00",
+  "source": "ChEMBL target search"
+}

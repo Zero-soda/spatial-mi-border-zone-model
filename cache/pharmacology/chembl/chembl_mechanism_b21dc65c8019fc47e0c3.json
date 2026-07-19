@@ -1,0 +1,26 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL2066"
+    }
+  },
+  "response": {
+    "mechanisms": [],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 0
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:38+00:00",
+  "source": "ChEMBL mechanism"
+}

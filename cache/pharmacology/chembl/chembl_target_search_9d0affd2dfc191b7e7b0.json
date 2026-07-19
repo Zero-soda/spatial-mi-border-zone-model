@@ -1,0 +1,493 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "HSPB1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Heat shock protein beta-1",
+        "score": 18.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5976",
+        "target_components": [
+          {
+            "accession": "P04792",
+            "component_description": "Heat shock protein beta-1",
+            "component_id": 4483,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "28 kDa heat shock protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Estrogen-regulated 24 kDa protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Heat shock 27 kDa protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Heat shock protein beta-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Heat shock protein family B member 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "HSP 27",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "HSP27",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "HSP28",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "HspB1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "HSPB1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "SRP27",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Stress-responsive protein 27",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P04792",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P04792",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0000502",
+                "xref_name": "proteasome complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001533",
+                "xref_name": "cornified envelope",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005925",
+                "xref_name": "focal adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030018",
+                "xref_name": "Z disc",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043292",
+                "xref_name": "contractile muscle fiber",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1904115",
+                "xref_name": "axon cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0003723",
+                "xref_name": "RNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005080",
+                "xref_name": "protein kinase C binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008426",
+                "xref_name": "protein kinase C inhibitor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019901",
+                "xref_name": "protein kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0043130",
+                "xref_name": "ubiquitin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0044183",
+                "xref_name": "protein folding chaperone",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051082",
+                "xref_name": "unfolded protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0061629",
+                "xref_name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006469",
+                "xref_name": "negative regulation of protein kinase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006986",
+                "xref_name": "response to unfolded protein",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009408",
+                "xref_name": "response to heat",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032731",
+                "xref_name": "positive regulation of interleukin-1 beta production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032760",
+                "xref_name": "positive regulation of tumor necrosis factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035556",
+                "xref_name": "intracellular signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042026",
+                "xref_name": "protein refolding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043122",
+                "xref_name": "regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043536",
+                "xref_name": "positive regulation of blood vessel endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045766",
+                "xref_name": "positive regulation of angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048010",
+                "xref_name": "vascular endothelial growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061077",
+                "xref_name": "chaperone-mediated protein folding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070527",
+                "xref_name": "platelet aggregation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0099641",
+                "xref_name": "anterograde axonal protein transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902176",
+                "xref_name": "negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001028",
+                "xref_name": "positive regulation of endothelial cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001234",
+                "xref_name": "negative regulation of apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:5246",
+                "xref_name": "HSPB1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P04792",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR001436",
+                "xref_name": "Alpha-crystallin/sHSP_animal",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002068",
+                "xref_name": "A-crystallin/Hsp20_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008978",
+                "xref_name": "HSP20-like_chaperone",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR037876",
+                "xref_name": "ACD_HspB1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR45640",
+                "xref_name": "HEAT SHOCK PROTEIN HSP-12.2-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR45640:SF7",
+                "xref_name": "HEAT SHOCK PROTEIN BETA-1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "2N3J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3Q9P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3Q9Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MJH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6DV5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6GJH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3Q9P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3Q9Q",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MJH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6DV5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6GJH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00011",
+                "xref_name": "HSP20",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA29511",
+                "xref_name": "heat shock protein family B (small) member 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P04792",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-4420097",
+                "xref_name": "VEGFA-VEGFR2 Pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-450408",
+                "xref_name": "AUF1 (hnRNP D0) binds and destabilizes mRNA",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5687128",
+                "xref_name": "MAPK6/MAPK4 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9009391",
+                "xref_name": "Extra-nuclear estrogen signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B2R4N8",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P04792",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6FI47",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96C20",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96EI7",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UC31",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UC34",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UC35",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UC36",
+                "xref_name": "Heat shock protein beta-1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:41:16+00:00",
+  "source": "ChEMBL target search"
+}

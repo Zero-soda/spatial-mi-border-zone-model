@@ -1,0 +1,1221 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000114854"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "troponin C1, slow skeletal and cardiac type",
+        "approvedSymbol": "TNNC1",
+        "associatedDiseases": {
+          "count": 1054,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0012745",
+                "name": "dilated cardiomyopathy 1Z"
+              },
+              "score": 0.7715906617907641
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005045",
+                "name": "hypertrophic cardiomyopathy"
+              },
+              "score": 0.7656366547957516
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013195",
+                "name": "hypertrophic cardiomyopathy 13"
+              },
+              "score": 0.7216589234061808
+            },
+            {
+              "disease": {
+                "id": "MONDO_0700335",
+                "name": "familial isolated dilated cardiomyopathy"
+              },
+              "score": 0.6655334118088266
+            },
+            {
+              "disease": {
+                "id": "Orphanet_99739",
+                "name": "Rare familial disorder with hypertrophic cardiomyopathy"
+              },
+              "score": 0.48605599921627296
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005559",
+                "name": "neurodegenerative disease"
+              },
+              "score": 0.4368961588053766
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005021",
+                "name": "dilated cardiomyopathy"
+              },
+              "score": 0.41918517283117784
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005252",
+                "name": "heart failure"
+              },
+              "score": 0.4023099526467773
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005009",
+                "name": "congestive heart failure"
+              },
+              "score": 0.37013422446672883
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004995",
+                "name": "cardiovascular disorder"
+              },
+              "score": 0.37004182950305764
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005149",
+                "name": "pulmonary hypertension"
+              },
+              "score": 0.36189025240630973
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004994",
+                "name": "cardiomyopathy"
+              },
+              "score": 0.35187549400474366
+            },
+            {
+              "disease": {
+                "id": "HP_0001626",
+                "name": "Abnormality of the cardiovascular system"
+              },
+              "score": 0.3458017806549094
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004976",
+                "name": "amyotrophic lateral sclerosis"
+              },
+              "score": 0.33159525850877414
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018901",
+                "name": "left ventricular noncompaction"
+              },
+              "score": 0.309202891826494
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006502",
+                "name": "acute respiratory distress syndrome"
+              },
+              "score": 0.30490338011487894
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005068",
+                "name": "myocardial infarction"
+              },
+              "score": 0.26069238999822153
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004781",
+                "name": "acute myocardial infarction"
+              },
+              "score": 0.2592602680613183
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004496",
+                "name": "myocarditis"
+              },
+              "score": 0.2592602680613183
+            },
+            {
+              "disease": {
+                "id": "HP_0031273",
+                "name": "Shock"
+              },
+              "score": 0.25870589827929125
+            },
+            {
+              "disease": {
+                "id": "EFO_1001482",
+                "name": "cardiotoxicity"
+              },
+              "score": 0.25870589827929125
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002492",
+                "name": "acute kidney injury"
+              },
+              "score": 0.1847899273423509
+            },
+            {
+              "disease": {
+                "id": "Orphanet_247",
+                "name": "Arrhythmogenic right ventricular dysplasia"
+              },
+              "score": 0.09152460328502622
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.08442506351106079
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1344",
+                "name": "Atrial stand still"
+              },
+              "score": 0.08310817340198676
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007152",
+                "name": "arrhythmogenic right ventricular dysplasia 1"
+              },
+              "score": 0.08292863766824517
+            },
+            {
+              "disease": {
+                "id": "EFO_0700102",
+                "name": "familial isolated restrictive cardiomyopathy"
+              },
+              "score": 0.08161397031476025
+            },
+            {
+              "disease": {
+                "id": "Orphanet_101016",
+                "name": "Romano-Ward syndrome"
+              },
+              "score": 0.07972864076256474
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007256",
+                "name": "hepatocellular carcinoma"
+              },
+              "score": 0.07964445868455322
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019171",
+                "name": "familial long QT syndrome"
+              },
+              "score": 0.07874232041893209
+            },
+            {
+              "disease": {
+                "id": "Orphanet_300751",
+                "name": "Familial dilated cardiomyopathy with conduction defect due to LMNA mutation"
+              },
+              "score": 0.07721154529948507
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020745",
+                "name": "ventricular arrhythmias due to cardiac ryanodine receptor calcium release deficiency syndrome"
+              },
+              "score": 0.0770795744930414
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012693",
+                "name": "glycogen storage disease due to muscle and heart glycogen synthase deficiency"
+              },
+              "score": 0.07568928694246708
+            },
+            {
+              "disease": {
+                "id": "EFO_0006834",
+                "name": "septic shock"
+              },
+              "score": 0.07525056485663512
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005264",
+                "name": "transient ischemic attack"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000153",
+                "name": "transposition of the great arteries"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "MONDO_1060198",
+                "name": "ischemic stroke"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012808",
+                "name": "dilated cardiomyopathy 1AA"
+              },
+              "score": 0.07352606419024801
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017989",
+                "name": "His bundle tachycardia"
+              },
+              "score": 0.07339671124110836
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013477",
+                "name": "hypertrophic cardiomyopathy 20"
+              },
+              "score": 0.07222144730321099
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013369",
+                "name": "hypertrophic cardiomyopathy 7"
+              },
+              "score": 0.07203111367804838
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018054",
+                "name": "familial atrial fibrillation"
+              },
+              "score": 0.07131926181349735
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016830",
+                "name": "Emery-Dreifuss muscular dystrophy"
+              },
+              "score": 0.07124049055356507
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005233",
+                "name": "non-small cell lung carcinoma"
+              },
+              "score": 0.0709975062010429
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011484",
+                "name": "catecholaminergic polymorphic ventricular tachycardia 1"
+              },
+              "score": 0.07067475561135553
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1429",
+                "name": "Benign familial chorea"
+              },
+              "score": 0.07056757745349695
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006664",
+                "name": "atrial septal defect"
+              },
+              "score": 0.07018658636801932
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011003",
+                "name": "dilated cardiomyopathy 1E"
+              },
+              "score": 0.07009451523950057
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030317",
+                "name": "cardiomyopathy, familial hypertrophic, 28"
+              },
+              "score": 0.06999103288018883
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010946",
+                "name": "hypertrophic cardiomyopathy 6"
+              },
+              "score": 0.06951981856546582
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011843",
+                "name": "hypertrophic cardiomyopathy 25"
+              },
+              "score": 0.06941079250833386
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014550",
+                "name": "long QT syndrome 15"
+              },
+              "score": 0.06929252695483473
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012804",
+                "name": "hypertrophic cardiomyopathy 12"
+              },
+              "score": 0.06923339417808519
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008102",
+                "name": "sick sinus syndrome 2, autosomal dominant"
+              },
+              "score": 0.06903751685510229
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013852",
+                "name": "hypertrophic cardiomyopathy 21"
+              },
+              "score": 0.06899686307108699
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009144",
+                "name": "Ebstein anomaly"
+              },
+              "score": 0.06885975921110603
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004981",
+                "name": "atrial fibrillation"
+              },
+              "score": 0.06878753714783639
+            },
+            {
+              "disease": {
+                "id": "MONDO_0979239",
+                "name": "cardiomyopathy, dilated, 1QQ"
+              },
+              "score": 0.06874924456844822
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030062",
+                "name": "arrhythmogenic right ventricular dysplasia, familial, 14"
+              },
+              "score": 0.06874370087062795
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015924",
+                "name": "pulmonary arterial hypertension"
+              },
+              "score": 0.06860761335524738
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013373",
+                "name": "dilated cardiomyopathy 1V"
+              },
+              "score": 0.06787703611139233
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007172",
+                "name": "atrial septal defect 1"
+              },
+              "score": 0.06740037665347698
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019441",
+                "name": "ATTRV122I amyloidosis"
+              },
+              "score": 0.06669479122068427
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012900",
+                "name": "cardiomyopathy, familial restrictive, 3"
+              },
+              "score": 0.0666648141880265
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009326",
+                "name": "congenital heart block"
+              },
+              "score": 0.06653561523049299
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013474",
+                "name": "hypertrophic cardiomyopathy 17"
+              },
+              "score": 0.06645784946940309
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013371",
+                "name": "dilated cardiomyopathy 1U"
+              },
+              "score": 0.0660272889386954
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007270",
+                "name": "cardiomyopathy, familial restrictive, 1"
+              },
+              "score": 0.0657146859782746
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011459",
+                "name": "arrhythmogenic right ventricular dysplasia 5"
+              },
+              "score": 0.06568357967383863
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013197",
+                "name": "hypertrophic cardiomyopathy 14"
+              },
+              "score": 0.06567803597601836
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013200",
+                "name": "hypertrophic cardiomyopathy 15"
+              },
+              "score": 0.06562629479636249
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008648",
+                "name": "ventricular tachycardia, familial"
+              },
+              "score": 0.06556716201961295
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012746",
+                "name": "dilated cardiomyopathy 2A"
+              },
+              "score": 0.06556531412033952
+            },
+            {
+              "disease": {
+                "id": "MONDO_0971175",
+                "name": "cardiomyopathy, dilated, 2K"
+              },
+              "score": 0.06555053092615214
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015487",
+                "name": "fatal infantile encephalocardiomyopathy"
+              },
+              "score": 0.06554729504920223
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012112",
+                "name": "hypertrophic cardiomyopathy 10"
+              },
+              "score": 0.06547846285448862
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859372",
+                "name": "cardiomyopathy, familial hypertrophic, 29, with polyglucosan bodies"
+              },
+              "score": 0.06536204520026294
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012667",
+                "name": "dilated cardiomyopathy 1W"
+              },
+              "score": 0.0648705039935323
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013147",
+                "name": "dilated cardiomyopathy 1CC"
+              },
+              "score": 0.0648705039935323
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012684",
+                "name": "arrhythmogenic right ventricular dysplasia 12"
+              },
+              "score": 0.06480952331750932
+            },
+            {
+              "disease": {
+                "id": "MONDO_0979573",
+                "name": "cardiomyopathy, familial hypertrophic, 31"
+              },
+              "score": 0.0645656006134174
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012434",
+                "name": "arrhythmogenic right ventricular dysplasia 10"
+              },
+              "score": 0.06447320564974622
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030887",
+                "name": "cardiomyopathy, dilated, 2G"
+              },
+              "score": 0.0643216779093255
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007269",
+                "name": "dilated cardiomyopathy 1A"
+              },
+              "score": 0.06419417285945928
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012799",
+                "name": "hypertrophic cardiomyopathy 11"
+              },
+              "score": 0.06395025015536737
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014500",
+                "name": "atrial conduction disease"
+              },
+              "score": 0.06345686104936331
+            },
+            {
+              "disease": {
+                "id": "Orphanet_51608",
+                "name": "Generalized arterial calcification of infancy"
+              },
+              "score": 0.06301906291316804
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013530",
+                "name": "atrial fibrillation, familial, 10"
+              },
+              "score": 0.06286368538259435
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011702",
+                "name": "dilated cardiomyopathy 1L"
+              },
+              "score": 0.06260313158504165
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008647",
+                "name": "hypertrophic cardiomyopathy 1"
+              },
+              "score": 0.06249410552790964
+            },
+            {
+              "disease": {
+                "id": "MONDO_0957545",
+                "name": "cardiomyopathy, dilated, 2I"
+              },
+              "score": 0.06239247106787135
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010542",
+                "name": "dilated cardiomyopathy 3B"
+              },
+              "score": 0.06190647355896098
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013339",
+                "name": "dilated cardiomyopathy 1GG"
+              },
+              "score": 0.061891690364773586
+            },
+            {
+              "disease": {
+                "id": "EFO_0004278",
+                "name": "sudden cardiac arrest"
+              },
+              "score": 0.06185288448003169
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011831",
+                "name": "arrhythmogenic right ventricular dysplasia 8"
+              },
+              "score": 0.06185288448003169
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010311",
+                "name": "Becker muscular dystrophy"
+              },
+              "score": 0.06151656681226861
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011400",
+                "name": "dilated cardiomyopathy 1G"
+              },
+              "score": 0.06148515252462041
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012417",
+                "name": "heart-hand syndrome, Slovenian type"
+              },
+              "score": 0.06148145672607356
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011482",
+                "name": "dilated cardiomyopathy 1I"
+              },
+              "score": 0.06139645335949609
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014100",
+                "name": "dilated cardiomyopathy 1KK"
+              },
+              "score": 0.06119688023796635
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 1,
+          "rows": [
+            {
+              "diseases": [
+                {
+                  "disease": {
+                    "id": "MONDO_0004995",
+                    "name": "cardiovascular disorder"
+                  },
+                  "diseaseFromSource": "cardiovascular disease"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005009",
+                    "name": "congestive heart failure"
+                  },
+                  "diseaseFromSource": "congestive heart failure"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "cardiac output syndrome"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005252",
+                    "name": "heart failure"
+                  },
+                  "diseaseFromSource": "heart failure"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005252",
+                    "name": "heart failure"
+                  },
+                  "diseaseFromSource": "acute heart failure"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "left ventricular dysfunction"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "low cardiac output syndrome"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0004976",
+                    "name": "amyotrophic lateral sclerosis"
+                  },
+                  "diseaseFromSource": "amyotrophic lateral sclerosis"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005252",
+                    "name": "heart failure"
+                  },
+                  "diseaseFromSource": "acute decompensated heart failure"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "left ventricular contractility alterations"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "acute coronary syndrome with ST segment elevation"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0006502",
+                    "name": "acute respiratory distress syndrome"
+                  },
+                  "diseaseFromSource": "acute respiratory distress syndrome"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "cardiogenic shock"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "failure of extracorporeal life support withdrawal"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "weaning failure of extracorporeal life support"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "circulatory failure"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "myocardial injury after noncardiac surgery"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005068",
+                    "name": "myocardial infarction"
+                  },
+                  "diseaseFromSource": "myocardial infarction"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "postcardiotomy"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0004781",
+                    "name": "acute myocardial infarction"
+                  },
+                  "diseaseFromSource": "acute myocardial infarction"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0031273",
+                    "name": "Shock"
+                  },
+                  "diseaseFromSource": "cardiogenic shock"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0004496",
+                    "name": "myocarditis"
+                  },
+                  "diseaseFromSource": "myocarditis"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "heart failure with preserved left ventricular ejection fraction"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005149",
+                    "name": "pulmonary hypertension"
+                  },
+                  "diseaseFromSource": "pulmonary hypertension"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_1001482",
+                    "name": "cardiotoxicity"
+                  },
+                  "diseaseFromSource": "cardiotoxicity"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "unstable hemodynamics"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0002492",
+                    "name": "acute kidney injury"
+                  },
+                  "diseaseFromSource": "acute kidney injury"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "impaired respiratory muscle function"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "right ventricular dysfunction"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "acute decompensated heart failure"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "heart failure with reduced ejection fraction"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "diminished left ventricular function"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_1060198",
+                    "name": "ischemic stroke"
+                  },
+                  "diseaseFromSource": "ischemic stroke"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005264",
+                    "name": "transient ischemic attack"
+                  },
+                  "diseaseFromSource": "transient ischemic attack"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0006834",
+                    "name": "septic shock"
+                  },
+                  "diseaseFromSource": "septic shock"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0000153",
+                    "name": "transposition of the great arteries"
+                  },
+                  "diseaseFromSource": "transposition of the great arteries"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "cerebral vasospasm"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "delayed cerebral ischemia"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "low ejection fraction"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0001627",
+                    "name": "Abnormal heart morphology"
+                  },
+                  "diseaseFromSource": "congenital heart defects"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005453",
+                    "name": "congenital heart disease"
+                  },
+                  "diseaseFromSource": "congenital heart defects"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005252",
+                    "name": "heart failure"
+                  },
+                  "diseaseFromSource": "low cardiac output syndrome"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "cardiac surgery"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "myocardial dysfunction"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "coronary revascularisation"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "cardiopathy"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "left ventricular systolic dysfunction"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0000266",
+                    "name": "aortic stenosis"
+                  },
+                  "diseaseFromSource": "aortic stenosis"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "septic cardiomyopathy"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005327",
+                    "name": "hip fracture"
+                  },
+                  "diseaseFromSource": "hip fracture"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "decompensated heart failure"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "myocardial damage"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0008585",
+                    "name": "ST Elevation Myocardial Infarction"
+                  },
+                  "diseaseFromSource": "ST-elevation myocardial infarction"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "neonatal shock"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "right ventricular failure"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "right heart failure"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "cardiorenal syndrome"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "low left ventricular function"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "end-stage respiratory failure"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0009492",
+                    "name": "cardiac arrest"
+                  },
+                  "diseaseFromSource": "cardiac arrest"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "prolonged weaning from mechanical ventilation"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "diaphragm dysfunction"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "renal impairment"
+                }
+              ],
+              "drug": {
+                "drugType": "Small molecule",
+                "drugWarnings": [],
+                "id": "CHEMBL2051955",
+                "maximumClinicalStage": "APPROVAL",
+                "name": "LEVOSIMENDAN"
+              },
+              "id": "51b0fd08ceefa23933706a3a80bd661d83d71c2d0faf4a06e4b2528aeb5b407e",
+              "maxClinicalStage": "APPROVAL"
+            }
+          ]
+        },
+        "id": "ENSG00000114854",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:35+00:00",
+  "source": "Open Targets"
+}

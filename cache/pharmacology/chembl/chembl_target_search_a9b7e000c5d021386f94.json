@@ -1,0 +1,1825 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "IL1B"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "Interleukin-1 beta",
+        "score": 19.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5069361",
+        "target_components": [
+          {
+            "accession": "P10749",
+            "component_description": "Interleukin-1 beta",
+            "component_id": 19948,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Il1b",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "IL-1 beta",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Interleukin-1 beta",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P10749",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005764",
+                "xref_name": "lysosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005125",
+                "xref_name": "cytokine activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005149",
+                "xref_name": "interleukin-1 receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005178",
+                "xref_name": "integrin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019904",
+                "xref_name": "protein domain specific binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048018",
+                "xref_name": "receptor ligand activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001660",
+                "xref_name": "fever generation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001819",
+                "xref_name": "positive regulation of cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007254",
+                "xref_name": "JNK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008285",
+                "xref_name": "negative regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010573",
+                "xref_name": "vascular endothelial growth factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010575",
+                "xref_name": "positive regulation of vascular endothelial growth factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010718",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010829",
+                "xref_name": "negative regulation of D-glucose transmembrane transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030213",
+                "xref_name": "hyaluronan biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030335",
+                "xref_name": "positive regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030593",
+                "xref_name": "neutrophil chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031394",
+                "xref_name": "positive regulation of prostaglandin biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031622",
+                "xref_name": "positive regulation of fever generation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032308",
+                "xref_name": "positive regulation of prostaglandin secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032722",
+                "xref_name": "positive regulation of chemokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032725",
+                "xref_name": "positive regulation of granulocyte macrophage colony-stimulating factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032729",
+                "xref_name": "positive regulation of type II interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032743",
+                "xref_name": "positive regulation of interleukin-2 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032755",
+                "xref_name": "positive regulation of interleukin-6 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032757",
+                "xref_name": "positive regulation of interleukin-8 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034116",
+                "xref_name": "positive regulation of heterotypic cell-cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035234",
+                "xref_name": "ectopic germ cell programmed cell death",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042102",
+                "xref_name": "positive regulation of T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043122",
+                "xref_name": "regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043123",
+                "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043407",
+                "xref_name": "negative regulation of MAP kinase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045429",
+                "xref_name": "positive regulation of nitric oxide biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045766",
+                "xref_name": "positive regulation of angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045833",
+                "xref_name": "negative regulation of lipid metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045840",
+                "xref_name": "positive regulation of mitotic nuclear division",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045917",
+                "xref_name": "positive regulation of complement activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045944",
+                "xref_name": "positive regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046330",
+                "xref_name": "positive regulation of JNK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046627",
+                "xref_name": "negative regulation of insulin receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048143",
+                "xref_name": "astrocyte activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050691",
+                "xref_name": "regulation of defense response to virus by host",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050729",
+                "xref_name": "positive regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050796",
+                "xref_name": "regulation of insulin secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050805",
+                "xref_name": "negative regulation of synaptic transmission",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050900",
+                "xref_name": "leukocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050995",
+                "xref_name": "negative regulation of lipid catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050996",
+                "xref_name": "positive regulation of lipid catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050999",
+                "xref_name": "regulation of nitric-oxide synthase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051044",
+                "xref_name": "positive regulation of membrane protein ectodomain proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051781",
+                "xref_name": "positive regulation of cell division",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060252",
+                "xref_name": "positive regulation of glial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070164",
+                "xref_name": "negative regulation of adiponectin secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070372",
+                "xref_name": "regulation of ERK1 and ERK2 cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070487",
+                "xref_name": "monocyte aggregation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070498",
+                "xref_name": "interleukin-1-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071260",
+                "xref_name": "cellular response to mechanical stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071466",
+                "xref_name": "cellular response to xenobiotic stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071639",
+                "xref_name": "positive regulation of monocyte chemotactic protein-1 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097192",
+                "xref_name": "extrinsic apoptotic signaling pathway in absence of ligand",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900745",
+                "xref_name": "positive regulation of p38MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901224",
+                "xref_name": "positive regulation of non-canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902680",
+                "xref_name": "positive regulation of RNA biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903140",
+                "xref_name": "regulation of establishment of endothelial barrier",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903597",
+                "xref_name": "negative regulation of gap junction assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905075",
+                "xref_name": "positive regulation of tight junction disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000556",
+                "xref_name": "positive regulation of T-helper 1 cell cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001240",
+                "xref_name": "negative regulation of extrinsic apoptotic signaling pathway in absence of ligand",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "P10749",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000975",
+                "xref_name": "IL-1_fam",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003502",
+                "xref_name": "IL-1_propep",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008996",
+                "xref_name": "IL1/FGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR020877",
+                "xref_name": "IL-1_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10078",
+                "xref_name": "INTERLEUKIN-1 FAMILY MEMBER",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10078:SF30",
+                "xref_name": "INTERLEUKIN-1 BETA",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "2MIB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8I1B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MIB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8I1B",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00340",
+                "xref_name": "IL1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02394",
+                "xref_name": "IL1_propep",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "R-MMU-448706",
+                "xref_name": "Interleukin-1 processing",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-5620971",
+                "xref_name": "Pyroptosis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-5660668",
+                "xref_name": "CLEC7A/inflammasome pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-9020702",
+                "xref_name": "Interleukin-1 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P10749",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2M4J6",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Interleukin-1 beta",
+        "score": 18.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1909490",
+        "target_components": [
+          {
+            "accession": "P01584",
+            "component_description": "Interleukin-1 beta",
+            "component_id": 5688,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Catabolin",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "IL1B",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "IL-1 beta",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "IL1F2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Interleukin-1 beta",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P01584",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P01584",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005764",
+                "xref_name": "lysosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005125",
+                "xref_name": "cytokine activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005149",
+                "xref_name": "interleukin-1 receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005178",
+                "xref_name": "integrin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019904",
+                "xref_name": "protein domain specific binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048018",
+                "xref_name": "receptor ligand activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001660",
+                "xref_name": "fever generation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001819",
+                "xref_name": "positive regulation of cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001934",
+                "xref_name": "positive regulation of protein phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002711",
+                "xref_name": "positive regulation of T cell mediated immunity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007254",
+                "xref_name": "JNK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007267",
+                "xref_name": "cell-cell signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007566",
+                "xref_name": "embryo implantation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008285",
+                "xref_name": "negative regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010573",
+                "xref_name": "vascular endothelial growth factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010575",
+                "xref_name": "positive regulation of vascular endothelial growth factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010718",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010829",
+                "xref_name": "negative regulation of D-glucose transmembrane transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030213",
+                "xref_name": "hyaluronan biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030335",
+                "xref_name": "positive regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030593",
+                "xref_name": "neutrophil chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030949",
+                "xref_name": "positive regulation of vascular endothelial growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031394",
+                "xref_name": "positive regulation of prostaglandin biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031622",
+                "xref_name": "positive regulation of fever generation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032308",
+                "xref_name": "positive regulation of prostaglandin secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032722",
+                "xref_name": "positive regulation of chemokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032725",
+                "xref_name": "positive regulation of granulocyte macrophage colony-stimulating factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032729",
+                "xref_name": "positive regulation of type II interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032743",
+                "xref_name": "positive regulation of interleukin-2 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032755",
+                "xref_name": "positive regulation of interleukin-6 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032757",
+                "xref_name": "positive regulation of interleukin-8 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033092",
+                "xref_name": "positive regulation of immature T cell proliferation in thymus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034116",
+                "xref_name": "positive regulation of heterotypic cell-cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035234",
+                "xref_name": "ectopic germ cell programmed cell death",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042102",
+                "xref_name": "positive regulation of T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043122",
+                "xref_name": "regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043123",
+                "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043406",
+                "xref_name": "positive regulation of MAP kinase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043407",
+                "xref_name": "negative regulation of MAP kinase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045429",
+                "xref_name": "positive regulation of nitric oxide biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045766",
+                "xref_name": "positive regulation of angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045833",
+                "xref_name": "negative regulation of lipid metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045840",
+                "xref_name": "positive regulation of mitotic nuclear division",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045917",
+                "xref_name": "positive regulation of complement activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045944",
+                "xref_name": "positive regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046330",
+                "xref_name": "positive regulation of JNK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046627",
+                "xref_name": "negative regulation of insulin receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046827",
+                "xref_name": "positive regulation of protein export from nucleus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048143",
+                "xref_name": "astrocyte activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050691",
+                "xref_name": "regulation of defense response to virus by host",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050729",
+                "xref_name": "positive regulation of inflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050767",
+                "xref_name": "regulation of neurogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050768",
+                "xref_name": "negative regulation of neurogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050796",
+                "xref_name": "regulation of insulin secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050805",
+                "xref_name": "negative regulation of synaptic transmission",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050900",
+                "xref_name": "leukocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050995",
+                "xref_name": "negative regulation of lipid catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050996",
+                "xref_name": "positive regulation of lipid catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050999",
+                "xref_name": "regulation of nitric-oxide synthase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051044",
+                "xref_name": "positive regulation of membrane protein ectodomain proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051781",
+                "xref_name": "positive regulation of cell division",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060252",
+                "xref_name": "positive regulation of glial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060355",
+                "xref_name": "positive regulation of cell adhesion molecule production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060559",
+                "xref_name": "positive regulation of calcidiol 1-monooxygenase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070164",
+                "xref_name": "negative regulation of adiponectin secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070372",
+                "xref_name": "regulation of ERK1 and ERK2 cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070487",
+                "xref_name": "monocyte aggregation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070498",
+                "xref_name": "interleukin-1-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071222",
+                "xref_name": "cellular response to lipopolysaccharide",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071260",
+                "xref_name": "cellular response to mechanical stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071466",
+                "xref_name": "cellular response to xenobiotic stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071639",
+                "xref_name": "positive regulation of monocyte chemotactic protein-1 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097192",
+                "xref_name": "extrinsic apoptotic signaling pathway in absence of ligand",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0150078",
+                "xref_name": "positive regulation of neuroinflammatory response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900745",
+                "xref_name": "positive regulation of p38MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901224",
+                "xref_name": "positive regulation of non-canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902680",
+                "xref_name": "positive regulation of RNA biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903140",
+                "xref_name": "regulation of establishment of endothelial barrier",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903597",
+                "xref_name": "negative regulation of gap junction assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905075",
+                "xref_name": "positive regulation of tight junction disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000556",
+                "xref_name": "positive regulation of T-helper 1 cell cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001240",
+                "xref_name": "negative regulation of extrinsic apoptotic signaling pathway in absence of ligand",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:5992",
+                "xref_name": "IL1B",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P01584",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000975",
+                "xref_name": "IL-1_fam",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003502",
+                "xref_name": "IL-1_propep",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008996",
+                "xref_name": "IL1/FGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR020877",
+                "xref_name": "IL-1_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10078",
+                "xref_name": "INTERLEUKIN-1 FAMILY MEMBER",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10078:SF30",
+                "xref_name": "INTERLEUKIN-1 BETA",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1HIB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1I1B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1IOB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1ITB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1L2H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1S0L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1T4Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TOO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TP0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TWE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1TWM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "21BI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2I1B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KH2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2NVH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "31BI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3LTQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3O4O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3POK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "41BI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4DEP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4G6J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4G6M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GAF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GAI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4I1B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5BVP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5I1B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MVZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R7W",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R85",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R86",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R87",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R88",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R89",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8C",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8I",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8K",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5R8Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6I1B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6Y8I",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6Y8M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7CHY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7CHZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7I1B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7Z4T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8C3U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RYK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RYS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RZB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9ILB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1HIB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1I1B",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1IOB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1ITB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1L2H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1S0L",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1T4Q",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1TOO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1TP0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1TWE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1TWM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "21BI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2I1B",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2NVH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "31BI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3LTQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3O4O",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3POK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "41BI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4DEP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4G6J",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4G6M",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GAF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GAI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4I1B",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5BVP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5I1B",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5MVZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R7W",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R85",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R86",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R87",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R88",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R89",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8A",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8B",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8C",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8F",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8G",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8I",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8J",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8K",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8L",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8M",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8N",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8O",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5R8Q",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6Y8I",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6Y8M",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7CHY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7CHZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7Z4T",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8C3U",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8RYK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8RYS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8RZB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9ILB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00340",
+                "xref_name": "IL1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02394",
+                "xref_name": "IL1_propep",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA29808",
+                "xref_name": "interleukin 1 beta",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P01584",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-448706",
+                "xref_name": "Interleukin-1 processing",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5620971",
+                "xref_name": "Pyroptosis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5660668",
+                "xref_name": "CLEC7A/inflammasome pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6783783",
+                "xref_name": "Interleukin-10 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6785807",
+                "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9020702",
+                "xref_name": "Interleukin-1 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9660826",
+                "xref_name": "Purinergic signaling in leishmaniasis infection",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P01584",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q53X59",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q53XX2",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7M4S7",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7RU01",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96HE5",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UCT6",
+                "xref_name": "Interleukin-1 beta",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:37:11+00:00",
+  "source": "ChEMBL target search"
+}

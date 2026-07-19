@@ -1,0 +1,2298 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "TNNC1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 3
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Troponin C, slow skeletal and cardiac muscles",
+        "score": 17.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2066",
+        "target_components": [
+          {
+            "accession": "P63316",
+            "component_description": "Troponin C, slow skeletal and cardiac muscles",
+            "component_id": 406,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "TN-C",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TNNC",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TNNC1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Troponin C, slow skeletal and cardiac muscles",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "3RV5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1WRK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GJG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SD6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7SC2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SWB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GJE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7SC3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1WRL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GJF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J1E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J1D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4Y99",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031013",
+                "xref_name": "troponin I binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031014",
+                "xref_name": "troponin T binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048306",
+                "xref_name": "calcium-dependent protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051015",
+                "xref_name": "actin filament binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006937",
+                "xref_name": "regulation of muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014883",
+                "xref_name": "transition between fast and slow fiber",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032972",
+                "xref_name": "regulation of muscle filament sliding speed",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055010",
+                "xref_name": "ventricular cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043292",
+                "xref_name": "contractile muscle fiber",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005861",
+                "xref_name": "troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990584",
+                "xref_name": "cardiac Troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36632",
+                "xref_name": "troponin C1, slow skeletal and cardiac type",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "O14800",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P02590",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P04463",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1AP4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1IH0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J1D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J1E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1LXF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1MXL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1OZS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1SPY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1WRK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1WRL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JT0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JT3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JT8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JTZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JXL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KDH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KFX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KGB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KRD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2L1R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2L98",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MKP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MLE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MLF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MZP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2N79",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2N7L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3RV5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SD6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SWB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GJE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GJF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GJG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4Y99",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5VLN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5W88",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WCL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6MV3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7JGI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SC2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SC3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SUP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SVC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SWG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SWI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SXC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SXD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UH9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UHA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11943",
+                "xref_name": "TNNC1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR050230",
+                "xref_name": "CALM/Myosin/TropC-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011992",
+                "xref_name": "EF-hand-dom_pair",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018247",
+                "xref_name": "EF_Hand_1_Ca_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002048",
+                "xref_name": "EF_hand_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23048",
+                "xref_name": "MYOSIN LIGHT CHAIN 1, 3",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23048:SF47",
+                "xref_name": "TROPONIN C1, SLOW SKELETAL AND CARDIAC TYPE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF13499",
+                "xref_name": "EF-hand_7",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF13833",
+                "xref_name": "EF-hand_8",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [
+          {
+            "xref_id": "CPX-3280",
+            "xref_name": "Cardiac Troponin complex",
+            "xref_src": "ComplexPortal"
+          }
+        ],
+        "organism": "Homo sapiens",
+        "pref_name": "Troponin, cardiac muscle",
+        "score": 17.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2095202",
+        "target_components": [
+          {
+            "accession": "P63316",
+            "component_description": "Troponin C, slow skeletal and cardiac muscles",
+            "component_id": 406,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "TN-C",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TNNC",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TNNC1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Troponin C, slow skeletal and cardiac muscles",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "3RV5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1WRK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GJG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SD6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7SC2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SWB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GJE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7SC3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1WRL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4GJF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J1E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J1D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4Y99",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031013",
+                "xref_name": "troponin I binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031014",
+                "xref_name": "troponin T binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048306",
+                "xref_name": "calcium-dependent protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051015",
+                "xref_name": "actin filament binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006937",
+                "xref_name": "regulation of muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014883",
+                "xref_name": "transition between fast and slow fiber",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032972",
+                "xref_name": "regulation of muscle filament sliding speed",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055010",
+                "xref_name": "ventricular cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043292",
+                "xref_name": "contractile muscle fiber",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005861",
+                "xref_name": "troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990584",
+                "xref_name": "cardiac Troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36632",
+                "xref_name": "troponin C1, slow skeletal and cardiac type",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "O14800",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P02590",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P04463",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1AP4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1IH0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J1D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J1E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1LXF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1MXL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1OZS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1SPY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1WRK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1WRL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JT0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JT3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JT8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JTZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2JXL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KDH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KFX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KGB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KRD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2L1R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2L98",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MKP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MLE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MLF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MZP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2N79",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2N7L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3RV5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SD6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SWB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GJE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GJF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4GJG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4Y99",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5VLN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5W88",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WCL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6MV3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7JGI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SC2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SC3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SUP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SVC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SWG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SWI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SXC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SXD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UH9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UHA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11943",
+                "xref_name": "TNNC1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P63316",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR050230",
+                "xref_name": "CALM/Myosin/TropC-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011992",
+                "xref_name": "EF-hand-dom_pair",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018247",
+                "xref_name": "EF_Hand_1_Ca_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002048",
+                "xref_name": "EF_hand_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23048",
+                "xref_name": "MYOSIN LIGHT CHAIN 1, 3",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23048:SF47",
+                "xref_name": "TROPONIN C1, SLOW SKELETAL AND CARDIAC TYPE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF13499",
+                "xref_name": "EF-hand_7",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF13833",
+                "xref_name": "EF-hand_8",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "P19429",
+            "component_description": "Troponin I, cardiac muscle",
+            "component_id": 5221,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Cardiac troponin I",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TNNC1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TNNI3",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Troponin I, cardiac muscle",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "8FMQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7SC2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8DZV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7SC3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J1E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J1D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4Y99",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0003779",
+                "xref_name": "actin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019901",
+                "xref_name": "protein kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019904",
+                "xref_name": "protein domain specific binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030172",
+                "xref_name": "troponin C binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031014",
+                "xref_name": "troponin T binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048306",
+                "xref_name": "calcium-dependent protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051015",
+                "xref_name": "actin filament binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001570",
+                "xref_name": "vasculogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001980",
+                "xref_name": "regulation of systemic arterial blood pressure by ischemic conditions",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006874",
+                "xref_name": "intracellular calcium ion homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006937",
+                "xref_name": "regulation of muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006940",
+                "xref_name": "regulation of smooth muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007507",
+                "xref_name": "heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010882",
+                "xref_name": "regulation of cardiac muscle contraction by calcium ion signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055010",
+                "xref_name": "ventricular cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060047",
+                "xref_name": "heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030016",
+                "xref_name": "myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030017",
+                "xref_name": "sarcomere",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043292",
+                "xref_name": "contractile muscle fiber",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0097512",
+                "xref_name": "cardiac myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005861",
+                "xref_name": "troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990584",
+                "xref_name": "cardiac Troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36636",
+                "xref_name": "troponin I3, cardiac type",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P19429",
+                "xref_name": "Troponin I, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1J1D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J1E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1LXF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1MXL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1OZS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KGB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KRD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2L1R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2MZP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2N7L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4Y99",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5VLN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5W88",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WCL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6MV3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7JGI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SC2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SC3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SUP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SVC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SWG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SWI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SXC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7SXD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UH9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UHA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8DZV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P19429",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P19429",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11947",
+                "xref_name": "TNNI3",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5578775",
+                "xref_name": "Ion homeostasis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P19429",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P19429",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR001978",
+                "xref_name": "Troponin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR021666",
+                "xref_name": "Troponin-I_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050875",
+                "xref_name": "Troponin_I",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038077",
+                "xref_name": "Troponin_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR13738",
+                "xref_name": "TROPONIN I",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR13738:SF2",
+                "xref_name": "TROPONIN I, CARDIAC MUSCLE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00992",
+                "xref_name": "Troponin",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF11636",
+                "xref_name": "Troponin-I_N",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "P45379",
+            "component_description": "Troponin T, cardiac muscle",
+            "component_id": 5332,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Cardiac muscle troponin T",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "cTnT",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TNNT2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TnTc",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Troponin T, cardiac muscle",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "8FMM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J1E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1J1D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4Y99",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8FMT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0003779",
+                "xref_name": "actin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005523",
+                "xref_name": "tropomyosin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030172",
+                "xref_name": "troponin C binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031013",
+                "xref_name": "troponin I binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006937",
+                "xref_name": "regulation of muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008016",
+                "xref_name": "regulation of heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030049",
+                "xref_name": "muscle filament sliding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045214",
+                "xref_name": "sarcomere organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055010",
+                "xref_name": "ventricular cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005865",
+                "xref_name": "striated muscle thin filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030017",
+                "xref_name": "sarcomere",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0097512",
+                "xref_name": "cardiac myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005861",
+                "xref_name": "troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990584",
+                "xref_name": "cardiac Troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36638",
+                "xref_name": "troponin T2, cardiac type",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A2TDB9",
+                "xref_name": "Troponin T, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "A8K3K6",
+                "xref_name": "Troponin T, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O60214",
+                "xref_name": "Troponin T, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q99596",
+                "xref_name": "Troponin T, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q99597",
+                "xref_name": "Troponin T, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BUF6",
+                "xref_name": "Troponin T, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UM96",
+                "xref_name": "Troponin T, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P45379",
+                "xref_name": "Troponin T, cardiac muscle",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1J1D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J1E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4Y99",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KN8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UTL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8FMT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9MOP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9MOU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9MOW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9MOX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P45379",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P45379",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:11949",
+                "xref_name": "TNNT2",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P45379",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P45379",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR027707",
+                "xref_name": "TNNT",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001978",
+                "xref_name": "Troponin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038077",
+                "xref_name": "Troponin_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11521",
+                "xref_name": "TROPONIN T",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11521:SF5",
+                "xref_name": "TROPONIN T, CARDIAC MUSCLE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00992",
+                "xref_name": "Troponin",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "PROTEIN COMPLEX",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Bos taurus",
+        "pref_name": "Troponin C, slow skeletal and cardiac muscles",
+        "score": 17.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5465295",
+        "target_components": [
+          {
+            "accession": "P63315",
+            "component_description": "Troponin C, slow skeletal and cardiac muscles",
+            "component_id": 22831,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "TN-C",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TNNC",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TNNC1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Troponin C, slow skeletal and cardiac muscles",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031013",
+                "xref_name": "troponin I binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048306",
+                "xref_name": "calcium-dependent protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0097512",
+                "xref_name": "cardiac myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990584",
+                "xref_name": "cardiac Troponin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA36632",
+                "xref_name": "troponin C1, slow skeletal and cardiac type",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "O14800",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P02590",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P04463",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q3SZB2",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P63315",
+                "xref_name": "Troponin C, slow skeletal and cardiac muscles",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P63315",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "R-BTA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "IPR050230",
+                "xref_name": "CALM/Myosin/TropC-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011992",
+                "xref_name": "EF-hand-dom_pair",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018247",
+                "xref_name": "EF_Hand_1_Ca_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002048",
+                "xref_name": "EF_hand_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23048",
+                "xref_name": "MYOSIN LIGHT CHAIN 1, 3",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23048:SF47",
+                "xref_name": "TROPONIN C1, SLOW SKELETAL AND CARDIAC TYPE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF13499",
+                "xref_name": "EF-hand_7",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF13833",
+                "xref_name": "EF-hand_8",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9913
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:36+00:00",
+  "source": "ChEMBL target search"
+}

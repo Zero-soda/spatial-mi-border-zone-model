@@ -1,0 +1,459 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "ACTC1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Actin, alpha cardiac muscle 1",
+        "score": 16.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL6066852",
+        "target_components": [
+          {
+            "accession": "P68032",
+            "component_description": "Actin, alpha cardiac muscle 1",
+            "component_id": 23749,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.6.4.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "ACTC",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "ACTC1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Actin, alpha cardiac muscle 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Actin, alpha cardiac muscle 1, intermediate form",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Alpha-cardiac actin",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P68032",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005884",
+                "xref_name": "actin filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005925",
+                "xref_name": "focal adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0015629",
+                "xref_name": "actin cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030017",
+                "xref_name": "sarcomere",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030027",
+                "xref_name": "lamellipodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030175",
+                "xref_name": "filopodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031674",
+                "xref_name": "I band",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0044297",
+                "xref_name": "cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045202",
+                "xref_name": "synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072562",
+                "xref_name": "blood microparticle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098978",
+                "xref_name": "glutamatergic synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000146",
+                "xref_name": "microfilament motor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0000166",
+                "xref_name": "nucleotide binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017022",
+                "xref_name": "myosin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007015",
+                "xref_name": "actin filament organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009410",
+                "xref_name": "response to xenobiotic stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030048",
+                "xref_name": "actin filament-based movement",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030240",
+                "xref_name": "skeletal muscle thin filament assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031032",
+                "xref_name": "actomyosin structure organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033275",
+                "xref_name": "actin-myosin filament sliding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045471",
+                "xref_name": "response to ethanol",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055003",
+                "xref_name": "cardiac myofibril assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055008",
+                "xref_name": "cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060047",
+                "xref_name": "heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060048",
+                "xref_name": "cardiac muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060327",
+                "xref_name": "cytoplasmic actin-based contraction involved in cell motility",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090131",
+                "xref_name": "mesenchyme migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:143",
+                "xref_name": "ACTC1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P68032",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR004000",
+                "xref_name": "Actin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004001",
+                "xref_name": "Actin_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR020902",
+                "xref_name": "Actin/actin-like_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR043129",
+                "xref_name": "ATPase_NBD",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11937",
+                "xref_name": "ACTIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "8GSU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8GSW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8GT1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8GT2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8GT3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8GT4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8GT5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ZB7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ZI9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ZJ1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B3Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9B3R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BPH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9BPM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8GSU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8GSW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8GT1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8GT2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8GT3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8GT4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8GT5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00022",
+                "xref_name": "Actin",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA162375571",
+                "xref_name": "actin alpha cardiac muscle 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P68032",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8980692",
+                "xref_name": "RHOA GTPase cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9013026",
+                "xref_name": "RHOB GTPase cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9764561",
+                "xref_name": "Regulation of CDH1 Function",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9913351",
+                "xref_name": "Formation of the dystrophin-glycoprotein complex (DGC)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P04270",
+                "xref_name": "Actin, alpha cardiac muscle 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P68032",
+                "xref_name": "Actin, alpha cardiac muscle 1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:36:26+00:00",
+  "source": "ChEMBL target search"
+}

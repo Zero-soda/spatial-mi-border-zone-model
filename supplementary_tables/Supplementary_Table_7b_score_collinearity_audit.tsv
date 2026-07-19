@@ -1,0 +1,4 @@
+left_output	right_output	n_spots	pearson_r	spearman_r	interpretation
+mechanical_border	immune_fibrotic_activation	14147	0.29605335	0.349956	correlated_not_identical
+mechanical_border	fibroblast_scar_repair	14147	0.34519738	0.41502899	correlated_not_identical
+immune_fibrotic_activation	fibroblast_scar_repair	14147	0.83970765	0.88274213	highly_collinear

@@ -1,0 +1,395 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "NR2F2"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "COUP transcription factor 2",
+        "score": 14.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1961790",
+        "target_components": [
+          {
+            "accession": "P24468",
+            "component_description": "COUP transcription factor 2",
+            "component_id": 5624,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Apolipoprotein A-I regulatory protein 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ARP-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ARP1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "COUP-TF2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "COUP-TF II",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "COUP transcription factor 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "COUP transcription factor II",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "NR2F2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Nuclear receptor subfamily 2 group F member 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TFCOUP2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P24468",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P24468",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000978",
+                "xref_name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001972",
+                "xref_name": "retinoic acid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003677",
+                "xref_name": "DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004879",
+                "xref_name": "nuclear receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008270",
+                "xref_name": "zinc ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0043565",
+                "xref_name": "sequence-specific DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0000122",
+                "xref_name": "negative regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001701",
+                "xref_name": "in utero embryonic development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001764",
+                "xref_name": "neuron migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001893",
+                "xref_name": "maternal placenta development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001937",
+                "xref_name": "negative regulation of endothelial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001945",
+                "xref_name": "lymph vessel development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003084",
+                "xref_name": "positive regulation of systemic arterial blood pressure",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007399",
+                "xref_name": "nervous system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007519",
+                "xref_name": "skeletal muscle tissue development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008585",
+                "xref_name": "female gonad development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009566",
+                "xref_name": "fertilization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009952",
+                "xref_name": "anterior/posterior pattern specification",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009956",
+                "xref_name": "radial pattern formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010596",
+                "xref_name": "negative regulation of endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030154",
+                "xref_name": "cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030522",
+                "xref_name": "intracellular receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030900",
+                "xref_name": "forebrain development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045736",
+                "xref_name": "negative regulation of cyclin-dependent protein serine/threonine kinase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045892",
+                "xref_name": "negative regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045944",
+                "xref_name": "positive regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048514",
+                "xref_name": "blood vessel morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060674",
+                "xref_name": "placenta blood vessel development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060707",
+                "xref_name": "trophoblast giant cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060838",
+                "xref_name": "lymphatic endothelial cell fate commitment",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904936",
+                "xref_name": "interneuron migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:7976",
+                "xref_name": "NR2F2",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P24468",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000536",
+                "xref_name": "Nucl_hrmn_rcpt_lig-bd",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001628",
+                "xref_name": "Znf_hrmn_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001723",
+                "xref_name": "Nuclear_hrmn_rcpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013088",
+                "xref_name": "Znf_NHR/GATA",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035500",
+                "xref_name": "NHR-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050274",
+                "xref_name": "Nuclear_hormone_rcpt_NR2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24083",
+                "xref_name": "NUCLEAR HORMONE RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "3CJW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3CJW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00104",
+                "xref_name": "Hormone_recep",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00105",
+                "xref_name": "zf-C4",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA31759",
+                "xref_name": "nuclear receptor subfamily 2 group F member 2",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P24468",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-381340",
+                "xref_name": "Transcriptional regulation of white adipocyte differentiation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B4DQJ2",
+                "xref_name": "COUP transcription factor 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B6ZGU1",
+                "xref_name": "COUP transcription factor 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P24468",
+                "xref_name": "COUP transcription factor 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q03754",
+                "xref_name": "COUP transcription factor 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q3KQR7",
+                "xref_name": "COUP transcription factor 2",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:42:13+00:00",
+  "source": "ChEMBL target search"
+}

@@ -1,0 +1,355 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "SLC6A6"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Sodium- and chloride-dependent taurine transporter",
+        "score": 17.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5762",
+        "target_components": [
+          {
+            "accession": "P31641",
+            "component_description": "Sodium- and chloride-dependent taurine transporter",
+            "component_id": 4146,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "SLC6A6",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Sodium- and chloride-dependent taurine transporter",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Solute carrier family 6 member 6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Taurine transporter",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TauT",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P31641",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P31641",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016323",
+                "xref_name": "basolateral plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016324",
+                "xref_name": "apical plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030425",
+                "xref_name": "dendrite",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031528",
+                "xref_name": "microvillus membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042995",
+                "xref_name": "cell projection",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043025",
+                "xref_name": "neuronal cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045211",
+                "xref_name": "postsynaptic membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098797",
+                "xref_name": "plasma membrane protein complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098982",
+                "xref_name": "GABA-ergic synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005283",
+                "xref_name": "amino acid:sodium symporter activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005332",
+                "xref_name": "gamma-aminobutyric acid:sodium:chloride symporter activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005368",
+                "xref_name": "taurine transmembrane transporter activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005369",
+                "xref_name": "taurine:sodium symporter activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0015171",
+                "xref_name": "amino acid transmembrane transporter activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0015185",
+                "xref_name": "gamma-aminobutyric acid transmembrane transporter activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0022858",
+                "xref_name": "alanine transmembrane transporter activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006836",
+                "xref_name": "neurotransmitter transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006865",
+                "xref_name": "amino acid transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0015734",
+                "xref_name": "taurine transmembrane transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032328",
+                "xref_name": "alanine transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035725",
+                "xref_name": "sodium ion transmembrane transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045597",
+                "xref_name": "positive regulation of cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050804",
+                "xref_name": "modulation of chemical synaptic transmission",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051939",
+                "xref_name": "gamma-aminobutyric acid import",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0089718",
+                "xref_name": "amino acid import across plasma membrane",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0098739",
+                "xref_name": "import across plasma membrane",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0150104",
+                "xref_name": "transport across blood-brain barrier",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:11052",
+                "xref_name": "SLC6A6",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P31641",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000175",
+                "xref_name": "Na/ntran_symport",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002434",
+                "xref_name": "Na/ntran_symport_taurine",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR037272",
+                "xref_name": "SNS_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11616",
+                "xref_name": "SODIUM/CHLORIDE DEPENDENT TRANSPORTER",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11616:SF141",
+                "xref_name": "SODIUM- AND CHLORIDE-DEPENDENT TAURINE TRANSPORTER",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "9J7M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9J7N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9J7O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9JCV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9JCZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9JD5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9JD6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9JLN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9K7B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9K7N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "PF00209",
+                "xref_name": "SNF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA35912",
+                "xref_name": "solute carrier family 6 member 6",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P31641",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-352230",
+                "xref_name": "Amino acid transport across the plasma membrane",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-442660",
+                "xref_name": "Na+/Cl- dependent neurotransmitter transporters",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B2RNU7",
+                "xref_name": "Sodium- and chloride-dependent taurine transporter",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P31641",
+                "xref_name": "Sodium- and chloride-dependent taurine transporter",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BRI2",
+                "xref_name": "Sodium- and chloride-dependent taurine transporter",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BXB0",
+                "xref_name": "Sodium- and chloride-dependent taurine transporter",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:42:54+00:00",
+  "source": "ChEMBL target search"
+}

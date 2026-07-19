@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000112335"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "sorting nexin 3",
+        "approvedSymbol": "SNX3",
+        "associatedDiseases": {
+          "count": 1429,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0005559",
+                "name": "neurodegenerative disease"
+              },
+              "score": 0.5019091999413609
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005180",
+                "name": "Parkinson disease"
+              },
+              "score": 0.46400237450310583
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004975",
+                "name": "Alzheimer disease"
+              },
+              "score": 0.46326436658809644
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002561",
+                "name": "lysosomal storage disease"
+              },
+              "score": 0.4619748183558772
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005301",
+                "name": "multiple sclerosis"
+              },
+              "score": 0.4619748183558772
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005131",
+                "name": "cervical carcinoma"
+              },
+              "score": 0.24265652751932487
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.0777222327959098
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004994",
+                "name": "cardiomyopathy"
+              },
+              "score": 0.07428555079162505
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019324",
+                "name": "pemphigus foliaceus"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018921",
+                "name": "Meckel syndrome"
+              },
+              "score": 0.06222704678736675
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018772",
+                "name": "Joubert syndrome"
+              },
+              "score": 0.061196108321489084
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016296",
+                "name": "holoprosencephaly"
+              },
+              "score": 0.06080106912835119
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000179",
+                "name": "Neu-Laxova syndrome"
+              },
+              "score": 0.057136224245688934
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008926",
+                "name": "COFS syndrome"
+              },
+              "score": 0.05690975392362381
+            },
+            {
+              "disease": {
+                "id": "HP_0004418",
+                "name": "Thrombophlebitis"
+              },
+              "score": 0.05689205155274149
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004625",
+                "name": "phlebitis"
+              },
+              "score": 0.05689205155274149
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2754",
+                "name": "Joubert syndrome with orofaciodigital defect"
+              },
+              "score": 0.05641709371122204
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009480",
+                "name": "Joubert syndrome with oculorenal defect"
+              },
+              "score": 0.05568381648120636
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019107",
+                "name": "Rh deficiency syndrome"
+              },
+              "score": 0.05452411596163406
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019978",
+                "name": "Robinow syndrome"
+              },
+              "score": 0.0542640939484278
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016033",
+                "name": "Cornelia de Lange syndrome"
+              },
+              "score": 0.05413281302437955
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008389",
+                "name": "autosomal dominant Robinow syndrome"
+              },
+              "score": 0.05277538728255095
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019342",
+                "name": "Seckel syndrome"
+              },
+              "score": 0.05218293024327722
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2189",
+                "name": "Hydrolethalus"
+              },
+              "score": 0.05206312477371693
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013038",
+                "name": "CLOVES syndrome"
+              },
+              "score": 0.05164878469218708
+            },
+            {
+              "disease": {
+                "id": "Orphanet_140944",
+                "name": "CLOVE syndrome"
+              },
+              "score": 0.05164878469218708
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017398",
+                "name": "3MC syndrome"
+              },
+              "score": 0.050957311050179074
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2616",
+                "name": "3M syndrome"
+              },
+              "score": 0.05088580761440466
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016364",
+                "name": "Joubert syndrome with ocular defect"
+              },
+              "score": 0.050839558802033696
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1071",
+                "name": "Ankyloblepharon - ectodermal defects - cleft lip/palate"
+              },
+              "score": 0.05083735158901267
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019391",
+                "name": "Fanconi anemia"
+              },
+              "score": 0.050540847937706204
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018342",
+                "name": "Joubert syndrome with Jeune asphyxiating thoracic dystrophy"
+              },
+              "score": 0.05049199974702396
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009032",
+                "name": "cranioectodermal dysplasia"
+              },
+              "score": 0.05047880779943314
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007034",
+                "name": "Adams-Oliver syndrome"
+              },
+              "score": 0.05009177556272165
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007636",
+                "name": "frontorhiny"
+              },
+              "score": 0.04994686946136403
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009901",
+                "name": "Bartsocas-Papas syndrome 1"
+              },
+              "score": 0.04964011818197573
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013601",
+                "name": "gluthathione peroxidase deficiency"
+              },
+              "score": 0.04953848372193742
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010004",
+                "name": "EEC syndrome"
+              },
+              "score": 0.049317351775551084
+            },
+            {
+              "disease": {
+                "id": "Orphanet_93271",
+                "name": "Short rib-polydactyly syndrome, Verma-Naumoff type"
+              },
+              "score": 0.0492298845432757
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014413",
+                "name": "orofaciodigital syndrome type 14"
+              },
+              "score": 0.04922618874472886
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011045",
+                "name": "MMEP syndrome"
+              },
+              "score": 0.04921735989264472
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015167",
+                "name": "amniotic band syndrome"
+              },
+              "score": 0.04903770301883966
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007187",
+                "name": "nevoid basal cell carcinoma syndrome"
+              },
+              "score": 0.048836281998036496
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2753",
+                "name": "Orofaciodigital syndrome type 4"
+              },
+              "score": 0.048627469380139635
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010930",
+                "name": "anophthalmia plus syndrome"
+              },
+              "score": 0.04861083828667883
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009046",
+                "name": "Fraser syndrome"
+              },
+              "score": 0.048479226793982776
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018924",
+                "name": "microphthalmia, Lenz type"
+              },
+              "score": 0.04843631446641105
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2750",
+                "name": "Orofaciodigital syndrome type 1"
+              },
+              "score": 0.04813408027413556
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1827",
+                "name": "Acromelic frontonasal dysplasia"
+              },
+              "score": 0.048128536576315294
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2751",
+                "name": "Orofaciodigital syndrome type 2"
+              },
+              "score": 0.04806755590029232
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2919",
+                "name": "Orofaciodigital syndrome type 5"
+              },
+              "score": 0.0479880962315351
+            },
+            {
+              "disease": {
+                "id": "EFO_0000544",
+                "name": "infection"
+              },
+              "score": 0.04786839342304556
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012095",
+                "name": "intellectual disability-brachydactyly-Pierre Robin syndrome"
+              },
+              "score": 0.047819937397653556
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000171",
+                "name": "muscular dystrophy-dystroglycanopathy, type A"
+              },
+              "score": 0.047765321708016825
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012927",
+                "name": "chromosome 1q41-q42 deletion syndrome"
+              },
+              "score": 0.047742325628169775
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2995",
+                "name": "Baraitser-Winter syndrome"
+              },
+              "score": 0.047717892293332294
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1997",
+                "name": "Blepharo-cheilo-odontic syndrome"
+              },
+              "score": 0.04765177856377202
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015884",
+                "name": "autosomal dominant hypohidrotic ectodermal dysplasia"
+              },
+              "score": 0.047354061458609355
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018997",
+                "name": "Noonan syndrome"
+              },
+              "score": 0.04720741011904905
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010176",
+                "name": "orofaciodigital syndrome type 6"
+              },
+              "score": 0.047195347443236425
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011936",
+                "name": "microphthalmia with brain and digit anomalies"
+              },
+              "score": 0.047086321386104434
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007340",
+                "name": "cleidocranial dysplasia 1"
+              },
+              "score": 0.047058602897003074
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008111",
+                "name": "oculodentodigital dysplasia"
+              },
+              "score": 0.04704936340063595
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009627",
+                "name": "Galloway-Mowat syndrome"
+              },
+              "score": 0.04698078580537779
+            },
+            {
+              "disease": {
+                "id": "Orphanet_7",
+                "name": "3C syndrome"
+              },
+              "score": 0.04691590400866648
+            },
+            {
+              "disease": {
+                "id": "Orphanet_124",
+                "name": "Blackfan-Diamond anemia"
+              },
+              "score": 0.046857181876199916
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016535",
+                "name": "hypohidrotic ectodermal dysplasia"
+              },
+              "score": 0.04681139503864731
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011778",
+                "name": "multiple epiphyseal dysplasia, Al-Gazali type"
+              },
+              "score": 0.04680359279727063
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017910",
+                "name": "dehydrated hereditary stomatocytosis"
+              },
+              "score": 0.046652065056849906
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018953",
+                "name": "parietal foramina"
+              },
+              "score": 0.046633586064115676
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009999",
+                "name": "autosomal recessive Robinow syndrome"
+              },
+              "score": 0.04661325917210801
+            },
+            {
+              "disease": {
+                "id": "Orphanet_35173",
+                "name": "X-linked dominant chondrodysplasia punctata"
+              },
+              "score": 0.04642662134549224
+            },
+            {
+              "disease": {
+                "id": "Orphanet_3186",
+                "name": "Holoprosencephaly - radial heart renal anomalies"
+              },
+              "score": 0.04601823560606563
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008488",
+                "name": "holoprosencephaly-radial heart renal anomalies syndrome"
+              },
+              "score": 0.04601823560606563
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010865",
+                "name": "pseudoaminopterin syndrome"
+              },
+              "score": 0.04595355913149582
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007956",
+                "name": "Pai syndrome"
+              },
+              "score": 0.045739202815778694
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2510",
+                "name": "Micro syndrome"
+              },
+              "score": 0.04565127360868495
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015397",
+                "name": "craniofacial microsomia"
+              },
+              "score": 0.045641264154287244
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018053",
+                "name": "trichothiodystrophy"
+              },
+              "score": 0.045628739503656264
+            },
+            {
+              "disease": {
+                "id": "Orphanet_369891",
+                "name": "Cardiac anomalies-developmental delay-facial dysmorphism syndrome"
+              },
+              "score": 0.04561867871872319
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013481",
+                "name": "chromosome 13q14 deletion syndrome"
+              },
+              "score": 0.04556550028407688
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008260",
+                "name": "Kindler syndrome"
+              },
+              "score": 0.045495280111686784
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100253",
+                "name": "Roberts-SC phocomelia syndrome"
+              },
+              "score": 0.0454564742269449
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008670",
+                "name": "Waardenburg syndrome type 1"
+              },
+              "score": 0.04538994985310165
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015452",
+                "name": "Coffin-Siris syndrome"
+              },
+              "score": 0.04534847478052037
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016006",
+                "name": "Cockayne syndrome"
+              },
+              "score": 0.04534334172698308
+            },
+            {
+              "disease": {
+                "id": "MONDO_0060729",
+                "name": "protoporphyria, erythropoietic, 2"
+              },
+              "score": 0.045340056572719216
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100062",
+                "name": "genetic developmental and epileptic encephalopathy"
+              },
+              "score": 0.04530022407726986
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009079",
+                "name": "DOORS syndrome"
+              },
+              "score": 0.045131243954822355
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007990",
+                "name": "multiple benign circumferential skin creases on limbs"
+              },
+              "score": 0.04510537336499442
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010164",
+                "name": "phocomelia, Schinzel type"
+              },
+              "score": 0.04509243807008047
+            },
+            {
+              "disease": {
+                "id": "Orphanet_245",
+                "name": "Nager syndrome"
+              },
+              "score": 0.04506287168170569
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007943",
+                "name": "Nager acrofacial dysostosis"
+              },
+              "score": 0.04506287168170569
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007124",
+                "name": "ankyloblepharon-ectodermal defects-cleft lip/palate syndrome"
+              },
+              "score": 0.04506287168170569
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007839",
+                "name": "Aase-Smith syndrome"
+              },
+              "score": 0.04504439268897146
+            },
+            {
+              "disease": {
+                "id": "EFO_0009030",
+                "name": "Cerebellar-facial-dental syndrome"
+              },
+              "score": 0.045007434703502984
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012864",
+                "name": "chromosome 2q32-q33 deletion syndrome"
+              },
+              "score": 0.04500086439497525
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008675",
+                "name": "Freeman-Sheldon syndrome"
+              },
+              "score": 0.04493351873256605
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009727",
+                "name": "atelosteogenesis type II"
+              },
+              "score": 0.044927975034745764
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008693",
+                "name": "ablepharon macrostomia syndrome"
+              },
+              "score": 0.04490395234419127
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000112335",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:42:58+00:00",
+  "source": "Open Targets"
+}

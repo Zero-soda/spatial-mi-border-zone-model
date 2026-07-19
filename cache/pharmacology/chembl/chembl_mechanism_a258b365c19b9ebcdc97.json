@@ -1,0 +1,302 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL4015"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 3,
+        "mec_id": 4914,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "16251299",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/16251299"
+          },
+          {
+            "ref_id": "21317794",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21317794"
+          },
+          {
+            "ref_id": "21486960",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21486960"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2110727",
+        "parent_molecule_chembl_id": "CHEMBL2110727",
+        "record_id": 1701397,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4952,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "23986513",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/23986513"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2178573",
+        "parent_molecule_chembl_id": "CHEMBL2178573",
+        "record_id": 2473467,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4958,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "http://www.pfizer.com/research/science_and_technology/product_pipeline",
+            "ref_type": "Other",
+            "ref_url": "http://www.pfizer.com/research/science_and_technology/product_pipeline"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL5095029",
+        "parent_molecule_chembl_id": "CHEMBL5095029",
+        "record_id": 2472898,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 4983,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "23523116",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/23523116"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3545221",
+        "parent_molecule_chembl_id": "CHEMBL3545221",
+        "record_id": 2473304,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "INHIBITOR",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 7074,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 inhibitor",
+        "mechanism_refs": [
+          {
+            "ref_id": "https://www.cancer.gov/publications/dictionaries/cancer-drug?cdrid=659685",
+            "ref_type": "Other",
+            "ref_url": "https://www.cancer.gov/publications/dictionaries/cancer-drug?cdrid=659685"
+          },
+          {
+            "ref_id": "18576354",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/18576354"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3707228",
+        "parent_molecule_chembl_id": "CHEMBL3707228",
+        "record_id": 2583009,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 7773,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "https://bit.ly/2TDzf9X",
+            "ref_type": "Other",
+            "ref_url": "https://bit.ly/2TDzf9X"
+          },
+          {
+            "ref_id": "21936726",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/21936726"
+          },
+          {
+            "ref_id": "32630699",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/32630699"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4594419",
+        "parent_molecule_chembl_id": "CHEMBL4594419",
+        "record_id": 3461089,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 8180,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "24798870",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24798870"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2204263",
+        "parent_molecule_chembl_id": "CHEMBL2204263",
+        "record_id": 3132400,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 8763,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "31676674",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/31676674/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL3305901",
+        "parent_molecule_chembl_id": "CHEMBL3305901",
+        "record_id": 3133116,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 8822,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "30891130",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/30891130/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4457723",
+        "parent_molecule_chembl_id": "CHEMBL4457723",
+        "record_id": 3489966,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      },
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 8953,
+        "mechanism_comment": null,
+        "mechanism_of_action": "C-C chemokine receptor type 2 antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "24900280",
+            "ref_type": "PubMed",
+            "ref_url": "https://pubmed.ncbi.nlm.nih.gov/24900280/"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL2029422",
+        "parent_molecule_chembl_id": "CHEMBL2029422",
+        "record_id": 3490309,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4015",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 10
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:38:42+00:00",
+  "source": "ChEMBL mechanism"
+}

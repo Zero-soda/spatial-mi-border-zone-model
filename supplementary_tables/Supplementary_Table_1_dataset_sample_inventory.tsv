@@ -1,8 +1,8 @@
 analysis_sample	geo_accession	public_file	organism	assay	manuscript_group	n_spots_in_analysis	role
-D3_1	GSM6613084	GSM6613084_V_d1_1.tar.gz	Mus musculus	10x Genomics Visium	day3_mi	2236	mouse MI discovery/temporal validation
-D3_2	GSM6613085	GSM6613085_V_d1_2.tar.gz	Mus musculus	10x Genomics Visium	day3_mi	2412	mouse MI discovery/temporal validation
-D3_3	GSM6613086	GSM6613086_V_d1_3.tar.gz	Mus musculus	10x Genomics Visium	day3_mi	2426	mouse MI discovery/temporal validation
-D7_1	GSM6613087	GSM6613087_V_d7_1.zip	Mus musculus	10x Genomics Visium	day7_mi	2313	mouse MI discovery/temporal validation
-D7_2	GSM6613088	GSM6613088_V_d7_2.tar.gz	Mus musculus	10x Genomics Visium	day7_mi	2403	mouse MI discovery/temporal validation
-D7_3	GSM6613089	GSM6613089_V_d7_3.tar.gz	Mus musculus	10x Genomics Visium	day7_mi	2357	mouse MI discovery/temporal validation
-GSM6613090_V_Human_STEMI	GSM6613090	GSM6613090_V_Human_STEMI.zip	Homo sapiens	10x Genomics Visium	human_stemi	1551	human STEMI migration feasibility validation
+D3_1	GSM6613084	GSM6613084_V_d1_1.tar.gz	Mus musculus	10x Genomics Visium	day3_mi	2236	mouse MI discovery/temporal comparison
+D3_2	GSM6613085	GSM6613085_V_d1_2.tar.gz	Mus musculus	10x Genomics Visium	day3_mi	2412	mouse MI discovery/temporal comparison
+D3_3	GSM6613086	GSM6613086_V_d1_3.tar.gz	Mus musculus	10x Genomics Visium	day3_mi	2426	mouse MI discovery/temporal comparison
+D7_1	GSM6613087	GSM6613087_V_d7_1.zip	Mus musculus	10x Genomics Visium	day7_mi	2313	mouse MI discovery/temporal comparison
+D7_2	GSM6613088	GSM6613088_V_d7_2.tar.gz	Mus musculus	10x Genomics Visium	day7_mi	2403	mouse MI discovery/temporal comparison
+D7_3	GSM6613089	GSM6613089_V_d7_3.tar.gz	Mus musculus	10x Genomics Visium	day7_mi	2357	mouse MI discovery/temporal comparison
+GSM6613090_V_Human_STEMI	GSM6613090	GSM6613090_V_Human_STEMI.zip	Homo sapiens	10x Genomics Visium	human_stemi	1551	human STEMI feasibility transfer

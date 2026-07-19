@@ -10,8 +10,10 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+from project_paths import project_root
 
-ROOT = Path(__file__).resolve().parents[3]
+
+ROOT = project_root(__file__)
 LOCAL_DEPS = ROOT / ".deps" / "python"
 if LOCAL_DEPS.exists():
     sys.path.insert(0, str(LOCAL_DEPS))
@@ -24,7 +26,7 @@ from map_gse214611_d7_1_spatial_risk import dim_background, magma_like, percenti
 from score_gse214611_visium_signatures import CORE_SCORE_COLUMNS, decode  # noqa: E402
 
 
-SIGNATURES_TSV = ROOT / "docs" / "spatial_cardiac_border_zone_signatures.tsv"
+SIGNATURES_TSV = Path(__file__).resolve().parents[1] / "config" / "spatial_cardiac_border_zone_signatures.tsv"
 HUMAN_VISIUM_DIR = ROOT / "data" / "raw" / "gse214611" / "visium" / "GSM6613090_V_Human_STEMI"
 OUT_TABLE_DIR = ROOT / "results" / "tables"
 OUT_FIGURE_DIR = ROOT / "results" / "figures"

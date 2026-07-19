@@ -1,0 +1,222 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "TNFRSF12A"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Tumor necrosis factor receptor superfamily member 12A",
+        "score": 16.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3712850",
+        "target_components": [
+          {
+            "accession": "Q9NP84",
+            "component_description": "Tumor necrosis factor receptor superfamily member 12A",
+            "component_id": 15004,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CD_antigen=CD266",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FGF-inducible 14",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fibroblast growth factor-inducible immediate-early response protein 14",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FN14",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TNFRSF12A",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tumor necrosis factor receptor superfamily member 12A",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TweakR",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tweak-receptor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q9NP84",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q9NP84",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007155",
+                "xref_name": "cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030154",
+                "xref_name": "cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043065",
+                "xref_name": "positive regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061041",
+                "xref_name": "regulation of wound healing",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001238",
+                "xref_name": "positive regulation of extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:18152",
+                "xref_name": "TNFRSF12A",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q9NP84",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR022316",
+                "xref_name": "TNFR_12",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR32037",
+                "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 12A",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR32037:SF2",
+                "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 12A",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "2EQP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KMZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2RPJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "PF12191",
+                "xref_name": "stn_TNFRSF12A",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA134976874",
+                "xref_name": "TNF receptor superfamily member 12A",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q9NP84",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-5668541",
+                "xref_name": "TNFR2 non-canonical NF-kB pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5676594",
+                "xref_name": "TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "D3DUA6",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 12A",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9HCS0",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 12A",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NP84",
+                "xref_name": "Tumor necrosis factor receptor superfamily member 12A",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:31+00:00",
+  "source": "ChEMBL target search"
+}

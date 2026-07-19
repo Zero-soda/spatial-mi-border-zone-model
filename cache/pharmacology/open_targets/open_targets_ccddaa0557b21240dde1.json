@@ -1,0 +1,1342 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000164692"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "collagen type I alpha 2 chain",
+        "approvedSymbol": "COL1A2",
+        "associatedDiseases": {
+          "count": 1990,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0008147",
+                "name": "osteogenesis imperfecta type 2"
+              },
+              "score": 0.8450927277747479
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009804",
+                "name": "osteogenesis imperfecta type 3"
+              },
+              "score": 0.8304527609425197
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008148",
+                "name": "osteogenesis imperfecta type 4"
+              },
+              "score": 0.8195907227843882
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009159",
+                "name": "Ehlers-Danlos syndrome, cardiac valvular type"
+              },
+              "score": 0.7766291978770135
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1899",
+                "name": "Ehlers-Danlos syndrome, arthrochalasic type"
+              },
+              "score": 0.7735634962593385
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008146",
+                "name": "osteogenesis imperfecta type 1"
+              },
+              "score": 0.77024013207495
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019019",
+                "name": "osteogenesis imperfecta"
+              },
+              "score": 0.7555263023252838
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030855",
+                "name": "combined osteogenesis imperfecta and Ehlers-Danlos syndrome 2"
+              },
+              "score": 0.7409996295683411
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005298",
+                "name": "osteoporosis"
+              },
+              "score": 0.6530832283251494
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020066",
+                "name": "Ehlers-Danlos syndrome"
+              },
+              "score": 0.6185594233662564
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008159",
+                "name": "postmenopausal osteoporosis"
+              },
+              "score": 0.5919635570511046
+            },
+            {
+              "disease": {
+                "id": "HP_0000924",
+                "name": "Abnormality of the skeletal system"
+              },
+              "score": 0.5870583618304412
+            },
+            {
+              "disease": {
+                "id": "EFO_0004229",
+                "name": "Dupuytren Contracture"
+              },
+              "score": 0.5861413139718339
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019567",
+                "name": "Ehlers-Danlos syndrome, classic type, 1"
+              },
+              "score": 0.5686753858038893
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007522",
+                "name": "Ehlers-Danlos syndrome, classic type"
+              },
+              "score": 0.5381557656804102
+            },
+            {
+              "disease": {
+                "id": "HP_0001626",
+                "name": "Abnormality of the cardiovascular system"
+              },
+              "score": 0.5236897967976647
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003847",
+                "name": "hereditary disease"
+              },
+              "score": 0.5090227359997666
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020521",
+                "name": "Ehlers-Danlos syndrome type 7A"
+              },
+              "score": 0.4740859501938949
+            },
+            {
+              "disease": {
+                "id": "HP_0200042",
+                "name": "Skin ulcer"
+              },
+              "score": 0.4619748183558772
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018230",
+                "name": "skeletal dysplasia"
+              },
+              "score": 0.455637007745306
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018849",
+                "name": "dentinogenesis imperfecta"
+              },
+              "score": 0.45499801225447073
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007525",
+                "name": "Ehlers-Danlos syndrome, arthrochalasia type"
+              },
+              "score": 0.4490653137701148
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005328",
+                "name": "eye disorder"
+              },
+              "score": 0.4342563292545246
+            },
+            {
+              "disease": {
+                "id": "MONDO_0040501",
+                "name": "Ehlers-Danlos syndrome, arthrochalasia type, 2"
+              },
+              "score": 0.38232250609941193
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008231",
+                "name": "Peyronie disease"
+              },
+              "score": 0.38230991184410945
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019338",
+                "name": "sarcoidosis"
+              },
+              "score": 0.37862929118951205
+            },
+            {
+              "disease": {
+                "id": "MONDO_0043839",
+                "name": "ulcer disease"
+              },
+              "score": 0.37027281691223557
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017791",
+                "name": "high bone mass osteogenesis imperfecta"
+              },
+              "score": 0.37013422446672883
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100596",
+                "name": "COL1A2-related osteogenesis imperfecta"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "EFO_1000466",
+                "name": "Penile Fibromatosis"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100606",
+                "name": "COL1A2-related Ehlers-Danlos syndrome"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006345",
+                "name": "palmar fibromatosis"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016470",
+                "name": "Ehlers-Danlos/osteogenesis imperfecta syndrome"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0000479",
+                "name": "Abnormal retinal morphology"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "HP_0003549",
+                "name": "Abnormality of connective tissue"
+              },
+              "score": 0.3695798546847018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006843",
+                "name": "macular holes"
+              },
+              "score": 0.3521274726579242
+            },
+            {
+              "disease": {
+                "id": "HP_0002659",
+                "name": "Increased susceptibility to fractures"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0005855",
+                "name": "Multiple prenatal fractures"
+              },
+              "score": 0.3400134663099256
+            },
+            {
+              "disease": {
+                "id": "HP_0011428",
+                "name": "Short fetal femur length"
+              },
+              "score": 0.3326218692162316
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004684",
+                "name": "plantar fibromatosis"
+              },
+              "score": 0.33159525850877414
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005473",
+                "name": "temporomandibular joint disorder"
+              },
+              "score": 0.3105138151306746
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002118",
+                "name": "urinary system disorder"
+              },
+              "score": 0.29083980637751794
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017195",
+                "name": "Bruck syndrome"
+              },
+              "score": 0.2761089577333609
+            },
+            {
+              "disease": {
+                "id": "EFO_0007067",
+                "name": "decubitus ulcer"
+              },
+              "score": 0.25962984791600296
+            },
+            {
+              "disease": {
+                "id": "EFO_0009846",
+                "name": "muscle cramp"
+              },
+              "score": 0.25809076512619916
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001889",
+                "name": "ovarian dysfunction"
+              },
+              "score": 0.25809076512619916
+            },
+            {
+              "disease": {
+                "id": "EFO_0010817",
+                "name": "self-injurious ideation"
+              },
+              "score": 0.2454011022851872
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021068",
+                "name": "ovarian neoplasm"
+              },
+              "score": 0.21676950694257469
+            },
+            {
+              "disease": {
+                "id": "HP_0002619",
+                "name": "Varicose veins"
+              },
+              "score": 0.21371904198240652
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003900",
+                "name": "connective tissue disorder"
+              },
+              "score": 0.18819231713808143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007947",
+                "name": "Marfan syndrome"
+              },
+              "score": 0.12164372046486653
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005516",
+                "name": "osteochondrodysplasia"
+              },
+              "score": 0.11930508066803003
+            },
+            {
+              "disease": {
+                "id": "HP_0004322",
+                "name": "Short stature"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "EFO_0004743",
+                "name": "facial morphology"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0001263",
+                "name": "Global developmental delay"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0000486",
+                "name": "Strabismus"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "Orphanet_285014",
+                "name": "Rare disease with thoracic aortic aneurysm and aortic dissection"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002070",
+                "name": "ventricular septal defect"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0000954",
+                "name": "Single transverse palmar crease"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0004325",
+                "name": "Decreased body weight"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006546",
+                "name": "erythematosquamous dermatosis"
+              },
+              "score": 0.11820431678241018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006763",
+                "name": "frozen shoulder"
+              },
+              "score": 0.10530151348533119
+            },
+            {
+              "disease": {
+                "id": "EFO_0004329",
+                "name": "alcohol drinking"
+              },
+              "score": 0.0982802204627859
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.09706075849632398
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018177",
+                "name": "glioblastoma"
+              },
+              "score": 0.09526026217966235
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002271",
+                "name": "colon adenocarcinoma"
+              },
+              "score": 0.09418217768104487
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004992",
+                "name": "cancer"
+              },
+              "score": 0.09319978293533697
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005106",
+                "name": "lipoma"
+              },
+              "score": 0.09239496367117545
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.08826350496677406
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007256",
+                "name": "hepatocellular carcinoma"
+              },
+              "score": 0.08634628390338292
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001056",
+                "name": "gastric cancer"
+              },
+              "score": 0.08237223295108159
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015995",
+                "name": "melorheostosis with osteopoikilosis"
+              },
+              "score": 0.07812710786193673
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005382",
+                "name": "bone Paget disease"
+              },
+              "score": 0.07795802474319864
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004986",
+                "name": "urinary bladder carcinoma"
+              },
+              "score": 0.0764091371921414
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001187",
+                "name": "urinary bladder cancer"
+              },
+              "score": 0.0764091371921414
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005098",
+                "name": "stroke disorder"
+              },
+              "score": 0.07615000102002048
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015613",
+                "name": "dentin dysplasia"
+              },
+              "score": 0.07509403752206908
+            },
+            {
+              "disease": {
+                "id": "Orphanet_99792",
+                "name": "Dentin dysplasia - sclerotic bones"
+              },
+              "score": 0.07495391953305103
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007438",
+                "name": "dentin dysplasia-sclerotic bones syndrome"
+              },
+              "score": 0.07495391953305103
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005150",
+                "name": "age-related macular degeneration"
+              },
+              "score": 0.07483992057365212
+            },
+            {
+              "disease": {
+                "id": "MONDO_1060198",
+                "name": "ischemic stroke"
+              },
+              "score": 0.07479372309181653
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005580",
+                "name": "esophageal squamous cell carcinoma"
+              },
+              "score": 0.07447942303408923
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008157",
+                "name": "Buschke-Ollendorff syndrome"
+              },
+              "score": 0.07428231805736099
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008155",
+                "name": "osteomesopyknosis"
+              },
+              "score": 0.0742151369878848
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019784",
+                "name": "12q14 microdeletion syndrome"
+              },
+              "score": 0.07408033131120433
+            },
+            {
+              "disease": {
+                "id": "EFO_0003907",
+                "name": "deep vein thrombosis"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "HP_0012227",
+                "name": "Urethral stricture"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "EFO_1001909",
+                "name": "Plantar Fasciitis"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004728",
+                "name": "diabetic macular edema"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019296",
+                "name": "subcutaneous tissue disorder"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "EFO_0003899",
+                "name": "contracture"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "EFO_0009760",
+                "name": "non-proliferative diabetic retinopathy"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "Orphanet_93160",
+                "name": "Hypocalcemic vitamin D-resistant rickets"
+              },
+              "score": 0.07003462257659085
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009597",
+                "name": "metaphyseal chondrodysplasia, Spahr type"
+              },
+              "score": 0.06930858996592766
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007970",
+                "name": "melorheostosis"
+              },
+              "score": 0.06878922422100371
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005100",
+                "name": "systemic sclerosis"
+              },
+              "score": 0.06875375093620081
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008151",
+                "name": "gnathodiaphyseal dysplasia"
+              },
+              "score": 0.06845288874908365
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019667",
+                "name": "spondyloepiphyseal dysplasia tarda"
+              },
+              "score": 0.06819141100189423
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018315",
+                "name": "X-linked osteoporosis with fractures"
+              },
+              "score": 0.06780881782988178
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005148",
+                "name": "type 2 diabetes mellitus"
+              },
+              "score": 0.0670410143285133
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 2,
+          "rows": [
+            {
+              "diseases": [
+                {
+                  "disease": {
+                    "id": "MONDO_0043839",
+                    "name": "ulcer disease"
+                  },
+                  "diseaseFromSource": "ulcer disease"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_1000466",
+                    "name": "Penile Fibromatosis"
+                  },
+                  "diseaseFromSource": "penile fibromatosis"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0004229",
+                    "name": "Dupuytren Contracture"
+                  },
+                  "diseaseFromSource": "dupuytren contracture"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0003549",
+                    "name": "Abnormality of connective tissue"
+                  },
+                  "diseaseFromSource": "abnormality of connective tissue"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0004229",
+                    "name": "Dupuytren Contracture"
+                  },
+                  "diseaseFromSource": "dupuytren ' s contracture"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0200042",
+                    "name": "Skin ulcer"
+                  },
+                  "diseaseFromSource": "skin ulcer"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0019338",
+                    "name": "sarcoidosis"
+                  },
+                  "diseaseFromSource": "sarcoidosis"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "dermal ulcers"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "skin burns"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0006345",
+                    "name": "palmar fibromatosis"
+                  },
+                  "diseaseFromSource": "palmar fibromatosis"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0004229",
+                    "name": "Dupuytren Contracture"
+                  },
+                  "diseaseFromSource": "dupuytren's disease"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0004229",
+                    "name": "Dupuytren Contracture"
+                  },
+                  "diseaseFromSource": "Dupuytren's disease"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0004229",
+                    "name": "Dupuytren Contracture"
+                  },
+                  "diseaseFromSource": "dupuytren's contracture"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0008231",
+                    "name": "Peyronie disease"
+                  },
+                  "diseaseFromSource": "Peyronie's disease"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0004229",
+                    "name": "Dupuytren Contracture"
+                  },
+                  "diseaseFromSource": "Dupuytren's contracture"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0007067",
+                    "name": "decubitus ulcer"
+                  },
+                  "diseaseFromSource": "pressure ulcer"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0008231",
+                    "name": "Peyronie disease"
+                  },
+                  "diseaseFromSource": "peyronie's disease"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "cellulite"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "edematous fibrosclerotic panniculopathy"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0004229",
+                    "name": "Dupuytren Contracture"
+                  },
+                  "diseaseFromSource": "dupuytren disease"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0004684",
+                    "name": "plantar fibromatosis"
+                  },
+                  "diseaseFromSource": "plantar fibromatosis"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "cutaneous ulcers"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0006763",
+                    "name": "frozen shoulder"
+                  },
+                  "diseaseFromSource": "adhesive capsulitis"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0003899",
+                    "name": "contracture"
+                  },
+                  "diseaseFromSource": "contracture"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0006763",
+                    "name": "frozen shoulder"
+                  },
+                  "diseaseFromSource": "adhesive capsulitis of the shoulder"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005106",
+                    "name": "lipoma"
+                  },
+                  "diseaseFromSource": "lipoma"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "chronic total coronary artery occlusion"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0004229",
+                    "name": "Dupuytren Contracture"
+                  },
+                  "diseaseFromSource": "Dupuytren disease"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0012227",
+                    "name": "Urethral stricture"
+                  },
+                  "diseaseFromSource": "urethral stricture"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0019296",
+                    "name": "subcutaneous tissue disorder"
+                  },
+                  "diseaseFromSource": "subcutaneous tissue disorder"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_1001909",
+                    "name": "Plantar Fasciitis"
+                  },
+                  "diseaseFromSource": "plantar fasciitis"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "flexor tendon adhesions"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "chronic total occlusion of coronary artery"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005010",
+                    "name": "coronary artery disorder"
+                  },
+                  "diseaseFromSource": "coronary artery disease"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_1001459",
+                    "name": "diabetic foot"
+                  },
+                  "diseaseFromSource": "diabetic foot ulcer"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0000131",
+                    "name": "Uterine leiomyoma"
+                  },
+                  "diseaseFromSource": "uterine leiomyoma"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0000131",
+                    "name": "Uterine leiomyoma"
+                  },
+                  "diseaseFromSource": "uterine fibroids"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0007886",
+                    "name": "uterine corpus leiomyoma"
+                  },
+                  "diseaseFromSource": "uterine fibroids"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0002015",
+                    "name": "Dysphagia"
+                  },
+                  "diseaseFromSource": "dysphagia"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0002043",
+                    "name": "Esophageal stricture"
+                  },
+                  "diseaseFromSource": "esophageal stricture"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0007067",
+                    "name": "decubitus ulcer"
+                  },
+                  "diseaseFromSource": "pressure ulcers"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "joint contracture"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "minor partial thickness burns"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "partial-thickness facial burns"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "dermatome wounds"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "duputrens contracture"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "necrotic tissue"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "chronic wound"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "second degree burn"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "proximal interphalangeal joint contractures"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "metacarpophalangeal joint contractures"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "finger joint contracture"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "full-thickness wounds"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005362",
+                    "name": "erectile dysfunction"
+                  },
+                  "diseaseFromSource": "erectile dysfunction"
+                }
+              ],
+              "drug": {
+                "drugType": "Enzyme",
+                "drugWarnings": [],
+                "id": "CHEMBL2108709",
+                "maximumClinicalStage": "APPROVAL",
+                "name": "COLLAGENASE CLOSTRIDIUM HISTOLYTICUM"
+              },
+              "id": "c4a6ddc74fb59e3cdb264dc2df55dc2ef9bc3291be5a97ea2ea2e3b7ae5f33fe",
+              "maxClinicalStage": "APPROVAL"
+            },
+            {
+              "diseases": [
+                {
+                  "disease": null,
+                  "diseaseFromSource": "symptomatic vitreomacular adhesion"
+                },
+                {
+                  "disease": {
+                    "id": "HP_0000479",
+                    "name": "Abnormal retinal morphology"
+                  },
+                  "diseaseFromSource": "abnormal retinal morphology"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005328",
+                    "name": "eye disorder"
+                  },
+                  "diseaseFromSource": "eye disease"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005328",
+                    "name": "eye disorder"
+                  },
+                  "diseaseFromSource": "eye disorder"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "vitreomacular adhesion"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0006843",
+                    "name": "macular holes"
+                  },
+                  "diseaseFromSource": "macular hole"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "focal vitreomacular adhesion"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005098",
+                    "name": "stroke disorder"
+                  },
+                  "diseaseFromSource": "stroke"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "vitreomacular traction maculopathy"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "peripheral arterial occlusion"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_1060198",
+                    "name": "ischemic stroke"
+                  },
+                  "diseaseFromSource": "ischemic stroke"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0004728",
+                    "name": "diabetic macular edema"
+                  },
+                  "diseaseFromSource": "diabetic macular edema"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "surgical vitrectomy"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0003907",
+                    "name": "deep vein thrombosis"
+                  },
+                  "diseaseFromSource": "deep vein thrombosis"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "vitreomacular traction"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "exudative age-related macular degeneration"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "patients scheduled for vitrectomy"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0005150",
+                    "name": "age-related macular degeneration"
+                  },
+                  "diseaseFromSource": "age-related macular degeneration"
+                },
+                {
+                  "disease": {
+                    "id": "EFO_0009760",
+                    "name": "non-proliferative diabetic retinopathy"
+                  },
+                  "diseaseFromSource": "non-proliferative diabetic retinopathy"
+                },
+                {
+                  "disease": null,
+                  "diseaseFromSource": "uveitic macular edema"
+                },
+                {
+                  "disease": {
+                    "id": "MONDO_0006951",
+                    "name": "retinal vein occlusion"
+                  },
+                  "diseaseFromSource": "central retinal vein occlusion"
+                }
+              ],
+              "drug": {
+                "drugType": "Protein",
+                "drugWarnings": [],
+                "id": "CHEMBL2095222",
+                "maximumClinicalStage": "APPROVAL",
+                "name": "OCRIPLASMIN"
+              },
+              "id": "e6d59add311903c56933dbd2c716ef25109e261674f2fc0a273f521011d9ae68",
+              "maxClinicalStage": "APPROVAL"
+            }
+          ]
+        },
+        "id": "ENSG00000164692",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": true
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:36:42+00:00",
+  "source": "Open Targets"
+}

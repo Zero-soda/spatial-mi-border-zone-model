@@ -1,4 +1,0 @@
-left_score	right_score	pearson_r	spearman_r	top_decile_jaccard	top_decile_overlap_spots	top_decile_union_spots
-mechanical_border_score	immune_fibrotic_activation_score	-0.0729101	-0.0984398	0.029703	9	303
-mechanical_border_score	fibroblast_scar_repair_score	-0.00612642	-0.050382	0.012987	4	308
-immune_fibrotic_activation_score	fibroblast_scar_repair_score	0.780134	0.737996	0.268293	66	246

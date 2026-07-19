@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000077942"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "fibulin 1",
+        "approvedSymbol": "FBLN1",
+        "associatedDiseases": {
+          "count": 2581,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0011984",
+                "name": "synpolydactyly type 2"
+              },
+              "score": 0.44719519764801263
+            },
+            {
+              "disease": {
+                "id": "Orphanet_93403",
+                "name": "Syndactyly type 2"
+              },
+              "score": 0.42794438442150673
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018443",
+                "name": "FBLN1-related developmental delay-central nervous system anomaly-syndactyly syndrome"
+              },
+              "score": 0.37722091818030795
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007186",
+                "name": "gastroesophageal reflux disease"
+              },
+              "score": 0.30620167978388135
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005488",
+                "name": "adolescent idiopathic scoliosis"
+              },
+              "score": 0.3017126982265244
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005301",
+                "name": "multiple sclerosis"
+              },
+              "score": 0.284438163001725
+            },
+            {
+              "disease": {
+                "id": "EFO_0004329",
+                "name": "alcohol drinking"
+              },
+              "score": 0.26557122711027137
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010811",
+                "name": "benign prostatic hyperplasia"
+              },
+              "score": 0.24334797081583182
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024647",
+                "name": "urolithiasis"
+              },
+              "score": 0.24063629967620243
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005066",
+                "name": "metabolic disease"
+              },
+              "score": 0.2155986607869106
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012672",
+                "name": "cholelithiasis"
+              },
+              "score": 0.17957684117768954
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100101",
+                "name": "fetal akinesia deformation sequence 1"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015168",
+                "name": "arthrogryposis multiplex congenita"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005045",
+                "name": "hypertrophic cardiomyopathy"
+              },
+              "score": 0.11701160750509873
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005098",
+                "name": "stroke disorder"
+              },
+              "score": 0.10421737499792232
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.10009252701148351
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006664",
+                "name": "atrial septal defect"
+              },
+              "score": 0.09773288205223393
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007256",
+                "name": "hepatocellular carcinoma"
+              },
+              "score": 0.09688611592029107
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007172",
+                "name": "atrial septal defect 1"
+              },
+              "score": 0.09522250808991635
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004989",
+                "name": "breast carcinoma"
+              },
+              "score": 0.09338492226356788
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013746",
+                "name": "ventricular septal defect 1"
+              },
+              "score": 0.09133083034236036
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002070",
+                "name": "ventricular septal defect"
+              },
+              "score": 0.09133083034236036
+            },
+            {
+              "disease": {
+                "id": "EFO_0009081",
+                "name": "Heterotaxia"
+              },
+              "score": 0.0890339053586018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005233",
+                "name": "non-small cell lung carcinoma"
+              },
+              "score": 0.08747670351563101
+            },
+            {
+              "disease": {
+                "id": "EFO_0000266",
+                "name": "aortic stenosis"
+              },
+              "score": 0.08673146038134463
+            },
+            {
+              "disease": {
+                "id": "EFO_0010078",
+                "name": "dentures"
+              },
+              "score": 0.0864675040668127
+            },
+            {
+              "disease": {
+                "id": "Orphanet_860",
+                "name": "Congenitally uncorrected transposition of the great arteries"
+              },
+              "score": 0.08617781352647262
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020290",
+                "name": "familial atrioventricular septal defect"
+              },
+              "score": 0.08568844443478195
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1479",
+                "name": "Atrial septal defect - atrioventricular conduction defects"
+              },
+              "score": 0.08539473831860456
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007112",
+                "name": "interventricular septum aneurysm"
+              },
+              "score": 0.0851481186872329
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005002",
+                "name": "chronic obstructive pulmonary disease"
+              },
+              "score": 0.08437574521158299
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004992",
+                "name": "cancer"
+              },
+              "score": 0.08411054259086671
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.0835520837544593
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010999",
+                "name": "fallot complex-intellectual disability-growth delay syndrome"
+              },
+              "score": 0.08319452573503382
+            },
+            {
+              "disease": {
+                "id": "Orphanet_3304",
+                "name": "Fallot complex - intellectual disability - growth delay"
+              },
+              "score": 0.08319452573503382
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004933",
+                "name": "hypoplastic left heart syndrome"
+              },
+              "score": 0.08271972804611208
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001056",
+                "name": "gastric cancer"
+              },
+              "score": 0.0814893656724777
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007173",
+                "name": "atrial septal defect 7"
+              },
+              "score": 0.08118781389160949
+            },
+            {
+              "disease": {
+                "id": "MONDO_0060663",
+                "name": "congenital heart defects, multiple types, 5"
+              },
+              "score": 0.08068287541514649
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014344",
+                "name": "congenital heart defects, multiple types, 4"
+              },
+              "score": 0.08029712644181936
+            },
+            {
+              "disease": {
+                "id": "Orphanet_124",
+                "name": "Blackfan-Diamond anemia"
+              },
+              "score": 0.0793314123365299
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007254",
+                "name": "breast cancer"
+              },
+              "score": 0.07931042676640263
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013749",
+                "name": "ventricular septal defect 3"
+              },
+              "score": 0.0788917477138454
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018923",
+                "name": "22q11.2 deletion syndrome"
+              },
+              "score": 0.07889148249443974
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011514",
+                "name": "tricuspid atresia"
+              },
+              "score": 0.07880705233048015
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013463",
+                "name": "congenital heart defects, multiple types, 6"
+              },
+              "score": 0.07792293518921774
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004975",
+                "name": "Alzheimer disease"
+              },
+              "score": 0.07750365480554874
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007443",
+                "name": "congenital unilateral hypoplasia of depressor anguli oris"
+              },
+              "score": 0.07587935159562435
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004986",
+                "name": "urinary bladder carcinoma"
+              },
+              "score": 0.07580964447717312
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001187",
+                "name": "urinary bladder cancer"
+              },
+              "score": 0.07580964447717312
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016658",
+                "name": "8p23.1 microdeletion syndrome"
+              },
+              "score": 0.07526066465277509
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005338",
+                "name": "open-angle glaucoma"
+              },
+              "score": 0.07502471050099445
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011938",
+                "name": "atrial septal defect 2"
+              },
+              "score": 0.07436875758946451
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008343",
+                "name": "pulmonary atresia with ventricular septal defect"
+              },
+              "score": 0.07418946002940704
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016471",
+                "name": "pachyonychia congenita"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019625",
+                "name": "familial thoracic aortic aneurysm and aortic dissection"
+              },
+              "score": 0.07377655287417398
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859222",
+                "name": "heterotaxy, visceral, 12, autosomal"
+              },
+              "score": 0.0736085523605922
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005015",
+                "name": "diabetes mellitus"
+              },
+              "score": 0.07356610157510808
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007194",
+                "name": "familial bicuspid aortic valve"
+              },
+              "score": 0.07238316312829254
+            },
+            {
+              "disease": {
+                "id": "EFO_0004278",
+                "name": "sudden cardiac arrest"
+              },
+              "score": 0.07136956573816276
+            },
+            {
+              "disease": {
+                "id": "MONDO_0957922",
+                "name": "ciliary dyskinesia, primary, 52"
+              },
+              "score": 0.07110819065204409
+            },
+            {
+              "disease": {
+                "id": "Orphanet_233655",
+                "name": "Rare genetic vascular disease"
+              },
+              "score": 0.07098015180355927
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018072",
+                "name": "persistent truncus arteriosus"
+              },
+              "score": 0.07090993921847086
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013769",
+                "name": "atrioventricular septal defect 5"
+              },
+              "score": 0.07084661024378391
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019443",
+                "name": "dextro-looped transposition of the great arteries"
+              },
+              "score": 0.07073943208592536
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013750",
+                "name": "atrial septal defect 8"
+              },
+              "score": 0.0695789513422154
+            },
+            {
+              "disease": {
+                "id": "Orphanet_264675",
+                "name": "Congenital pulmonary alveolar proteinosis"
+              },
+              "score": 0.06953233985342297
+            },
+            {
+              "disease": {
+                "id": "Orphanet_99739",
+                "name": "Rare familial disorder with hypertrophic cardiomyopathy"
+              },
+              "score": 0.06873051054977786
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007034",
+                "name": "Adams-Oliver syndrome"
+              },
+              "score": 0.06842632821292066
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013567",
+                "name": "atrial septal defect 3"
+              },
+              "score": 0.06808584872928919
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013011",
+                "name": "atrial septal defect 5"
+              },
+              "score": 0.06808584872928919
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007345",
+                "name": "aorta coarctation"
+              },
+              "score": 0.06784536517106726
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018997",
+                "name": "Noonan syndrome"
+              },
+              "score": 0.06772347611022027
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013747",
+                "name": "atrioventricular septal defect 4"
+              },
+              "score": 0.06734484112064637
+            },
+            {
+              "disease": {
+                "id": "Orphanet_217563",
+                "name": "Neonatal acute respiratory distress with surfactant metabolism deficiency"
+              },
+              "score": 0.0669988753654546
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003803",
+                "name": "aortic valve disorder"
+              },
+              "score": 0.06688286630229048
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013902",
+                "name": "aortic valve disease 2"
+              },
+              "score": 0.06658124807643948
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016575",
+                "name": "primary ciliary dyskinesia"
+              },
+              "score": 0.0665179139791746
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018089",
+                "name": "double outlet right ventricle"
+              },
+              "score": 0.06625494191629552
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016581",
+                "name": "conotruncal heart malformations"
+              },
+              "score": 0.06625494191629552
+            },
+            {
+              "disease": {
+                "id": "HP_0001660",
+                "name": "Truncus arteriosus"
+              },
+              "score": 0.06618687557316968
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008832",
+                "name": "right atrial isomerism"
+              },
+              "score": 0.06529151704466062
+            },
+            {
+              "disease": {
+                "id": "Orphanet_97548",
+                "name": "Ivemark syndrome"
+              },
+              "score": 0.06529151704466062
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017042",
+                "name": "thanatophoric dysplasia"
+              },
+              "score": 0.06501465450940923
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018677",
+                "name": "visceral heterotaxy"
+              },
+              "score": 0.06492814818475602
+            },
+            {
+              "disease": {
+                "id": "MONDO_0022430",
+                "name": "persistent fetal circulation syndrome"
+              },
+              "score": 0.06470013794662971
+            },
+            {
+              "disease": {
+                "id": "EFO_0700093",
+                "name": "familial patent arterial duct"
+              },
+              "score": 0.06470013794662971
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019180",
+                "name": "hereditary hemorrhagic telangiectasia"
+              },
+              "score": 0.06464847684260902
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011116",
+                "name": "lung agenesis-heart defect-thumb anomalies syndrome"
+              },
+              "score": 0.06453060294109483
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1120",
+                "name": "Lung agenesis - heart defect - thumb anomalies"
+              },
+              "score": 0.06453060294109483
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016301",
+                "name": "congenitally corrected transposition of the great arteries"
+              },
+              "score": 0.06450913702450725
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013752",
+                "name": "hypoplastic left heart syndrome 2"
+              },
+              "score": 0.06450277203812099
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020437",
+                "name": "atrial septal defect, ostium primum type"
+              },
+              "score": 0.06431695755329261
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015987",
+                "name": "scimitar syndrome"
+              },
+              "score": 0.06428733778116105
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013393",
+                "name": "distal 7q11.23 microdeletion syndrome"
+              },
+              "score": 0.06399783356165803
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008913",
+                "name": "cardiac valvular defect, developmental"
+              },
+              "score": 0.06390918572706908
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018954",
+                "name": "Loeys-Dietz syndrome"
+              },
+              "score": 0.0639012602924075
+            },
+            {
+              "disease": {
+                "id": "Orphanet_7",
+                "name": "3C syndrome"
+              },
+              "score": 0.06378875117560874
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019512",
+                "name": "congenital heart malformation"
+              },
+              "score": 0.0636362612704915
+            },
+            {
+              "disease": {
+                "id": "Orphanet_210122",
+                "name": "Congenital alveolar capillary dysplasia"
+              },
+              "score": 0.06341667129338774
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000077942",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:41:03+00:00",
+  "source": "Open Targets"
+}

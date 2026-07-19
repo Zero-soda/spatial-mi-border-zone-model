@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000182809"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "cysteine rich protein 2",
+        "approvedSymbol": "CRIP2",
+        "associatedDiseases": {
+          "count": 105,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0007254",
+                "name": "breast cancer"
+              },
+              "score": 0.10387886910781667
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004989",
+                "name": "breast carcinoma"
+              },
+              "score": 0.10362285521094805
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009279",
+                "name": "triple-A syndrome"
+              },
+              "score": 0.07391597093694036
+            },
+            {
+              "disease": {
+                "id": "EFO_0010817",
+                "name": "self-injurious ideation"
+              },
+              "score": 0.05084923672155398
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.03915883204169233
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002070",
+                "name": "ventricular septal defect"
+              },
+              "score": 0.03785204461506587
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005100",
+                "name": "systemic sclerosis"
+              },
+              "score": 0.03699705938316159
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005101",
+                "name": "ulcerative colitis"
+              },
+              "score": 0.03613170965922066
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003240",
+                "name": "thyroid gland disorder"
+              },
+              "score": 0.03465630604414591
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008433",
+                "name": "small cell lung carcinoma"
+              },
+              "score": 0.03400134663099257
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004975",
+                "name": "Alzheimer disease"
+              },
+              "score": 0.023060293498646602
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004967",
+                "name": "acute lymphoblastic leukemia"
+              },
+              "score": 0.022913950990451508
+            },
+            {
+              "disease": {
+                "id": "HP_0000238",
+                "name": "Hydrocephalus"
+              },
+              "score": 0.021986712703720827
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018874",
+                "name": "acute myeloid leukemia"
+              },
+              "score": 0.01810941287955039
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005148",
+                "name": "type 2 diabetes mellitus"
+              },
+              "score": 0.017739833024865686
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005580",
+                "name": "esophageal squamous cell carcinoma"
+              },
+              "score": 0.017665506409645763
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004992",
+                "name": "cancer"
+              },
+              "score": 0.01577380633049814
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005233",
+                "name": "non-small cell lung carcinoma"
+              },
+              "score": 0.012837919244125796
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005068",
+                "name": "myocardial infarction"
+              },
+              "score": 0.010348235931171651
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021100",
+                "name": "breast neoplasm"
+              },
+              "score": 0.008726191013388791
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005494",
+                "name": "triple-negative breast carcinoma"
+              },
+              "score": 0.008315546730405791
+            },
+            {
+              "disease": {
+                "id": "EFO_1001927",
+                "name": "cutaneous squamous cell carcinoma"
+              },
+              "score": 0.00813075680306344
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005252",
+                "name": "heart failure"
+              },
+              "score": 0.00794596687572109
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006256",
+                "name": "invasive breast carcinoma"
+              },
+              "score": 0.00794596687572109
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010679",
+                "name": "Duchenne muscular dystrophy"
+              },
+              "score": 0.007886834098971538
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004995",
+                "name": "cardiovascular disorder"
+              },
+              "score": 0.007761176948378739
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007034",
+                "name": "Adams-Oliver syndrome"
+              },
+              "score": 0.007393600076925135
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018899",
+                "name": "posterior cortical atrophy"
+              },
+              "score": 0.0073915970936940375
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005350",
+                "name": "abdominal aortic aneurysm"
+              },
+              "score": 0.0073915970936940375
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005311",
+                "name": "atherosclerosis"
+              },
+              "score": 0.0073915970936940375
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013803",
+                "name": "leukoencephalopathy with calcifications and cysts"
+              },
+              "score": 0.0073915970936940375
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015459",
+                "name": "nasopharyngeal carcinoma"
+              },
+              "score": 0.006695542463294492
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008383",
+                "name": "rheumatoid arthritis"
+              },
+              "score": 0.005358907892928176
+            },
+            {
+              "disease": {
+                "id": "EFO_0009659",
+                "name": "aneurysm"
+              },
+              "score": 0.0051741179655858255
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005082",
+                "name": "prostate adenocarcinoma"
+              },
+              "score": 0.0051741179655858255
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002529",
+                "name": "skin squamous cell carcinoma"
+              },
+              "score": 0.0051741179655858255
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006861",
+                "name": "myeloid sarcoma"
+              },
+              "score": 0.005174117965585825
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.005174117965585825
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008608",
+                "name": "Down syndrome"
+              },
+              "score": 0.004979895709233479
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005044",
+                "name": "hypertensive disorder"
+              },
+              "score": 0.004619748183558772
+            },
+            {
+              "disease": {
+                "id": "HP_0000822",
+                "name": "Hypertension"
+              },
+              "score": 0.004619748183558772
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005105",
+                "name": "melanoma"
+              },
+              "score": 0.004434958256216422
+            },
+            {
+              "disease": {
+                "id": "HP_0004950",
+                "name": "Peripheral arterial stenosis"
+              },
+              "score": 0.0044349582562164215
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021063",
+                "name": "malignant colon neoplasm"
+              },
+              "score": 0.004229636114724921
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005401",
+                "name": "colonic neoplasm"
+              },
+              "score": 0.004229636114724921
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008315",
+                "name": "prostate cancer"
+              },
+              "score": 0.00406537840153172
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005575",
+                "name": "colorectal cancer"
+              },
+              "score": 0.00406537840153172
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1331",
+                "name": "Familial prostate cancer"
+              },
+              "score": 0.00406537840153172
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005159",
+                "name": "prostate carcinoma"
+              },
+              "score": 0.00406537840153172
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003825",
+                "name": "kidney oncocytoma"
+              },
+              "score": 0.004041492486845418
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005061",
+                "name": "lung adenocarcinoma"
+              },
+              "score": 0.004009367881040506
+            },
+            {
+              "disease": {
+                "id": "EFO_0009541",
+                "name": "disease of peritoneum"
+              },
+              "score": 0.0036957985468470188
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008021",
+                "name": "Cowden syndrome 1"
+              },
+              "score": 0.0036957985468470188
+            },
+            {
+              "disease": {
+                "id": "EFO_0000544",
+                "name": "infection"
+              },
+              "score": 0.0036957985468470188
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002271",
+                "name": "colon adenocarcinoma"
+              },
+              "score": 0.0036957985468470188
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016471",
+                "name": "pachyonychia congenita"
+              },
+              "score": 0.0036957985468470188
+            },
+            {
+              "disease": {
+                "id": "HP_0002716",
+                "name": "Lymphadenopathy"
+              },
+              "score": 0.0036957985468470188
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005002",
+                "name": "chronic obstructive pulmonary disease"
+              },
+              "score": 0.0036957985468470188
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017885",
+                "name": "chromophobe renal cell carcinoma"
+              },
+              "score": 0.0035642567450457985
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009693",
+                "name": "plasma cell myeloma"
+              },
+              "score": 0.0029566388374776143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019438",
+                "name": "AL amyloidosis"
+              },
+              "score": 0.0029566388374776143
+            },
+            {
+              "disease": {
+                "id": "HP_0001297",
+                "name": "Stroke"
+              },
+              "score": 0.0029566388374776143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009685",
+                "name": "Miyoshi myopathy"
+              },
+              "score": 0.0029566388374776143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005098",
+                "name": "stroke disorder"
+              },
+              "score": 0.0029566388374776143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019086",
+                "name": "carcinoma of esophagus"
+              },
+              "score": 0.0029566388374776143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001751",
+                "name": "cholestasis"
+              },
+              "score": 0.002771848910135263
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008964",
+                "name": "congenital secretory chloride diarrhea 1"
+              },
+              "score": 0.002771848910135263
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007576",
+                "name": "esophageal cancer"
+              },
+              "score": 0.002751316695986113
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018881",
+                "name": "myelodysplastic syndrome"
+              },
+              "score": 0.002504916485448511
+            },
+            {
+              "disease": {
+                "id": "EFO_0002503",
+                "name": "cardiac hypertrophy"
+              },
+              "score": 0.0022174791281082107
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017319",
+                "name": "hereditary elliptocytosis"
+              },
+              "score": 0.0022174791281082107
+            },
+            {
+              "disease": {
+                "id": "MONDO_1060198",
+                "name": "ischemic stroke"
+              },
+              "score": 0.0022174791281082107
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005249",
+                "name": "pneumonia"
+              },
+              "score": 0.0022174791281082107
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005091",
+                "name": "severe acute respiratory syndrome"
+              },
+              "score": 0.0022174791281082107
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005445",
+                "name": "visceral leishmaniasis"
+              },
+              "score": 0.001906082615732936
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005083",
+                "name": "psoriasis"
+              },
+              "score": 0.0018805838080106789
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005132",
+                "name": "cytomegalovirus infection"
+              },
+              "score": 0.00182556600169022
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005028",
+                "name": "esophageal adenocarcinoma"
+              },
+              "score": 0.0016921450061713004
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004981",
+                "name": "atrial fibrillation"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016611",
+                "name": "lipoblastoma"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008903",
+                "name": "lung cancer"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019347",
+                "name": "peeling skin syndrome"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0700092",
+                "name": "neurodevelopmental disorder"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001056",
+                "name": "gastric cancer"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020672",
+                "name": "vascular occlusion disorder"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004994",
+                "name": "cardiomyopathy"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "EFO_1000518",
+                "name": "Salivary Gland Pleomorphic Adenoma"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005559",
+                "name": "neurodegenerative disease"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005138",
+                "name": "lung carcinoma"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018666",
+                "name": "hepatoblastoma"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002277",
+                "name": "arteriosclerosis disorder"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "EFO_0009086",
+                "name": "arteriosclerosis"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004970",
+                "name": "adenocarcinoma"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005160",
+                "name": "aortic aneurysm"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005096",
+                "name": "squamous cell carcinoma"
+              },
+              "score": 0.0014783194187388072
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004953",
+                "name": "invasive ductal breast carcinoma"
+              },
+              "score": 0.0011168328252500297
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008567",
+                "name": "thyroid cancer, nonmedullary, 1"
+              },
+              "score": 0
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002974",
+                "name": "cervical cancer"
+              },
+              "score": 0
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006046",
+                "name": "ovarian serous cystadenocarcinoma"
+              },
+              "score": 0
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006485",
+                "name": "uterine carcinosarcoma"
+              },
+              "score": 0
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000182809",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:15+00:00",
+  "source": "Open Targets"
+}

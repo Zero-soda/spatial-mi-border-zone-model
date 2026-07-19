@@ -1,0 +1,7 @@
+comparison	dataset	axis	framework_rank_biserial	baseline_rank_biserial	rank_biserial_gain	framework_loo_consistency	baseline_loo_consistency	framework_delta_r_squared	baseline_delta_r_squared
+Yamada prespecified tissue-mean mechanical	GSE176092	mechanical	-0.5555555555555556	-0.5555555555555556	0.0	0.0	0.0	0.09626809244695211	0.11549493778732378
+Yamada spatial mechanical-to-scar transition	GSE176092	transition	1.0	1.0	0.0	1.0	1.0	0.017014343390329145	0.018221325290531443
+Yamada day7 scar	GSE176092	scar	1.0	1.0	0.0	1.0	1.0	0.003758945164574312	0.013949564873753206
+Hernandez scar maturation	GSE265828	scar	1.0	1.0	0.0	1.0	1.0	nan	nan
+Kuppe border-ischaemic mechanical	KUPPE2022	mechanical	0.5555555555555556	0.3333333333333333	0.22222222222222227	1.0	0.6666666666666666	0.7658990078069053	0.6126046576343904
+Kuppe fibrotic scar	KUPPE2022	scar	1.0	1.0	0.0	1.0	1.0	0.084214038118966	0.15160999581719325

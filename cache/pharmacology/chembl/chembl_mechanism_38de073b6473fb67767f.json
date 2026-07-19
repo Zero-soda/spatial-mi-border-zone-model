@@ -1,0 +1,52 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL4692"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "ANTAGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 6011,
+        "mechanism_comment": null,
+        "mechanism_of_action": "HLA-DR antigens-associated invariant chain antagonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "22404985",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/22404985"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1743040",
+        "parent_molecule_chembl_id": "CHEMBL1743040",
+        "record_id": 1392924,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4692",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:38:44+00:00",
+  "source": "ChEMBL mechanism"
+}

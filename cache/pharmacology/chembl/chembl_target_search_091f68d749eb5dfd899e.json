@@ -1,0 +1,3929 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "VIM"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 14
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Pseudomonas aeruginosa",
+        "pref_name": "Beta-lactamase VIM-2",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5798",
+        "target_components": [
+          {
+            "accession": "Q9K2N0",
+            "component_description": "beta-lactamase",
+            "component_id": 4211,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "blasVIM-2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "blasVIM-2 GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "bla-VIM-2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "blaVIM-2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "blaVIM-2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "blaVIM2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "bla-VIM-2 GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "blm GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Synonyms=bla vim-2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "vim-2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "vim-2 GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "5N4T",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5N4S",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HYD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4NQ2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7PP0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5ACV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6V1P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5ACU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5Y6E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5Y6D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5NHZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HXP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HY1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HY2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HXV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6KXO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HXW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HXU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6HF5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5LM6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5NI0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4C1D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5FQC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5LE1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4C1E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6SP7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HXO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DUB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6DD1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5K48",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6DD0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7AFX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DUE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5MXQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5MXR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5YD7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7OVH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7OVF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DU1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7CJL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7A5Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5ACX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5ACW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7A60",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7OVE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4BZ3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8R5U",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6O5T",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PJM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PVT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5LCF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6RPN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5LCH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DUZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DUX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DUY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5LCA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PVO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6KZN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DV1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6ZGM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DYZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6KW1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DYY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6TGI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DZ0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DV0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7DZ1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6ZYN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7CHV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6ZYO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7YHD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6JN6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7YHB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7YHC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1KO3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1KO2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6TMB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6TMA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4UA4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6TMC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6TM9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8I52",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6J8R",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8HX5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "6KZN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q9K2N0",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1KO2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1KO3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4BZ3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4C1D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4C1E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4NQ2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PVO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PVT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4UA4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5ACU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5ACV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5ACW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5ACX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5FQC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5K48",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5LCA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5LCF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5LCH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5LE1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5LM6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MXQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MXR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5N4S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5N4T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5NHZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5NI0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5Y6D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5Y6E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5YD7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6DD0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6DD1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6HF5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6J8R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6JN6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KW1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6KXO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6O5T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6RPN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6SP7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6TGI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6TM9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6TMA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6TMB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6TMC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6V1P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6ZGM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6ZYN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6ZYO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7A5Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7A60",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7AFX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7CHV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7CJL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DU1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DUB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DUE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DUX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DUY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DUZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DV0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DV1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DYY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DYZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DZ0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7DZ1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7OVE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7OVF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7OVH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PP0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7YHB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7YHC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7YHD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HX5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HXO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HXP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HXU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HXV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HXW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HY1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HY2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8HYD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8I52",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PJM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8R5U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q9K2N0",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 287
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Vimentin",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3712854",
+        "target_components": [
+          {
+            "accession": "P08670",
+            "component_description": "Vimentin",
+            "component_id": 15008,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "VIM",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Vimentin",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "4YPC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8TRQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3S4R",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MDI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8TRR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MDJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MCZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SWK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6YXK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MD5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1GK7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1GK6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MCY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3KLT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5WHF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6ATI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4YV3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3TRT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MD0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6ATF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1GK4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6BIR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3G1E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3UF1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SSU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0003723",
+                "xref_name": "RNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003725",
+                "xref_name": "double-stranded RNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005200",
+                "xref_name": "structural constituent of cytoskeleton",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005212",
+                "xref_name": "structural constituent of eye lens",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019904",
+                "xref_name": "protein domain specific binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0097110",
+                "xref_name": "scaffold protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010977",
+                "xref_name": "negative regulation of neuron projection development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014002",
+                "xref_name": "astrocyte development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032967",
+                "xref_name": "positive regulation of collagen biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043488",
+                "xref_name": "regulation of mRNA stability",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045103",
+                "xref_name": "intermediate filament-based process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045109",
+                "xref_name": "intermediate filament organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060020",
+                "xref_name": "Bergmann glial cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070307",
+                "xref_name": "lens fiber cell development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071222",
+                "xref_name": "cellular response to lipopolysaccharide",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071225",
+                "xref_name": "cellular response to muramyl dipeptide",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005882",
+                "xref_name": "intermediate filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030424",
+                "xref_name": "axon",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005777",
+                "xref_name": "peroxisome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005815",
+                "xref_name": "microtubule organizing center",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005925",
+                "xref_name": "focal adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016363",
+                "xref_name": "nuclear matrix",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031252",
+                "xref_name": "cell leading edge",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042995",
+                "xref_name": "cell projection",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043005",
+                "xref_name": "neuron projection",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045111",
+                "xref_name": "intermediate filament cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA37311",
+                "xref_name": "vimentin",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "B0YJC2",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D3DRU4",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15867",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15868",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15869",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q548L2",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6LER9",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8N850",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96ML2",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NTM3",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P08670",
+                "xref_name": "Vimentin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1GK4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1GK6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1GK7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3G1E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3KLT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3S4R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SSU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SWK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3TRT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3UF1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MCY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MCZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MD0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MD5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MDI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MDJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4YPC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4YV3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WHF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6ATF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6ATI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6BIR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6YXK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8RVE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8TRQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8TRR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P08670",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P08670",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:12692",
+                "xref_name": "VIM",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-264870",
+                "xref_name": "Caspase-mediated cleavage of cytoskeletal proteins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6785807",
+                "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9013422",
+                "xref_name": "RHOBTB1 GTPase cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9613829",
+                "xref_name": "Chaperone Mediated Autophagy",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9615710",
+                "xref_name": "Late endosomal microautophagy",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9646399",
+                "xref_name": "Aggrephagy",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9927432",
+                "xref_name": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P08670",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P08670",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR018039",
+                "xref_name": "IF_conserved",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR039008",
+                "xref_name": "IF_rod_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR006821",
+                "xref_name": "Intermed_filament_DNA-bd",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050405",
+                "xref_name": "Intermediate_filament",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR45652",
+                "xref_name": "GLIAL FIBRILLARY ACIDIC PROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR45652:SF5",
+                "xref_name": "VIMENTIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00038",
+                "xref_name": "Filament",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF04732",
+                "xref_name": "Filament_head",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Pseudomonas aeruginosa",
+        "pref_name": "Metallo-b-lactamase",
+        "score": 19.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1287605",
+        "target_components": [
+          {
+            "accession": "Q840P9",
+            "component_description": "Metallo-beta-lactamase VIM-7",
+            "component_id": 5301,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Metallo-beta-lactamase VIM-7",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Synonyms=blaVIM-7",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "VIM-7",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "2Y8A",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Y8B",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4D1T",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4D1U",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4D1V",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2Y87",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4D1W",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0008270",
+                "xref_name": "zinc ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008800",
+                "xref_name": "beta-lactamase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q840P9",
+                "xref_name": "Metallo-beta-lactamase VIM-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "2Y87",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Y8A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2Y8B",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4D1T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4D1U",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4D1V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4D1W",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q840P9",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR001018",
+                "xref_name": "Beta-lactamase_class-B_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 287
+      },
+      {
+        "cross_references": [],
+        "organism": "Pseudomonas aeruginosa",
+        "pref_name": "Metallo-beta-lactamase VIM-11",
+        "score": 17.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1255122",
+        "target_components": [
+          {
+            "accession": "C7DTR7",
+            "component_description": "Metallo-beta-lactamase VIM-11",
+            "component_id": 4804,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Metallo-beta-lactamase VIM-11",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "C7DTR7",
+                "xref_name": null,
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "C7DTR7",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 287
+      },
+      {
+        "cross_references": [],
+        "organism": "Escherichia coli",
+        "pref_name": "Metallo-beta-lactamase",
+        "score": 16.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1255147",
+        "target_components": [
+          {
+            "accession": "Q5U7L7",
+            "component_description": "Metallo-beta-lactamase VIM-2",
+            "component_id": 5349,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Metallo-beta-lactamase VIM-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Synonyms=blaVIM-2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Verona imipenemase 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Verona integron-encoded metallo-beta-lactamase 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "VIM-2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "VIM2 GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "6BM9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9CV2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "9CV3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8YO2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q5U7L7",
+                "xref_name": "Metallo-beta-lactamase VIM-2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "6BM9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8YO2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9CV2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9CV3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q5U7L7",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 562
+      },
+      {
+        "cross_references": [],
+        "organism": "Escherichia coli",
+        "pref_name": "BlaVIM-1",
+        "score": 15.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1255155",
+        "target_components": [
+          {
+            "accession": "Q8GDC1",
+            "component_description": "beta-lactamase",
+            "component_id": 4821,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "BANRA_05306",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "EJ366_12630",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "HWQ66_24135",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Synonyms=blaVIM-1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "vim-1",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q8GDC1",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8GDC1",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 562
+      },
+      {
+        "cross_references": [],
+        "organism": "Klebsiella pneumoniae",
+        "pref_name": "Metallo-beta-lactamase",
+        "score": 15.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1667697",
+        "target_components": [
+          {
+            "accession": "Q5GN09",
+            "component_description": "beta-lactamase",
+            "component_id": 5088,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "blm",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "BVX91_29100",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "CR533_29105",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "SAMEA3729780_05154",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Synonyms=blaVIM-1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "vim-1",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0008800",
+                "xref_name": "beta-lactamase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q5GN09",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5GN09",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 573
+      },
+      {
+        "cross_references": [],
+        "organism": "Bacteria",
+        "pref_name": "Beta-lactamase VIM-1",
+        "score": 15.0,
+        "species_group_flag": true,
+        "target_chembl_id": "CHEMBL5465387",
+        "target_components": [
+          {
+            "accession": "Q8GDC1",
+            "component_description": "beta-lactamase",
+            "component_id": 4821,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "BANRA_05306",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "EJ366_12630",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "HWQ66_24135",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Synonyms=blaVIM-1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "vim-1",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q8GDC1",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8GDC1",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 2
+      },
+      {
+        "cross_references": [],
+        "organism": "Pseudomonas aeruginosa",
+        "pref_name": "Beta-lactamase VIM-4",
+        "score": 12.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL6146",
+        "target_components": [
+          {
+            "accession": "Q8KRJ3",
+            "component_description": "beta-lactamase",
+            "component_id": 4711,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "blaVIM-4",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "2WHG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q8KRJ3",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "2WHG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q8KRJ3",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 287
+      },
+      {
+        "cross_references": [],
+        "organism": "Pseudomonas aeruginosa",
+        "pref_name": "Beta-lactamase VIM-1",
+        "score": 12.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1287601",
+        "target_components": [
+          {
+            "accession": "Q9XAY4",
+            "component_description": "beta-lactamase",
+            "component_id": 5111,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "blaVIM",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CAZ10_38240",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "CAZ10_38245",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "JTL35_031410 GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Synonyms=blaVIM-1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "8PGY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PH2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PH3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PH0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PH1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P8Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PAC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PAD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PAA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P8Y",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7AFY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PAH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P93",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P92",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P95",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PA3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PA4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5N5G",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5N5I",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PA7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5N5H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PA8",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PA5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P9S",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P9T",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P9Q",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PB2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8P9P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PAL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PAO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PB0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PAM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PAN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7AYJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PGC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PG9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PG7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PG8",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PG2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7UP2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PG5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PG6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PG3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8PG4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q9XAY4",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "5N5G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5N5H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5N5I",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7AFY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7AYJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7UP2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P8Y",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P8Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P92",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P93",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P95",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P9P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P9Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P9S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8P9T",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PA3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PA4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PA5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PA7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PA8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PAA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PAC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PAD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PAH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PAL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PAM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PAN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PAO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PB0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PB2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PG2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PG3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PG4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PG5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PG6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PG7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PG8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PG9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PGZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PH0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PH1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PH2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8PH3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q9XAY4",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 287
+      },
+      {
+        "cross_references": [],
+        "organism": "Pseudomonas aeruginosa",
+        "pref_name": "Metallo-beta-lactamase VIM-2",
+        "score": 10.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1255123",
+        "target_components": [
+          {
+            "accession": "D1MEN9",
+            "component_description": "beta-lactamase",
+            "component_id": 4805,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "blaVIM-2",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "6EW3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6Y6J",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "D1MEN9",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "6EW3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6Y6J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "D1MEN9",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 287
+      },
+      {
+        "cross_references": [],
+        "organism": "Pseudomonas aeruginosa",
+        "pref_name": "Class B carbapenemase VIM-13",
+        "score": 10.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1287600",
+        "target_components": [
+          {
+            "accession": "Q2HY42",
+            "component_description": "beta-lactamase",
+            "component_id": 5297,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "blaVIM-13",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q2HY42",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2HY42",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 287
+      },
+      {
+        "cross_references": [],
+        "organism": "Klebsiella pneumoniae",
+        "pref_name": "Metallo-beta-lactamase VIM-2",
+        "score": 10.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1667696",
+        "target_components": [
+          {
+            "accession": "Q3Y6Q3",
+            "component_description": "beta-lactamase",
+            "component_id": 5087,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "blaVIM-2",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q3Y6Q3",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q3Y6Q3",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 573
+      },
+      {
+        "cross_references": [],
+        "organism": "Escherichia coli",
+        "pref_name": "Metallo-beta-lactamase VIM-19",
+        "score": 10.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3309038",
+        "target_components": [
+          {
+            "accession": "D2D9J0",
+            "component_description": "beta-lactamase",
+            "component_id": 8678,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.5.2.6",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "beta-lactamase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "blaVIM-19",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0016787",
+                "xref_name": "hydrolase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017001",
+                "xref_name": "antibiotic catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046677",
+                "xref_name": "response to antibiotic",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042597",
+                "xref_name": "periplasmic space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "D2D9J0",
+                "xref_name": "beta-lactamase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D2D9J0",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR058199",
+                "xref_name": "BlaB//VIM/IMP-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001279",
+                "xref_name": "Metallo-B-lactamas",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050855",
+                "xref_name": "NDM-1-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036866",
+                "xref_name": "RibonucZ/Hydroxyglut_hydro",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR058044",
+                "xref_name": "VIM-1/2/7",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049721",
+                "xref_name": "VIM-1/2_MBL",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR42951:SF4",
+                "xref_name": "ACYL-COENZYME A THIOESTERASE MBLAC2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR42951",
+                "xref_name": "METALLO-BETA-LACTAMASE DOMAIN-CONTAINING",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00753",
+                "xref_name": "Lactamase_B",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 562
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:55+00:00",
+  "source": "ChEMBL target search"
+}

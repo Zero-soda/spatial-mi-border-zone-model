@@ -1,0 +1,2454 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "CSF1"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 4
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "Macrophage colony-stimulating factor 1",
+        "score": 16.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3638330",
+        "target_components": [
+          {
+            "accession": "P07141",
+            "component_description": "Macrophage colony-stimulating factor 1",
+            "component_id": 10107,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Csf1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CSF-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Csfm",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Macrophage colony-stimulating factor 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Macrophage colony-stimulating factor 1 43 kDa subunit",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MCSF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PG-M-CSF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Processed macrophage colony-stimulating factor 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Proteoglycan macrophage colony-stimulating factor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "4ADQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3UF5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3EJJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0007265",
+                "xref_name": "Ras protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030224",
+                "xref_name": "monocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030225",
+                "xref_name": "macrophage differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030316",
+                "xref_name": "osteoclast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097529",
+                "xref_name": "myeloid leukocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001780",
+                "xref_name": "neutrophil homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001954",
+                "xref_name": "positive regulation of cell-matrix adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002158",
+                "xref_name": "osteoclast proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002687",
+                "xref_name": "positive regulation of leukocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030278",
+                "xref_name": "regulation of ossification",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035702",
+                "xref_name": "monocyte homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0040018",
+                "xref_name": "positive regulation of multicellular organism growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042488",
+                "xref_name": "positive regulation of odontogenesis of dentin-containing tooth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045651",
+                "xref_name": "positive regulation of macrophage differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045657",
+                "xref_name": "positive regulation of monocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045672",
+                "xref_name": "positive regulation of osteoclast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046579",
+                "xref_name": "positive regulation of Ras protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048873",
+                "xref_name": "homeostasis of number of cells within a tissue",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060444",
+                "xref_name": "branching involved in mammary gland duct morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060611",
+                "xref_name": "mammary gland fat development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060763",
+                "xref_name": "mammary duct terminal end bud growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061519",
+                "xref_name": "macrophage homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005125",
+                "xref_name": "cytokine activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005157",
+                "xref_name": "macrophage colony-stimulating factor receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008083",
+                "xref_name": "growth factor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002931",
+                "xref_name": "response to ischemia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003006",
+                "xref_name": "developmental process involved in reproduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007169",
+                "xref_name": "cell surface receptor protein tyrosine kinase signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010744",
+                "xref_name": "positive regulation of macrophage derived foam cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010759",
+                "xref_name": "positive regulation of macrophage chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032946",
+                "xref_name": "positive regulation of mononuclear cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038145",
+                "xref_name": "macrophage colony-stimulating factor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051247",
+                "xref_name": "positive regulation of protein metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061518",
+                "xref_name": "microglial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902228",
+                "xref_name": "positive regulation of macrophage colony-stimulating factor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904141",
+                "xref_name": "positive regulation of microglial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905523",
+                "xref_name": "positive regulation of macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016604",
+                "xref_name": "nuclear body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990682",
+                "xref_name": "CSF1-CSF1R complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q3U395",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8R3C8",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P07141",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "3EJJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3UF5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4ADQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P07141",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P07141",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "R-MMU-381426",
+                "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-449836",
+                "xref_name": "Other interleukin signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-8957275",
+                "xref_name": "Post-translational protein phosphorylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-MMU-9856649",
+                "xref_name": "Transcriptional and post-translational regulation of MITF-M expression and activity",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P07141",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR009079",
+                "xref_name": "4_helix_cytokine-like_core",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008001",
+                "xref_name": "MCSF-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10058",
+                "xref_name": "MACROPHAGE COLONY STIMULATING FACTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10058:SF0",
+                "xref_name": "MACROPHAGE COLONY-STIMULATING FACTOR 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF05337",
+                "xref_name": "CSF-1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Macrophage colony-stimulating factor 1",
+        "score": 15.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3989382",
+        "target_components": [
+          {
+            "accession": "P09603",
+            "component_description": "Macrophage colony-stimulating factor 1",
+            "component_id": 17449,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CSF-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CSF1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Lanimostim",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Macrophage colony-stimulating factor 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Macrophage colony-stimulating factor 1 43 kDa subunit",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "M-CSF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MCSF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PG-M-CSF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Processed macrophage colony-stimulating factor 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Proteoglycan macrophage colony-stimulating factor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "4FA8",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4WRL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3UF2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4WRM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4ADF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1HMC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5LXF",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3UEZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005125",
+                "xref_name": "cytokine activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005157",
+                "xref_name": "macrophage colony-stimulating factor receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008083",
+                "xref_name": "growth factor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001780",
+                "xref_name": "neutrophil homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001954",
+                "xref_name": "positive regulation of cell-matrix adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002158",
+                "xref_name": "osteoclast proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002687",
+                "xref_name": "positive regulation of leukocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002931",
+                "xref_name": "response to ischemia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003006",
+                "xref_name": "developmental process involved in reproduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007169",
+                "xref_name": "cell surface receptor protein tyrosine kinase signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007265",
+                "xref_name": "Ras protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010743",
+                "xref_name": "regulation of macrophage derived foam cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010744",
+                "xref_name": "positive regulation of macrophage derived foam cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010759",
+                "xref_name": "positive regulation of macrophage chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030224",
+                "xref_name": "monocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030225",
+                "xref_name": "macrophage differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030278",
+                "xref_name": "regulation of ossification",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030316",
+                "xref_name": "osteoclast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030335",
+                "xref_name": "positive regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032946",
+                "xref_name": "positive regulation of mononuclear cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035702",
+                "xref_name": "monocyte homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038145",
+                "xref_name": "macrophage colony-stimulating factor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0040018",
+                "xref_name": "positive regulation of multicellular organism growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042117",
+                "xref_name": "monocyte activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042488",
+                "xref_name": "positive regulation of odontogenesis of dentin-containing tooth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045651",
+                "xref_name": "positive regulation of macrophage differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045657",
+                "xref_name": "positive regulation of monocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045672",
+                "xref_name": "positive regulation of osteoclast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046579",
+                "xref_name": "positive regulation of Ras protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048873",
+                "xref_name": "homeostasis of number of cells within a tissue",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051247",
+                "xref_name": "positive regulation of protein metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060444",
+                "xref_name": "branching involved in mammary gland duct morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060611",
+                "xref_name": "mammary gland fat development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060763",
+                "xref_name": "mammary duct terminal end bud growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061518",
+                "xref_name": "microglial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061519",
+                "xref_name": "macrophage homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097529",
+                "xref_name": "myeloid leukocyte migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902228",
+                "xref_name": "positive regulation of macrophage colony-stimulating factor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904141",
+                "xref_name": "positive regulation of microglial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905523",
+                "xref_name": "positive regulation of macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005788",
+                "xref_name": "endoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016604",
+                "xref_name": "nuclear body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990682",
+                "xref_name": "CSF1-CSF1R complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA26935",
+                "xref_name": "colony stimulating factor 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A8K6J5",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13130",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14086",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14806",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5VVF3",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5VVF4",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UQR8",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P09603",
+                "xref_name": "Macrophage colony-stimulating factor 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1HMC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3UEZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3UF2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4ADF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4FA8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4WRL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4WRM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5LXF",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P09603",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P09603",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:2432",
+                "xref_name": "CSF1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-381426",
+                "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-449836",
+                "xref_name": "Other interleukin signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6783783",
+                "xref_name": "Interleukin-10 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8957275",
+                "xref_name": "Post-translational protein phosphorylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9680350",
+                "xref_name": "Signaling by CSF1 (M-CSF) in myeloid cells",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9856649",
+                "xref_name": "Transcriptional and post-translational regulation of MITF-M expression and activity",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P09603",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P09603",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR009079",
+                "xref_name": "4_helix_cytokine-like_core",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008001",
+                "xref_name": "MCSF-1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10058",
+                "xref_name": "MACROPHAGE COLONY STIMULATING FACTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10058:SF0",
+                "xref_name": "MACROPHAGE COLONY-STIMULATING FACTOR 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF05337",
+                "xref_name": "CSF-1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Macrophage colony-stimulating factor 1 receptor",
+        "score": 12.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL1844",
+        "target_components": [
+          {
+            "accession": "P07333",
+            "component_description": "Macrophage colony-stimulating factor 1 receptor",
+            "component_id": 145,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.10.1",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "CD_antigen=CD115",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CSF-1-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CSF-1R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CSF1R",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CSF-1 receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FMS",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Macrophage colony-stimulating factor 1 receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "M-CSF-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Proto-oncogene c-Fms",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "8W1L",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3LCD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2I1M",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4WRL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4WRM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4R7I",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6WXJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4HW7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3BEA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2I0Y",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4R7H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4LIQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6T2W",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2OGV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6N33",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3KRJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7MFC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2I0V",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3KRL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7TNH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8JOT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4DKD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3DPK",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3LCO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6IG8",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8CGC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0010759",
+                "xref_name": "positive regulation of macrophage chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0120041",
+                "xref_name": "positive regulation of macrophage proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0004714",
+                "xref_name": "transmembrane receptor protein tyrosine kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005004",
+                "xref_name": "GPI-linked ephrin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005005",
+                "xref_name": "transmembrane-ephrin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005006",
+                "xref_name": "epidermal growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005007",
+                "xref_name": "fibroblast growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005008",
+                "xref_name": "hepatocyte growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005009",
+                "xref_name": "insulin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005010",
+                "xref_name": "insulin-like growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005011",
+                "xref_name": "macrophage colony-stimulating factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005018",
+                "xref_name": "platelet-derived growth factor alpha-receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005019",
+                "xref_name": "platelet-derived growth factor beta-receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005020",
+                "xref_name": "stem cell factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005021",
+                "xref_name": "vascular endothelial growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008288",
+                "xref_name": "boss receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019838",
+                "xref_name": "growth factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019903",
+                "xref_name": "protein phosphatase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019955",
+                "xref_name": "cytokine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0036332",
+                "xref_name": "placental growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0038062",
+                "xref_name": "protein tyrosine kinase collagen receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0060175",
+                "xref_name": "brain-derived neurotrophic factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001934",
+                "xref_name": "positive regulation of protein phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002931",
+                "xref_name": "response to ischemia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007169",
+                "xref_name": "cell surface receptor protein tyrosine kinase signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007173",
+                "xref_name": "epidermal growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008283",
+                "xref_name": "cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008285",
+                "xref_name": "negative regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008286",
+                "xref_name": "insulin receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008360",
+                "xref_name": "regulation of cell shape",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008543",
+                "xref_name": "fibroblast growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0018108",
+                "xref_name": "peptidyl-tyrosine phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0021772",
+                "xref_name": "olfactory bulb development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0021879",
+                "xref_name": "forebrain neuron differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030097",
+                "xref_name": "hemopoiesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030224",
+                "xref_name": "monocyte differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030225",
+                "xref_name": "macrophage differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030316",
+                "xref_name": "osteoclast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030335",
+                "xref_name": "positive regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031547",
+                "xref_name": "brain-derived neurotrophic factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032722",
+                "xref_name": "positive regulation of chemokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032956",
+                "xref_name": "regulation of actin cytoskeleton organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035790",
+                "xref_name": "platelet-derived growth factor receptor-alpha signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035791",
+                "xref_name": "platelet-derived growth factor receptor-beta signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036323",
+                "xref_name": "vascular endothelial growth factor receptor-1 signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038063",
+                "xref_name": "collagen-activated tyrosine kinase receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038084",
+                "xref_name": "vascular endothelial growth factor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038109",
+                "xref_name": "Kit signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038145",
+                "xref_name": "macrophage colony-stimulating factor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042127",
+                "xref_name": "regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042531",
+                "xref_name": "positive regulation of tyrosine phosphorylation of STAT protein",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043408",
+                "xref_name": "regulation of MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0044794",
+                "xref_name": "positive regulation by host of viral process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045124",
+                "xref_name": "regulation of bone resorption",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045217",
+                "xref_name": "cell-cell junction maintenance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046777",
+                "xref_name": "protein autophosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048009",
+                "xref_name": "insulin-like growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048012",
+                "xref_name": "hepatocyte growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048013",
+                "xref_name": "ephrin receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060603",
+                "xref_name": "mammary gland duct morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061098",
+                "xref_name": "positive regulation of protein tyrosine kinase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061518",
+                "xref_name": "microglial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070374",
+                "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905521",
+                "xref_name": "regulation of macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000147",
+                "xref_name": "positive regulation of cell motility",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990682",
+                "xref_name": "CSF1-CSF1R complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA26936",
+                "xref_name": "colony stimulating factor 1 receptor",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "B5A955",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D3DQG2",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6LDW5",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6LDY4",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q86VW7",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P07333",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "2I0V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2I0Y",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2I1M",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2OGV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3BEA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3DPK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3KRJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3KRL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3LCD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3LCO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4DKD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4HW7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4LIQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4R7H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4R7I",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4WRL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4WRM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6IG8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6N33",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6T2W",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6WXJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7MFC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7TNH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8CGC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8JOT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8W1L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P07333",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P07333",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:2433",
+                "xref_name": "CSF1R",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-449836",
+                "xref_name": "Other interleukin signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8853884",
+                "xref_name": "Transcriptional Regulation by VENTX",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9680350",
+                "xref_name": "Signaling by CSF1 (M-CSF) in myeloid cells",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P07333",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P07333",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR030658",
+                "xref_name": "CSF-1_receptor",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR007110",
+                "xref_name": "Ig-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036179",
+                "xref_name": "Ig-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003599",
+                "xref_name": "Ig_sub",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003598",
+                "xref_name": "Ig_sub2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013151",
+                "xref_name": "Immunoglobulin_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011009",
+                "xref_name": "Kinase-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000719",
+                "xref_name": "Prot_kinase_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017441",
+                "xref_name": "Protein_kinase_ATP_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050122",
+                "xref_name": "RTK",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001245",
+                "xref_name": "Ser-Thr/Tyr_kinase_cat_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008266",
+                "xref_name": "Tyr_kinase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR020635",
+                "xref_name": "Tyr_kinase_cat_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001824",
+                "xref_name": "Tyr_kinase_rcpt_3_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24416:SF47",
+                "xref_name": "MACROPHAGE COLONY-STIMULATING FACTOR 1 RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24416",
+                "xref_name": "TYROSINE-PROTEIN KINASE RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00047",
+                "xref_name": "ig",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF25305",
+                "xref_name": "Ig_PDGFR_d4",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF07714",
+                "xref_name": "PK_Tyr_Ser-Thr",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "Macrophage colony-stimulating factor 1 receptor",
+        "score": 12.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5570",
+        "target_components": [
+          {
+            "accession": "P09581",
+            "component_description": "Macrophage colony-stimulating factor 1 receptor",
+            "component_id": 3861,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.10.1",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "CD_antigen=CD115",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CSF-1-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Csf1r",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CSF-1R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CSF-1 receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Csfmr",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Fms",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Macrophage colony-stimulating factor 1 receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "M-CSF-R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Proto-oncogene c-Fms",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "4EXP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3EJJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0004714",
+                "xref_name": "transmembrane receptor protein tyrosine kinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005004",
+                "xref_name": "GPI-linked ephrin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005005",
+                "xref_name": "transmembrane-ephrin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005006",
+                "xref_name": "epidermal growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005007",
+                "xref_name": "fibroblast growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005008",
+                "xref_name": "hepatocyte growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005009",
+                "xref_name": "insulin receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005010",
+                "xref_name": "insulin-like growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005011",
+                "xref_name": "macrophage colony-stimulating factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005018",
+                "xref_name": "platelet-derived growth factor alpha-receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005019",
+                "xref_name": "platelet-derived growth factor beta-receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005020",
+                "xref_name": "stem cell factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005021",
+                "xref_name": "vascular endothelial growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008288",
+                "xref_name": "boss receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019903",
+                "xref_name": "protein phosphatase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019955",
+                "xref_name": "cytokine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0036332",
+                "xref_name": "placental growth factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0038062",
+                "xref_name": "protein tyrosine kinase collagen receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0060175",
+                "xref_name": "brain-derived neurotrophic factor receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002931",
+                "xref_name": "response to ischemia",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007169",
+                "xref_name": "cell surface receptor protein tyrosine kinase signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007173",
+                "xref_name": "epidermal growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008283",
+                "xref_name": "cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008285",
+                "xref_name": "negative regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008286",
+                "xref_name": "insulin receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008360",
+                "xref_name": "regulation of cell shape",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008543",
+                "xref_name": "fibroblast growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010759",
+                "xref_name": "positive regulation of macrophage chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0018108",
+                "xref_name": "peptidyl-tyrosine phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0021772",
+                "xref_name": "olfactory bulb development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0021879",
+                "xref_name": "forebrain neuron differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030097",
+                "xref_name": "hemopoiesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030316",
+                "xref_name": "osteoclast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031547",
+                "xref_name": "brain-derived neurotrophic factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032722",
+                "xref_name": "positive regulation of chemokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032956",
+                "xref_name": "regulation of actin cytoskeleton organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035790",
+                "xref_name": "platelet-derived growth factor receptor-alpha signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035791",
+                "xref_name": "platelet-derived growth factor receptor-beta signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036323",
+                "xref_name": "vascular endothelial growth factor receptor-1 signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038063",
+                "xref_name": "collagen-activated tyrosine kinase receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038084",
+                "xref_name": "vascular endothelial growth factor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038109",
+                "xref_name": "Kit signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038145",
+                "xref_name": "macrophage colony-stimulating factor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042531",
+                "xref_name": "positive regulation of tyrosine phosphorylation of STAT protein",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0044794",
+                "xref_name": "positive regulation by host of viral process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045124",
+                "xref_name": "regulation of bone resorption",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045217",
+                "xref_name": "cell-cell junction maintenance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046777",
+                "xref_name": "protein autophosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048009",
+                "xref_name": "insulin-like growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048012",
+                "xref_name": "hepatocyte growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048013",
+                "xref_name": "ephrin receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048513",
+                "xref_name": "animal organ development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048731",
+                "xref_name": "system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0061518",
+                "xref_name": "microglial cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070374",
+                "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0120041",
+                "xref_name": "positive regulation of macrophage proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905521",
+                "xref_name": "regulation of macrophage migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000147",
+                "xref_name": "positive regulation of cell motility",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990682",
+                "xref_name": "CSF1-CSF1R complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q3U3P1",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9DBH9",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P09581",
+                "xref_name": "Macrophage colony-stimulating factor 1 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "3EJJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4EXP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P09581",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P09581",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "R-MMU-449836",
+                "xref_name": "Other interleukin signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P09581",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR030658",
+                "xref_name": "CSF-1_receptor",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR007110",
+                "xref_name": "Ig-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036179",
+                "xref_name": "Ig-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003599",
+                "xref_name": "Ig_sub",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003598",
+                "xref_name": "Ig_sub2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013151",
+                "xref_name": "Immunoglobulin_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011009",
+                "xref_name": "Kinase-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000719",
+                "xref_name": "Prot_kinase_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017441",
+                "xref_name": "Protein_kinase_ATP_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050122",
+                "xref_name": "RTK",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001245",
+                "xref_name": "Ser-Thr/Tyr_kinase_cat_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008266",
+                "xref_name": "Tyr_kinase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR020635",
+                "xref_name": "Tyr_kinase_cat_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001824",
+                "xref_name": "Tyr_kinase_rcpt_3_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24416:SF47",
+                "xref_name": "MACROPHAGE COLONY-STIMULATING FACTOR 1 RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24416",
+                "xref_name": "TYROSINE-PROTEIN KINASE RECEPTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00047",
+                "xref_name": "ig",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF25305",
+                "xref_name": "Ig_PDGFR_d4",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF07714",
+                "xref_name": "PK_Tyr_Ser-Thr",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:20+00:00",
+  "source": "ChEMBL target search"
+}

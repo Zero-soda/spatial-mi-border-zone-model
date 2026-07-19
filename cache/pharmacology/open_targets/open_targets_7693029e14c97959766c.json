@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000138615"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "cartilage intermediate layer protein",
+        "approvedSymbol": "CILP",
+        "associatedDiseases": {
+          "count": 196,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0004981",
+                "name": "atrial fibrillation"
+              },
+              "score": 0.40511677268979657
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011385",
+                "name": "intervertebral disk degenerative disorder"
+              },
+              "score": 0.3833398109773879
+            },
+            {
+              "disease": {
+                "id": "EFO_0004329",
+                "name": "alcohol drinking"
+              },
+              "score": 0.2945944069502377
+            },
+            {
+              "disease": {
+                "id": "MONDO_0044339",
+                "name": "lumbar disk degenerative disorder"
+              },
+              "score": 0.19035670086559342
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007254",
+                "name": "breast cancer"
+              },
+              "score": 0.07632604223376759
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016333",
+                "name": "familial dilated cardiomyopathy"
+              },
+              "score": 0.0753326937132317
+            },
+            {
+              "disease": {
+                "id": "Orphanet_158681",
+                "name": "Epidermolysis bullosa simplex with circinate migratory erythema"
+              },
+              "score": 0.07223807839667182
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012258",
+                "name": "epidermolysis bullosa simplex 2E, with migratory circinate erythema"
+              },
+              "score": 0.07223807839667182
+            },
+            {
+              "disease": {
+                "id": "Orphanet_2841",
+                "name": "Familial benign chronic pemphigus"
+              },
+              "score": 0.06737440750902114
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007570",
+                "name": "erythema palmare hereditarium"
+              },
+              "score": 0.06737440750902114
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008218",
+                "name": "Hailey-Hailey disease"
+              },
+              "score": 0.06737440750902114
+            },
+            {
+              "disease": {
+                "id": "Orphanet_231031",
+                "name": "Erythema palmaris hereditarium"
+              },
+              "score": 0.06737440750902114
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019154",
+                "name": "androgen insensitivity syndrome"
+              },
+              "score": 0.06689395369793104
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030746",
+                "name": "epidermolysis bullosa, junctional 2A, intermediate"
+              },
+              "score": 0.06489083088553994
+            },
+            {
+              "disease": {
+                "id": "Orphanet_89838",
+                "name": "KRT14-related epidermolysis bullosa simplex"
+              },
+              "score": 0.06177157691200106
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012345",
+                "name": "acral peeling skin syndrome"
+              },
+              "score": 0.06156461219337764
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019392",
+                "name": "syringocystadenoma papilliferum"
+              },
+              "score": 0.06106198359100643
+            },
+            {
+              "disease": {
+                "id": "Orphanet_303",
+                "name": "Dystrophic epidermolysis bullosa"
+              },
+              "score": 0.06066283734794695
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013834",
+                "name": "UV-sensitive syndrome 3"
+              },
+              "score": 0.059613230560642404
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015797",
+                "name": "UV-sensitive syndrome"
+              },
+              "score": 0.059613230560642404
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030489",
+                "name": "epidermolysis bullosa simplex 2A, generalized severe"
+              },
+              "score": 0.05933974146817572
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007101",
+                "name": "familial primary localized cutaneous amyloidosis"
+              },
+              "score": 0.057691415316281955
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017906",
+                "name": "amyloidosis cutis dyschromia"
+              },
+              "score": 0.057691415316281955
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030748",
+                "name": "epidermolysis bullosa, junctional 3A, intermediate"
+              },
+              "score": 0.057277485879035084
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030747",
+                "name": "epidermolysis bullosa, junctional 2B, severe"
+              },
+              "score": 0.057277485879035084
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005611",
+                "name": "bladder transitional cell carcinoma"
+              },
+              "score": 0.05691529762144408
+            },
+            {
+              "disease": {
+                "id": "MONDO_0030749",
+                "name": "epidermolysis bullosa, junctional 3B, severe"
+              },
+              "score": 0.05673050769410173
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002771",
+                "name": "pulmonary fibrosis"
+              },
+              "score": 0.05654571776675938
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007548",
+                "name": "transient bullous dermolysis of the newborn"
+              },
+              "score": 0.05626483707719901
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007554",
+                "name": "epidermolysis bullosa simplex 1B, generalized intermediate"
+              },
+              "score": 0.05495652439161516
+            },
+            {
+              "disease": {
+                "id": "Orphanet_79399",
+                "name": "Generalized epidermolysis bullosa simplex, non-Dowling-Meara type"
+              },
+              "score": 0.05495652439161516
+            },
+            {
+              "disease": {
+                "id": "Orphanet_79400",
+                "name": "Localized epidermolysis bullosa simplex"
+              },
+              "score": 0.054609119328211525
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007551",
+                "name": "epidermolysis bullosa simplex 1C, localized"
+              },
+              "score": 0.054609119328211525
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007549",
+                "name": "generalized dominant dystrophic epidermolysis bullosa"
+              },
+              "score": 0.053670386497312386
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014014",
+                "name": "epidermolysis bullosa simplex 4, localized or generalized intermediate, autosomal recessive"
+              },
+              "score": 0.053552120943813286
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007131",
+                "name": "anonychia with flexural pigmentation"
+              },
+              "score": 0.05342646379322048
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859574",
+                "name": "ichthyosis, annular epidermolytic, 2"
+              },
+              "score": 0.05238424860300964
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008416",
+                "name": "palmoplantar keratoderma-sclerodactyly syndrome"
+              },
+              "score": 0.05145290736920418
+            },
+            {
+              "disease": {
+                "id": "Orphanet_79401",
+                "name": "Epidermolysis bullosa simplex, Ogna type"
+              },
+              "score": 0.050558524120867206
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007555",
+                "name": "epidermolysis bullosa simplex 5A, Ogna type"
+              },
+              "score": 0.050558524120867206
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010976",
+                "name": "epidermolysis bullosa simplex 1D, generalized, intermediate or severe, autosomal recessive"
+              },
+              "score": 0.05035155940224377
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100303",
+                "name": "ichthyosis, annular epidermolytic 1"
+              },
+              "score": 0.04914672907597164
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007239",
+                "name": "epidermolytic ichthyosis"
+              },
+              "score": 0.04777928361363825
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007556",
+                "name": "epidermolysis bullosa simplex 2F, with mottled pigmentation"
+              },
+              "score": 0.047232305428704886
+            },
+            {
+              "disease": {
+                "id": "Orphanet_79397",
+                "name": "Epidermolysis bullosa simplex with mottled pigmentation"
+              },
+              "score": 0.047232305428704886
+            },
+            {
+              "disease": {
+                "id": "EFO_0000768",
+                "name": "idiopathic pulmonary fibrosis"
+              },
+              "score": 0.046825078619143805
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008598",
+                "name": "trichodysplasia-xeroderma syndrome"
+              },
+              "score": 0.04676663481180217
+            },
+            {
+              "disease": {
+                "id": "Orphanet_3361",
+                "name": "Trichodysplasia - xeroderma"
+              },
+              "score": 0.04676663481180217
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019489",
+                "name": "diffuse palmoplantar keratoderma - acrocyanosis syndrome"
+              },
+              "score": 0.04655227849608504
+            },
+            {
+              "disease": {
+                "id": "Orphanet_86918",
+                "name": "Diffuse palmoplantar keratoderma-acrocyanosis syndrome"
+              },
+              "score": 0.04655227849608504
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014661",
+                "name": "epidermolysis bullosa simplex with nail dystrophy"
+              },
+              "score": 0.04623443982105619
+            },
+            {
+              "disease": {
+                "id": "MONDO_0014180",
+                "name": "epidermolysis bullosa simplex 3, localized or generalized intermediate, with BP230 deficiency"
+              },
+              "score": 0.045680070039029144
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007552",
+                "name": "pretibial dystrophic epidermolysis bullosa"
+              },
+              "score": 0.04565050365065436
+            },
+            {
+              "disease": {
+                "id": "MONDO_0054852",
+                "name": "peeling skin syndrome 6"
+              },
+              "score": 0.044637854848818284
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007809",
+                "name": "ichthyosis histrix, Lambert type"
+              },
+              "score": 0.042597774050958735
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008383",
+                "name": "rheumatoid arthritis"
+              },
+              "score": 0.04240390245261774
+            },
+            {
+              "disease": {
+                "id": "Orphanet_158665",
+                "name": "Basal epidermolysis bullosa simplex"
+              },
+              "score": 0.040742483180441526
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015006",
+                "name": "epidermolysis bullosa simplex 6, generalized, with scarring and hair loss"
+              },
+              "score": 0.040742483180441526
+            },
+            {
+              "disease": {
+                "id": "MONDO_0700248",
+                "name": "epidermolytic hyperkeratosis 2A, autosomal dominant"
+              },
+              "score": 0.03907198223726667
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015193",
+                "name": "hydrops fetalis"
+              },
+              "score": 0.03905891913979526
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005252",
+                "name": "heart failure"
+              },
+              "score": 0.03862699064324955
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005575",
+                "name": "colorectal cancer"
+              },
+              "score": 0.03457501974454922
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013662",
+                "name": "Barrett esophagus"
+              },
+              "score": 0.028975060607280622
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004989",
+                "name": "breast carcinoma"
+              },
+              "score": 0.02789624031175184
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006816",
+                "name": "arthropathy"
+              },
+              "score": 0.024731051942651294
+            },
+            {
+              "disease": {
+                "id": "HP_0002970",
+                "name": "Genu varum"
+              },
+              "score": 0.023958878106287027
+            },
+            {
+              "disease": {
+                "id": "HP_0002857",
+                "name": "Genu valgum"
+              },
+              "score": 0.023958878106287027
+            },
+            {
+              "disease": {
+                "id": "EFO_1001458",
+                "name": "diabetic cardiomyopathy"
+              },
+              "score": 0.023653110699820915
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005377",
+                "name": "nephrotic syndrome"
+              },
+              "score": 0.023636127714122376
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015075",
+                "name": "thyroid gland carcinoma"
+              },
+              "score": 0.01956720008414005
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002108",
+                "name": "thyroid cancer"
+              },
+              "score": 0.019402942370946846
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010679",
+                "name": "Duchenne muscular dystrophy"
+              },
+              "score": 0.01936493818061178
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.01907442694456044
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005068",
+                "name": "myocardial infarction"
+              },
+              "score": 0.01897285976127826
+            },
+            {
+              "disease": {
+                "id": "MONDO_0100096",
+                "name": "COVID-19"
+              },
+              "score": 0.017676579829212915
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005178",
+                "name": "osteoarthritis"
+              },
+              "score": 0.016417106113405536
+            },
+            {
+              "disease": {
+                "id": "HP_0008419",
+                "name": "Intervertebral disk degeneration"
+              },
+              "score": 0.016253394186271995
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015924",
+                "name": "pulmonary arterial hypertension"
+              },
+              "score": 0.015791598501008947
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004958",
+                "name": "oral cavity squamous cell carcinoma"
+              },
+              "score": 0.015452078005303896
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005149",
+                "name": "pulmonary hypertension"
+              },
+              "score": 0.014985423926013843
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005140",
+                "name": "ovarian carcinoma"
+              },
+              "score": 0.014416474840337708
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004992",
+                "name": "cancer"
+              },
+              "score": 0.014271929484330878
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005083",
+                "name": "psoriasis"
+              },
+              "score": 0.013808600980807956
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019479",
+                "name": "histiocytic sarcoma"
+              },
+              "score": 0.012565715059279862
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016264",
+                "name": "autoimmune hepatitis"
+              },
+              "score": 0.012565715059279862
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005348",
+                "name": "keloid"
+              },
+              "score": 0.012565715059279862
+            },
+            {
+              "disease": {
+                "id": "EFO_0001425",
+                "name": "ischemic cardiomyopathy"
+              },
+              "score": 0.012360392917788359
+            },
+            {
+              "disease": {
+                "id": "HP_0001636",
+                "name": "Tetralogy of Fallot"
+              },
+              "score": 0.011783829174896633
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018072",
+                "name": "persistent truncus arteriosus"
+              },
+              "score": 0.011087395640541052
+            },
+            {
+              "disease": {
+                "id": "HP_0001685",
+                "name": "Myocardial fibrosis"
+              },
+              "score": 0.009570530365214602
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.009477054084823211
+            },
+            {
+              "disease": {
+                "id": "MONDO_0042981",
+                "name": "aortic valve stenosis"
+              },
+              "score": 0.009054706439775195
+            },
+            {
+              "disease": {
+                "id": "MONDO_0019002",
+                "name": "Lhermitte-Duclos disease"
+              },
+              "score": 0.008839118191209118
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005015",
+                "name": "diabetes mellitus"
+              },
+              "score": 0.008650875040195918
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005009",
+                "name": "congestive heart failure"
+              },
+              "score": 0.008500336657748143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005416",
+                "name": "osteoarthritis, knee"
+              },
+              "score": 0.008500336657748143
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005812",
+                "name": "influenza"
+              },
+              "score": 0.008315546730405791
+            },
+            {
+              "disease": {
+                "id": "EFO_0000266",
+                "name": "aortic stenosis"
+              },
+              "score": 0.008261752329335018
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002081",
+                "name": "musculoskeletal system disorder"
+              },
+              "score": 0.008202619552585465
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005306",
+                "name": "ankylosing spondylitis"
+              },
+              "score": 0.00813075680306344
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000138615",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": true
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:40:00+00:00",
+  "source": "Open Targets"
+}

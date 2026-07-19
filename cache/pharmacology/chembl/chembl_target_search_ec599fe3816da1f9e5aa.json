@@ -1,0 +1,2203 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "MYH7"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Sus scrofa",
+        "pref_name": "Myosin-7",
+        "score": 14.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4295792",
+        "target_components": [
+          {
+            "accession": "P79293",
+            "component_description": "Myosin-7",
+            "component_id": 18212,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "MYH7",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "MyHC-beta",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MyHC-slow",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin-7",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain 7",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain, cardiac muscle beta isoform",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain slow isoform",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0003779",
+                "xref_name": "actin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005516",
+                "xref_name": "calmodulin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051015",
+                "xref_name": "actin filament binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007512",
+                "xref_name": "adult heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030049",
+                "xref_name": "muscle filament sliding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045214",
+                "xref_name": "sarcomere organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032982",
+                "xref_name": "myosin filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030016",
+                "xref_name": "myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030017",
+                "xref_name": "sarcomere",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016460",
+                "xref_name": "myosin II complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA31374",
+                "xref_name": "myosin heavy chain 7",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q9GKR1",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P79293",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "7JH7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P79293",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P79293",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR036961",
+                "xref_name": "Kinesin_motor_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001609",
+                "xref_name": "Myosin_head_motor_dom-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008989",
+                "xref_name": "Myosin_S1_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002928",
+                "xref_name": "Myosin_tail",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027417",
+                "xref_name": "P-loop_NTPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004009",
+                "xref_name": "SH3_Myosin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014751",
+                "xref_name": "XRCC4-like_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR45615",
+                "xref_name": "MYOSIN HEAVY CHAIN, NON-MUSCLE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR45615:SF1",
+                "xref_name": "MYOSIN-7",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00063",
+                "xref_name": "Myosin_head",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02736",
+                "xref_name": "Myosin_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01576",
+                "xref_name": "Myosin_tail_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9823
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Cardiac myosin",
+        "score": 6.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3831286",
+        "target_components": [
+          {
+            "accession": "P12883",
+            "component_description": "Myosin-7",
+            "component_id": 15025,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "MYH7",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "MYHCB",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "MyHC-beta",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MyHC-slow",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin-7",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain 7",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain, cardiac muscle beta isoform",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain slow isoform",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "4XA6",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5CJ4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5WJB",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5WME",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4DB1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5CHX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5WLZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4XA1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5CJ1",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5CJ0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4XA3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4XA4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4PA0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4P7H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5WJ7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2FXO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6PFP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2FXM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5WLQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6PF2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0003779",
+                "xref_name": "actin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005516",
+                "xref_name": "calmodulin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051015",
+                "xref_name": "actin filament binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002026",
+                "xref_name": "regulation of the force of heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002027",
+                "xref_name": "regulation of heart rate",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007512",
+                "xref_name": "adult heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014728",
+                "xref_name": "regulation of the force of skeletal muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014883",
+                "xref_name": "transition between fast and slow fiber",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014898",
+                "xref_name": "cardiac muscle hypertrophy in response to stress",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030049",
+                "xref_name": "muscle filament sliding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031449",
+                "xref_name": "regulation of slow-twitch skeletal muscle fiber contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045214",
+                "xref_name": "sarcomere organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046034",
+                "xref_name": "ATP metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055010",
+                "xref_name": "ventricular cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032982",
+                "xref_name": "myosin filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001725",
+                "xref_name": "stress fiber",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030016",
+                "xref_name": "myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030017",
+                "xref_name": "sarcomere",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030018",
+                "xref_name": "Z disc",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0099512",
+                "xref_name": "supramolecular fiber",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005859",
+                "xref_name": "muscle myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016460",
+                "xref_name": "myosin II complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA31374",
+                "xref_name": "myosin heavy chain 7",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A2TDB6",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B6D424",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14836",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14837",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14904",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q16579",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2M1Y6",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q92679",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9H1D5",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UDA2",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UMM8",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P12883",
+                "xref_name": "Myosin-7",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "2FXM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2FXO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3DTP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4DB1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4P7H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4PA0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4XA1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4XA3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4XA4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4XA6",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5CHX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5CJ0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5CJ1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5CJ4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5TBY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WJ7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WJB",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WLQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WLZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5WME",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6PF2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6PFP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ACT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8EFD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8EFE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8EFH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8EFI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ENC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8G4L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ZB7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ZI9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9GZ1",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9GZ2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9GZ3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P12883",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P12883",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:7577",
+                "xref_name": "MYH7",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P12883",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "IPR000048",
+                "xref_name": "IQ_motif_EF-hand-BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036961",
+                "xref_name": "Kinesin_motor_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001609",
+                "xref_name": "Myosin_head_motor_dom-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008989",
+                "xref_name": "Myosin_S1_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002928",
+                "xref_name": "Myosin_tail",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027417",
+                "xref_name": "P-loop_NTPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004009",
+                "xref_name": "SH3_Myosin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014751",
+                "xref_name": "XRCC4-like_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR45615",
+                "xref_name": "MYOSIN HEAVY CHAIN, NON-MUSCLE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR45615:SF1",
+                "xref_name": "MYOSIN-7",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00063",
+                "xref_name": "Myosin_head",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02736",
+                "xref_name": "Myosin_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01576",
+                "xref_name": "Myosin_tail_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "P13533",
+            "component_description": "Myosin-6",
+            "component_id": 15159,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "MYH6",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "MYHCA",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "MyHC-alpha",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin-6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain 6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain, cardiac muscle alpha isoform",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0003779",
+                "xref_name": "actin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005516",
+                "xref_name": "calmodulin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0017018",
+                "xref_name": "myosin phosphatase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019901",
+                "xref_name": "protein kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051015",
+                "xref_name": "actin filament binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001701",
+                "xref_name": "in utero embryonic development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002026",
+                "xref_name": "regulation of the force of heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002027",
+                "xref_name": "regulation of heart rate",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007512",
+                "xref_name": "adult heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007522",
+                "xref_name": "visceral muscle development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008016",
+                "xref_name": "regulation of heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008217",
+                "xref_name": "regulation of blood pressure",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014898",
+                "xref_name": "cardiac muscle hypertrophy in response to stress",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030048",
+                "xref_name": "actin filament-based movement",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030049",
+                "xref_name": "muscle filament sliding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030239",
+                "xref_name": "myofibril assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045214",
+                "xref_name": "sarcomere organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046034",
+                "xref_name": "ATP metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055009",
+                "xref_name": "atrial cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055010",
+                "xref_name": "ventricular cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055013",
+                "xref_name": "cardiac muscle cell development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060420",
+                "xref_name": "regulation of heart growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030017",
+                "xref_name": "sarcomere",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032982",
+                "xref_name": "myosin filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001725",
+                "xref_name": "stress fiber",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030016",
+                "xref_name": "myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030018",
+                "xref_name": "Z disc",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005859",
+                "xref_name": "muscle myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016460",
+                "xref_name": "myosin II complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA31373",
+                "xref_name": "myosin heavy chain 6",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A2RTX1",
+                "xref_name": "Myosin-6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D9YZU2",
+                "xref_name": "Myosin-6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13943",
+                "xref_name": "Myosin-6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14906",
+                "xref_name": "Myosin-6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14907",
+                "xref_name": "Myosin-6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P13533",
+                "xref_name": "Myosin-6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P13533",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P13533",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:7576",
+                "xref_name": "MYH6",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P13533",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "IPR036961",
+                "xref_name": "Kinesin_motor_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001609",
+                "xref_name": "Myosin_head_motor_dom-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008989",
+                "xref_name": "Myosin_S1_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002928",
+                "xref_name": "Myosin_tail",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027417",
+                "xref_name": "P-loop_NTPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004009",
+                "xref_name": "SH3_Myosin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014751",
+                "xref_name": "XRCC4-like_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR45615",
+                "xref_name": "MYOSIN HEAVY CHAIN, NON-MUSCLE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR45615:SF69",
+                "xref_name": "MYOSIN-6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00063",
+                "xref_name": "Myosin_head",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02736",
+                "xref_name": "Myosin_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01576",
+                "xref_name": "Myosin_tail_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "A7E2Y1",
+            "component_description": "Myosin-7B",
+            "component_id": 17056,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Antigen MLAA-21",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "KIAA1512",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "MYH7B",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Myosin-7B",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin cardiac muscle beta chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin heavy chain 7B, cardiac muscle beta isoform",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Slow A MYH14",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0003779",
+                "xref_name": "actin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051015",
+                "xref_name": "actin filament binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050848",
+                "xref_name": "regulation of calcium-mediated signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051480",
+                "xref_name": "regulation of cytosolic calcium ion concentration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0086004",
+                "xref_name": "regulation of cardiac muscle cell contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905289",
+                "xref_name": "regulation of CAMKK-AMPK signaling cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032982",
+                "xref_name": "myosin filament",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0097512",
+                "xref_name": "cardiac myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016460",
+                "xref_name": "myosin II complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA31375",
+                "xref_name": "myosin heavy chain 7B",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "A0A6E1W127",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5JVW7",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6NT44",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6NT57",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6WG75",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96I57",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NWE2",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9P216",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "A7E2Y1",
+                "xref_name": "Myosin-7B",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "A7E2Y1",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "A7E2Y1",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:15906",
+                "xref_name": "MYH7B",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "A7E2Y1",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "A7E2Y1",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR036961",
+                "xref_name": "Kinesin_motor_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001609",
+                "xref_name": "Myosin_head_motor_dom-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008989",
+                "xref_name": "Myosin_S1_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002928",
+                "xref_name": "Myosin_tail",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027417",
+                "xref_name": "P-loop_NTPase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR004009",
+                "xref_name": "SH3_Myosin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014751",
+                "xref_name": "XRCC4-like_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR45615",
+                "xref_name": "MYOSIN HEAVY CHAIN, NON-MUSCLE",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR45615:SF29",
+                "xref_name": "MYOSIN-7B",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00063",
+                "xref_name": "Myosin_head",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02736",
+                "xref_name": "Myosin_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF01576",
+                "xref_name": "Myosin_tail_1",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "P08590",
+            "component_description": "Myosin light chain 3",
+            "component_id": 17057,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Cardiac myosin light chain 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CMLC1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MLC1SB",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MLC-lV/sb",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MYL3",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Myosin light chain 1, slow-twitch muscle B/ventricular isoform",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin light chain 3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ventricular myosin alkali light chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ventricular myosin light chain 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ventricular/slow twitch myosin alkali light chain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "VLCl",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0003785",
+                "xref_name": "actin monomer binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008307",
+                "xref_name": "structural constituent of muscle",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032038",
+                "xref_name": "myosin II heavy chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002026",
+                "xref_name": "regulation of the force of heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006942",
+                "xref_name": "regulation of striated muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055010",
+                "xref_name": "ventricular cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030017",
+                "xref_name": "sarcomere",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031672",
+                "xref_name": "A band",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031674",
+                "xref_name": "I band",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005859",
+                "xref_name": "muscle myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016460",
+                "xref_name": "myosin II complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA31381",
+                "xref_name": "myosin light chain 3",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "B2R534",
+                "xref_name": "Myosin light chain 3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NRS8",
+                "xref_name": "Myosin light chain 3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P08590",
+                "xref_name": "Myosin light chain 3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "5TBY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ACT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8G4L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P08590",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P08590",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:7584",
+                "xref_name": "MYL3",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P08590",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P08590",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR050230",
+                "xref_name": "CALM/Myosin/TropC-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011992",
+                "xref_name": "EF-hand-dom_pair",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002048",
+                "xref_name": "EF_hand_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23048",
+                "xref_name": "MYOSIN LIGHT CHAIN 1, 3",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23048:SF2",
+                "xref_name": "MYOSIN LIGHT CHAIN 3",
+                "xref_src_db": "PANTHER"
+              }
+            ]
+          },
+          {
+            "accession": "P10916",
+            "component_description": "Myosin regulatory light chain 2, ventricular/cardiac muscle isoform",
+            "component_id": 17058,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Cardiac myosin light chain 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MLC-2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MLC-2s/v",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MLC-2v",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MYL2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Myosin light chain 2, slow skeletal/ventricular muscle isoform",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin regulatory light chain 2, ventricular/cardiac muscle isoform",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Synonyms=MLC2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Ventricular myosin light chain 2",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0015629",
+                "xref_name": "actin cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0003785",
+                "xref_name": "actin monomer binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008307",
+                "xref_name": "structural constituent of muscle",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032036",
+                "xref_name": "myosin heavy chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002026",
+                "xref_name": "regulation of the force of heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006942",
+                "xref_name": "regulation of striated muscle contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007507",
+                "xref_name": "heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030308",
+                "xref_name": "negative regulation of cell growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042694",
+                "xref_name": "muscle cell fate specification",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055003",
+                "xref_name": "cardiac myofibril assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055010",
+                "xref_name": "ventricular cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060047",
+                "xref_name": "heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0098735",
+                "xref_name": "positive regulation of the force of heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030016",
+                "xref_name": "myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030017",
+                "xref_name": "sarcomere",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031672",
+                "xref_name": "A band",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0097512",
+                "xref_name": "cardiac myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA31380",
+                "xref_name": "myosin light chain 2",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q16123",
+                "xref_name": "Myosin regulatory light chain 2, ventricular/cardiac muscle isoform",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P10916",
+                "xref_name": "Myosin regulatory light chain 2, ventricular/cardiac muscle isoform",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "5TBY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8ACT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8G4L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "P10916",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P10916",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:7583",
+                "xref_name": "MYL2",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P10916",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P10916",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR011992",
+                "xref_name": "EF-hand-dom_pair",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018247",
+                "xref_name": "EF_Hand_1_Ca_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002048",
+                "xref_name": "EF_hand_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050403",
+                "xref_name": "Myosin_RLC",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23049",
+                "xref_name": "MYOSIN REGULATORY LIGHT CHAIN 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF13499",
+                "xref_name": "EF-hand_7",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "Q01449",
+            "component_description": "Myosin regulatory light chain 2, atrial isoform",
+            "component_id": 17059,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "MLC-2a",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MLC2a",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "MYL2A",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "MYL7",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "MYLC2A",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Myosin light chain 2a",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin regulatory light chain 2, atrial isoform",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin regulatory light chain 7",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048738",
+                "xref_name": "cardiac muscle tissue development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060047",
+                "xref_name": "heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030016",
+                "xref_name": "myofibril",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031672",
+                "xref_name": "A band",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043197",
+                "xref_name": "dendritic spine",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA134939476",
+                "xref_name": "myosin light chain 7",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "B2R4L3",
+                "xref_name": "Myosin regulatory light chain 2, atrial isoform",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q01449",
+                "xref_name": "Myosin regulatory light chain 2, atrial isoform",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q01449",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q01449",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:21719",
+                "xref_name": "MYL7",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-445355",
+                "xref_name": "Smooth Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "Q01449",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "Q01449",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR011992",
+                "xref_name": "EF-hand-dom_pair",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018247",
+                "xref_name": "EF_Hand_1_Ca_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002048",
+                "xref_name": "EF_hand_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050403",
+                "xref_name": "Myosin_RLC",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23049",
+                "xref_name": "MYOSIN REGULATORY LIGHT CHAIN 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF13202",
+                "xref_name": "EF-hand_5",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF13833",
+                "xref_name": "EF-hand_8",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          },
+          {
+            "accession": "P12829",
+            "component_description": "Myosin light chain 4",
+            "component_id": 17060,
+            "component_type": "PROTEIN",
+            "relationship": "PROTEIN SUBUNIT",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "MLC1 ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "MYL4",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Myosin light chain 1, embryonic muscle/atrial isoform",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin light chain 4",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Myosin light chain alkali GT-1 isoform",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0003785",
+                "xref_name": "actin monomer binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032038",
+                "xref_name": "myosin II heavy chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051015",
+                "xref_name": "actin filament binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002026",
+                "xref_name": "regulation of the force of heart contraction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031672",
+                "xref_name": "A band",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016459",
+                "xref_name": "myosin complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016460",
+                "xref_name": "myosin II complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "PA31382",
+                "xref_name": "myosin light chain 4",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "D3DXJ7",
+                "xref_name": "Myosin light chain 4",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P11783",
+                "xref_name": "Myosin light chain 4",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P12829",
+                "xref_name": "Myosin light chain 4",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P12829",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P12829",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:7585",
+                "xref_name": "MYL4",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-390522",
+                "xref_name": "Striated Muscle Contraction",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P12829",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P12829",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR050230",
+                "xref_name": "CALM/Myosin/TropC-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011992",
+                "xref_name": "EF-hand-dom_pair",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002048",
+                "xref_name": "EF_hand_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR23048",
+                "xref_name": "MYOSIN LIGHT CHAIN 1, 3",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR23048:SF1",
+                "xref_name": "MYOSIN LIGHT CHAIN 4",
+                "xref_src_db": "PANTHER"
+              }
+            ]
+          }
+        ],
+        "target_type": "PROTEIN COMPLEX",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:37:17+00:00",
+  "source": "ChEMBL target search"
+}

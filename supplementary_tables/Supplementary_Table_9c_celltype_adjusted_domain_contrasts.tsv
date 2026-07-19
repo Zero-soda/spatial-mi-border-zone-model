@@ -1,0 +1,13 @@
+adjustment_mode	stage	score	contrast	n_sample_pairs	expected_direction	raw_mean_margin	raw_ci95_low	raw_ci95_high	marker_adjusted_mean_margin	marker_adjusted_ci95_low	marker_adjusted_ci95_high	n_samples_preserving_expected_direction_after_adjustment
+expanded_marker_covariates	day3_mi	fibroblast_scar_repair	domain3_minus_domain4	3	domain4_positive	0.81103654	0.74514333	0.87158065	0.073867729	0.018509127	0.17471607	0
+expanded_marker_covariates	day3_mi	immune_fibrotic_activation	domain3_minus_domain4	3	domain4_positive	-0.85480331	-1.2218931	-0.4263997	-0.33138443	-0.38974011	-0.26898797	3
+expanded_marker_covariates	day3_mi	mechanical_border	domain3_minus_domain4	3	domain3_positive	2.4325912	1.7232801	3.5669183	0.59470744	0.46871992	0.78457203	3
+expanded_marker_covariates	day7_mi	fibroblast_scar_repair	domain3_minus_domain4	3	domain4_positive	-2.3029092	-2.6092939	-1.9769108	0.036115268	-0.0017876287	0.067372606	1
+expanded_marker_covariates	day7_mi	immune_fibrotic_activation	domain3_minus_domain4	3	domain4_positive	-1.3225441	-1.415433	-1.1806057	0.020418295	0.0023580086	0.031418115	0
+expanded_marker_covariates	day7_mi	mechanical_border	domain3_minus_domain4	3	domain3_positive	3.45099	3.3308295	3.5912495	0.27460417	0.22186586	0.31041042	3
+lineage_marker_covariates	day3_mi	fibroblast_scar_repair	domain3_minus_domain4	3	domain4_positive	0.81103654	0.74514333	0.87158065	0.64229729	0.24844451	1.1371696	0
+lineage_marker_covariates	day3_mi	immune_fibrotic_activation	domain3_minus_domain4	3	domain4_positive	-0.85480331	-1.2218931	-0.4263997	-0.24154792	-0.28530451	-0.18283208	3
+lineage_marker_covariates	day3_mi	mechanical_border	domain3_minus_domain4	3	domain3_positive	2.4325912	1.7232801	3.5669183	0.68517842	0.51849846	0.8685944	3
+lineage_marker_covariates	day7_mi	fibroblast_scar_repair	domain3_minus_domain4	3	domain4_positive	-2.3029092	-2.6092939	-1.9769108	0.20571207	0.14077153	0.25442847	0
+lineage_marker_covariates	day7_mi	immune_fibrotic_activation	domain3_minus_domain4	3	domain4_positive	-1.3225441	-1.415433	-1.1806057	0.072553361	0.056444532	0.10188685	0
+lineage_marker_covariates	day7_mi	mechanical_border	domain3_minus_domain4	3	domain3_positive	3.45099	3.3308295	3.5912495	0.29688548	0.26637711	0.32936855	3

@@ -1,0 +1,491 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "ENG"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Endoglin",
+        "score": 21.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3712885",
+        "target_components": [
+          {
+            "accession": "P17813",
+            "component_description": "Endoglin",
+            "component_id": 15039,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CD_antigen=CD105",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "END",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Endoglin",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ENG",
+                "syn_type": "GENE_SYMBOL"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P17813",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P17813",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005925",
+                "xref_name": "focal adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016604",
+                "xref_name": "nuclear body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072563",
+                "xref_name": "endothelial microparticle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004888",
+                "xref_name": "transmembrane signaling receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005024",
+                "xref_name": "transforming growth factor beta receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005114",
+                "xref_name": "type II transforming growth factor beta receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005534",
+                "xref_name": "galactose binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005539",
+                "xref_name": "glycosaminoglycan binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0015026",
+                "xref_name": "coreceptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0034713",
+                "xref_name": "type I transforming growth factor beta receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0036122",
+                "xref_name": "BMP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050431",
+                "xref_name": "transforming growth factor beta binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001569",
+                "xref_name": "branching involved in blood vessel morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001570",
+                "xref_name": "vasculogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001837",
+                "xref_name": "epithelial to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001947",
+                "xref_name": "heart looping",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002040",
+                "xref_name": "sprouting angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003148",
+                "xref_name": "outflow tract septum morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003198",
+                "xref_name": "epithelial to mesenchymal transition involved in endocardial cushion formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003203",
+                "xref_name": "endocardial cushion morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003208",
+                "xref_name": "cardiac ventricle morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003209",
+                "xref_name": "cardiac atrium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003222",
+                "xref_name": "ventricular trabecula myocardium morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003273",
+                "xref_name": "cell migration involved in endocardial cushion formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007155",
+                "xref_name": "cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007179",
+                "xref_name": "transforming growth factor beta receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007507",
+                "xref_name": "heart development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010629",
+                "xref_name": "negative regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010665",
+                "xref_name": "regulation of cardiac muscle cell apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016477",
+                "xref_name": "cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0017015",
+                "xref_name": "regulation of transforming growth factor beta receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0022009",
+                "xref_name": "central nervous system vasculogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030336",
+                "xref_name": "negative regulation of cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030509",
+                "xref_name": "BMP signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030513",
+                "xref_name": "positive regulation of BMP signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032967",
+                "xref_name": "positive regulation of collagen biosynthetic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035912",
+                "xref_name": "dorsal aorta morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045766",
+                "xref_name": "positive regulation of angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045944",
+                "xref_name": "positive regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048745",
+                "xref_name": "smooth muscle tissue development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048844",
+                "xref_name": "artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048845",
+                "xref_name": "venous blood vessel morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055009",
+                "xref_name": "atrial cardiac muscle tissue morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060348",
+                "xref_name": "bone development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060391",
+                "xref_name": "positive regulation of SMAD protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070278",
+                "xref_name": "extracellular matrix constituent secretion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071260",
+                "xref_name": "cellular response to mechanical stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090500",
+                "xref_name": "endocardial cushion to mesenchymal transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097084",
+                "xref_name": "vascular associated smooth muscle cell development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905007",
+                "xref_name": "positive regulation of epithelial to mesenchymal transition involved in endocardial cushion formation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905065",
+                "xref_name": "positive regulation of vascular associated smooth muscle cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905222",
+                "xref_name": "atrioventricular canal morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905310",
+                "xref_name": "regulation of cardiac neural crest cell migration involved in outflow tract morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000136",
+                "xref_name": "regulation of cell proliferation involved in heart morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:3349",
+                "xref_name": "ENG",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P17813",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR058899",
+                "xref_name": "TGFBR3/Endoglin-like_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR14002",
+                "xref_name": "ENDOGLIN/TGF-BETA RECEPTOR TYPE III",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR14002:SF1",
+                "xref_name": "ENDOGLIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "5HZV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5HZW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5I04",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5HZV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5HZW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5I04",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF26060",
+                "xref_name": "TGFBR3_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA27785",
+                "xref_name": "endoglin",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P17813",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "P17813",
+                "xref_name": "Endoglin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14248",
+                "xref_name": "Endoglin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14926",
+                "xref_name": "Endoglin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5T9C0",
+                "xref_name": "Endoglin",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:41:01+00:00",
+  "source": "ChEMBL target search"
+}

@@ -1,0 +1,52 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL4523584"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "BINDING AGENT",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 1,
+        "mec_id": 7683,
+        "mechanism_comment": null,
+        "mechanism_of_action": "Lymphocyte antigen 6E binding agent",
+        "mechanism_refs": [
+          {
+            "ref_id": "32694157",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/32694157"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL4297935",
+        "parent_molecule_chembl_id": "CHEMBL4297935",
+        "record_id": 3133584,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL4523584",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:41:50+00:00",
+  "source": "ChEMBL mechanism"
+}

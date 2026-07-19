@@ -7,8 +7,10 @@ import csv
 import sys
 from pathlib import Path
 
+from project_paths import project_root
 
-ROOT = Path(__file__).resolve().parents[3]
+
+ROOT = project_root(__file__)
 LOCAL_DEPS = ROOT / ".deps" / "python"
 if LOCAL_DEPS.exists():
     sys.path.insert(0, str(LOCAL_DEPS))
@@ -274,7 +276,12 @@ def main() -> None:
     FIGURE_DIR.mkdir(parents=True, exist_ok=True)
     fig.savefig(f"{out_base}.svg", bbox_inches="tight")
     fig.savefig(f"{out_base}.pdf", bbox_inches="tight")
-    fig.savefig(f"{out_base}.tiff", dpi=600, bbox_inches="tight")
+    fig.savefig(
+        f"{out_base}.tiff",
+        dpi=600,
+        bbox_inches="tight",
+        pil_kwargs={"compression": "tiff_lzw"},
+    )
     fig.savefig(f"{out_base}.png", dpi=300, bbox_inches="tight")
     print(out_base)
 

@@ -1,0 +1,5 @@
+stage	score	contrast	n_expression_matched_random_signatures	observed_mean_margin	observed_sample_margins	null_p50	null_p95	null_p99	empirical_p_upper	exceeds_null_p95	exceeds_null_p99
+day3_mi	mechanical_border	domain3_minus_domain4	500	2.7220934	3.54603;1.8573;2.76296	0.058530349	0.50868139	0.71791744	0.001996008	True	True
+day7_mi	mechanical_border	domain3_minus_domain4	500	3.5298754	3.61033;3.2228;3.7565	-0.33902751	0.48313738	0.80368146	0.001996008	True	True
+day7_mi	fibroblast_scar_repair	domain4_minus_domain3	500	1.9800185	1.91579;2.26466;1.7596	0.92967079	1.9575441	2.3711888	0.045908184	True	False
+day7_mi	immune_fibrotic_activation	domain4_minus_domain3	500	1.8578033	1.96222;1.78683;1.82436	1.1497288	1.8121671	2.0293422	0.043912176	True	False

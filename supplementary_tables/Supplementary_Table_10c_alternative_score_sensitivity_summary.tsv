@@ -1,0 +1,17 @@
+scoring_method	stage	score	contrast	n_sample_pairs	mean_margin	ci95_low	ci95_high	expected_direction_preserved_n	sample_margins
+expression_matched_control_zsum	day3_mi	mechanical_border	domain3_minus_domain4	3	2.8048411	1.957768	3.5847772	3	3.58478;1.95777;2.87198
+expression_matched_control_zsum	day7_mi	mechanical_border	domain3_minus_domain4	3	3.920076	3.6859635	4.0723302	3	4.07233;3.68596;4.00193
+expression_matched_control_zsum	day7_mi	fibroblast_scar_repair	domain4_minus_domain3	3	1.9547473	1.697099	2.2928024	3	1.87434;2.2928;1.6971
+expression_matched_control_zsum	day7_mi	immune_fibrotic_activation	domain4_minus_domain3	3	1.4320569	0.99491632	1.8185925	3	1.81859;1.48266;0.994916
+mean_expression_zsum	day3_mi	mechanical_border	domain3_minus_domain4	3	2.7220934	1.8572952	3.5460265	3	3.54603;1.8573;2.76296
+mean_expression_zsum	day7_mi	mechanical_border	domain3_minus_domain4	3	3.5298754	3.222801	3.7564953	3	3.61033;3.2228;3.7565
+mean_expression_zsum	day7_mi	fibroblast_scar_repair	domain4_minus_domain3	3	1.9800185	1.7596039	2.2646608	3	1.91579;2.26466;1.7596
+mean_expression_zsum	day7_mi	immune_fibrotic_activation	domain4_minus_domain3	3	1.8578033	1.7868253	1.9622229	3	1.96222;1.78683;1.82436
+overlap_reduced_mean_zsum	day3_mi	mechanical_border	domain3_minus_domain4	3	2.7220934	1.8572952	3.5460265	3	3.54603;1.8573;2.76296
+overlap_reduced_mean_zsum	day7_mi	mechanical_border	domain3_minus_domain4	3	3.5298754	3.222801	3.7564953	3	3.61033;3.2228;3.7565
+overlap_reduced_mean_zsum	day7_mi	fibroblast_scar_repair	domain4_minus_domain3	3	1.5708649	1.4056524	1.7937671	3	1.51318;1.79377;1.40565
+overlap_reduced_mean_zsum	day7_mi	immune_fibrotic_activation	domain4_minus_domain3	3	1.4486497	1.3159316	1.5596071	3	1.55961;1.31593;1.47041
+rank_auc_zsum	day3_mi	mechanical_border	domain3_minus_domain4	3	2.2867268	1.4365948	2.9572814	3	2.95728;1.43659;2.4663
+rank_auc_zsum	day7_mi	mechanical_border	domain3_minus_domain4	3	2.9258985	2.476805	3.5377918	3	2.7631;2.47681;3.53779
+rank_auc_zsum	day7_mi	fibroblast_scar_repair	domain4_minus_domain3	3	0.70044803	0.31953035	0.99131748	3	0.991317;0.790496;0.31953
+rank_auc_zsum	day7_mi	immune_fibrotic_activation	domain4_minus_domain3	3	1.2897466	1.1524225	1.5589894	3	1.55899;1.15242;1.15783

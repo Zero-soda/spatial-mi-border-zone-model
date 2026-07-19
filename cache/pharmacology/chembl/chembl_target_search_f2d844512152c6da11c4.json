@@ -1,0 +1,324 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "IGFBP4"
+    }
+  },
+  "response": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Insulin-like growth factor-binding protein 4",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2310",
+        "target_components": [
+          {
+            "accession": "P22692",
+            "component_description": "Insulin-like growth factor-binding protein 4",
+            "component_id": 651,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "IBP-4",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "IBP4",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "IGF-binding protein 4",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "IGFBP-4",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "IGFBP4",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Insulin-like growth factor-binding protein 4",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P22692",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P22692",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005788",
+                "xref_name": "endoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005520",
+                "xref_name": "insulin-like growth factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019838",
+                "xref_name": "growth factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031994",
+                "xref_name": "insulin-like growth factor I binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031995",
+                "xref_name": "insulin-like growth factor II binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0000165",
+                "xref_name": "MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001558",
+                "xref_name": "regulation of cell growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0040008",
+                "xref_name": "regulation of growth",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043410",
+                "xref_name": "positive regulation of MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043567",
+                "xref_name": "regulation of insulin-like growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043568",
+                "xref_name": "positive regulation of insulin-like growth factor receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0044342",
+                "xref_name": "type B pancreatic cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090090",
+                "xref_name": "negative regulation of canonical Wnt signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:5473",
+                "xref_name": "IGFBP4",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P22692",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000716",
+                "xref_name": "Thyroglobulin_1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000867",
+                "xref_name": "IGFBP-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009030",
+                "xref_name": "Growth_fac_rcpt_cys_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017891",
+                "xref_name": "Insulin_GF-bd_Cys-rich_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR022321",
+                "xref_name": "IGFBP_1-6_chordata",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR022327",
+                "xref_name": "IGFBP-4",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036857",
+                "xref_name": "Thyroglobulin_1_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11551",
+                "xref_name": "INSULIN-LIKE GROWTH FACTOR BINDING PROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11551:SF7",
+                "xref_name": "INSULIN-LIKE GROWTH FACTOR-BINDING PROTEIN 4",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1WQJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2DSP",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2DSQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2DSR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1WQJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2DSP",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2DSQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2DSR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00086",
+                "xref_name": "Thyroglobulin_1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00219",
+                "xref_name": "IGFBP",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA29706",
+                "xref_name": "insulin like growth factor binding protein 4",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P22692",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-381426",
+                "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8957275",
+                "xref_name": "Post-translational protein phosphorylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A0N9W2",
+                "xref_name": "Insulin-like growth factor-binding protein 4",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B4E351",
+                "xref_name": "Insulin-like growth factor-binding protein 4",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P22692",
+                "xref_name": "Insulin-like growth factor-binding protein 4",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5U012",
+                "xref_name": "Insulin-like growth factor-binding protein 4",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UCL6",
+                "xref_name": "Insulin-like growth factor-binding protein 4",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-07-10T17:41:25+00:00",
+  "source": "ChEMBL target search"
+}

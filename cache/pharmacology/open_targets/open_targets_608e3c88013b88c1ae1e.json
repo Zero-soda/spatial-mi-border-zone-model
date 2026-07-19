@@ -1,0 +1,880 @@
+{
+  "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "method": "POST",
+    "payload": {
+      "query": "query TargetPharmacology($ensemblId: String!) {\n  target(ensemblId: $ensemblId) {\n    id\n    approvedSymbol\n    approvedName\n    isEssential\n    tractability { label modality value }\n    safetyLiabilities { event datasource }\n    associatedDiseases(page: {index: 0, size: 100}) {\n      count\n      rows { score disease { id name } }\n    }\n    drugAndClinicalCandidates {\n      count\n      rows {\n        id\n        maxClinicalStage\n        drug {\n          id\n          name\n          maximumClinicalStage\n          drugType\n          drugWarnings { warningType description }\n        }\n        diseases { diseaseFromSource disease { id name } }\n      }\n    }\n  }\n}",
+      "variables": {
+        "ensemblId": "ENSG00000140416"
+      }
+    },
+    "query": null
+  },
+  "response": {
+    "data": {
+      "target": {
+        "approvedName": "tropomyosin 1",
+        "approvedSymbol": "TPM1",
+        "associatedDiseases": {
+          "count": 463,
+          "rows": [
+            {
+              "disease": {
+                "id": "MONDO_0005045",
+                "name": "hypertrophic cardiomyopathy"
+              },
+              "score": 0.8084900201302846
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018901",
+                "name": "left ventricular noncompaction"
+              },
+              "score": 0.7602908482106968
+            },
+            {
+              "disease": {
+                "id": "MONDO_0800346",
+                "name": "left ventricular noncompaction 9"
+              },
+              "score": 0.6644352825003405
+            },
+            {
+              "disease": {
+                "id": "MONDO_0700335",
+                "name": "familial isolated dilated cardiomyopathy"
+              },
+              "score": 0.639065165392297
+            },
+            {
+              "disease": {
+                "id": "Orphanet_99739",
+                "name": "Rare familial disorder with hypertrophic cardiomyopathy"
+              },
+              "score": 0.5505015128813527
+            },
+            {
+              "disease": {
+                "id": "HP_0001626",
+                "name": "Abnormality of the cardiovascular system"
+              },
+              "score": 0.5452347505439923
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004994",
+                "name": "cardiomyopathy"
+              },
+              "score": 0.5423770562485443
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005021",
+                "name": "dilated cardiomyopathy"
+              },
+              "score": 0.5353454554188035
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024573",
+                "name": "familial hypertrophic cardiomyopathy"
+              },
+              "score": 0.4927975820216961
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005217",
+                "name": "familial cardiomyopathy"
+              },
+              "score": 0.3705961992850847
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008647",
+                "name": "hypertrophic cardiomyopathy 1"
+              },
+              "score": 0.3534497472491294
+            },
+            {
+              "disease": {
+                "id": "HP_0011664",
+                "name": "Left ventricular noncompaction cardiomyopathy"
+              },
+              "score": 0.3088045008032175
+            },
+            {
+              "disease": {
+                "id": "HP_0004758",
+                "name": "Effort-induced polymorphic ventricular tachycardia"
+              },
+              "score": 0.26609749537298527
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007172",
+                "name": "atrial septal defect 1"
+              },
+              "score": 0.25870589827929125
+            },
+            {
+              "disease": {
+                "id": "EFO_0004329",
+                "name": "alcohol drinking"
+              },
+              "score": 0.2273517221516064
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005015",
+                "name": "diabetes mellitus"
+              },
+              "score": 0.2225741057432964
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024647",
+                "name": "urolithiasis"
+              },
+              "score": 0.19186296070388884
+            },
+            {
+              "disease": {
+                "id": "MONDO_0021178",
+                "name": "injury"
+              },
+              "score": 0.15844084427311456
+            },
+            {
+              "disease": {
+                "id": "MONDO_0044782",
+                "name": "esophageal ulcer"
+              },
+              "score": 0.15220421770889767
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006629",
+                "name": "osteoarthritis, hip"
+              },
+              "score": 0.15033285620059822
+            },
+            {
+              "disease": {
+                "id": "HP_0001249",
+                "name": "Intellectual disability"
+              },
+              "score": 0.1351320167538885
+            },
+            {
+              "disease": {
+                "id": "EFO_0009806",
+                "name": "total hip arthroplasty"
+              },
+              "score": 0.1342822970241595
+            },
+            {
+              "disease": {
+                "id": "HP_0002857",
+                "name": "Genu valgum"
+              },
+              "score": 0.12453649809701765
+            },
+            {
+              "disease": {
+                "id": "HP_0002970",
+                "name": "Genu varum"
+              },
+              "score": 0.12453649809701765
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013852",
+                "name": "hypertrophic cardiomyopathy 21"
+              },
+              "score": 0.11826555349910459
+            },
+            {
+              "disease": {
+                "id": "HP_0025268",
+                "name": "Stuttering"
+              },
+              "score": 0.10074332519843027
+            },
+            {
+              "disease": {
+                "id": "HP_0100033",
+                "name": "Tics"
+              },
+              "score": 0.10074332519843027
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005836",
+                "name": "male reproductive organ cancer"
+              },
+              "score": 0.10074332519843027
+            },
+            {
+              "disease": {
+                "id": "EFO_0002571",
+                "name": "medical procedure"
+              },
+              "score": 0.09935712670663377
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005086",
+                "name": "renal cell carcinoma"
+              },
+              "score": 0.09707357662462959
+            },
+            {
+              "disease": {
+                "id": "MONDO_0024331",
+                "name": "colorectal carcinoma"
+              },
+              "score": 0.09516667955028642
+            },
+            {
+              "disease": {
+                "id": "MONDO_0002108",
+                "name": "thyroid cancer"
+              },
+              "score": 0.09475327124351451
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005070",
+                "name": "neoplasm"
+              },
+              "score": 0.094614525278494
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005178",
+                "name": "osteoarthritis"
+              },
+              "score": 0.09345974175211806
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005580",
+                "name": "esophageal squamous cell carcinoma"
+              },
+              "score": 0.08655678594494816
+            },
+            {
+              "disease": {
+                "id": "MONDO_0000648",
+                "name": "nervous system benign neoplasm"
+              },
+              "score": 0.08290979579977538
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004986",
+                "name": "urinary bladder carcinoma"
+              },
+              "score": 0.08141995475366007
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001187",
+                "name": "urinary bladder cancer"
+              },
+              "score": 0.08044141224088283
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007256",
+                "name": "hepatocellular carcinoma"
+              },
+              "score": 0.07714573701209589
+            },
+            {
+              "disease": {
+                "id": "MONDO_0003210",
+                "name": "intrahepatic cholangiocarcinoma"
+              },
+              "score": 0.07602319207506764
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005233",
+                "name": "non-small cell lung carcinoma"
+              },
+              "score": 0.0758363009712524
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005159",
+                "name": "prostate carcinoma"
+              },
+              "score": 0.07323921442892968
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008315",
+                "name": "prostate cancer"
+              },
+              "score": 0.07323921442892968
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1331",
+                "name": "Familial prostate cancer"
+              },
+              "score": 0.07323921442892968
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007254",
+                "name": "breast cancer"
+              },
+              "score": 0.07242319262452013
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016333",
+                "name": "familial dilated cardiomyopathy"
+              },
+              "score": 0.06370330587876237
+            },
+            {
+              "disease": {
+                "id": "HP_0001882",
+                "name": "Decreased total leukocyte count"
+              },
+              "score": 0.060950884661901523
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001475",
+                "name": "neutropenia"
+              },
+              "score": 0.060950884661901523
+            },
+            {
+              "disease": {
+                "id": "MONDO_0001056",
+                "name": "gastric cancer"
+              },
+              "score": 0.055398231505382166
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011717",
+                "name": "hyperinsulinism-hyperammonemia syndrome"
+              },
+              "score": 0.05391615710067772
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009376",
+                "name": "carbamoyl phosphate synthetase I deficiency disease"
+              },
+              "score": 0.04989882408025502
+            },
+            {
+              "disease": {
+                "id": "Orphanet_927",
+                "name": "Hyperammonemia due to N-acetylglutamate synthetase deficiency"
+              },
+              "score": 0.04937032488805588
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009377",
+                "name": "hyperammonemia due to N-acetylglutamate synthase deficiency"
+              },
+              "score": 0.04937032488805588
+            },
+            {
+              "disease": {
+                "id": "Orphanet_6",
+                "name": "Isolated 3-methylcrotonyl-CoA carboxylase deficiency"
+              },
+              "score": 0.04910340610411693
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008988",
+                "name": "citrullinemia type I"
+              },
+              "score": 0.04876051812782613
+            },
+            {
+              "disease": {
+                "id": "MONDO_0006664",
+                "name": "atrial septal defect"
+              },
+              "score": 0.04747047911283503
+            },
+            {
+              "disease": {
+                "id": "MONDO_0013662",
+                "name": "Barrett esophagus"
+              },
+              "score": 0.047454053341515715
+            },
+            {
+              "disease": {
+                "id": "MONDO_0032907",
+                "name": "lymphatic malformation 8"
+              },
+              "score": 0.046633586064115676
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009345",
+                "name": "histidinemia"
+              },
+              "score": 0.04638227176293007
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010298",
+                "name": "Lesch-Nyhan syndrome"
+              },
+              "score": 0.04624367931742331
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010703",
+                "name": "ornithine carbamoyltransferase deficiency"
+              },
+              "score": 0.04614943645447871
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009400",
+                "name": "hyperprolinemia type 1"
+              },
+              "score": 0.045927688541667885
+            },
+            {
+              "disease": {
+                "id": "MONDO_0004992",
+                "name": "cancer"
+              },
+              "score": 0.044483228393096465
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017319",
+                "name": "hereditary elliptocytosis"
+              },
+              "score": 0.04390813995795749
+            },
+            {
+              "disease": {
+                "id": "MONDO_0012996",
+                "name": "AGAT deficiency"
+              },
+              "score": 0.04317431862426686
+            },
+            {
+              "disease": {
+                "id": "Orphanet_35704",
+                "name": "Arginine:glycine amidinotransferase deficiency"
+              },
+              "score": 0.04317431862426686
+            },
+            {
+              "disease": {
+                "id": "Orphanet_364",
+                "name": "Glycogen storage disease due to glucose-6-phosphatase deficiency"
+              },
+              "score": 0.043011703488205585
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859302",
+                "name": "hypermetabolism due to uncoupled mitochondrial oxidative phosphorylation 2"
+              },
+              "score": 0.04254603287130287
+            },
+            {
+              "disease": {
+                "id": "MONDO_0016603",
+                "name": "citrullinemia type II"
+              },
+              "score": 0.04247211690036593
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011601",
+                "name": "neonatal intrahepatic cholestasis due to citrin deficiency"
+              },
+              "score": 0.042446246310538
+            },
+            {
+              "disease": {
+                "id": "MONDO_0017214",
+                "name": "vitamin B12-responsive methylmalonic acidemia"
+              },
+              "score": 0.042438854713444316
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1460",
+                "name": "Isolated CoQ-cytochrome C reductase deficiency"
+              },
+              "score": 0.04157773365202895
+            },
+            {
+              "disease": {
+                "id": "MONDO_0958022",
+                "name": "lipodystrophy, familial partial, type 8"
+              },
+              "score": 0.04134120254503075
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009563",
+                "name": "maple syrup urine disease"
+              },
+              "score": 0.0413301151493902
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010005",
+                "name": "saccharopinuria"
+              },
+              "score": 0.040661175612410894
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008733",
+                "name": "familial glucocorticoid deficiency"
+              },
+              "score": 0.04041725290831898
+            },
+            {
+              "disease": {
+                "id": "MONDO_0007152",
+                "name": "arrhythmogenic right ventricular dysplasia 1"
+              },
+              "score": 0.0400402814565406
+            },
+            {
+              "disease": {
+                "id": "MONDO_0957254",
+                "name": "mitochondrial complex V (ATP synthase) deficiency, nuclear type 4A"
+              },
+              "score": 0.0395302612570757
+            },
+            {
+              "disease": {
+                "id": "MONDO_0859362",
+                "name": "hyperinsulinemic hypoglycemia, familial, 8"
+              },
+              "score": 0.039441562091951377
+            },
+            {
+              "disease": {
+                "id": "Orphanet_90",
+                "name": "Argininemia"
+              },
+              "score": 0.03910894022273515
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020858",
+                "name": "mitochondrial complex V (ATP synthase) deficiency, nuclear type 5"
+              },
+              "score": 0.03900545786342344
+            },
+            {
+              "disease": {
+                "id": "Orphanet_254913",
+                "name": "Isolated ATP synthase deficiency"
+              },
+              "score": 0.03900545786342344
+            },
+            {
+              "disease": {
+                "id": "Orphanet_1578",
+                "name": "Dehydratase deficiency"
+              },
+              "score": 0.03822194857149186
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009908",
+                "name": "pterin-4 alpha-carbinolamine dehydratase 1 deficiency"
+              },
+              "score": 0.03822194857149186
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005180",
+                "name": "Parkinson disease"
+              },
+              "score": 0.03794863337430829
+            },
+            {
+              "disease": {
+                "id": "MONDO_0033654",
+                "name": "mitochondrial complex IV deficiency, nuclear type 19"
+              },
+              "score": 0.03783019392552608
+            },
+            {
+              "disease": {
+                "id": "MONDO_0958179",
+                "name": "glycine encephalopathy 1"
+              },
+              "score": 0.03778584434296391
+            },
+            {
+              "disease": {
+                "id": "MONDO_0011612",
+                "name": "glycine encephalopathy"
+              },
+              "score": 0.03773410316330805
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005010",
+                "name": "coronary artery disorder"
+              },
+              "score": 0.037023698214596515
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009353",
+                "name": "homocystinuria due to methylene tetrahydrofolate reductase deficiency"
+              },
+              "score": 0.03698755185684496
+            },
+            {
+              "disease": {
+                "id": "MONDO_0018950",
+                "name": "3-methylcrotonyl-CoA carboxylase deficiency"
+              },
+              "score": 0.03694320227428279
+            },
+            {
+              "disease": {
+                "id": "MONDO_0008774",
+                "name": "2-aminoadipic 2-oxoadipic aciduria"
+              },
+              "score": 0.03669188797309719
+            },
+            {
+              "disease": {
+                "id": "MONDO_0005090",
+                "name": "schizophrenia"
+              },
+              "score": 0.03621143416200709
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010598",
+                "name": "glycogen storage disease IXa1"
+              },
+              "score": 0.03610795180269537
+            },
+            {
+              "disease": {
+                "id": "MONDO_0020693",
+                "name": "glycogen storage disease due to liver phosphorylase kinase deficiency"
+              },
+              "score": 0.03610795180269537
+            },
+            {
+              "disease": {
+                "id": "EFO_0010257",
+                "name": "global developmental delay, progressive ataxia, and elevated glutamine"
+              },
+              "score": 0.035915770278259325
+            },
+            {
+              "disease": {
+                "id": "MONDO_0015515",
+                "name": "carnitine palmitoyltransferase II deficiency"
+              },
+              "score": 0.03582707111313499
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010914",
+                "name": "carnitine palmitoyl transferase II deficiency, severe infantile form"
+              },
+              "score": 0.03582707111313499
+            },
+            {
+              "disease": {
+                "id": "MONDO_0009949",
+                "name": "pyruvate carboxylase deficiency disease"
+              },
+              "score": 0.03570880555963589
+            },
+            {
+              "disease": {
+                "id": "MONDO_0010162",
+                "name": "tyrosinemia type III"
+              },
+              "score": 0.03553879882648093
+            }
+          ]
+        },
+        "drugAndClinicalCandidates": {
+          "count": 0,
+          "rows": []
+        },
+        "id": "ENSG00000140416",
+        "isEssential": false,
+        "safetyLiabilities": [],
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:43+00:00",
+  "source": "Open Targets"
+}

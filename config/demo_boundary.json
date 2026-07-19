@@ -1,0 +1,22 @@
+{
+  "mode": "boundary",
+  "input": "../demo/mouse_master_spot_scores.tsv",
+  "sample_column": "sample",
+  "spot_column": "barcode",
+  "label_column": "author_domain",
+  "x_column": "array_row",
+  "y_column": "array_col",
+  "score_columns": [
+    "mechanical_border_score",
+    "immune_fibrotic_activation_score",
+    "fibroblast_scar_repair_score"
+  ],
+  "summary_columns": [
+    "stage"
+  ],
+  "positive_label": "4",
+  "negative_label": "3",
+  "n_neighbors": 6,
+  "knn_algorithm": "exact",
+  "seed": 614611
+}

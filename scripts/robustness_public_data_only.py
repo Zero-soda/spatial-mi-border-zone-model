@@ -8,13 +8,15 @@ import math
 import random
 from collections import defaultdict
 from pathlib import Path
+
+from project_paths import project_root
 from statistics import mean
 
 import numpy as np
 from PIL import Image, ImageDraw
 
 
-ROOT = Path(__file__).resolve().parents[3]
+ROOT = project_root(__file__)
 TABLE_DIR = ROOT / "results" / "tables"
 FIGURE_DIR = ROOT / "results" / "figures"
 

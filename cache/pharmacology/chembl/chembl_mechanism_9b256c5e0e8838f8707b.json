@@ -1,0 +1,57 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+  "error": "",
+  "http_status": 200,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 1000,
+      "target_chembl_id": "CHEMBL3712850"
+    }
+  },
+  "response": {
+    "mechanisms": [
+      {
+        "action_type": "AGONIST",
+        "binding_site_comment": null,
+        "direct_interaction": 1,
+        "disease_efficacy": 1,
+        "max_phase": 2,
+        "mec_id": 5957,
+        "mechanism_comment": "Activates the NF\u03baB pathway, and that its growth inhibitory activity is dependent on NF\u03baB.",
+        "mechanism_of_action": "Tumor necrosis factor receptor superfamily member 12A agonist",
+        "mechanism_refs": [
+          {
+            "ref_id": "23073510",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/23073510"
+          },
+          {
+            "ref_id": "24409185",
+            "ref_type": "PubMed",
+            "ref_url": "http://europepmc.org/abstract/MED/24409185"
+          }
+        ],
+        "molecular_mechanism": 1,
+        "molecule_chembl_id": "CHEMBL1743011",
+        "parent_molecule_chembl_id": "CHEMBL1743011",
+        "record_id": 1392895,
+        "selectivity_comment": null,
+        "site_id": null,
+        "target_chembl_id": "CHEMBL3712850",
+        "variant_sequence": null
+      }
+    ],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  },
+  "retrieved_at_utc": "2026-07-10T17:43:33+00:00",
+  "source": "ChEMBL mechanism"
+}

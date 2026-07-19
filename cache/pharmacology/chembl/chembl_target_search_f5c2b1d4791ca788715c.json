@@ -1,0 +1,17 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+  "error": "HTTP 400: {\"error_message\": \"Search query too short\"}",
+  "http_status": 400,
+  "request": {
+    "endpoint": "https://www.ebi.ac.uk/chembl/api/data/target/search.json",
+    "method": "GET",
+    "payload": null,
+    "query": {
+      "limit": 20,
+      "q": "MB"
+    }
+  },
+  "response": null,
+  "retrieved_at_utc": "2026-07-10T17:41:52+00:00",
+  "source": "ChEMBL target search"
+}

@@ -1,73 +1,86 @@
-# Figure Legends
+# BIB Figure Legends and Alt Text
 
-## Figure 1. Spatial boundary modelling framework for myocardial infarction border-zone states.
 
-Schematic workflow showing the study design. Public myocardial infarction spatial transcriptomic data were analysed using curated cardiac injury, mechanical stress, immune-fibrotic and scar-repair signatures. Spot-level module scores were combined into three interpretable outputs: mechanical-border score, immune-fibrotic activation score and fibroblast-scar repair score. Domain 3/4 spatial contact analysis was then used to quantify boundary structure, and the same signature logic was transferred to human STEMI Visium tissue.
+## Figure 1. SSTBA workflow, input-output contract and diagnostic gates.
 
-Source data: not applicable; conceptual workflow. Dataset and analysis provenance are provided in `submission/source_data/Source_Data_Figure_1_readme.md`, `submission/supplementary_tables/Supplementary_Table_1_dataset_sample_inventory.tsv`, `submission/supplementary_tables/Supplementary_Table_2_signature_definitions.tsv` and `submission/code_reproducibility_readme.md`.
+The protocol accepts a spatial expression matrix, frozen module definitions, coordinates, optional labels and biological-unit identifiers. It produces module or composite scores, coordinate- or graph-based boundary summaries, spot-level boundary indicators and a run manifest containing parameters, versions, hashes and warnings. Diagnostic gates cover signature coverage, identifier alignment, graph definition, biological replication, null models and baseline comparison. The compact real-data demonstration begins with released processed scores; raw-matrix reconstruction uses the documented analysis scripts.
 
-Alt text: Workflow diagram showing public mouse MI Visium data entering signature scoring, spatial state modelling and human STEMI transfer validation.
+Alt text: Workflow diagram from spatial expression, coordinates, labels and frozen signatures through scoring, boundary graphs and diagnostics to score tables, boundary tables and a checksum-bearing run manifest.
 
-## Figure 2. Mouse MI Visium maps identify domain 3 and domain 4 as distinct spatial programs.
+## Figure 2. Discovery sections resolve three spatial-state outputs.
 
-Contact sheet of GSE214611 day 3 and day 7 mouse MI Visium samples showing author-derived spatial domains and prototype spatial risk structure. Six MI biological replicates were analysed: D3_1, D3_2, D3_3, D7_1, D7_2 and D7_3. Across these samples, 14,147 tissue spots were mapped and scored. Domain 3 and domain 4 show stage-dependent spatial organization, motivating explicit boundary modelling rather than one-dimensional risk ranking.
+a, Representative day 3 (D3_1) and day 7 (D7_1) sections show author domains and mechanical-border, immune-fibrotic activation and fibroblast-scar repair scores. Each score uses one colour scale fixed to its 2nd-98th percentile across all 14,147 discovery spots. b,c, Mean mechanical-border and fibroblast-scar repair scores in author domains 3 and 4 for all six GSE214611 sections. Thin lines are biological sections and thick lines are stage means. Domain 3 is mechanically enriched at both stages, whereas domain 4 shows stronger fibroblast-scar repair at day 7. Spots are displayed for spatial localization and are not treated as independent replicates.
 
-Source image: `results/figures/gse214611_d3_d7_spatial_risk_contact_sheet.png`.
-Source data: `submission/source_data/Source_Data_Figure_2_mouse_spatial_risk_spot_level.tsv`; `submission/source_data/Source_Data_Figure_2_mouse_stage_domain_summary.tsv`.
+Alt text: Representative day 3 and day 7 mouse-heart maps show author domains and three score fields; section-level paired plots below show higher mechanical-border in domain 3 and strong day 7 scar repair in domain 4.
 
-Alt text: Contact sheet of six mouse MI spatial transcriptomic samples showing day 3 and day 7 domain maps and spatial risk patterns.
+## Figure 3. Coordinate maps and a fixed six-nearest graph quantify the domain 3-domain 4 interface.
 
-## Figure 3. Signature score maps distinguish mechanical-border and fibroblast-scar repair axes.
+a, Coordinate-defined boundary maps for the six discovery sections; contact uses 1.35 times the within-section median nearest-neighbour distance. b,c, Domain-specific boundary fractions and numbers of domain 3-domain 4 contact edges in the independently specified symmetrized six-nearest-neighbour graph. d, Mean domain 4-minus-domain 3 edge-local gradients summarized across three sections per stage; error bars are standard errors across sections. Mechanical gradients remain directed toward domain 3, while scar-repair gradients are directed toward domain 4 at day 7. These are sampled-stage descriptions, not longitudinal measurements.
 
-Spatial maps of mechanical-border, fibroblast-scar repair and composite fibrotic-risk scores across day 3 and day 7 mouse MI Visium samples. Scores are shown at the spot level after expression-matrix gene-set scoring and within-analysis z-score normalization. Domain 3 preferentially shows mechanical-border activation, while domain 4 acquires a strong fibroblast-scar repair program by day 7.
+Alt text: Six boundary maps and graph summaries show section-level domain 3-domain 4 contacts, persistent mechanical direction toward domain 3 and a day 7 scar-repair direction toward domain 4.
 
-Source files:
-`results/figures/gse214611_d3_d7_mechanical_border_contact_sheet.png`;
-`results/figures/gse214611_d3_d7_fibroblast_scar_contact_sheet.png`;
-`results/figures/gse214611_d3_d7_fibrotic_risk_contact_sheet.png`.
-Source data: `submission/source_data/Source_Data_Figure_3_mouse_signature_scores_by_spot.tsv`; `submission/source_data/Source_Data_Figure_3_mouse_signature_scores_by_stage_domain.tsv`.
+## Figure 4. Falsification diagnostics and simple baselines define the performance boundary.
 
-Alt text: Spatial signature score maps comparing mechanical-border, fibroblast-scar repair and fibrotic-risk signals across mouse MI samples.
+a, Fraction of leave-one-section-out runs retaining each prespecified discovery direction. b, Complete-score directional margins and ranges after removing one component module. c, Observed margins compared with the 95th percentile of matched random signatures; the immune-fibrotic day 7 margin does not exceed this control. d, Rank-biserial effects for SSTBA and prespecified simple baselines across external comparison tasks. The failed GSE176092 whole-section mechanical comparison and baseline-equivalent scar tasks remain visible rather than being removed after analysis.
 
-## Figure 4. Domain 3/4 boundary analysis reveals temporal remodelling of the infarct interface.
+Alt text: Four diagnostic panels show leave-one-section-out and module-dropout stability, a negative immune-fibrotic matched-random result, and external tasks where SSTBA and simple baselines are sometimes equivalent.
 
-Spatial boundary maps and contact-gradient analysis of the domain 3/4 interface. Boundary spots were defined using a threshold equal to 1.35 times the median nearest-neighbour distance. Quantitative summaries are calculated at the biological-replicate level across three day 3 MI and three day 7 MI Visium samples. Day 3 MI showed broader domain 3/4 intermixing, whereas day 7 MI showed increased domain 3-to-domain 4 distance and a positive fibroblast-scar repair gradient toward domain 4.
+## Figure 5. Frozen transfer across independent mouse studies and a nine-patient human panel.
 
-Source image: `results/figures/gse214611_d3_d7_domain34_boundary_contact_sheet.png`.
-Source data: `submission/source_data/Source_Data_Figure_4_domain34_boundary_by_spot.tsv`; `submission/source_data/Source_Data_Figure_4_domain34_boundary_by_sample.tsv`; `submission/source_data/Source_Data_Figure_4_domain34_boundary_by_stage.tsv`.
+a, Frozen-transfer design and datasets. b, GSE176092 spatial mechanical-minus-scar dominance across day 1, day 7 and day 14; the prespecified whole-section day 1-versus-day 14 mechanical comparison is not supported. c, GSE265828 author-labelled remote (RZ), border-zone (BZ1 and BZ2) and infarct-zone (IZ) summaries for mechanical-border, scar-repair and Boundary Transition Index outputs. d, Patient-section summaries across three control, three border-containing and three fibrotic Kuppe patients. Horizontal bars are group means. e, Prespecified rank-biserial comparisons with simple baselines; negative and baseline-equivalent results are retained. No target dataset was used to refit signatures or weights.
 
-Alt text: Domain 3 and domain 4 boundary maps with quantitative summaries showing temporal changes in interface mixing and scar-repair gradients.
+Alt text: Cross-study panels show mouse temporal and anatomical summaries plus patient-level human scores, including one failed mouse comparison, improved human mechanical consistency and baseline-equivalent fibrosis separation.
 
-## Figure 5. Human STEMI transfer of the spatial state model.
+## Supplementary Figure S1. Sample-level signature maps.
 
-Transfer of human gene signatures to the GSM6613090 human STEMI Visium sample. a, Fixed-signature transfer design showing mouse MI spatial model derivation, direct human gene-symbol scoring and no model retraining. b, Detected human signature modules supporting the three model outputs. c, Spatial maps of mechanical-border, immune-fibrotic activation and fibroblast-scar repair scores across the human STEMI tissue section. d, Spot-level score distributions with 90th and 95th percentile markers. e, Pairwise Spearman correlation matrix among the three model outputs. f, Top-decile hotspot Jaccard overlap; bar labels show overlapping hotspot spots divided by the union of hotspot spots. The analysis included 1,551 tissue spots. Spearman correlations and Jaccard overlaps were calculated across spatial spots as descriptive transfer metrics; spot-level P values are not reported because Visium spots are spatially correlated. Because this analysis uses a single human spatial sample and no clinical outcome labels, it should be interpreted as migration feasibility evidence rather than definitive clinical validation.
+Single-section triptych maps for each GSE214611 mouse myocardial infarction Visium replicate show mechanical-border, fibroblast-scar repair and composite fibrotic-risk scores. Colour scales are stated within the figure.
 
-Source image: `results/figures/gse214611_human_stemi_signature_transfer.png`; submission-ready PDF, SVG and TIFF exports are generated from the same plotting script.
-Source data: `submission/source_data/Source_Data_Figure_5_human_stemi_signature_scores_by_spot.tsv`; `submission/source_data/Source_Data_Figure_5_human_stemi_summary.tsv`; `submission/source_data/Source_Data_Figure_5_human_stemi_score_separation.tsv`.
+Alt text: Six mouse-heart sections each contain three spatial maps showing mechanical-border, fibroblast-scar repair and composite fibrotic-risk score distributions.
 
-Alt text: Multi-panel human STEMI validation figure showing fixed-signature transfer, module detectability, spatial score maps, score distributions, correlation matrix and hotspot overlap.
+## Supplementary Figure S2. Domain 3-domain 4 boundary maps by sample.
 
-## Extended Data Figure 1. Sample-level signature maps.
+Single-section maps show domain 3 and domain 4 boundary spots and non-boundary spots under the coordinate-defined contact rule.
 
-Single-sample triptych maps for each mouse MI Visium replicate showing mechanical-border, fibroblast-scar repair and composite fibrotic-risk scores.
+Alt text: Six mouse-heart sections show domain 3 and domain 4 spots at their mutual spatial interface, with non-boundary tissue shown separately.
 
-Source files: `results/figures/gse214611_*_signature_score_maps.png`.
+## Supplementary Figure S3. Public-data robustness and falsification summary.
 
-Alt text: Single-sample mouse MI maps showing spatial patterns of mechanical, scar-repair and fibrotic-risk scores.
+Leave-one-section-out, module-dropout, boundary-direction and boundary-threshold analyses preserved 28/28, 15/15, 4/4 and 10/10 prespecified directions. The two mechanical-border checks and the day 7 scar-repair check exceeded the 99th percentile of 1,000 equal-size random signatures; immune-fibrotic activation remained contextual. Human score-separation analysis used 1,551 spots and showed distinct mechanical hotspots but correlated, partially overlapping stromal outputs.
 
-## Extended Data Figure 2. Domain 3/4 boundary maps by sample.
+Alt text: Robustness panels summarize sample omission, module dropout, boundary sensitivity, random-signature controls and score correlation in the single human feasibility section.
 
-Single-sample boundary maps showing domain 3 and domain 4 boundary spots and non-boundary spots.
+## Supplementary Figure S4. Spatial-statistical strengthening of the domain-state workflow.
 
-Source files: `results/figures/gse214611_*_domain34_boundary_map.png`.
+a, Biological-section domain 3-minus-domain 4 margins with bootstrap confidence intervals. b, Moran's I across mouse sections; Geary's C is supplied in the source data. c, Domain-label and spatial-block permutations with fixed score fields. d, Signed distance-to-boundary gradients, positive toward domain 3. e, Removal sensitivity for POSTN, COL1A1, COL1A2, CTHRC1, NPPA, NPPB, XIRP2, SPP1 and LGALS3. These are spatial falsification checks, not experimental validation.
 
-Alt text: Single-sample boundary maps highlighting domain 3 and domain 4 interface spots and non-boundary spots.
+Alt text: Five panels show section-level score margins, spatial autocorrelation, permutation nulls, boundary-distance gradients and single-gene removal sensitivity.
 
-## Extended Data Figure 3. Public-data-only robustness and falsification summary.
+## Supplementary Figure S5. Audits for domain dependence and cell-type composition.
 
-Summary of robustness and falsification analyses that do not require local clinical samples or wet-lab validation. Leave-one-sample-out analysis preserved all 28 prespecified directional checks. Module-dropout analysis preserved all 15 directional checks after removing one component module at a time. Boundary-direction testing preserved all four expected stage-specific contact-gradient directions across the six mouse MI Visium biological replicates. Boundary-threshold sensitivity preserved all 10 stage-threshold directional checks across thresholds from 1.10 to 1.75 times the median nearest-neighbour distance. Random-signature negative controls showed that the two mechanical-border checks and the day 7 fibroblast-scar repair check exceeded the 99th percentile of 1,000 equal-size random signatures; the immune-fibrotic check remained directionally positive but was treated as contextual rather than domain-defining. Human STEMI score-separation analysis was performed across 1,551 human tissue spots and showed that mechanical-border hotspots were largely distinct from immune-fibrotic and fibroblast-scar repair hotspots, whereas immune-fibrotic and scar-repair outputs were correlated but only partially overlapping.
+a, Adjusted Rand index and normalized mutual information between k = 4 score-only states and author domains. b, Best-cluster F1 recovery of domains 3 and 4. c, Expected-direction margins before and after cell-type marker adjustment; mechanical contrasts remained positive, whereas stromal contrasts attenuated. d, Evidence-status calibration. These analyses are not single-cell deconvolution or experimental validation.
 
-Source image: `results/figures/nature_ed_public_data_robustness.png`.
-Source data: `submission/source_data/Source_Data_Extended_Data_Figure_3_loso_robustness.tsv`; `submission/source_data/Source_Data_Extended_Data_Figure_3_module_dropout_robustness.tsv`; `submission/source_data/Source_Data_Extended_Data_Figure_3_boundary_direction_robustness.tsv`; `submission/source_data/Source_Data_Extended_Data_Figure_3_boundary_threshold_sensitivity.tsv`; `submission/source_data/Source_Data_Extended_Data_Figure_3_random_signature_negative_control.tsv`; `submission/source_data/Source_Data_Extended_Data_Figure_3_human_score_separation.tsv`.
+Alt text: Domain-recovery and marker-adjustment panels show partial label-free recovery, relatively stable mechanical margins and composition-sensitive stromal margins.
 
-Alt text: Robustness summary figure and supplementary source data showing leave-one-sample-out, module-dropout, boundary-direction, boundary-threshold, random-signature and human score-separation checks.
+## Supplementary Figure S6. Provenance, scoring and graph-boundary checks.
+
+a, Replicate quality control; complete file checksums, domain counts and module detectability are supplied in source data. b, Expected-direction margins across four scoring methods. c, Expression-matched random signatures: mechanical checks exceeded the 99th percentile and stromal checks the 95th percentile. d,e, Six-neighbour Visium graph boundary fractions and domain 4-minus-domain 3 edge gradients. f, Public-image H&E intensity audit, interpreted only as coarse image alignment rather than histological validation.
+
+Alt text: Six panels summarize replicate quality, alternative scoring, matched-signature nulls, graph contacts, edge gradients and conservative public-image alignment checks.
+
+## Supplementary Figure S7. Domain-independent graph states and human spatial-null checks.
+
+a,b, Representative day 3 and day 7 k = 4 states after one-step graph smoothing without author labels. c, Mechanical and scar maxima shared a state in all day 3 sections but separated in all day 7 sections. d, Same-state edge fractions across four smoothing weights. e, Human graph Moran's I compared with 500 expression- and detection-matched signatures. These are internal falsification checks, not independent validation.
+
+Alt text: Label-free graph-smoothed states remain partly intermixed at day 3 but separate at day 7, and human score fields exceed matched spatial-autocorrelation nulls.
+
+## Supplementary Figure S8. Optional repair-aware hypothesis-prioritization example.
+
+An optional downstream workflow combines section-level spatial evidence, single-section human feasibility support, public pharmacology annotation and an explicit repair, structural and safety deduction. Sensitivity panels show candidate ranks under section omission and weight changes and concordance among pharmacology sources. The output is an experimental hypothesis list and is not evidence of target causality, drug efficacy or treatment suitability.
+
+Alt text: Supplementary plots show how spatial evidence and public pharmacology annotations can rank experimental hypotheses while deducting repair and structural concerns; no treatment effect is displayed.
+
+## Supplementary Figure S9. Patient-level human transfer maps and cross-study sensitivity.
+
+a, Boundary Transition Index maps for all nine Kuppe sections on a common colour scale after restriction to deposited in-tissue spots. b, Numbers of detected genes per transferred module in each patient. c, Leave-one-biological-unit-out direction consistency for SSTBA and simple baselines across six prespecified external comparisons. d, Numbers of in-tissue human spots by deposited region group; each group contains three independent patients.
+
+Alt text: Nine patient maps and three summary panels show transferred human score orientation, module coverage, leave-one-patient-out consistency and deposited spot counts.
