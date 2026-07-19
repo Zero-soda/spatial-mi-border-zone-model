@@ -95,4 +95,5 @@ This release contains only public, de-identified secondary data and generated pr
 ## Citation
 
 Please cite the final published article and the versioned archive. The stable
-Zenodo concept DOI is `10.5281/zenodo.21203188`.
+Zenodo concept DOI is `10.5281/zenodo.21203188`. The immutable DOI for release
+`v0.5.0` is `10.5281/zenodo.21444703`.

@@ -1,10 +1,10 @@
 # Data Availability
 
-This study re-analysed public spatial transcriptomic data from GSE214611, GSE176092, GSE265828 and the Kuppe human MI atlas. Exact CELLxGENE/Zenodo versions, expected sizes, SHA-256 hashes and retrieval dates are provided in the external manifests. GSM6613090 was used as a discovery-study feasibility transfer, and nine independent Kuppe patients formed the external human panel. No new primary human, animal or clinical data were generated in this study. Source data underlying the main and supplementary figures and processed supplementary tables are included in this release. The public repository is https://github.com/Zero-soda/spatial-mi-border-zone-model and the stable archive concept DOI is https://doi.org/10.5281/zenodo.21203188.
+This study re-analysed public spatial transcriptomic data from GSE214611, GSE176092, GSE265828 and the Kuppe human MI atlas. Exact CELLxGENE/Zenodo versions, expected sizes, SHA-256 hashes and retrieval dates are provided in the external manifests. GSM6613090 was used as a discovery-study feasibility transfer, and nine independent Kuppe patients formed the external human panel. No new primary human, animal or clinical data were generated in this study. Source data underlying the main and supplementary figures and processed supplementary tables are included in this release. The public repository is https://github.com/Zero-soda/spatial-mi-border-zone-model, the immutable `v0.5.0` archive is https://doi.org/10.5281/zenodo.21444703 and the stable archive concept DOI is https://doi.org/10.5281/zenodo.21203188.
 
 # Code Availability
 
-The analysis scripts used to generate the processed tables and figures are available in `scripts/`. Versioned scripts, processed source-data tables, supplementary tables and figure-generation resources are available in the public GitHub repository https://github.com/Zero-soda/spatial-mi-border-zone-model and its archival Zenodo record https://doi.org/10.5281/zenodo.21203188.
+The analysis scripts used to generate the processed tables and figures are available in `scripts/`. Versioned scripts, processed source-data tables, supplementary tables and figure-generation resources are available in GitHub release `v0.5.0` at https://github.com/Zero-soda/spatial-mi-border-zone-model/releases/tag/v0.5.0 and its immutable Zenodo archive https://doi.org/10.5281/zenodo.21444703.
 
 # Ethics Statement
 
